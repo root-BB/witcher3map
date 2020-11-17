@@ -21,6 +21,10 @@ window.mapdata_skellige = {
 		coords: [[-45.522, -49.570]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc") + '(lvl 14<span> ' + $.t("s:monsters.bandits") + '</span>)'
+	}, {
+		coords: [[-59.0405546167585, -2.79052734375]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
 	}],
 
 	// Alchemy Supplies
@@ -157,8 +161,82 @@ window.mapdata_skellige = {
 		popup: $.t("blacksmith.desc")
 	}],
 
+	// Boat
+	boat: [{
+		coords: [
+			[-43.54854811, -137.9882813],
+			[-51.26191485, -108.984375],
+			[-77.06895357, 51.50390625],
+			[-78.64731965, 69.609375],
+			[-3.864254616, 82.04589844],
+			[-32.43561304, 82.00195313],
+			[-25.48295118, 98.52539063],
+			[-26.27371402, 99.00878906],
+			[36.17335694, -16.69921875],
+			[47.75409798, 28.56445313],
+			[48.3124279, 37.30957031],
+			[48.45835188, 38.49609375],
+			[-8.428904093, -94.04296875],
+			[40.48038143, -112.9833984],
+			[-64.77412531, -49.41650391],
+			[-64.04336281, -50.09765625],
+			[-36.01356059, -61.41357422],
+			[-22.69512018, -75.43212891],
+			[-57.13623932, -13.62304688],
+			[-59.50087955, -2.504882813],
+			[-45.53713668, 26.14746094],
+			[-12.44730485, 26.08154297],
+			[-29.5925654, -28.91601563],
+			[10.6822006, -22.74169922],
+			[-0.922811663, -37.22167969],
+			[-6.053161296, -39.33105469],
+			[-6.446317749, -38.49609375]
+		],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	}],
+
 	// Brothel
 	brothel: [],
+
+	// Contracts
+	contracts: [{
+		coords: [[-55.46639936, -14.98535156]],
+		label: $.t("s:contracts.label.dragon"),
+		popup: $.t("s:contracts.desc.dragon")
+	}, {
+		coords: [[32.00807596, -110.9619141]],
+		label: $.t("s:contracts.label.groom"),
+		popup: $.t("s:contracts.desc.groom")
+	}, {
+		coords: [[-30.4676141, -1.58203125]],
+		label: $.t("s:contracts.label.miners"),
+		popup: $.t("s:contracts.desc.miners")
+	}, {
+		coords: [[-29.03696065, -26.43310547]],
+		label: $.t("s:contracts.label.missing"),
+		popup: $.t("s:contracts.desc.missing")
+	}, {
+		coords: [[-6.511814706, -37.04589844]],
+		label: $.t("s:contracts.label.muire"),
+		popup: $.t("s:contracts.desc.muire")
+	}, {
+		coords: [[-55.91227293, -14.74365234]],
+		label: $.t("s:contracts.label.wanted"),
+		popup: $.t("s:contracts.desc.wanted")
+	}, {
+		coords: [[-29.43959757, 98.19580078]],
+		label: $.t("s:contracts.label.beast"),
+		popup: $.t("s:contracts.desc.beast")
+	}, {
+		coords: [[-42.85985982, -62.64404297]],
+		label: $.t("s:contracts.label.eldberg"),
+		popup: $.t("s:contracts.desc.eldberg")
+	}, {
+		coords: [[-38.94232098, -31.92626953]],
+		label: $.t("s:contracts.label.heart"),
+		popup: $.t("s:contracts.desc.heart")
+	}],
 
 	// Entrance
 	// todo, entrance to what?
@@ -290,6 +368,37 @@ window.mapdata_skellige = {
 		coords: [[9.926, -22.168]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
+	}],
+
+	// Events
+	event: [{
+		coords: [[-43.83452678, -59.67773438]],
+		label: $.t("s:event.label.wild"),
+		popup: $.t("s:event.desc.wild")
+	}, {
+		coords: [[-57.06463027, -49.41650391]],
+		label: $.t("s:event.label.farting"),
+		popup: $.t("s:event.desc.farting")
+	}, {
+		coords: [[-43.37311218, -54.60205078]],
+		label: $.t("s:event.label.children"),
+		popup: $.t("s:event.desc.children")
+	}, {
+		coords: [[-39.55488306, -53.02001953]],
+		label: $.t("s:event.label.siren"),
+		popup: $.t("s:event.desc.siren")
+	}, {
+		coords: [[-76.49117927, 63.78662109]],
+		label: $.t("s:event.label.hemdall"),
+		popup: $.t("s:event.desc.hemdall")
+	}, {
+		coords: [[-46.67959447, -6.899414063]],
+		label: $.t("s:event.label.woe"),
+		popup: $.t("s:event.desc.woe")
+	}, {
+		coords: [[-2.262595301, -0.461425781]],
+		label: $.t("s:event.label.yustianna"),
+		popup: $.t("s:event.desc.yustianna")
 	}],
 
 	// Grindstone
@@ -591,7 +700,6 @@ window.mapdata_skellige = {
 			// Undvik
 			[-46.073, -133.835],
 			[-56.317, -150.073],
-			[-45.568, -102.327],
 			// Ard Skellig
 			[-40.028, -18.083],
 			[-38.857, -26.543],
@@ -828,116 +936,114 @@ window.mapdata_skellige = {
 		coords: [[-76.985, 57.788]],
 		label: $.t("s:poi.label.juttaAnDimun"),
 		popup: $.t("s:poi.desc.juttaAnDimun")
-	}, { // Ard Skellig
-		coords: [[-58.344, -2.549]],
-		label: $.t("s:poi.label.ursineSteelSword"),
-		popupTitle: $.t("s:poi.popupTitle.ursineSteelSword"),
-		popup: $.t("s:poi.desc.ursineSteelSword")
-	}, {
-		coords: [[-57.404, -49.349]],
-		label: $.t("s:poi.label.enhancedUrsineBoots"),
-		popupTitle: $.t("s:poi.popupTitle.enhancedUrsineBoots"),
-		popup: $.t("s:poi.desc.enhancedUrsineBoots")
-	}, {
-		coords: [[-40.112, -14.546]],
-		label: $.t("s:poi.label.mastercraftedGriffinSteelSword"),
-		popupTitle: $.t("s:poi.popupTitle.mastercraftedGriffinSteelSword"),
-		popup: $.t("s:poi.desc.mastercraftedGriffinSteelSword")
-	}, {
-		coords: [[-1.274, -11.931]],
-		label: $.t("s:poi.label.enhancedUrsineGauntlets"),
-		popupTitle:  $.t("s:poi.popupTitle.enhancedUrsineGauntlets"),
-		popup: $.t("s:poi.desc.enhancedUrsineGauntlets")
-	}, {
-		coords: [[8.559, 13.733]],
-		label: $.t("s:poi.label.superiorGriffinArmourSet"),
-		popupTitle:  $.t("s:poi.popupTitle.superiorGriffinArmourSet"),
-		popup: $.t("s:poi.desc.superiorGriffinArmourSet")
-	}, {
-		coords: [[-22, 31]],
-		label: $.t("s:poi.label.mastercraftedGriffinArmor"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedGriffinArmor"),
-		popup: $.t("s:poi.desc.mastercraftedGriffinArmor")
-	}, {
-		coords: [[54.5, 32]],
-		label: $.t("s:poi.label.superiorGriffinSteelSword"),
-		popupTitle:  $.t("s:poi.popupTitle.superiorGriffinSteelSword"),
-		popup: $.t("s:poi.desc.superiorGriffinSteelSword")
-	}, {
-		coords: [[5.5, -17]],
-		label: $.t("s:poi.label.ursineSilverSword"),
-		popupTitle:  $.t("s:poi.popupTitle.ursineSilverSword"),
-		popup: $.t("s:poi.desc.ursineSilverSword")
-	}, {
-		coords: [[53.8, 38.5]],
-		label: $.t("s:poi.label.ursineArmorSet"),
-		popupTitle:  $.t("s:poi.popupTitle.ursineArmorSet"),
-		popup: $.t("s:poi.desc.ursineArmorSet")
-	}, {
-		coords: [[17.8, -123.5]],
-		label: $.t("s:poi.label.ursineCrossbow"),
-		popupTitle:  $.t("s:poi.popupTitle.ursineCrossbow"),
-		popup: $.t("s:poi.desc.ursineCrossbow")
-	}, {
-		coords: [[-70.5, -8.6]],
-		label: $.t("s:poi.label.superiorGriffinSilverSword"),
-		popupTitle:  $.t("s:poi.popupTitle.superiorGriffinSilverSword"),
-		popup: $.t("s:poi.desc.superiorGriffinSilverSword")
-	}, {
-		coords: [[-50, -34.5]],
-		label: $.t("s:poi.label.mastercraftedGriffinSilverSword"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedGriffinSilverSword"),
-		popup: $.t("s:poi.desc.mastercraftedGriffinSilverSword")
 	}, {
 		coords: [[-62.8, -39]],
 		label: $.t("s:poi.label.jarlMadmanLugos"),
 		popupTitle:  $.t("s:poi.popupTitle.jarlMadmanLugos"),
 		popup: $.t("s:poi.desc.jarlMadmanLugos")
+	}],
+
+	// Scavengers
+	scavenger: [{
+		coords: [[-77.147, 58.162]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.silver") + $.t("scavenger.level.4")
 	}, {
 		coords: [[-12.297, 0.769]],
-		label: $.t("s:poi.label.mastercraftedFelineSteelSword"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedFelineSteelSword"),
-		popup: $.t("s:poi.desc.mastercraftedFelineSteelSword")
+		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.steel") + $.t("scavenger.level.4")
 	}, {
-		coords: [[-78.039, 68.049]],
-		label: $.t("s:poi.label.mastercraftedFelineArmor"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedFelineArmor"),
-		popup: $.t("s:poi.desc.mastercraftedFelineArmor")
+		coords: [[-50, -34.5]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.4")
 	}, {
-		coords: [[-77.147, 58.162]],
-		label: $.t("s:poi.label.mastercraftedFelineSilverSword"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedFelineSilverSword"),
-		popup: $.t("s:poi.desc.mastercraftedFelineSilverSword")
+		coords: [[-70.5, -8.6]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.3"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.3")
 	}, {
-		coords: [[-37.440, -21.907]],
-		label: $.t("s:poi.label.mastercraftedWolvenGauntlets"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedWolvenGauntlets"),
-		popup: $.t("s:poi.desc.mastercraftedWolvenGauntlets")
+		coords: [[-40.112, -14.546]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.steel") + $.t("scavenger.level.4")
 	}, {
-		coords: [[22.634,-120.850]],
-		label: $.t("s:poi.label.mastercraftedWolvenTrousers"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedWolvenTrousers"),
-		popup: $.t("s:poi.desc.mastercraftedWolvenTrousers")
+		coords: [[54.5, 32]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.3"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.steel") + $.t("scavenger.level.3")
+	}, {
+		coords: [[-56.55948248, 23.18115234]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.2"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.2")
+	}, {
+		coords: [[-57.404, -49.349]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.2"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.2")
+	}, {
+		coords: [[17.8, -123.5]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.1"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.cross") + $.t("scavenger.level.1")
+	}, {
+		coords: [[-1.274, -11.931]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.2"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.2")
+	}, {
+		coords: [[5.5, -17]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.1"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.1")
+	}, {
+		coords: [[-6.053161296, 7.580566406]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.2"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.2")
+	}, {
+		coords: [[-58.344, -2.549]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.1"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.steel") + $.t("scavenger.level.1")
+	}, {
+		coords: [[-11.5015569, -100.1293945]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.2"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.steel") + $.t("scavenger.level.2")
+	}, {
+		coords: [[-45.93587062, -102.65625]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.2"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.2")
+	}, {
+		coords: [[-59.221, -23.73]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.3"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.armor") + $.t("scavenger.level.3")
 	}, {
 		coords: [[-58.043, -107.886]],
-		label: $.t("s:poi.label.mastercraftedWolvenBoots"),
-		popupTitle:  $.t("s:poi.popupTitle.mastercraftedWolvenBoots"),
-		popup: $.t("s:poi.desc.mastercraftedWolvenBoots")
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.boot") + $.t("scavenger.level.4")
 	}, {
-		coords: [[-27.722, 73.894]],
-		label: $.t("s:poi.label.superiorWolvenSteelSword"),
-		popupTitle:  $.t("s:poi.popupTitle.superiorWolvenSteelSword"),
-		popup: $.t("s:poi.desc.superiorWolvenSteelSword")
+		coords: [[-37.44, -21.907]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.4")
 	}, {
 		coords: [[-46.119, -57.437]],
-		label: $.t("s:poi.label.superiorWolvenSilverSword"),
-		popupTitle:  $.t("s:poi.popupTitle.superiorWolvenSilverSword"),
-		popup: $.t("s:poi.desc.superiorWolvenSilverSword")
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.3"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.silver") + $.t("scavenger.level.3")
 	}, {
-		coords: [[-59.221, -23.730]],
-		label: $.t("s:poi.label.superiorWolvenArmor"),
-		popupTitle:  $.t("s:poi.popupTitle.superiorWolvenArmor"),
-		popup: $.t("s:poi.desc.superiorWolvenArmor")
+		coords: [[-27.722, 73.894]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.3"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.steel") + $.t("scavenger.level.3")
+	}, {
+		coords: [[22.634, -120.85]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.trous") + $.t("scavenger.level.4")
+	}, {
+		coords: [[-78.039, 68.049]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.armor") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.trous") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.boot") + $.t("scavenger.level.4")
+	}, {
+		coords: [[-22, 31]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.4"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.armor") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.trous") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.boot") + $.t("scavenger.level.4")
+	}, {
+		coords: [[8.559, 13.733]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.3"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.armor") + $.t("scavenger.level.3") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.3") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.trous") + $.t("scavenger.level.3") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.boot") + $.t("scavenger.level.3")
+	}, {
+		coords: [[53.8, 38.5]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.1"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.1")
 	}],
 
 	// Shopkeeper
@@ -1005,6 +1111,241 @@ window.mapdata_skellige = {
 		coords: [[-8.581, -34.321]],
 		label: $.t("s:shopkeeper.label.wanderingMerchant"),
 		popup: $.t("s:shopkeeper.desc.mapsCraftingSupplies")
+	}],
+
+	// Sidequests
+	sidequests: [{
+		coords: [[-43.54854811, 8.459472656]],
+		label: $.t("s:sidequests.label.beloved"),
+		popup: $.t("s:sidequests.desc.beloved")
+	}, {
+		coords: [[-25.62171596, -67.06054688]],
+		label: $.t("s:sidequests.label.horn"),
+		popup: $.t("s:sidequests.desc.horn")
+	}, {
+		coords: [[-28.43971382, 101.5576172]],
+		label: $.t("s:sidequests.label.passenger"),
+		popup: $.t("s:sidequests.desc.passenger")
+	}, {
+		coords: [[-24.50714328, 8.393554688]],
+		label: $.t("s:sidequests.label.sawmill"),
+		popup: $.t("s:sidequests.desc.sawmill")
+	}, {
+		coords: [[-3.272145635, -35.57373047]],
+		label: $.t("s:sidequests.label.unpaid"),
+		popup: $.t("s:sidequests.desc.unpaid")
+	}, {
+		coords: [[-32.93492867, -19.90722656]],
+		label: $.t("s:sidequests.label.assault"),
+		popup: $.t("s:sidequests.desc.assault")
+	}, {
+		coords: [[-46.22545288, -24.01611328]],
+		label: $.t("s:sidequests.label.brave"),
+		popup: $.t("s:sidequests.desc.brave")
+	}, {
+		coords: [[1.406108835, -40.97900391]],
+		label: $.t("s:sidequests.label.coronation"),
+		popup: $.t("s:sidequests.desc.coronation")
+	}, {
+		coords: [[12.85464891, -15.42480469]],
+		label: $.t("s:sidequests.label.punishment1"),
+		popup: $.t("s:sidequests.desc.punishment1")
+	}, {
+		coords: [[-5.681583683, -19.42382813]],
+		label: $.t("s:sidequests.label.punishment2"),
+		popup: $.t("s:sidequests.desc.punishment2")
+	}, {
+		coords: [[12.49021366, 12.65625]],
+		label: $.t("s:sidequests.label.keepers"),
+		popup: $.t("s:sidequests.desc.keepers")
+	}, {
+		coords: [[30.9964459, -99.75585938]],
+		label: $.t("s:sidequests.label.fistsc"),
+		popup: $.t("s:sidequests.desc.fistsc")
+	}, {
+		coords: [[-6.882800242, -34.78271484]],
+		label: $.t("s:sidequests.label.fistss"),
+		popup: $.t("s:sidequests.desc.fistss")
+	}, {
+		coords: [[-77.24477981, 71.47705078]],
+		label: $.t("s:sidequests.label.flesh"),
+		popup: $.t("s:sidequests.desc.flesh")
+	}, {
+		coords: [[-29.40131951, 94.17480469]],
+		label: $.t("s:sidequests.label.glory"),
+		popup: $.t("s:sidequests.desc.glory")
+	}, {
+		coords: [[34.93998515, -20.52246094]],
+		label: $.t("s:sidequests.label.spirit"),
+		popup: $.t("s:sidequests.desc.spirit")
+	}, {
+		coords: [[-33.22949814, 43.19824219]],
+		label: $.t("s:sidequests.label.fromfar"),
+		popup: $.t("s:sidequests.desc.fromfar")
+	}, {
+		coords: [[-6.882800242, -34.40917969]],
+		label: $.t("s:sidequests.label.gwents"),
+		popup: $.t("s:sidequests.desc.gwents")
+	}, {
+		coords: [[-22.18740499, -8.525390625]],
+		label: $.t("s:sidequests.label.hardtimes"),
+		popup: $.t("s:sidequests.desc.hardtimes")
+	}, {
+		coords: [[-20.20034601, 86.57226563]],
+		label: $.t("s:sidequests.label.clothing"),
+		popup: $.t("s:sidequests.desc.clothing")
+	}, {
+		coords: [[-77.07386965, 57.48046875]],
+		label: $.t("s:sidequests.label.maiden"),
+		popup: $.t("s:sidequests.desc.maiden")
+	}, {
+		coords: [[2.174770572, -41.52832031]],
+		label: $.t("s:sidequests.label.gambit"),
+		popup: $.t("s:sidequests.desc.gambit")
+	}, {
+		coords: [[31.01527898, -100.0634766]],
+		label: $.t("s:sidequests.label.arena"),
+		popup: $.t("s:sidequests.desc.arena")
+	}, {
+		coords: [[-13.75272466, -27.50976563]],
+		label: $.t("s:sidequests.label.disturbed"),
+		popup: $.t("s:sidequests.desc.disturbed")
+	}, {
+		coords: [[28.94086177, -112.565918]],
+		label: $.t("s:sidequests.label.possession"),
+		popup: $.t("s:sidequests.desc.possession")
+	}, {
+		coords: [[-19.78738018, 16.94091797]],
+		label: $.t("s:sidequests.label.practicum"),
+		popup: $.t("s:sidequests.desc.practicum")
+	}, {
+		coords: [[-21.75949973, 15.42480469]],
+		label: $.t("s:sidequests.label.therapy"),
+		popup: $.t("s:sidequests.desc.therapy")
+	}, {
+		coords: [[-61.10078883, -37.77099609]],
+		label: $.t("s:sidequests.label.stranger"),
+		popup: $.t("s:sidequests.desc.stranger")
+	}, {
+		coords: [[-45.32125436, 24.91699219]],
+		label: $.t("s:sidequests.label.taken1"),
+		popup: $.t("s:sidequests.desc.taken1")
+	}, {
+		coords: [[-20.20034601, 92.83447266]],
+		label: $.t("s:sidequests.label.taken2"),
+		popup: $.t("s:sidequests.desc.taken2")
+	}, {
+		coords: [[-69.82447077, -22.67578125]],
+		label: $.t("s:sidequests.label.dreams"),
+		popup: $.t("s:sidequests.desc.dreams")
+	}, {
+		coords: [[-19.37334071, -12.21679688]],
+		label: $.t("s:sidequests.label.blade"),
+		popup: $.t("s:sidequests.desc.blade")
+	}, {
+		coords: [[-29.01774802, 100.1953125]],
+		label: $.t("s:sidequests.label.last"),
+		popup: $.t("s:sidequests.desc.last")
+	}, {
+		coords: [[-56.36525013685607, -111.9726563]],
+		label: $.t("s:sidequests.label.undvik"),
+		popup: $.t("s:sidequests.desc.undvik")
+	}, {
+		coords: [[-32.24997446, -22.5]],
+		label: $.t("s:sidequests.label.nithing"),
+		popup: $.t("s:sidequests.desc.nithing")
+	}, {
+		coords: [[50.48547355, 38.91357422]],
+		label: $.t("s:sidequests.label.warriors"),
+		popup: $.t("s:sidequests.desc.warriors")
+	}, {
+		coords: [[-76.93055467, 50.18554688]],
+		label: $.t("s:sidequests.label.price"),
+		popup: $.t("s:sidequests.desc.price")
+	}, {
+		coords: [[-30.6757154, -4.636230469]],
+		label: $.t("s:sidequests.label.grossbart"),
+		popup: $.t("s:sidequests.desc.grossbart")
+	}, {
+		coords: [[50.40151532, 38.43017578]],
+		label: $.t("s:sidequests.label.nowheres"),
+		popup: $.t("s:sidequests.desc.nowheres")
+	}, {
+		coords: [[-7.31888173, -39.24316406]],
+		label: $.t("s:sidequests.label.worthy1"),
+		popup: $.t("s:sidequests.desc.worthy1")
+	}, {
+		coords: [[-14.8598504, -32.62939453]],
+		label: $.t("s:sidequests.label.worthy2"),
+		popup: $.t("s:sidequests.desc.worthy2")
+	}, {
+		coords: [[-32.58384933, -27.44384766]],
+		label: $.t("s:sidequests.label.pursuitsfa"),
+		popup: $.t("s:sidequests.desc.pursuitsfa")
+	}, {
+		coords: [[-28.76765911, 96.81152344]],
+		label: $.t("s:sidequests.label.pursuitsg"),
+		popup: $.t("s:sidequests.desc.pursuitsg")
+	}, {
+		coords: [[-40.94671367, -4.130859375]],
+		label: $.t("s:sidequests.label.pursuitsfy"),
+		popup: $.t("s:sidequests.desc.pursuitsfy")
+	}, {
+		coords: [[-27.68352808, -25.75195313]],
+		label: $.t("s:sidequests.label.pursuitsk"),
+		popup: $.t("s:sidequests.desc.pursuitsk")
+	}, {
+		coords: [[-58.79097841, -4.020996094]],
+		label: $.t("s:sidequests.label.trfortune"),
+		popup: $.t("s:sidequests.desc.trfortune")
+	}, {
+		coords: [[-36.29741819, 0.593261719]],
+		label: $.t("s:sidequests.label.trpraised"),
+		popup: $.t("s:sidequests.desc.trpraised")
+	}, {
+		coords: [[-78.46421682, 42.64892578]],
+		label: $.t("s:sidequests.label.trdepths"),
+		popup: $.t("s:sidequests.desc.trdepths")
+	}, {
+		coords: [[-40.02761444, -18.39111328]],
+		label: $.t("s:sidequests.label.trinheritance"),
+		popup: $.t("s:sidequests.desc.trinheritance")
+	}, {
+		coords: [[-65.6401549, 41.06689453]],
+		label: $.t("s:sidequests.label.trironsides"),
+		popup: $.t("s:sidequests.desc.trironsides")
+	}, {
+		coords: [[46.95026224, 46.91162109]],
+		label: $.t("s:sidequests.label.trnilf"),
+		popup: $.t("s:sidequests.desc.trnilf")
+	}, {
+		coords: [[26.31311264, -103.9746094]],
+		label: $.t("s:sidequests.label.trdare"),
+		popup: $.t("s:sidequests.desc.trdare")
+	}, {
+		coords: [[-24.12670196, -70.44433594]],
+		label: $.t("s:sidequests.label.trpearls"),
+		popup: $.t("s:sidequests.desc.trpearls")
+	}, {
+		coords: [[-46.02748185, -133.4838867]],
+		label: $.t("s:sidequests.label.trprecious"),
+		popup: $.t("s:sidequests.desc.trprecious")
+	}, {
+		coords: [[-56.20670398, -112.7416992]],
+		label: $.t("s:sidequests.label.trruins"),
+		popup: $.t("s:sidequests.desc.trruins")
+	}, {
+		coords: [[-55.88763545, -120.9594727]],
+		label: $.t("s:sidequests.label.trshortcut"),
+		popup: $.t("s:sidequests.desc.trshortcut")
+	}, {
+		coords: [[38.83970761, -21.15966797]],
+		label: $.t("s:sidequests.label.trunlucky"),
+		popup: $.t("s:sidequests.desc.trunlucky")
+	}, {
+		coords: [[-37.54457732, 2.746582031]],
+		label: $.t("s:sidequests.label.trmarks"),
+		popup: $.t("s:sidequests.desc.trmarks")
 	}],
 
 	// Sign Post
@@ -1285,6 +1626,7 @@ window.mapdata_skellige = {
 			[-41.673, -92.505],
 			[-37.125, -97.383],
 			[-36.510, -82.046],
+			[53.8525266004495, 17.05078125]
 		],
 		label: $.t("smugglers.label"),
 		popup: $.t("smugglers.desc")
@@ -1346,4 +1688,7 @@ window.mapdata_skellige = {
 		label: $.t("spoils.label"),
 		popup: $.t("spoils.desc", {monster: '(lvl 16<span> ' + $.t("s:monsters.echidna") + '</span>)'})
 	}],
+
+	// Treasure
+	treasure: []
 };

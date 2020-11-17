@@ -57,9 +57,19 @@ window.mapdata_white_orchard = {
 		popup: $.t("blacksmith.desc")
 	}],
 
+	// Boat
+	boat: [],
+
 	// Brothel
 	brothel: [],
-
+	
+	// Contracts
+	contracts: [{
+		coords: [[-67.6593863700988, -100.546875]],
+		label: $.t("w:contracts.label.devil"),
+		popup: $.t("w:contracts.desc.devil")
+	}],
+	
 	// Entrance
 	entrance: [{
 		coords: [[-79.592, -84.199]],
@@ -70,6 +80,9 @@ window.mapdata_white_orchard = {
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
 	}],
+	
+	// Events
+	event: [],
 
 	// Grindstone
 	grindstone: [{
@@ -198,17 +211,20 @@ window.mapdata_white_orchard = {
 		label: $.t("w:poi.label.lootableBattlefield"),
 		popup: $.t("w:poi.desc.lootableBattlefield")
 	}, {
-		coords: [[-72.5, -17]],
-		label: $.t("w:poi.label.serpentineSteelSword"),
-		popup: $.t("w:poi.desc.serpentineSteelSword")
-	}, {
-		coords: [[-32.953, -95.142]],
-		label: $.t("w:poi.label.serpentineSilverSword"),
-		popup: $.t("w:poi.desc.serpentineSilverSword")
-	}, {
 		coords: [[-60, 2]],
 		label: $.t("w:poi.label.crystalSkull"),
 		popup: $.t("w:poi.desc.crystalSkull")
+	}],
+
+	// Scavengers
+	scavenger: [{
+		coords: [[-72.5, -17]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.ser") + $.t("scavenger.level.1"),
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.ser") + $.t("scavenger.item.steel") + $.t("scavenger.level.1")
+	}, {
+		coords: [[-32.953, -95.142]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.ser") + $.t("scavenger.level.1"),
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.ser") + $.t("scavenger.item.silver") + $.t("scavenger.level.1")
 	}],
 
 	// Shopkeeper
@@ -220,6 +236,49 @@ window.mapdata_white_orchard = {
 		coords: [[-66.338, -155.654]],
 		label: $.t("w:shopkeeper.label.shopkeeper"),
 		popup: $.t("w:shopkeeper.desc.alchemyRunesAndFood")
+	}],
+	
+	// Sidequests
+	sidequests: [{
+		coords: [[-60.370429016315, -109.2480469]],
+		label: $.t("w:sidequests.label.fry"),
+		popup: $.t("w:sidequests.desc.fry")
+	}, {
+		coords: [[-68.76823505, -88.98925781]],
+		label: $.t("w:sidequests.label.twist"),
+		popup: $.t("w:sidequests.desc.twist")
+	}, {
+		coords: [[-67.57571742, -85.03417969]],
+		label: $.t("w:sidequests.label.faith"),
+		popup: $.t("w:sidequests.desc.faith")
+	}, {
+		coords: [[-73.83705791, -5.053710937]],
+		label: $.t("w:sidequests.label.missing"),
+		popup: $.t("w:sidequests.desc.missing")
+	}, {
+		coords: [[-66.05371622, -133.3740234]],
+		label: $.t("w:sidequests.label.death"),
+		popup: $.t("w:sidequests.desc.death")
+	}, {
+		coords: [[-47.21956811, -143.2617188]],
+		label: $.t("w:sidequests.label.precious"),
+		popup: $.t("w:sidequests.desc.precious")
+	}, {
+		coords: [[-28.80617351, -42.75878906]],
+		label: $.t("w:sidequests.label.deserter"),
+		popup: $.t("w:sidequests.desc.deserter")
+	}, {
+		coords: [[-39.19820535, -57.56835938]],
+		label: $.t("w:sidequests.label.dirty"),
+		popup: $.t("w:sidequests.desc.dirty")
+	}, {
+		coords: [[-47.42808726, -111.7089844]],
+		label: $.t("w:sidequests.label.temerian") + $.t("misc.key"),
+		popup: $.t("w:sidequests.desc.temerian")
+	}, {
+		coords: [[-42.48830198, -75.49804688]],
+		label: $.t("w:sidequests.label.temerian"),
+		popup: $.t("w:sidequests.desc.temerian")
 	}],
 
 	// Sign Post
@@ -277,5 +336,9 @@ window.mapdata_white_orchard = {
 		coords: [[-12.726, -128.452]],
 		label: $.t("spoils.label"),
 		popup: $.t("spoils.desc")
-	}]
+	}],
+	
+	// Treasure
+	treasure: []
+	
 };

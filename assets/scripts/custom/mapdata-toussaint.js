@@ -70,18 +70,12 @@ window.mapdata_toussaint = {
 		coords: [
 			[52.188,100.469],
 			[94.984,42.109],
-			[114.250,75.781],
 			[86.313,109.484],
 			[102.938,75.563],
 			[37.984,54.531],
-			[84.906,40.797],
-			[97.719,49.750],
 			[108.438,65.031],
 			[111.828,72.938],
-			[77.266,103.531],
-			[73.391,109.063],
-			[73.969,113.563],
-			[68.828,115.984],
+			[68.828,115.984]
 		],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc")
@@ -96,17 +90,6 @@ window.mapdata_toussaint = {
 		popup: $.t("barber.desc")
 	}],
 
-	// Hanse Base
-	hansebase: [{
-		coords: [
-			[116.047,71.625],
-			[96.438,44.750],
-			[80.813,108.313]
-		],
-		label: $.t("t:hansebase.label"),
-		popup: $.t("t:hansebase.desc")
-	}],
-
 	// Blacksmith
 	blacksmith: [{
 		coords: [
@@ -117,8 +100,53 @@ window.mapdata_toussaint = {
 		popup: $.t("blacksmith.desc")
 	}],
 
+	// Boat
+	boat: [{
+		coords: [
+			[38.59375, 55.3125],
+			[37.09375, 62.1875],
+			[45.1875, 55.5625],
+			[46.28125, 62.28125],
+			[55.4375, 73.65625],
+			[50.375, 80.4375],
+			[54.578125, 87.390625],
+			[62, 87.3125],
+			[73.40625, 76.21875],
+			[87.4375, 80.75],
+			[112.5, 65.25],
+			[96.921875, 60.765625],
+			[78.625, 69.5],
+			[65.875, 76.15625]
+		],
+		label: $.t("t:contracts.label.biggamehunter"),
+		popup: $.t("t:contracts.desc.biggamehunter")
+	}],
+
 	// Brothel
 	brothel: [],
+
+	// Contracts
+	contracts: [{
+		coords: [[74.60, 74.50]],
+		label: $.t("t:contracts.label.biggamehunter"),
+		popup: $.t("t:contracts.desc.biggamehunter")
+	},{
+		coords: [[74.60, 75.00]],
+		label: $.t("t:contracts.label.coldasice"),
+		popup: $.t("t:contracts.desc.coldasice")
+	},{
+		coords: [[71.719, 102.719]],
+		label: $.t("t:contracts.label.bonvineblues"),
+		popup: $.t("t:contracts.desc.bonvineblues")
+	},{
+		coords: [[64.328, 89.797]],
+		label: $.t("t:contracts.label.tufo"),
+		popup: $.t("t:contracts.desc.tufo")
+	},{
+		coords: [[94.4375, 93.546875]],
+		label: $.t("t:contracts.label.phantoms"),
+		popup: $.t("t:contracts.desc.phantoms")
+	}],
 
 	// Entrance
 	entrance: [{
@@ -167,6 +195,21 @@ window.mapdata_toussaint = {
 		popup: $.t("entrance.desc")
 	}],
 
+	// Events
+	event: [{
+		coords: [[55.15625, 68.46875]],
+		label: $.t("t:event.label.contract"),
+		popup: $.t("t:event.desc.contract")
+	}, {
+		coords: [[48.671875, 65.921875]],
+		label: $.t("t:event.label.grave"),
+		popup: $.t("t:event.desc.grave")
+	}, {
+		coords: [[60.40625, 56.90625]],
+		label: $.t("t:event.label.naughty"),
+		popup: $.t("t:event.desc.naughty")
+	}],
+
 	// Grindstone
 	grindstone: [{
 		coords: [
@@ -195,7 +238,6 @@ window.mapdata_toussaint = {
 			[37.875,93.297],
 			[89.641,93.328],
 			[99.234,79.234],
-			[59.875,111.578],
 			[69.859,81.422],
 			[73.344,109.203],
 			[73.875,113.547],
@@ -237,6 +279,17 @@ window.mapdata_toussaint = {
 		popup: $.t("t:misc.desc.gwent")
 	}],
 
+	// Hanse Base
+	hansebase: [{
+		coords: [
+			[116.047,71.625],
+			[96.438,44.750],
+			[80.813,108.313]
+		],
+		label: $.t("t:hansebase.label"),
+		popup: $.t("t:hansebase.desc")
+	}],
+
 	// Harbor
 	harbor: [{
 		coords: [
@@ -275,7 +328,6 @@ window.mapdata_toussaint = {
 			[63.453,81.234],
 			[61.188,102.641],
 			[54.250,106.828],
-			[94.969,42.063],
 			[95.984,88.625],
 		],
 		label: $.t("hidden.label"),
@@ -418,67 +470,288 @@ window.mapdata_toussaint = {
 
 	// Point of Interest
 	poi: [{
-		coords: [[69.984,42.813]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.manticore") +$.t(" ") + $.t("t:poi.label.steel"),
-		popup: $.t("t:poi.desc.steel")
-	},{
-		coords: [[97.984,60.766]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.manticore") +$.t(" ") +$.t("t:poi.label.trousersandboots"),
-		popup: $.t("t:poi.desc.manticoretrousersandboots")
-	},{
-		coords: [[46.984,51.500]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.manticore") +$.t(" ") +$.t("t:poi.label.silver"),
-		popup: $.t("t:poi.desc.manticoresilver")
-	},{
-		coords: [[69.078,116.578]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.griffin") +$.t(" ") +$.t("t:poi.label.steelgauntletsboots"),
-		popup: $.t("t:poi.desc.steelgauntletsboots")
-	},{
-		coords: [[65.641,91.719]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.ursine") +$.t(" ") +$.t("t:poi.label.silverarmorgauntlers"),
-		popup: $.t("t:poi.desc.silverarmorgauntlers")
-	},{
-		coords: [[80.469,107.956]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.griffin") +$.t(" ") +$.t("t:poi.label.silverarmortrousers"),
-		popup: $.t("t:poi.desc.silverarmortrousers")
-	},{
-		coords: [[73.156,86.656]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.ursine") +$.t(" ") +$.t("t:poi.label.steelbootstrousers"),
-		popup: $.t("t:poi.desc.steelbootstrousers")
-	},{
-		coords: [[113.609,81.078]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.feline") +$.t(" ") +$.t("t:poi.label.armor"),
-		popup: $.t("t:poi.desc.armor")
-	},{
-		coords: [[116.781,71.500]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.feline") +$.t(" ") +$.t("t:poi.label.trousersboots"),
-		popup: $.t("t:poi.desc.trousersboots")
-	},{
-		coords: [[107.422,77]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.feline") +$.t(" ") +$.t("t:poi.label.steelsilvergauntlets"),
-		popup: $.t("t:poi.desc.steelbootstrousers")
-	},{
-		coords: [[49.781,101]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.wolven") +$.t(" ") +$.t("t:poi.label.all"),
-		popup: $.t("t:poi.desc.all")
-	},{
-		coords: [[91.547,106.172]],
-		label: $.t("t:misc.desc.witchergear") +$.t(" ") +$.t("t:misc.desc.manticore") +$.t(" ") +$.t("t:poi.label.gauntlets"),
-		popup: $.t("t:poi.desc.gauntlets")
-	}
-	],
+		coords: [[53.96875,60.625]],
+		label: $.t("t:poi.label.ducal"),
+		popup: $.t("t:poi.desc.ducal")
+	}],
+
+	// Scavengers
+	scavenger: [{
+		coords: [[113.609, 81.078]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.armor") + $.t("scavenger.level.5")
+	}, {
+		coords: [[107.422, 77]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+	}, {
+		coords: [[116.781, 71.5]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.boot") + $.t("scavenger.level.5")
+	}, {
+		coords: [[80.469, 107.956]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+	}, {
+		coords: [[69.078, 116.578]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
+	}, {
+		coords: [[43.65625, 96.25]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.armor") + $.t("scavenger.level.5")
+	}, {
+		coords: [[91.547, 106.172]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5")
+	}, {
+		coords: [[46.984, 51.5]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+	}, {
+		coords: [[69.984, 42.813]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
+	}, {
+		coords: [[97.984, 60.766]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.boot") + $.t("scavenger.level.5")
+	}, {
+		coords: [[65.641, 91.719]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+	}, {
+		coords: [[73.156, 86.656]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
+	}, {
+		coords: [[49.781, 101]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.5"),
+		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+	}],
 
 	// Shopkeeper
 	shopkeeper: [{
 		coords: [
-			[85.391,72.594],  //after you cleared the Vineyard
-			[50.719,65.109],
-			[49.609,63.219],
-			[63.734,89.188],
-			[113.047,81.781],
+			[85.391, 72.594],  //after you cleared the Vineyard
+			[50.719, 65.109],
+			[63.734, 89.188],
+			[113.047, 81.781],
+			[47.9375, 64.5625]
 		],
 		label: $.t("sidebar.shopkeeper"),
 		popup: $.t("shopkeeper.desc")
+	}],
+
+	// (Side) Quests
+	sidequests: [{
+		coords: [[74.60,75.50]],
+		label: $.t("t:sidequests.label.gwenttournment"),
+		popup: $.t("t:sidequests.desc.gwenttournment")
+	}, {
+		coords: [[74.60,77.00]],
+		label: $.t("t:sidequests.label.WildKingdom"),
+		popup: $.t("t:sidequests.desc.WildKingdom")
+	}, {
+		coords: [[74.60,76.50]],
+		label: $.t("t:sidequests.label.kingforhire"),
+		popup: $.t("t:sidequests.desc.kingforhire")
+	}, {
+		coords: [[74.60,76.00]],
+		label: $.t("t:sidequests.label.winewars"),
+		popup: $.t("t:sidequests.desc.winewars")
+	}, {
+		coords: [[52.063,60.797]],
+		label: $.t("t:sidequests.label.facethestrage"),
+		popup: $.t("t:sidequests.desc.facethestrage")
+	}, {
+		coords: [[83.891,55.156]],
+		label: $.t("t:sidequests.label.knightstale"),
+		popup: $.t("t:sidequests.desc.knightstale")
+	}, {
+		coords: [[37.594,97.641]], //todo makers
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.spoon"),
+		popup: $.t("t:sidequests.desc.spoon")
+	}, {
+		coords: [[57.891,85.313]],
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.escapology"),
+		popup: $.t("t:sidequests.desc.escapology")
+	}, {
+		coords: [[49.578,62.969]],
+		label: $.t("t:sidequests.label.tilldeath"),
+		popup: $.t("t:sidequests.desc.tilldeath")
+	}, {
+		coords: [[50.719,65.875]],
+		label: $.t("t:sidequests.label.master"),
+		popup: $.t("t:sidequests.desc.master")
+	}, {
+		coords: [[77.141,42.5]],
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.suffering"),
+		popup: $.t("t:sidequests.desc.hidden")
+	}, {
+		coords: [[52.281,65.234]],
+		label: $.t("t:sidequests.label.granite"),
+		popup: $.t("t:sidequests.desc.granite")
+	}, {
+		coords: [[52.844,64]],
+		label: $.t("t:sidequests.label.smittenkight"),
+		popup: $.t("t:sidequests.desc.smittenkight")
+	}, {
+		coords: [[52.844,64.5]],
+		label: $.t("t:sidequests.label.placelikehome"),
+		popup: $.t("t:sidequests.desc.placelikehome")
+	}, {
+		coords: [[52.844,65]],
+		label: $.t("t:sidequests.label.onlyone"),
+		popup: $.t("t:sidequests.desc.onlyone") + $.t(' <a href="https://wiiare.in/witcher3/embodiment-of-the-five-virtues/" target="_blank">[Questhelp]</a>')
+	}, {
+		coords: [[42.500,55.313]],
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.enjoytheplay"),
+		popup: $.t("t:sidequests.desc.enjoytheplay")
+	}, {
+		coords: [[50.453,63.734]],
+		label: $.t("t:sidequests.label.paperchase"),
+		popup: $.t("t:sidequests.desc.paperchase")
+	}, {
+		coords: [[91.094,86.703]],
+		label: $.t("t:sidequests.label.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.dun"),
+		popup: $.t("t:sidequests.desc.vintnercontract")
+	}, {
+		coords: [[49.047,92.781]],
+		label: $.t("t:sidequests.label.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.cleaning"),
+		popup: $.t("t:sidequests.desc.vintnercontract")
+	}, {
+		coords: [[85.563,72.172]],
+		label: $.t("t:sidequests.label.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.rivecalme"),
+		popup: $.t("t:sidequests.desc.vintnercontract")
+	}, {
+		coords: [[51.438,63.797]],
+		label: $.t("t:sidequests.label.portait"),
+		popup: $.t("t:sidequests.desc.portait")
+	}, {
+		coords: [[42.625, 89.625]],
+		label: $.t("t:sidequests.label.cosplay"),
+		popup: $.t("t:sidequests.desc.cosplay")
+	}, {
+		coords: [[94.609,50.297]],
+		label: $.t("t:sidequests.label.bigfeet1"),
+		popup: $.t("t:sidequests.desc.footsteps")
+	}, {
+		coords: [[92.063,63.344]],
+		label: $.t("t:sidequests.label.bigfeet2"),
+		popup: $.t("t:sidequests.desc.footsteps")
+	}, {
+		coords: [[89.781,56.984]],
+		label: $.t("t:sidequests.label.bigfeet3"),
+		popup: $.t("t:sidequests.desc.footsteps")
+	}, {
+		coords: [[107.750,72.266]],
+		label: $.t("t:sidequests.label.bigfeet4"),
+		popup: $.t("t:sidequests.desc.footsteps")
+	}, {
+		coords: [[101.484,61.531]],
+		label: $.t("t:sidequests.label.bigfeet5"),
+		popup: $.t("t:sidequests.desc.footsteps")
+	}, {
+		coords: [[66.5, 75.203125]],
+		label: $.t("t:sidequests.label.grist"),
+		popup: $.t("t:sidequests.desc.grist")
+	}, {
+		coords: [[64.703125, 43.5]],
+		label: $.t("t:sidequests.label.father"),
+		popup: $.t("t:sidequests.desc.father")
+	}, {
+		coords: [[47.3125, 63.203125]],
+		label: $.t("t:sidequests.label.fistst"),
+		popup: $.t("t:sidequests.desc.fistst")
+	}, {
+		coords: [[51.359375, 60.890625]],
+		label: $.t("t:sidequests.label.gwentt"),
+		popup: $.t("t:sidequests.desc.gwentt")
+	}, {
+		coords: [[48.953125, 61.90625]],
+		label: $.t("t:sidequests.label.sheers"),
+		popup: $.t("t:sidequests.desc.sheers")
+	}, {
+		coords: [[55.421875, 73.1875]],
+		label: $.t("t:sidequests.label.raging"),
+		popup: $.t("t:sidequests.desc.raging")
+	}, {
+		coords: [[70.46875, 67.453125]],
+		label: $.t("t:sidequests.label.hunger"),
+		popup: $.t("t:sidequests.desc.hunger")
+	}, {
+		coords: [[57.796875, 87]],
+		label: $.t("t:sidequests.label.jailbird"),
+		popup: $.t("t:sidequests.desc.jailbird")
+	}, {
+		coords: [[98.359375, 58.59375]],
+		label: $.t("t:sidequests.label.prophet"),
+		popup: $.t("t:sidequests.desc.prophet")
+	}, {
+		coords: [[93.734375, 65.5625]],
+		label: $.t("t:sidequests.label.consorting"),
+		popup: $.t("t:sidequests.desc.consorting")
+	}, {
+		coords: [[93.75, 65.90625]],
+		label: $.t("t:sidequests.label.coronata"),
+		popup: $.t("t:sidequests.desc.coronata")
+	}, {
+		coords: [[93.75, 66.234375]],
+		label: $.t("t:sidequests.label.vermentino"),
+		popup: $.t("t:sidequests.desc.vermentino")
+	}, {
+		coords: [[79.640625, 53.65625]],
+		label: $.t("t:sidequests.label.chuchote"),
+		popup: $.t("t:sidequests.desc.chuchote")
+	}, {
+		coords: [[56.265625, 44.34375]],
+		label: $.t("t:sidequests.label.griffin"),
+		popup: $.t("t:sidequests.desc.griffin")
+	}, {
+		coords: [[94.546875, 82.28125]],
+		label: $.t("t:sidequests.label.treightdays"),
+		popup: $.t("t:sidequests.desc.treightdays")
+	}, {
+		coords: [[96.0625, 89.5]],
+		label: $.t("t:sidequests.label.trstink"),
+		popup: $.t("t:sidequests.desc.trstink")
+	}, {
+		coords: [[92.1875, 55.3125]],
+		label: $.t("t:sidequests.label.trstranger"),
+		popup: $.t("t:sidequests.desc.trstranger")
+	}, {
+		coords: [[61.234375, 102.859375]],
+		label: $.t("t:sidequests.label.trfilibert"),
+		popup: $.t("t:sidequests.desc.trfilibert")
+	}, {
+		coords: [[63.828125, 81.15625]],
+		label: $.t("t:sidequests.label.trwidow"),
+		popup: $.t("t:sidequests.desc.trwidow")
+	}, {
+		coords: [[89.15625, 53.625]],
+		label: $.t("t:sidequests.label.trcarnarvon"),
+		popup: $.t("t:sidequests.desc.trcarnarvon")
+	}, {
+		coords: [[24.328125, 72.6875]],
+		label: $.t("t:sidequests.label.trgardener"),
+		popup: $.t("t:sidequests.desc.trgardener")
+	}, {
+		coords: [[44.28125, 64.8125]],
+		label: $.t("t:sidequests.label.trselina"),
+		popup: $.t("t:sidequests.desc.trselina")
+	}, {
+		coords: [[69.375, 42.390625]],
+		label: $.t("t:sidequests.label.trexperiment"),
+		popup: $.t("t:sidequests.desc.trexperiment")
+	}, {
+		coords: [[54.328125, 107.046875]],
+		label: $.t("t:sidequests.label.trdoh"),
+		popup: $.t("t:sidequests.desc.trdoh")
+	}, {
+		coords: [[102.6875, 64.71875]],
+		label: $.t("t:sidequests.label.tragain"),
+		popup: $.t("t:sidequests.desc.tragain")
 	}],
 
 	// Signal Fire
@@ -681,145 +954,13 @@ window.mapdata_toussaint = {
 	// Smugglers' Cache
 	smugglers: [],
 
-	//// (Side) Quests
-	sidequests: [{
-		coords: [[74.60,75.50]],
-		label: $.t("t:sidequests.label.gwenttournment"),
-		popup: $.t("t:sidequests.desc.gwenttournment")
-	}, {
-		coords: [[74.60,77.00]],
-		label: $.t("t:sidequests.label.WildKingdom"),
-		popup: $.t("t:sidequests.desc.WildKingdom")
-	}, {
-		coords: [[74.60,76.50]],
-		label: $.t("t:sidequests.label.kingforhire"),
-		popup: $.t("t:sidequests.desc.kingforhire")
-	}, {
-		coords: [[74.60,76.00]],
-		label: $.t("t:sidequests.label.winewars"),
-		popup: $.t("t:sidequests.desc.winewars")
-	}, {
-		coords: [[52.063,60.797]],
-		label: $.t("t:sidequests.label.facethestrage"),
-		popup: $.t("t:sidequests.desc.facethestrage")
-	}, {
-		coords: [[83.891,55.156]],
-		label: $.t("t:sidequests.label.knightstale"),
-		popup: $.t("t:sidequests.desc.knightstale")
-	}, {
-		coords: [[83.891,55.156]],
-		label: $.t("t:sidequests.label.knightstale"),
-		popup: $.t("t:sidequests.desc.knightstale")
-	}, {
-		coords: [[37.594,97.641]], //todo makers
-		label: $.t("t:sidequests.label.spoon"),
-		popup: $.t("t:sidequests.desc.spoon")
-	}, {
-		coords: [[57.891,85.313]],
-		label: $.t("t:sidequests.label.escapology"),
-		popup: $.t("t:sidequests.desc.escapology")
-	}, {
-		coords: [[49.578,62.969]],
-		label: $.t("t:sidequests.label.tilldeath"),
-		popup: $.t("t:sidequests.desc.tilldeath")
-	}, {
-		coords: [[50.719,65.875]],
-		label: $.t("t:sidequests.label.master"),
-		popup: $.t("t:sidequests.desc.master")
-	}, {
-		coords: [[77.141,42.5]],
-		label: $.t("t:sidequests.label.suffering"),
-		popup: $.t("t:sidequests.desc.hidden")
-	}, {
-		coords: [[52.281,65.234]],
-		label: $.t("t:sidequests.label.granite"),
-		popup: $.t("t:sidequests.desc.granite")
-	}, {
-		coords: [[52.844,63.5]],
-		label: $.t("t:sidequests.label.wildkingdom"),
-		popup: $.t("t:sidequests.desc.wildkingdom")
-	}, {
-		coords: [[52.844,64]],
-		label: $.t("t:sidequests.label.smittenkight"),
-		popup: $.t("t:sidequests.desc.smittenkight")
-	}, {
-		coords: [[52.844,64.5]],
-		label: $.t("t:sidequests.label.placelikehome"),
-		popup: $.t("t:sidequests.desc.placelikehome")
-	}, {
-		coords: [[52.844,65]],
-		label: $.t("t:sidequests.label.onlyone"),
-		popup: $.t("t:sidequests.desc.onlyone") + $.t(' <a href="https://wiiare.in/witcher3/embodiment-of-the-five-virtues/" target="_blank">[Questhelp]</a>')
-	}, {
-		coords: [[42.500,55.313]],
-		label: $.t("t:sidequests.label.enjoytheplay"),
-		popup: $.t("t:sidequests.desc.enjoytheplay")
-	}, {
-		coords: [[50.453,63.734]],
-		label: $.t("t:sidequests.label.paperchase"),
-		popup: $.t("t:sidequests.desc.paperchase")
-	}, {
-		coords: [[91.094,86.703],[49.047,92.781],[85.563,72.172]],
-		label: $.t("t:sidequests.label.vintnercontract"),
-		popup: $.t("t:sidequests.desc.vintnercontract")
-	}, {
-		coords: [[51.438,63.797]],
-		label: $.t("t:sidequests.label.portait"),
-		popup: $.t("t:sidequests.desc.portait")
-	}, {
-		coords: [[94.516,93.641]],
-		label: $.t("t:sidequests.label.phantoms"),
-		popup: $.t("t:sidequests.desc.phantoms")
-	}, {
-		coords: [[42.625, 89.625]],
-		label: $.t("t:sidequests.label.cosplay"),
-		popup: $.t("t:sidequests.desc.cosplay")
-	},
+	// Spoils of War
+	spoils: [],
+	
+	// Treasure
+	treasure: [],
 
-	// Quests Related to The Propeht Lebioda's Footsteps
-	// They actually, at least in GoY Edition, have their own icon.
-	{
-		coords: [[94.609,50.297]],
-		label: $.t("t:sidequests.label.bigfeet1"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[92.063,63.344]],
-		label: $.t("t:sidequests.label.bigfeet2"),
-		label: $.t("t:sidequests.label.footsteps"),
-	}, {
-		coords: [[89.781,56.984]],
-		label: $.t("t:sidequests.label.bigfeet3"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[107.750,72.266]],
-		label: $.t("t:sidequests.label.bigfeet4"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[101.484,61.531]],
-		label: $.t("t:sidequests.label.bigfeet5"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}],
-
-	//// Contracts
-	contracts: [{
-		coords: [[74.60,74.50]],
-		label: $.t("t:contracts.label.biggamehunter"),
-		popup: $.t("t:contracts.desc.biggamehunter")
-	},{
-		coords: [[74.60,75.00]],
-		label: $.t("t:contracts.label.coldasice"),
-		popup: $.t("t:contracts.desc.coldasice")
-	},{
-		coords: [[71.719,102.719]],
-		label: $.t("t:contracts.label.bonvineblues"),
-		popup: $.t("t:contracts.desc.bonvineblues")
-	},{
-		coords: [[64.328,89.797]],
-		label: $.t("t:contracts.label.tufo"),
-		popup: $.t("t:contracts.desc.tufo")
-	}],
-
-	//// Vineyard Infestation
+	// Vineyard Infestation
 	vineyardinfestation: [{
 		coords: [
 			[75.469,62.594],
@@ -830,8 +971,5 @@ window.mapdata_toussaint = {
 		],
 		label: $.t("sidebar.vineyardinfestation"),
 		popup: $.t("vineyardinfestation.desc")
-	}],
-
-	// Spoils of War
-	spoils: []
+	}]
 };

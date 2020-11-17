@@ -22,6 +22,10 @@ $.i18n.init(i18noptions, function() {
 			getMapdata('toussaint');
 		} else if (namespace == "k") {
 			getMapdata('kaer_morhen');
+		} else if (namespace == "f") {
+			getMapdata('toussaint_fables');
+		} else if (namespace == "m") {
+			getMapdata('isle_mists');
 		}
 	});
 });
@@ -304,4 +308,24 @@ icons.vintnercontract = L.icon({
 icons.spoils = L.icon({
 	iconUrl  : '../files/images/icons/spoils.png',
 	iconSize : [25, 28]
+});
+
+icons.treasure = L.icon({
+	iconUrl  : '../files/images/icons/treasure.png',
+	iconSize : [23, 34]
+});
+
+icons.event = L.icon({
+	iconUrl  : '../files/images/icons/event.png',
+	iconSize : [23, 34]
+});
+
+icons.scavenger = L.icon({
+	iconUrl  : '../files/images/icons/scavenger.png',
+	iconSize : [30, 30]
+});
+
+icons.boat = L.icon({
+	iconUrl  : '../files/images/icons/boat.png',
+	iconSize : [30, 28]
 });

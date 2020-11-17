@@ -8,8 +8,11 @@ $(function() {
 		markers.banditcamp,
 		markers.barber,
 		markers.blacksmith,
+		markers.boat,
 		markers.brothel,
+		markers.contracts,
 		markers.entrance,
+		markers.event,
 		markers.grindstone,
 		markers.guarded,
 		markers.gwent,
@@ -25,15 +28,16 @@ $(function() {
 		markers.pid,
 		markers.pop,
 		markers.poi,
+		markers.scavenger,
 		markers.shopkeeper,
+		markers.sidequests,
 		markers.signalfire,
 		markers.signpost,
 		markers.smugglers,
-		markers.sidequests,
-		markers.contracts,
+		markers.spoils,
+		markers.treasure,
 		markers.vineyardinfestation,
-		markers.vintnercontract,
-		markers.spoils
+		markers.vintnercontract
 	];
 
 	// little hack to remove empty marker array so they don't break the page
