@@ -1,0 +1,300 @@
+{
+	"maps": {
+		"velen": "Velen & Novigrad",
+		"skellige": "Skellige Isles",
+		"white_orchard": "White Orchard",
+		"kaer_morhen": "Kaer Morhen",
+		"toussaint": "Toussaint"
+	},
+	"home": {
+		"tagline": "Unofficial The Witcher 3 Interactive Maps",
+		"resultsFound": "result(s) found.",
+		"searchPlaceholder": "Enter search terms..."
+	},
+	"notes": {
+		"label": "Label:",
+		"title": "Title:",
+		"note": "Note:",
+		"enterLabel": "Enter map label...",
+		"enterTitle": "Enter note title...",
+		"enterText": "Enter note text...",
+		"saveNote": "Save Note",
+		"deleteNote": "Delete Note"
+	},
+	"sidebar": {
+		"returnToMapSelection": "Return to Map Selection Page",
+		"alchemy": "Alchemy Supplies",
+		"abandoned": "Abandoned Site",
+		"armourer": "Armorer",
+		"armourerstable": "Armorer's Table",
+		"banditcamp": "Bandit Camp",
+		"barber": "Barber",
+		"blacksmith": "Blacksmith",
+		"boat": "Boat",
+		"brothel": "Brothel",
+		"loveInterest": "Love Interest",
+		"entrance": "Entrance",
+		"event": "Event",
+		"grindstone": "Grindstone",
+		"guarded": "Guarded Treasure",
+		"gwent": "Gwent Player",
+		"harbor": "Harbor",
+		"hansebase": "Hanse Base",
+		"herbalist": "Herbalist",
+		"hidden": "Hidden Treasure",
+		"innkeep": "Innkeep",
+		"kid": "Knight in Distress",
+		"monsternest": "Monster Nest",
+		"monsterden": "Monster Den",
+		"notice": "Notice Board",
+		"pid": "Person in Distress",
+		"pop": "Place of Power",
+		"poi": "Point of Interest",
+		"scavenger": "Scavenger",
+		"signalfire": "Signal Fire",
+		"signpost": "Sign Post",
+		"shopkeeper": "Shopkeeper",
+		"smugglers": "Smugglers' Cache",
+		"spoils": "Spoils of War",
+		"treasure": "Treasure",
+		"vintnercontract": "Vintner Contract",
+		"vineyardinfestation": "Vineyard Infestation"
+	},
+	"controls": {
+		"show": "Show All",
+		"hide": "Hide All",
+		"showCounts": "Show Counts",
+		"hideCounts": "Hide Counts",
+		"resetInvisible": "Reset Invisible",
+		"resetInvisConfirm": "This will reset all invisible/tracked markers to their default state (visible), are you sure?",
+		"hideMonsters": "Hide Monsters",
+		"showMonsters": "Show Monsters",
+		"helpFeatures": "Features & Help",
+		"credits": "Credits",
+		"backupSave": "This will download a backup copy of all Witcher 3 Map settings.\n\nThe file will be saved as: __fileName__\n\nAre you sure?",
+		"backupLoad": "Restore your settings:",
+		"backupLoadSuccess": "Data Restore Complete!",
+		"backupLoadFail": "Restore failed, double-check your file",
+		"backupHtmlFail": "Sorry.  Restore is not possible.  This browser does not support HTML5 File APIs.",
+		"zoomInButton": "Zoom In",
+		"zoomOutButton": "Zoom Out",
+		"searchButton": "Search...",
+		"backupDataButton": "Backup Data",
+		"restoreDataButton": "Restore Data",
+		"centerMarkerButton": "Center Highlighted Marker",
+		"addNoteButton": "Add Note",
+		"cancelNoteButton": "Cancel Note",
+		"viewFullscreenButton": "View Fullscreen",
+		"exitFullscreenButton": "Exit Fullscreen"
+	},
+	"credits": {
+		"botCreated": "Created by __untamed0__, edited by __BaHTsIzBEdEvi__, licensed under __license__",
+		"botHelp": "With help from __mcarver__, & other __contributors__. Thanks to __designGears__ & __hhrhhr__ for map & asset extraction. For the full list of Javascript libraries used, __jsCredits__.",
+		"botAssets": "Witcher 3, logo, icons, map &amp; text are the property of __cdpr__"
+	},
+	"misc": {
+		"contribute": "Work in progress! Help appreciated at __link__",
+		"discuss": "Feedback, suggestions? Discuss on __link__",
+		"helpTranslate": "Want to help or improve translations?",
+		"portraitWarn": "Note: the map is best viewed in landscape mode, tap to dismiss",
+		"loveInterestDesc": "Meet your love interest here",
+		"nsfwConfirm": "This will change 'Brothel' to 'Love Interest', are you sure?",
+		"nsfwUndo": "Are you sure you want to go back?",
+		"treasure": "Treasure Hunt",
+		"key": " - Key"
+	},
+	"abandoned": {
+		"label": "Abandoned Site",
+		"desc": "A place abandoned due to monster or bandit attacks. Once the danger is eliminated, it will fill with life once more"
+	},
+	"alchemy": {
+		"label": "Alchemy Supplies",
+		"desc": "Here you can buy alchemy ingredients"
+	},
+	"armourer": {
+		"labelAmateur": "Amateur Armorer",
+		"labelJourneyman": "Journeyman Armorer",
+		"labelMaster": "Master Armorer",
+		"desc": "Here you can craft armor, repair damaged equipment, dismantle equipment for parts or remove upgrades from sockets."
+	},
+	"armourerstable": {
+		"label": "Armorer's Table",
+		"desc": "Armorer's tables grant your gear increased armor for a limited duration."
+	},
+	"banditcamp": {
+		"label": "Bandit Camp",
+		"desc": "A group of dangerous bandits have made camp here. "
+	},
+	"barber": {
+		"label": "Barber",
+		"desc": "Visit barbers for a shave or a new haircut. "
+	},
+	"blacksmith": {
+		"labelAmateur": "Amateur Blacksmith",
+		"labelJourneyman": "Journeyman Blacksmith",
+		"labelMaster": "Master Blacksmith",
+		"desc": "Here you can craft weapons, repair damaged equipment, dismantle equipment for parts or remove upgrades from sockets."
+	},
+	"boat": {
+		"label": "Boat",
+		"desc": "You can use boats to travel across bodies of water"
+	},
+	"entrance": {
+		"label": "Entrance",
+		"desc": "Entrance to cave or ruins"
+	},
+	"entranceunderwatercave": {
+		"label": "Underwater Cave",
+		"desc": "Underwater entrance to cave"
+	},
+	"grindstone": {
+		"label": "Grindstone",
+		"desc": "A blade sharpened here will deal more damage"
+	},
+	"guarded": {
+		"label": "Guarded Treasure",
+		"desc": "A particularly powerful monster __monster__ guards a valuable cache here"
+	},
+	"harbor": {
+		"label": "Harbor",
+		"desc": "A place where you can find a boat, boats will respawn here"
+	},
+	"herbalist": {
+		"label": "Herbalist",
+		"desc": "Here you can buy alchemy ingredients"
+	},
+	"hidden": {
+		"label": "Hidden Treasure",
+		"desc": "A hidden cache of valuable goods",
+		"guarded": "A hidden cache of valuable goods (Guarded by __monster__)"
+	},
+	"monsterden": {
+		"label": "Monster Den",
+		"desc": "Monster-infested location. A constant worry for those living nearby __monster__"
+	},
+	"monsternest": {
+		"label": "Monster Nest",
+		"desc": "Destroy monster nests with Grapeshot or Dancing Star bombs __monster__"
+	},
+	"monsters": {
+		"alghoul": "Alghoul",
+		"alghouls": "Alghouls",
+		"arachas": {
+			"armored": "Armored Arachas",
+			"venomous": "Venomous Arachas"
+		},
+		"archgriffin": "Archgriffin",
+		"bandits": "Bandits",
+		"basilisk": "Basilisk",
+		"bear": "Bear",
+		"bears": "Bears",
+		"cyclops": "Cyclops",
+		"drowners": "Drowners",
+		"echidna": "Echidna",
+		"elemental": {
+			"earth": "Earth Elemental",
+			"fire": "Fire Elemental",
+			"ice": "Ice Elemental"
+		},
+		"endregas": "Endregas",
+		"fiend": "Fiend",
+		"foglet": "Foglet",
+		"foglets": "Foglets",
+		"forktail": "Forktail",
+		"gargoyle": "Gargoyle",
+		"gargoyles": "Gargoyles",
+		"ghost": "Ghost",
+		"ghouls": "Ghouls",
+		"golem": "Golem",
+		"griffin": "Griffin",
+		"hag": {
+			"bilge": "Bilge Hag",
+			"grave": "Grave Hag",
+			"water": "Water Hag"
+		},
+		"harpies": "Harpies",
+		"leshen": "Leshen",
+		"mucknixers": "Mucknixers",
+		"nekkers": "Nekkers",
+		"nekkerWarrior": "Nekker Warrior",
+		"nightwraith": "Nightwraith",
+		"noonwraith": "Noonwraith",
+		"pirates": "Pirates",
+		"rabidRockTroll": "Rabid Rock Troll",
+		"rotfiends": "Rotfiends",
+		"sirens": "Sirens",
+		"wolves": "Wolves",
+		"wraith": "Wraith",
+		"wraiths": "Wraiths",
+		"wyvern": "Wyvern"
+	},
+	"notice": {
+		"label": "Notice Board",
+		"desc": "Here you can find monster contracts and announcements about matters of local concern"
+	},
+	"pid": {
+		"label": "Person(s) in Distress",
+		"desc": "There's a person or a group of people here in need of assistance __monster__"
+	},
+	"pop": {
+		"label": "Place of Power",
+		"label*": "Place of Power*",
+		"desc": "Draw from a Place of Power to gain a temporary bonus. The first time you draw from any Place of Power, you also receive 1 Ability Point",
+		"popup": "Place of Power - __sign__"
+	},
+	"scavenger": {
+		"dia": "Diagram : ",
+		"name": {
+			"ser": "Serpentine ",
+			"fel": "Feline ",
+			"gri": "Griffin ",
+			"urs": "Ursine ",
+			"wol": "Wolven ",
+			"man": "Manticore "
+		},
+		"gear": "Gear ",
+		"item": {
+			"steel": "Steel Sword ",
+			"silver": "Silver Sword ",
+			"armor": "Armor ",
+			"gaunt": "Gauntlets ",
+			"trous": "Trousers ",
+			"boot": "Trousers ",
+			"cross": "Crossbow "
+		},
+		"level": {
+			"1": "- Basic",
+			"2": "- Enhanced",
+			"3": "- Superior",
+			"4": "- Mastercrafted",
+			"5": "- Grandmaster"
+		}
+	},
+	"shopkeeper": {
+		"label": "Shopkeeper",
+		"desc": ""
+	},
+	"smugglers": {
+		"label": "Smugglers' Cache",
+		"desc": "Smuggled goods have been hidden here. "
+	},
+	"spoils": {
+		"label": "Spoils of War",
+		"desc": "Search here for loot left behind after a battle or skirmish __monster__"
+	},
+	"signs": {
+		"aard": "Aard",
+		"axii": "Axii",
+		"igni": "Igni",
+		"quen": "Quen",
+		"yrden": "Yrden"
+	},
+	"treasure": {
+		"label": "Treasure Hunt",
+		"desk": ""
+	},
+	"vineyardinfestation": {
+		"label": "Vineyard Infestation",
+		"desc": "Vineyard infested by monsters."
+	}
+}

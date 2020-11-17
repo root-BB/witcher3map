@@ -1,0 +1,78 @@
+{
+	"monsters": {
+		"basilisk": "Basilisk",
+		"cyclops": "Cyclops",
+		"drowners": "Drowners",
+		"endrega": "Endrega",
+		"gargoyles": "Gargoyles",
+		"ghost": "Ghost",
+		"harpies": "Harpies",
+		"leshen": "Leshen",
+		"nekkers": "Nekkers",
+		"nekkerWarrior": "Nekker Warrior",
+		"wolves": "Wolves",
+		"wraiths": {
+			"wraiths": "Wraiths",
+			"wraith": "Wraith"
+		},
+		"wyvern": "Wyvern"
+	},
+	"poi": {
+	},
+	"signpost": {
+		"label": {
+			"bastion": "Bastion",
+			"ironMine": "Iron Mine",
+			"kaerMorhen": "Kaer Morhen",
+			"lakesideHut": "Lakeside Hut",
+			"ruinedWatchtower": "Ruined Watchtower"
+		},
+		"desc": {
+			"bastion": "Once young witchers trained here. Now the bastion is a forgotten ruin.",
+			"ironMine": "Iron ore was once extracted from this place for use in the Wolf School's forges.",
+			"kaerMorhen": "The keep of the Sea of Yore, home to the witchers of the Wolf School.",
+			"lakesideHut": "A dozen years ago a hermit lived here who brewed excellent mead. The witchers would visit him from time to time and chat about far-off lands.",
+			"ruinedWatchtower": "This lakeside watchtower was once the pride of the Wolf School witchers, yet today lies in ruins, the only sound the wind whistling past its stones."
+		}
+	},
+	"alchemy": {
+		"popuptitle": {
+			"keira": "Keira Metz"
+		},
+		"desc": {
+			"keira": "She appear if she not die before."
+		}
+	},
+	"sidequests": {
+		"label": {
+			"blade": "Berengar's Blade",
+			"greenhouse": "Greenhouse Effect",
+			"slayer": "Monster Slayer",
+			"bastion": "The Bastion",
+			"forge": "The Witcher's Forge"
+		},
+		"desc": {
+			"blade": "",
+			"greenhouse": "",
+			"slayer": "",
+			"bastion": "",
+			"forge": ""
+		}
+	},
+	"contracts": {
+		"label": {
+			
+		},
+		"desc": {
+			
+		}
+	},
+	"event": {
+		"label": {
+			"trail": "Trail of Echoes"
+		},
+		"desc": {
+			"trail": ""
+		}
+	}
+}
