@@ -256,7 +256,7 @@ window.mapdata_hos_velen = {
 			[57.4375, 103.3125],
 			[66.4375, 81.5625],
 			[68.0625, 39.1875],
-			[82.75, 50.9375],
+			[83.171875, 49.453125],
 			[84.25, 103.125],
 			[108.9375, 104.875],
 			[63, 201.75],
@@ -295,7 +295,8 @@ window.mapdata_hos_velen = {
 			[204.9375, 120.0625],
 			[208.1875, 118.75],
 			[233.9375, 104],
-			[239.1875, 89.4375]
+			[239.1875, 89.4375],
+			[48.28125, 53.59375]
 		],
 		label: $.t("boat.label"),
 		popup: $.t("boat.desc")
@@ -732,10 +733,6 @@ window.mapdata_hos_velen = {
 		coords: [[144.641, 87.578]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc", {monster: "(lvl xx<span> " + $.t("v:monsters.hag.water") + "</span>)"})
-	}, { // NW Velen
-		coords: [[131.297, 69.172]],
-		label: $.t("guarded.label"),
-		popup: 'Available after the \'Master Armorers\' (lvl 26) quest. ' + $.t("guarded.desc", {monster: "(lvl 19<span> " + $.t("v:monsters.cyclops") + "</span>)"})
 	}, {
 		coords: [[70.859, 44.063]],
 		label: $.t("guarded.label"),
@@ -2106,8 +2103,8 @@ window.mapdata_hos_velen = {
 		popup: $.t("v:sidequests.desc.trinheritance")
 	}, {
 		coords: [[115.9375, 135.203125]],
-		label: $.t("v:sidequests.label.trv:events"),
-		popup: $.t("v:sidequests.desc.trv:events")
+		label: $.t("v:sidequests.label.trevents"),
+		popup: $.t("v:sidequests.desc.trevents")
 	}, {
 		coords: [[171.875, 139.71875]],
 		label: $.t("v:sidequests.label.trbattlefield"),
