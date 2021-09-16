@@ -1,8 +1,27 @@
-[witcher3map.com](http://witcher3map.com)
+Desctiption
 --------------------------------------
-Unofficial Witcher 3 interactive maps, with a mobile & tablet friendly design faithful to the game. Any contributions, suggestions, bug reports, etc are welcome. Currently 'Skellige', 'Velen & Novigrad' & 'White Orchard' maps are complete, 'Kaer Morhen' coming soon.
+It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).
 
-#### Features
+#### Additional Features (Added by [BaHTsIzBEdEvi](https://github.com/root-BB)):
+* Updated Velen&Novigrad map, which was expanded with the Hearts of Stone Expansion Pack.
+* Added Isle of Mist map.
+* Added Toussaint map.
+* Added Thousand Fables map.
+* Scavengers were gathered under a separate category.
+* Contract locations have been added.
+* Event locations have been added.
+* Side Quest locations have been added.
+* Boat locations have been added.
+* Added treasure locations that can be overlooked.
+* Added missing Scavengers locations.
+* Added many missing locations.
+* Added where merchants in Person(s) in Distress category will go when released.
+* Many incorrect locations have been fixed.
+* Few minor bugs fixed.
+* The theme has been changed.
+* Made more user friendly (Click-to-Run) to make it easier to use in the local network.
+
+#### Features (untamed0 Version)
 * Interactive map featuring all markers in game (plus some extra ones)
 * Multiple languages (in progress, [help here](https://crowdin.com/project/witcher3map))
 * Mobile and tablet friendly
@@ -15,34 +34,21 @@ Unofficial Witcher 3 interactive maps, with a mobile & tablet friendly design fa
 * Fullscreen option (both desktop and mobile)
 * Downloadable for offline browsing
 
-In the first 2 weeks of going live, there were over 200,000 unique visitors to the map. This equated to over 43,000,000 HTTP requests, of which 38,500,000 (~2.4TB of data) were cached by Cloudflare.
-
-What can you do to help?
+Usage
 --------------------------------------
-If you notice anything missing or have any improvements please create a pull request of your changes, or link me to your forked repo. Or if you're not experienced with Javascript and Github, create a ticket or message me on [reddit](http://www.reddit.com/message/compose/?to=untamed0) with in game screenshots.
+After downloading the files, simply run the "Witcher3Map.cmd" file as an administrator. When you run "Witcher3Map.cmd" it will automatically install node.js, git and other dependencies (including grunt-cli which is not installed with npm install but required) if not installed. After the installations, it will automatically start the local server and open the map home page with the default browser and it will get its own window to the taskbar as well. After the first time, it will skip installations and open the map directly.
 
-You can also help with translating the project into other languages. We use a translation editor called Crowdin, you can find our project page [here](https://crowdin.com/project/witcher3map). Crowdin offers an easy to use interface so you don't have to be familiar with Git or Github.
+Also, with the "Uninstall.cmd" file, it will delete all applications installed with "Witcher3Map.cmd" and its own created registery key. If you have done any installations (node.js or git) before running "Witcher3Map.cmd", these installations will not be touched.
 
-How do I contribute code changes?
---------------------------------------
-Ensure you have [git](http://git-scm.com/downloads) and [Node.js](https://nodejs.org/download/) installed.
-
-After cloning the repository run the following commands:
-
-1. `npm install` _(downloads dependencies for the project from NPM and builds the project to the dist/ folder.)_
-
-2. `grunt build` _(download & extracts map files, lints markup/js/css/json, creates vendor bundle, minifies js/css, builds the dist folder)_
-
-3. `grunt server` _(runs a local webserver listening on port 80 in the background and watches files for changes. Open your web browser to http://localhost)_
-
-Optional: `grunt rebuild` _(same thing as build but doesn't download the maps again.)_
+You can also access the exe verion from the [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
 
 Credits & Licence
 --------------------------------------
-Created by [untamed0](https://github.com/untamed0). Licensed under [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/). With help from [mcarver](https://github.com/mcarver) and the other [contributors](https://github.com/untamed0/witcher3map/graphs/contributors). Thanks to [@DesignGears](https://twitter.com/DesignGears) & [hhrhhr](https://github.com/hhrhhr) for map & asset extraction.
+Thanks to [untamed0](https://github.com/untamed0) for this nice work; it really worked very organized, it was very easy to make my additions and edits in this respect.
+
+Created by [untamed0](https://github.com/untamed0) and edited by [BaHTsIzBEdEvi](https://github.com/root-BB). Licensed under [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/). With help from [mcarver](https://github.com/mcarver) and the other [contributors](https://github.com/untamed0/witcher3map/graphs/contributors). Thanks to [@DesignGears](https://twitter.com/DesignGears) & [hhrhhr](https://github.com/hhrhhr) for map & asset extraction.
 
 The Witcher 3, logo, icons &amp; map are the property of [CD PROJEKT RED](http://en.cdprojektred.com/) and are used without permission. Under section 9.4 of the CD PROJEKT RED [User Agreement](http://bar.cdprojektred.com/regulations/):
-> If you create your User Generated Content using any of CD PROJEKT RED graphics, audio, video, text or any other content - you may use it and share for personal enjoyment, but we do not allow any use of it for financial profit.
 
 This software uses the following libraries developed by third parties, and are licenced seperately;
 * [jQuery](http://jquery.com) (MIT)
