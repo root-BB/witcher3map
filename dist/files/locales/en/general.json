@@ -161,7 +161,7 @@
 	},
 	"herbalist": {
 		"label": "Herbalist",
-		"desc": "Here you can buy alchemy ingredients"
+		"desc": "Here you can buy alchemy ingredients."
 	},
 	"hidden": {
 		"label": "Hidden Treasure",
@@ -233,8 +233,11 @@
 		"desc": "Here you can find monster contracts and announcements about matters of local concern"
 	},
 	"pid": {
+		"afterrescue": "After be saved, person goes: ",
+		"desc": "There's a person or a group of people here in need of assistance __monster__.",
 		"label": "Person(s) in Distress",
-		"desc": "There's a person or a group of people here in need of assistance __monster__"
+		"rescue": "Needs to be saved from: ",
+		"rescueLocation": "here"
 	},
 	"pop": {
 		"label": "Place of Power",
@@ -290,6 +293,8 @@
 		"yrden": "Yrden"
 	},
 	"treasure": {
+		"treasure": "Treasure",
+		"watertreasure": "Underwater Treasure",
 		"label": "Treasure Hunt",
 		"desk": ""
 	},

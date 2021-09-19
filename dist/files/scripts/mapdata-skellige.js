@@ -1,8 +1,10 @@
 window.map_path   = 'skellige';
 window.map_sWest  = L.latLng(-85.05, -180);
 window.map_nEast  = L.latLng(79.30, 135);
-window.map_center = [-35, -10];
+window.map_center = [-30, -23];
+window.map_minZoom  = 2;
 window.map_mZoom  = 6;
+window.map_Zoom  = 2;
 window.mapdata_skellige = {
 // Abandoned Site
 	abandoned: [{ // Hindarsfjall
@@ -150,7 +152,7 @@ window.mapdata_skellige = {
 	}, {
 		coords: [[-37.265, -32.014]],
 		label: $.t("blacksmith.labelAmateur"),
-		popup: $.t("blacksmith.desc")
+		popup: $.t("blacksmith.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/-33.724/-39.990">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[-56.945, -15.513]],
 		label: $.t("blacksmith.labelAmateur"),
@@ -610,7 +612,7 @@ window.mapdata_skellige = {
 		coords: [[-37.165, -31.814]],
 		label: $.t("s:gwent.label.player"),
 		popupTitle: $.t("s:gwent.popup.blacksmith"),
-		popup: $.t("s:gwent.desc.player")
+		popup: $.t("s:gwent.desc.player") + ' ' + $.t("pid.rescue") + ' <a href="#6/-33.724/-39.990">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[-37.584, -29.837]],
 		label: $.t("s:gwent.label.player"),
@@ -692,6 +694,10 @@ window.mapdata_skellige = {
 		],
 		label: $.t("herbalist.label"),
 		popup: $.t("alchemy.desc")
+	}, { // New
+		coords: [[-39.096, -6.965]],
+		label: $.t("herbalist.label"),
+		popup: $.t("alchemy.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/-39.062/-6.086">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Hidden Treasure
@@ -878,11 +884,11 @@ window.mapdata_skellige = {
 	pid: [{ // Ard Skellig
 		coords: [[-33.633, -40.298]],
 		label: $.t("pid.label"),
-		popup: $.t("pid.desc", {monster: '(lvl 12<span> ' + $.t("s:monsters.bandits") + '</span>)'})
+		popup: $.t("pid.desc", {monster: '(lvl 12<span> ' + $.t("s:monsters.bandits") + '</span>)'}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/-37.265/-31.707">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[-38.994, -6.372]],
 		label:  $.t("pid.label"),
-		popup: $.t("pid.desc", {monster: '(lvl 12<span> ' + $.t("s:monsters.bandits") + '</span>)'})
+		popup: $.t("pid.desc", {monster: '(lvl 12<span> ' + $.t("s:monsters.bandits") + '</span>)'}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/-39.096/-6.965">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Place of Power
@@ -1692,5 +1698,30 @@ window.mapdata_skellige = {
 	}],
 
 	// Treasure
-	treasure: []
+	treasure: [{ //Surface Treause
+		coords: [
+			[-76.761, 40.627],
+			[54.699, 36.563],
+			[-77.245, 35.728],
+			[-77.851, 69.434],
+			[-47.754, -137.373],
+			[-25.006, -33.618],
+			[-23.524, -36.475],
+			[-12.211, -44.341],
+			[-19.601, -11.733],
+			[-7.144, 98.218],
+			[-6.359, 97.690],
+			[-18.605, 109.424],
+			[-71.815, 1.033],
+			[-56.146, 21.533]
+		],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desk")
+	}, { //Underwater Treause
+		coords: [
+			[-57.136, -122.212]
+		],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desk")
+	}]
 };

@@ -1,8 +1,10 @@
 window.map_path   = 'kaer_morhen';
 window.map_sWest  = L.latLng(0, 0);
 window.map_nEast  = L.latLng(160, 128);
-window.map_center = [64, 58];
+window.map_center = [85, 70];
+window.map_minZoom  = 2;
 window.map_mZoom  = 6;
+window.map_Zoom  = 3;
 window.mapdata_kaer_morhen = {
 // Abandoned Site
 	abandoned: [],
@@ -237,5 +239,20 @@ window.mapdata_kaer_morhen = {
 	spoils: [],
 	
 	// Treasure
-	treasure: []
+	treasure: [{ //Surface Treause
+		coords: [
+			[117.031, 74.906],
+			[37.719, 77.375],
+			[107.563, 60.938],
+			[97.750, 54.813]
+		],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desk")
+	}, { //Underwater Treause
+		coords: [
+			
+		],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desk")
+	}]
 };

@@ -23,12 +23,14 @@
 	},
 	"poi": {
 		"label": {
+			"boss": "Secret Boss (Chort)",
 			"lootableBattlefield": "Lootable Battlefield",
 			"serpentineSteelSword": "Serpentine steel sword",
 			"serpentineSilverSword": "Serpentine silver sword",
 			"crystalSkull": "Crystal Skull"
 		},
 		"desc": {
+			"boss": "If you kill 6 cows here 3 times in a row, 27 level Chort will appear and attack you; Attention! When you kill the chort, new ones keep coming.",
 			"lootableBattlefield": "This battlefield can be looted for easy early game coin",
 			"serpentineSteelSword": "Viper School Diagram (1/2)",
 			"serpentineSilverSword": "Viper School Diagram (2/2), below the chapel",

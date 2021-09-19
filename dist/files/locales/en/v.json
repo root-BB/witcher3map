@@ -42,8 +42,7 @@
 		"yoanaQuest": "Available after finishing \"Master Armorers\" (lvl 26) quest. "
 	},
 	"barber": {
-		"free": "Cuts Hair for free! ",
-		"rescueLocation": "here"
+		"free": "Cuts Hair for free! "
 	},
 	"blacksmith": {
 		"hattori": "Master Blacksmith (Hattori)",
@@ -119,7 +118,6 @@
 			"petesLanding": "Peet's Landing",
 			"banditsCamp": "Bandits' Camp"
 		},
-		"rescue": "Needs to be saved from: ",
 		"rescuedMerchant": "This merchant appears here after being rescued. ",
 		"wanderingInTheDark": "\"Wandering in the Dark\" quest. "
 	},
@@ -131,7 +129,8 @@
 			"keira": "Keira Metz's Residence",
 			"rune": "Runewright",
 			"shani": "Shani's Clinic",
-			"statue": "The Soldier Statuette"
+			"statue": "The Soldier Statuette",
+			"spirits": "Spirits"
 		},
 		"desc": {
 			"triss": "",
@@ -140,7 +139,8 @@
 			"keira": "",
 			"rune": "In order to access his enchantments, you must first complete the side quest Enchanting: Quality Has its Price. To do this, you must (a) find a sizeable quantity of Jade in the hills north of Novigrad, then donate 5,000 Crowns to the Runewright so he can commission the tools to craft basic enchantments.",
 			"shani": "",
-			"statue": "You find the Statuette during a A Dangerous Game inside Caesar Bilzen's house, just bring it to Triss who will revive the soldier."
+			"statue": "You find the Statuette during a A Dangerous Game inside Caesar Bilzen's house, just bring it to Triss who will revive the soldier.",
+			"spirits": "A Towerful of Mice Quest"
 		}
 	},
 	"shopkeeper": {
@@ -159,7 +159,7 @@
 		},
 		"desc": {
 			"aeramasTrinketMerchant": "Sells alchemy supplies, quest items (for Aeramas&#39; Manor), and \"Potion of Clearance\" (1000 gold)",
-			"alchemyAndFood": "Sells alchemy supplies and food",
+			"alchemyAndFood": "Sells alchemy supplies and food.",
 			"alchemyAndRunes": "Sells runestones and alchemy supplies",
 			"alchemyFoodAndDrink": "Sells alchemy supplies, food, and drink",
 			"alchemyRecipesAndClearance": "Sells alchemy supplies, recipes and \"Potion of Clearance\" (1000 gold)",
@@ -692,7 +692,6 @@
 			"looters2": "Looters II - Ghoulish Gatherers",
 			"looters3": "Looters III - Toderas Bandits",
 			"children": "Never Trust Children I - Novigrad",
-			"pest": "Pest Man Wish (Hazarious Goods Part 2)",
 			"racist1": "Racists of Novigrad I - Female Elf",
 			"racist2": "Racists of Novigrad II - Male Elf",
 			"pyre": "Saving Moritz Diefenthal From the Pyre",
@@ -728,7 +727,6 @@
 			"looters2": "",
 			"looters3": "",
 			"children": "",
-			"pest": "",
 			"racist1": "",
 			"racist2": "",
 			"pyre": "",

@@ -2,9 +2,11 @@ window.map_path   = 'white_orchard';
 window.map_sWest  = L.latLng(-85, -180);
 window.map_nEast  = L.latLng(0, 45);
 window.map_center = [-65, -65];
+window.map_minZoom  = 2;
 window.map_mZoom  = 5;
+window.map_Zoom  = 3;
 window.mapdata_white_orchard = {
-// Abandoned Site
+	// Abandoned Site
 	abandoned: [{
 		coords: [
 			[-77.786, -48.604],
@@ -87,7 +89,6 @@ window.mapdata_white_orchard = {
 	// Grindstone
 	grindstone: [{
 		coords: [
-			[-68.948, -88.006],
 			[-68.648, -88.206],
 			[-64.624, -155.215],
 			[-26.902, -149.941]
@@ -214,6 +215,10 @@ window.mapdata_white_orchard = {
 		coords: [[-60, 2]],
 		label: $.t("w:poi.label.crystalSkull"),
 		popup: $.t("w:poi.desc.crystalSkull")
+	}, {
+		coords: [[-67.407, -76.729]],
+		label: $.t("w:poi.label.boss"),
+		popup: $.t("w:poi.desc.boss")
 	}],
 
 	// Scavengers
@@ -339,6 +344,54 @@ window.mapdata_white_orchard = {
 	}],
 	
 	// Treasure
-	treasure: []
+	treasure: [{ //Surface Treause
+		coords: [
+			[-63.392, -122.256],
+			[-16.594, -140.449],
+			[-15.792, -151.963],
+			[-44.277, -14.282],
+			[-46.770, -16.611],
+			[-51.014, -111.226],
+			[-67.306, -70.752],
+			[-67.458, -54.756],
+			[-75.175, -19.204],
+			[-78.587, -68.994],
+			[-77.842, -110.566],
+			[-72.881, -119.883],
+			[-20.345, -134.473],
+			[-21.698, -111.533],
+			[-44.434, -77.124],
+			[-58.356, -28.608],
+			[-63.995, -56.909],
+			[-53.540, 5.889],
+			[-54.419, 6.240],
+			[-55.752, 9.229],
+			[-55.504, 13.535],
+			[-80.119, -82.485],
+			[-65.330, -16.348],
+			[-73.378, -9.756],
+			[-71.760, -3.428],
+			[-72.449, -3.120],
+			[-72.382, -0.483],
+			[-76.153, -20.435],
+			[-77.390, -33.618],
+			[-64.340, -157.456]
+			],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desk")
+	}, { //Underwater Treause
+		coords: [
+			[-57.232, -103.975],
+			[-50.064, -108.193],
+			[-61.080, -94.878],
+			[-59.467, -99.800],
+			[-75.984, 6.108],
+			[-78.639, -77.783],
+			[-79.545, -83.408],
+			[-77.059, -70.093]
+		],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desk")
+	}]
 	
 };

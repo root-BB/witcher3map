@@ -292,7 +292,7 @@ icons.sidequests = L.icon({
 
 icons.contracts = L.icon({
 	iconUrl  : '../files/images/icons/tempcontract.png',
-	iconSize : [18, 29]
+	iconSize : [20, 31]
 });
 
 icons.vineyardinfestation = L.icon({

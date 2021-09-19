@@ -2,7 +2,9 @@ window.map_path   = 'toussaint_fables';
 window.map_sWest  = L.latLng(-85.05, -180);
 window.map_nEast  = L.latLng(200, 180);
 window.map_center = [0, 0];
+window.map_minZoom  = 1;
 window.map_mZoom  = 4;
+window.map_Zoom  = 1;
 window.mapdata_toussaint_fables = {
 	
 	// Abandoned Site

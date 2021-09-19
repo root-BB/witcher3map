@@ -92,10 +92,10 @@ $(function() {
 	});
 
 	var map_settings = {
-		minZoom: 2,
+		minZoom: window.map_minZoom,
 		maxZoom: window.map_mZoom,
 		center: window.map_center,
-		zoom: 3,
+		zoom: window.map_Zoom,
 		attributionControl: false,
 		zoomControl: false,
 		layers: allLayers
@@ -113,7 +113,9 @@ $(function() {
 
 	window.go = function (cords) {
 		map.setView(cords);
+		map.setZoom(window.map_minZoom);
 		map.setZoom(window.map_mZoom);
+		map.setZoom(window.map_Zoom);
 		new L.marker(cords, {
 			icon : L.icon({
 				iconUrl  : '../files/images/searchhover.png',
@@ -190,6 +192,7 @@ $(function() {
 	}
 
 	L.tileLayer('../files/maps/' + window.map_path + '/{z}/{x}/{y}.png', layer_settings).addTo(map);
+	L.tileLayer('../files/maps/' + window.map_path + '/{z}/{x}/{y}.jpg', layer_settings).addTo(map);
 
 	map.dragging._draggable.on('predrag', function() {
 		var pos = map._initialTopLeftPoint.subtract(this._newPos);

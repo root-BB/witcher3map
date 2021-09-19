@@ -1,8 +1,10 @@
 window.map_path   = 'hos_velen';
 window.map_sWest  = L.latLng(0, 0);
 window.map_nEast  = L.latLng(265, 240);
-window.map_center = [120, 120];
+window.map_center = [126, 115];
+window.map_minZoom  = 1;
 window.map_mZoom  = 6;
+window.map_Zoom  = 2;
 window.mapdata_hos_velen = {
 // Abandoned Site
 	abandoned: [{
@@ -75,7 +77,7 @@ window.mapdata_hos_velen = {
 	}, { // NE Velen
 		coords: [[129.688, 118.719]],
 		label: $.t("armourer.labelAmateur"),
-		popup: $.t("armourer.desc") + ' ' + $.t("v:misc.rescue") + ' <a href="#6/-18.761/-25.785">' + $.t("v:misc.locations.petesLanding") + '</a>'
+		popup: $.t("armourer.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/115.500/107.875">' + $.t("pid.rescueLocation") + '</a>'
 	}, { // NW Velen
 		coords: [[104.734,77.531]],
 		label: $.t("armourer.labelJourneyman"),
@@ -168,7 +170,7 @@ window.mapdata_hos_velen = {
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 10)'
 	}, {
-		coords: [[83.094, 166.906]],
+		coords: [[80.125, 166.000]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 9)'
 	}, {
@@ -207,7 +209,7 @@ window.mapdata_hos_velen = {
 	}, { // NW Velen
 		coords: [[81.891, 69.703]],
 		label: $.t("barber.label"),
-		popup: $.t("barber.desc") + $.t("v:barber.free") + $.t("v:misc.rescue") + ' <a href="#6/-35.362/-127.430">' + $.t("v:barber.rescueLocation") + '</a>'
+		popup: $.t("barber.desc") + $.t("v:barber.free") + $.t("pid.rescue") + ' <a href="#6/102.391/34.109">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Blacksmith
@@ -261,7 +263,7 @@ window.mapdata_hos_velen = {
 			[108.9375, 104.875],
 			[63, 201.75],
 			[77.25, 190.0625],
-			[113.875, 131.6875],
+			[114.094, 133.031],
 			[123.625, 173.875],
 			[127.3125, 176.5],
 			[157.1875, 83.25],
@@ -296,7 +298,8 @@ window.mapdata_hos_velen = {
 			[208.1875, 118.75],
 			[233.9375, 104],
 			[239.1875, 89.4375],
-			[48.28125, 53.59375]
+			[48.28125, 53.59375],
+			[65.563, 69.594]
 		],
 		label: $.t("boat.label"),
 		popup: $.t("boat.desc")
@@ -501,7 +504,8 @@ window.mapdata_hos_velen = {
 				[115.8125, 45.90625],
 				[151.15625, 164.59375],
 				[251.8125, 134.875],
-				[226.875, 151.5625]
+				[226.875, 151.5625],
+				[99.750, 120.625]
 				],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
@@ -527,7 +531,7 @@ window.mapdata_hos_velen = {
 	}, {
 		coords: [[120.25, 142.28125]],
 		label: $.t("v:event.label.caravan"),
-		popup: $.t("v:event.desc.caravan")
+		popup: $.t("v:event.desc.caravan") + $.t("pid.afterrescue") + ' <a href="#6/100.531/76.344">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[101.34375, 80.1875]],
 		label: $.t("v:event.label.crow"),
@@ -592,10 +596,6 @@ window.mapdata_hos_velen = {
 		coords: [[210.578125, 109.75]],
 		label: $.t("v:event.label.children"),
 		popup: $.t("v:event.desc.children")
-	}, {
-		coords: [[86.8125, 164.09375]],
-		label: $.t("v:event.label.pest"),
-		popup: $.t("v:event.desc.pest")
 	}, {
 		coords: [[195.40625, 96.890625]],
 		label: $.t("v:event.label.racist1"),
@@ -937,7 +937,7 @@ window.mapdata_hos_velen = {
 		coords: [[129.922, 118.688]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.armorer"),
-		popup: $.t("v:gwent.desc.player") + $.t("v:misc.rescue") + '<a href="#6/-18.761/-25.785">' + $.t("v:misc.locations.petesLanding") + '</a>'
+		popup: $.t("v:gwent.desc.player") + $.t("pid.rescue") + ' <a href="#6/115.500/107.875">' + $.t("pid.rescueLocation") + '</a>'
 	}, { // NW Velen
 		coords: [[107.641, 54.969]],
 		label: $.t("v:gwent.label.player"),
@@ -972,7 +972,7 @@ window.mapdata_hos_velen = {
 		coords: [[84.000, 70.125]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.shopkeeper"),
-		popup: $.t("v:gwent.desc.player") + $.t("v:misc.rescue") + '<a href="#6/-61.954/-33.893">' + $.t("v:misc.locations.banditsCamp") + '</a>'
+		popup: $.t("v:gwent.desc.player") + $.t("pid.rescue") + ' <a href="#6/72.375/104.625">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[70.688, 73.453]],
 		label: $.t("v:gwent.label.player"),
@@ -1076,6 +1076,10 @@ window.mapdata_hos_velen = {
 		coords: [[99.828, 129.547]],
 		label: $.t("herbalist.label"),
 		popup: $.t("v:misc.liberated") + $.t("herbalist.desc")
+	}, { // New
+		coords: [[199.563, 187.438]],
+		label: $.t("herbalist.label"),
+		popup: $.t("v:misc.liberated") + $.t("herbalist.desc") + $.t(" ") + $.t("pid.rescue") + ' <a href="#6/198.344/187.281">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Hidden Treasure
@@ -1350,29 +1354,30 @@ window.mapdata_hos_velen = {
 	}],
 
 	// Person in Distress
-	pid: [{
-		coords: [
-			// NE Velen
-			[147.578, 119.578],
-			// NW Velen
-			[102.500, 33.828],
-			// New
-			[198.6875, 186.90625]
-		],
+	pid: [{ // NE Velen
+		coords: [[147.578, 119.578]],
 		label: $.t("pid.label"),
-		popup: $.t("pid.desc", {monster: ''})
+		popup: $.t("pid.desc", {monster: ''}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/151.281/115.438">' + $.t("pid.rescueLocation") + '</a>'
+	}, { // NW Velen
+		coords: [[102.500, 33.828]],
+		label: $.t("pid.label"),
+		popup: $.t("pid.desc", {monster: ''}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/81.625/69.906">' + $.t("pid.rescueLocation") + '</a>'
+	}, { // New
+		coords: [[198.6875, 186.90625]],
+		label: $.t("pid.label"),
+		popup: $.t("pid.desc", {monster: ''}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/199.563/187.438">' + $.t("pid.rescueLocation") + '</a>'
 	}, { // SE Novigrad
 		coords: [[142.984, 199.375]],
 		label: $.t("pid.label"),
-		popup: $.t("pid.desc", {monster: '(lvl 9<span> ' + $.t("v:monsters.bandits") + '</span>)'})
+		popup: $.t("pid.desc", {monster: '(lvl 9<span> ' + $.t("v:monsters.bandits") + '</span>)'}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/130.125/198.188">' + $.t("pid.rescueLocation") + '</a>'
 	}, { // NE Velen
 		coords: [[115.391, 107.094]],
 		label: $.t("pid.label"),
-		popup: $.t("pid.desc", {monster: '(lvl 10-16<span> ' + $.t("v:monsters.bandits") + '</span>)'})
+		popup: $.t("pid.desc", {monster: '(lvl 10-16<span> ' + $.t("v:monsters.bandits") + '</span>)'}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/129.438/118.906">' + $.t("pid.rescueLocation") + '</a>'
 	}, { // NW Velen
 		coords: [[72.656, 103.797]],
 		label: $.t("pid.label"),
-		popup: $.t("pid.desc", {monster: '(lvl 5<span> ' + $.t("v:monsters.bandits") + '</span>)'})
+		popup: $.t("pid.desc", {monster: '(lvl 5<span> ' + $.t("v:monsters.bandits") + '</span>)'}) + ' ' + $.t("pid.afterrescue") + ' <a href="#6/83.688/70.125">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Place of Power
@@ -1447,6 +1452,18 @@ window.mapdata_hos_velen = {
 		coords: [[209.6875, 102.625]],
 		label: $.t("v:poi.label.statue"),
 		popup: $.t("v:poi.desc.statue")
+	}, {
+		coords: [[47.125, 78.172]],
+		label: $.t("v:poi.label.spirits"),
+		popup: $.t("v:poi.desc.spirits")
+	}, {
+		coords: [[49.391, 78.813]],
+		label: $.t("v:poi.label.spirits"),
+		popup: $.t("v:poi.desc.spirits")
+	}, {
+		coords: [[53.469, 80.234]],
+		label: $.t("v:poi.label.spirits"),
+		popup: $.t("v:poi.desc.spirits")
 	}],
 
 	// Scavengers
@@ -1660,7 +1677,7 @@ window.mapdata_hos_velen = {
 	}, { // SE Novigrad
 		coords: [[130.578, 196.953]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
-		popup: $.t("v:misc.rescuedMerchant")
+		popup: $.t("pid.rescue") + ' <a href="#6/142.563/200.250">' + $.t("pid.rescueLocation") + '</a>'
 	}, /*{ // S Novigrad
 		// appears on map but nobody there?
 		coords: [[65.95, -21.09]],
@@ -1695,7 +1712,7 @@ window.mapdata_hos_velen = {
 	}, {
 		coords: [[151.781, 115.188]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
-		popup: $.t("v:misc.rescuedMerchant") + $.t("v:shopkeeper.desc.alchemyAndFood")
+		popup: $.t("v:shopkeeper.desc.alchemyAndFood") + ' ' + $.t("pid.rescue") + ' <a href="#6/147.719/119.938">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[123.156, 179.266]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
@@ -1727,7 +1744,7 @@ window.mapdata_hos_velen = {
 	}, {
 		coords: [[100.531, 76.344]],
 		label: $.t("v:shopkeeper.label.anselm"),
-		popup: $.t("v:misc.rescuedMerchant") + $.t("v:shopkeeper.desc.blindersMerchant")
+		popup: $.t("v:shopkeeper.desc.blindersMerchant") + '. ' + $.t("pid.rescue") + ' <a href="#6/120.25/142.28125">' + $.t("v:event.label.caravan") + '</a>'
 	}, {
 		coords: [[70.563, 73.188]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
@@ -1735,7 +1752,7 @@ window.mapdata_hos_velen = {
 	}, {
 		coords: [[83.766, 69.922]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
-		popup: $.t("v:shopkeeper.desc.gwentAndDrinks") + $.t("v:misc.rescue") + '<a href="#6/-61.954/-33.893">' + $.t("v:misc.locations.banditsCamp") + '</a>'
+		popup: $.t("v:shopkeeper.desc.gwentAndDrinks") + $.t("pid.rescue") + ' <a href="#6/72.375/104.625">' + $.t("pid.rescueLocation") + '</a>'
 	}, {
 		coords: [[83.531, 87.641]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
@@ -1755,7 +1772,7 @@ window.mapdata_hos_velen = {
 	}, { // SE Velen
 		coords: [[100.578, 130.578]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
-		popup: $.t("v:misc.rescuedMerchant") + $.t("v:shopkeeper.desc.alchemyAndFood")
+		popup: $.t("v:misc.liberated") + $.t("v:shopkeeper.desc.alchemyAndFood")
 	}, {
 		coords: [[99.844, 110.594]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
@@ -2685,5 +2702,105 @@ window.mapdata_hos_velen = {
 	}],
 	
 	// Treasure
-	treasure: []
+	treasure: [{ //Surface Treause
+		coords: [
+			[101.094, 25.344],
+			[97.656, 26.375],
+			[97.375, 28.438],
+			[89.938, 25.438],
+			[91.625, 36.906],
+			[90.563, 66.953],
+			[103.781, 73.484],
+			[103.172, 74.625],
+			[103.766, 76.516],
+			[107.828, 92.938],
+			[119.453, 68.688],
+			[128.875, 50.578],
+			[139.953, 59.344],
+			[143.422, 52.844],
+			[52.219, 61.594],
+			[53.375, 67.188],
+			[54.656, 77.969],
+			[55.094, 79.250],
+			[51.188, 77.813],
+			[50.469, 80.094],
+			[72.500, 113.469],
+			[99.438, 108.906],
+			[100.500, 117.313],
+			[84.344, 150.063],
+			[68.281, 143.719],
+			[59.844, 143.438],
+			[56.594, 145.375],
+			[50.781, 175.438],
+			[86.750, 168.531],
+			[128.094, 161.031],
+			[130.344, 116.188],
+			[129.703, 119.688],
+			[136.656, 125.422],
+			[153.391, 135.344],
+			[151.344, 142.000],
+			[173.656, 78.063],
+			[193.531, 66.188],
+			[191.250, 194.969],
+			[213.563, 111.094],
+			[30.344, 47.063],
+			[28.906, 50.469],
+			[39.531, 48.438],
+			[39.094, 48.250],
+			[44.656, 40.125],
+			[51.875, 51.563],
+			[52.625, 50.500],
+			[47.844, 77.094],
+			[86.094, 25.625],
+			[71.938, 60.281],
+			[37.969, 125.688],
+			[52.219, 129.844],
+			[33.844, 146.594],
+			[44.438, 156.594],
+			[94.813, 183.438],
+			[109.125, 173.906],
+			[127.719, 166.406],
+			[124.594, 147.406],
+			[143.719, 118.500],
+			[148.281, 119.875],
+			[168.094, 98.125],
+			[220.188, 105.844],
+			[249.594, 144.531],
+			[227.281, 216.844],
+			[199.750, 186.969],
+			[186.719, 166.750],
+			[146.281, 180.063],
+			[144.625, 193.813],
+			[157.375, 128.344]
+		],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desk")
+	}, { //Underwater Treause
+		coords: [
+			[97.531, 18.719],
+			[98.313, 17.094],
+			[153.500, 69.266],
+			[83.188, 95.531],
+			[67.750, 99.719],
+			[50.344, 99.531],
+			[38.531, 81.875],
+			[39.344, 72.625],
+			[43.125, 106.063],
+			[43.563, 110.719],
+			[40.781, 111.594],
+			[39.875, 72.188],
+			[38.781, 72.250],
+			[113.063, 153.750],
+			[115.125, 154.750],
+			[117.469, 151.844],
+			[114.625, 136.594],
+			[158.063, 94.750],
+			[220.625, 99.563],
+			[203.000, 98.375],
+			[38.063, 124.500],
+			[208.031, 120.156]
+		],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desk")
+	}]
 };

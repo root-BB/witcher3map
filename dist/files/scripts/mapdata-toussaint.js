@@ -1,8 +1,10 @@
 window.map_path   = 'toussaint';
 window.map_sWest  = L.latLng(0, 0);
 window.map_nEast  = L.latLng(144, 144);
-window.map_center = [64, 58];
+window.map_center = [72, 77];
+window.map_minZoom  = 2;
 window.map_mZoom  = 6;
+window.map_Zoom  = 3;
 window.mapdata_toussaint = {
 
 	// Abandoned Site
@@ -47,6 +49,10 @@ window.mapdata_toussaint = {
 		coords: [[50.281,64.297]],
 		label: $.t("armourer.labelMaster"),
 		popup: $.t("armourer.desc")
+	}, {
+		coords: [[89.047, 41.156]],
+		label: $.t("armourer.labelJourneyman"),
+		popup: $.t("armourer.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/88.750/41.219">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Armourer's Table
@@ -98,6 +104,10 @@ window.mapdata_toussaint = {
 		],
 		label: $.t("blacksmith.labelJourneyman"),
 		popup: $.t("blacksmith.desc")
+	}, {
+		coords: [[44.672, 72.125]],
+		label: $.t("blacksmith.labelJourneyman"),
+		popup: $.t("blacksmith.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/50.938/103.156">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Boat
@@ -310,6 +320,10 @@ window.mapdata_toussaint = {
 		],
 		label: $.t("herbalist.label"),
 		popup: $.t("herbalist.desc")
+	}, {
+		coords: [[94.469, 70.844]],
+		label: $.t("herbalist.label"),
+		popup: $.t("herbalist.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/108.375/82.438">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Hidden Treasure
@@ -429,15 +443,25 @@ window.mapdata_toussaint = {
 
 	// Person in Distress
 	pid: [{
-		coords: [
-			[88.750,40.984],
-			[112.859,81.688],
-			[60.125,113.047],
-			[108.438,82.219],
-			[50.953,102.719],
-		],
+		coords: [[88.750,40.984]],
 		label: $.t("pid.label"),
-		popup: $.t("pid.desc")
+		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/89.047/41.156">' + $.t("pid.rescueLocation") + '</a>'
+	}, {
+		coords: [[112.859,81.688]],
+		label: $.t("pid.label"),
+		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/113.078/81.984">' + $.t("pid.rescueLocation") + '</a>'
+	}, {
+		coords: [[60.125,113.047]],
+		label: $.t("pid.label"),
+		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/75.656/75.750">' + $.t("pid.rescueLocation") + '</a>'
+	}, {
+		coords: [[108.438,82.219]],
+		label: $.t("pid.label"),
+		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/94.469/70.844">' + $.t("pid.rescueLocation") + '</a>'
+	}, {
+		coords: [[50.953,102.719]],
+		label: $.t("pid.label"),
+		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/44.672/72.125">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// Place of Power
@@ -536,11 +560,18 @@ window.mapdata_toussaint = {
 			[85.391, 72.594],  //after you cleared the Vineyard
 			[50.719, 65.109],
 			[63.734, 89.188],
-			[113.047, 81.781],
 			[47.9375, 64.5625]
 		],
 		label: $.t("sidebar.shopkeeper"),
 		popup: $.t("shopkeeper.desc")
+	}, {
+		coords: [[113.047, 81.781]],
+		label: $.t("sidebar.shopkeeper"),
+		popup: $.t("shopkeeper.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/112.703/81.891">' + $.t("pid.rescueLocation") + '</a>'
+	}, {
+		coords: [[75.656, 75.750]],
+		label: $.t("sidebar.shopkeeper"),
+		popup: $.t("shopkeeper.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/60.125/114.000">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
 	// (Side) Quests
@@ -958,7 +989,26 @@ window.mapdata_toussaint = {
 	spoils: [],
 	
 	// Treasure
-	treasure: [],
+	treasure: [{ //Surface Treause
+		coords: [
+			[90.594, 102.000],
+			[78.625, 44.500],
+			[92.656, 50.813],
+			[86.531, 64.188],
+			[93.375, 71.781],
+			[94.594, 82.500],
+			[47.313, 66.688]
+		],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desk")
+	}, { //Underwater Treause
+		coords: [
+			[61.938, 80.219],
+			[53.219, 105.188]
+		],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desk")
+	}],
 
 	// Vineyard Infestation
 	vineyardinfestation: [{
