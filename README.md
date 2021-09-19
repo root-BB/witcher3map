@@ -42,8 +42,6 @@ Just run the "Witcher 3 Map.exe" or "Witcher 3 Map (x86).exe" file in the downlo
 
 The exe file opens the "index.html" file in the Dist folder with Portable Firefox in the Assets folder. "The Witcher 3 Map.ps1" file is the source code of the executable files.
 
-Attention: The current version is only compatible with Firefox Legacy 52, if you update it, you may not be able to access the maps.
-
 You can also access [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
 
 Credits & Licence
