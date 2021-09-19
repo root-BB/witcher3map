@@ -23,7 +23,7 @@ It is an enhanced version of the work published by [untamed0](https://github.com
 * It has a much smaller file size.
 * No need to install additional programs.
 
-#### Features (untamed0 Version)
+#### Features ([untamed0 Version](https://github.com/witcher3map/witcher3map))
 * Interactive map featuring all markers in game (plus some extra ones)
 * Multiple languages (in progress, [help here](https://crowdin.com/project/witcher3map))
 * Mobile and tablet friendly
@@ -38,6 +38,8 @@ It is an enhanced version of the work published by [untamed0](https://github.com
 
 Usage
 --------------------------------------
+Due to the 100MB file limit in Github's fork repository, I placed the files exceeding the 100MB limit in the zip archive to avoid dealing with different servers; Extract the zip before running the application or download it directly from [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
+
 Just run the "Witcher 3 Map.exe" or "Witcher 3 Map (x86).exe" file in the downloaded folder. 
 
 The exe file opens the "index.html" file in the Dist folder with Portable Firefox in the Assets folder. "The Witcher 3 Map.ps1" file is the source code of the executable files.
