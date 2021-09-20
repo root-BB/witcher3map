@@ -44,6 +44,27 @@ Just run the "Witcher 3 Map.exe" or "Witcher 3 Map (x86).exe" file in the downlo
 
 The exe file opens the "index.html" file in the Dist folder with Portable Firefox in the Assets folder. "The Witcher 3 Map.ps1" file is the source code of the executable files.
 
+#### Use With Default Browser
+I've noticed that portable firefox is a bit slow in some situations; In addition, using a browser other than the customary browser can be annoying. But in order to use this version, you need to make a small adjustment. To summarize, the browser's CORS Security policy (a security policy that prevents local files from running certain file types) must be deactivated in order to open the map in any browser. It is very difficult to prepare an executable as click-to-run, as there are too many possibilities depending on the system, browser and user; so I explained below how you do it in few steps;
+
+In Chromium-Based Browsers (Google Chrome, Edge, Opera Etc.)
+- Open the "Witcher 3 Map.cmd" file with notepad or a derivative application.
+- Enter the location of the exe file of the browser you are using between the quotes in the first line (Example: Set BrowserLocation="C:\Program Files\Opera\launcher.exe").
+- Save and close the file.
+- You can open the map by running cmd.
+- Optionally, you can create a shortcut of the cmd file and add an icon.
+Note1: Just below the line you made the change are the sample file locations for chrome, edge, and opera (Warning: it's also possible in a different file location).
+Note2: When you run cmd, it will create an additional profile to your default browser. The map can only be opened through this newly created profile.
+
+In Mozilla Firefox
+- Type "about:config" in the address bar and press enter.
+- On the page that opens, click the "I accept the risk!" button.
+- Type "security.fileuri.strict_origin_policy" at the top of the new page (in the search field).
+- Double-click on the search result and in this way set the "true" variable to "false".
+- - Enter "-FilePath-/Witcher3Map/Dist/index.html" in the address bar. (If Firefox is your default browser, you can open it simply by double-clicking the index.html in the dist folder).
+Warning: Since this setting will cause a security vulnerability on the browser, it is not recommended to use the browser in this way continuously. After using the map, the settings can be turned back to "true" by following the same steps.
+
+
 You can also access [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
 
 Credits & Licence

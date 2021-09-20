@@ -6,7 +6,7 @@ window.markers = {};
 //i18n init to translate search results
 $.i18n.init(i18noptions, function() {
 	$.i18n.loadNamespace('v', function() {
-		$.cachedScript("files/scripts/mapdata-velen.js").done(function(script, textStatus) {
+		$.cachedScript("files/scripts/mapdata-hos_velen.js").done(function(script, textStatus) {
 			$.i18n.loadNamespace('s', function() {
 				$.cachedScript("files/scripts/mapdata-skellige.js").done(function(script, textStatus) {
 					$.i18n.loadNamespace('w', function() {
@@ -20,7 +20,7 @@ $.i18n.init(i18noptions, function() {
 													$.i18n.loadNamespace('m', function() {
 														$.cachedScript("files/scripts/mapdata-isle_mists.js").done(function(script, textStatus) {
 
-															processData('velen', mapdata_velen);
+															processData('velen', mapdata_hos_velen);
 															processData('skellige', mapdata_skellige);
 															processData('white_orchard', mapdata_white_orchard);
 															processData('kaer_morhen', mapdata_kaer_morhen);
@@ -72,7 +72,7 @@ var processData = function(map_path, data) {
 			if (!marker || !marker.popup) {
 				return;
 			}
-			var link = window.location.href.replace(window.location.hash, '')+mapKey+'/#3/'+marker.coords[0][0]+'/'+marker.coords[0][1]+'/m='+marker.coords[0][0]+','+marker.coords[0][1];
+			var link = window.location.href.replace(window.location.hash, '').toString().slice(0, -10 )+mapKey+'/index.html'+'#3/'+marker.coords[0][0]+'/'+marker.coords[0][1]+'/m='+marker.coords[0][0]+','+marker.coords[0][1];
 			var popupText = marker.popup.replace(/<\/?[^>]+(>|$)/g,"");
 			var popupTitle = (marker.popupTitle ? marker.popupTitle : '' );
 			var label;
