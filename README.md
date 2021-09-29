@@ -36,6 +36,15 @@ It is an enhanced version of the work published by [untamed0](https://github.com
 * Fullscreen option (both desktop and mobile)
 * Downloadable for offline browsing
 
+Available Languages
+--------------------------------------
+- English
+- Russian
+
+There may be mistakes in translations; In case of any typos or grammatical mistakes, you can create an issue on [Github](https://github.com/root-BB/witcher3map/issues) or [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
+Other translations are still progressing in the [crowdin](https://crowdin.com/project/witcher-3-interactive-map). Those who want to help with the translation can also use the [original translations](https://crowdin.com/project/witcher3map).
+If there is another language you want translated you can create an issue on [Github](https://github.com/root-BB/witcher3map/issues) or [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
+
 Usage
 --------------------------------------
 Due to the 100MB file limit in Github's fork repository, I placed the files exceeding the 100MB limit in the zip archive to avoid dealing with different servers; Extract the zip before running the application or download it directly from [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
@@ -64,7 +73,7 @@ In Mozilla Firefox
 - - Enter "-FilePath-/Witcher3Map/Dist/index.html" in the address bar. (If Firefox is your default browser, you can open it simply by double-clicking the index.html in the dist folder).
 Warning: Since this setting will cause a security vulnerability on the browser, it is not recommended to use the browser in this way continuously. After using the map, the settings can be turned back to "true" by following the same steps.
 
-
+#### There is also a site that continues in parallel with my work with the work of the [TiVa85](https://www.nexusmods.com/witcher3/users/40356455); You can access the site [here](http://www.tivaprojects.com/witcher3map/).
 You can also access [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
 
 Credits & Licence
@@ -75,3 +84,15 @@ Created by [untamed0](https://github.com/untamed0) and edited by [BaHTsIzBEdEvi]
 
 The Witcher 3, logo, icons &amp; map are the property of [CD PROJEKT RED](http://en.cdprojektred.com/) and are used without permission. Under section 9.4 of the CD PROJEKT RED [User Agreement](http://bar.cdprojektred.com/regulations/):
 > If you create your User Generated Content using any of CD PROJEKT RED graphics, audio, video, text or any other content - you may use it and share for personal enjoyment, but we do not allow any use of it for financial profit.
+
+Translations
+- Russian - [Arkwulf](https://www.nexusmods.com/users/62669641) (with the help of old crowdin translation)
+
+This software uses the following libraries developed by third parties, and are licenced seperately;
+
+- jQuery (MIT)
+- jQuery.NiceScroll (MIT)
+- jQuery.ddslick
+- Leaflet (BSD2)
+- Fuse (APACHE 2.0)
+- Font Awesome (MIT)

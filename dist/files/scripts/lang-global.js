@@ -15,15 +15,12 @@ window.i18noptions = {
 	fallbackLng: 'en',
 	resGetPath: ((isRoot) ? "" : "../")+'files/locales/__lng__/__ns__.json',
 	useDataAttrOptions: true,
-	lngWhitelist: [ 'en', 'de', 'ru', 'pl', 'fr' ]
+	lngWhitelist: [ 'en', 'ru' ]
 };
 
 var languageOptions = [
 	{text: "English",value: "en",selected: (localStorage['lang'] == "en" ? true : false), description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/en.png"},
-	{text: "Deutsch",value: "de",selected: (localStorage['lang'] == "de" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/de.png"},
-	{text: "Русский",value: "ru",selected: (localStorage['lang'] == "ru" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/ru.png"},
-	{text: "Polski",value: "pl",selected: (localStorage['lang'] == "pl" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/pl.png"},
-	{text: "Français",value: "fr",selected: (localStorage['lang'] == "fr" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/fr.png"}
+	{text: "Русский",value: "ru",selected: (localStorage['lang'] == "ru" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/ru.png"}
 ];
 
 window.changeLang = function(lang) {

@@ -16,7 +16,13 @@
 		<meta name="keywords" content="Witcher 3, Witcher 3 map, Witcher 3 interactive map, gwent player map, gwent map, shopkeeper map, merchant map" />
 		<link type="text/css" rel="stylesheet" href="files/styles/home.min.css" />
 		<link type="text/css" rel="stylesheet" href="files/styles/font-awesome.min.css" />
+		<link type="text/css" rel="stylesheet" href="files/styles/leaflet.min.css" />
+		<script type="text/javascript" src="files/scripts/fuse.js"></script>
+		<script type="text/javascript" src="files/scripts/jquery-3.6.0.min.js"></script>
 		<script type="text/javascript" src="files/scripts/vendor.bundle.js"></script>
+		<script type="text/javascript" src="files/scripts/jquery.ddslick.min.js"></script>
+		<script type="text/javascript" src="files/scripts/lang-global.js"></script>
+		<script type="text/javascript" src="files/scripts/home.js"></script>
 	</head>
 	<body>
 		<div id="wrap">
@@ -38,17 +44,14 @@
 						<li class="enabled"><a href="f/index.html" data-i18n="maps.toussaint_fables">Thousand Fables<img alt="" src="files/images/baw-small.png" /></a></li>
 					</ul>
 				</div>
-				<!--div id="lang">
-					<div id="lang-switcher"></div>
-				</div-->
+				<div id="lang-switcher"></div>
 			</div>
 			<div id="push"></div>
 		</div>
 		<div id="footer">
-			<span data-i18n="[html]credits.botCreated" data-i18n-options="{'untamed0':'<a href=\'https://github.com/untamed0\' target=\'_blank\'>untamed0</a>','license':'<a href=\'http://creativecommons.org/licenses/by-nc-sa/4.0/\' target=\'_blank\'>CC BY-NC-SA</a>'}">Created by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, edited by <a href="https://github.com/root-BB" target="_blank">BaHTsIzBEdEvi</a>, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>.</span> <span data-i18n="[html]credits.botHelp" data-i18n-options="{'mcarver':'<a href=\'https://github.com/mcarver\' target=\'_blank\'>mcarver</a>','contributors':'<a href=\'https://github.com/untamed0/witcher3map/graphs/contributors\' target=\'_blank\'>contributors</a>','DesignGears':'<a href=\'https://twitter.com/DesignGears\' target=\'_blank\'>DesignGears</a>','hhrhhr':'<a href=\'https://github.com/hhrhhr\'' target=\'_blank\''>hhrhhr</a>','jsCredits':'<a href=\'#\' class=\'js-credits\'>click here</a>'}">With help from <a href="https://github.com/mcarver" target="_blank">mcarver</a> &amp; other <a href="https://github.com/untamed0/witcher3map/graphs/contributors" target="_blank">contributors</a>. Thanks to <a href="https://twitter.com/DesignGears" target="_blank">DesignGears</a> &amp; <a href="https://github.com/hhrhhr" target="_blank">hhrhhr</a> for map &amp; asset extraction. For the full list of Javascript libraries used, <a href="#" class="js-credits">click here</a>.</span> <span data-i18n="[html]credits.botAssets" data-i18n-options="{'cdpr':'<a href=\'http://en.cdprojektred.com\' target=\'_blank\'>CD PROJEKT RED</a>'}">Witcher 3, logo, icons, map &amp; text are the property of <a href="http://en.cdprojektred.com" target="_blank">CD PROJEKT RED</a>The Witcher 3, logo, icons, map &amp; text are the property of <a href="http://en.cdprojektred.com/" target="_blank">CD PROJEKT RED</a> and used without permission</span>
+			<span data-i18n="[html]credits.botCreated" data-i18n-options='{"untamed0":"<a href=https://github.com/untamed0>untamed0</a>","BaHTsIzBEdEvi":"<a href=https://github.com/root-BB>BaHTsIzBEdEvi</a>","license":"<a href=http://creativecommons.org/licenses/by-nc-sa/4.0>CC BY-NC-SA</a>"}'> </span>
+			<span data-i18n="[html]credits.botHelp" data-i18n-options='{"mcarver":"<a href=https://github.com/mcarver>mcarver</a>","Gerignak":"<a href=https://www.nexusmods.com/witcher3/users/44200822>Gerignak</a>","contributors":"<a href=https://github.com/untamed0/witcher3map/graphs/contributors>contributors</a>","designGears":"<a href=https://twitter.com/DesignGears>@DesignGears</a>","hhrhhr":"<a href=https://github.com/hhrhhr>hhrhhr</a>"}'> </span>
+			<span data-i18n="[html]credits.botAssets" data-i18n-options='{"cdpr":"<a href=https://en.cdprojektred.com>CD PROJEKT RED</a>"}'> </span>
 		</div>
-		<script type="text/javascript" src="files/scripts/fuse.js"></script>
-		<script type="text/javascript" src="files/scripts/lang-global.js"></script>
-		<script type="text/javascript" src="files/scripts/home.js"></script>
 	</body>
 </html>

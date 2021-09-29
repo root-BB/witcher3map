@@ -498,43 +498,45 @@ $(function() {
 	var popup = function(title, content) {
 		$('body').prepend('<div id="popup-wrap"><div id="popup-border"><img id="popup-close" src="../files/images/exit.png" alt="Close" onclick="popupClose();"><div id="popup-content"><h1>' + title + '</h1><hr>' + content + '</div></div></div>');
 		$('div#popup-content').niceScroll({
+			rtlmode: "auto",
 			cursorcolor  : '#5E4F32',
 			cursorborder : 'none',
-			autohidemode : false,
-			railpadding  : { top: 22 , right : 5, bottom: 5}
+			autohidemode : true,
 		});
 		$(document).on('click', '*', popupClick);
 	};
 
 	$(document).on('click', '.credits', function(e) {
 		e.preventDefault();
-		popup('Credits', [
-			'<p>Created by <a href="https://github.com/untamed0" target="_blank">untamed0</a>, with contributions from:</p>',
+		popup(document.getElementById("Credits").innerHTML, [
+			'<script type="text/javascript" src="../files/scripts/lang-global.js"></script>',
+			'<script type="text/javascript" src="../files/scripts/shared.js"></script>',
+			'<span data-i18n="[html]credits.popupCreated" data-i18n-options=\'{"untamed0":"<a href=https://github.com/untamed0>untamed0</a>","BaHTsIzBEdEvi":"<a href=https://github.com/root-BB>BaHTsIzBEdEvi</a>"}\'> </span>',
 			'<ul>',
-			'<li><a href="https://github.com/mcarver" target="_blank">mcarver</a> (lead contributor) - Marker count, hash permalink improvements, backup/restore settings, numerous fixes etc</li>',
-			'<li><a href="https://github.com/ankri" target="_blank">ankri</a> - Ability to hide markers on right or double click</li>',
-			'<li><a href="https://github.com/ITroxxCH" target="_blank">ITroxxCH</a> - Translation/i18n implementation</li>',
-			'<li><a href="https://github.com/msmorgan" target="_blank">msmorgan</a> - Javascript &amp; map data structure improvements</li>',
-			'<li><a href="https://twitter.com/DesignGears" target="_blank">@DesignGears</a> &amp <a href="https://github.com/hhrhhr" target="_blank">hhrhhr</a> - Map &amp; asset extraction</li>',
+			'<li><span data-i18n="[html]credits.popupbotHelp1" data-i18n-options=\'{"mcarver":"<a href=https://github.com/mcarver>mcarver</a>"}\'></span></li>',
+			'<li><span data-i18n="[html]credits.popupbotHelp2" data-i18n-options=\'{"ankri":"<a href=https://github.com/ankri>ankri</a>"}\'></span></li>',
+			'<li><span data-i18n="[html]credits.popupbotHelp3" data-i18n-options=\'{"ITroxxCH":"<a href=https://github.com/ITroxxCH>ITroxxCH</a>"}\'></span></li>',
+			'<li><span data-i18n="[html]credits.popupbotHelp4" data-i18n-options=\'{"msmorgan":"<a href=https://github.com/msmorgan>msmorgan</a>"}\'></span></li>',
+			'<li><span data-i18n="[html]credits.popupbotHelp5" data-i18n-options=\'{"DesignGears":"<a href=https://twitter.com/DesignGears>@DesignGears</a>","hhrhhr":"<a href=https://github.com/hhrhhr>hhrhhr</a>"}\'></span></li>',
 			'</ul>',
-			'<p>Thanks to the following people for contributions to improving the map data:<br>',
-			'<li><a href="https://wiiare.in" target="_blank">lordfiSh</a> - Toussaint Map Markers</li></p>',
-			'<h3>Translations</h3>',
+			'<span data-i18n="credits.popupbotHelp6"></span>',
 			'<ul>',
-			'<li>German - <a href="https://github.com/ITroxxCH" target="_blank">ITroxxCH</a></li>',
+			'<li><span data-i18n="[html]credits.popupbotHelp7" data-i18n-options=\'{"lordfiSh":"<a href=https://wiiare.in>lordfiSh</a>"}\'></span></li></p>',
 			'</ul>',
-			'<p>Special thanks to <a href="https://crowdin.com" target="_blank">crowdin</a> for letting us use their excellent translation editor</p>',
-			'<h3>Witcher 3 Assets</h3>',
-			'<p>The Witcher 3, logo, icons, map &amp; text are the property of <a href="http://en.cdprojektred.com/" target="_blank">CD PROJEKT RED</a> and used without permission. Non commercial use is permitted under section 9.4 of their <a href="http://bar.cdprojektred.com/regulations/" target="_blank">User Agreement</a></p>',
-			'<h3>Javascript libraries used</h3>',
+			'<h3><span data-i18n="credits.popuptranslations"></span></h3>',
+			'<ul>',
+			'<li><span data-i18n="[html]credits.popuptranslations1" data-i18n-options=\'{"Arkwulf":"<a href=https://www.nexusmods.com/users/62669641>Arkwulf</a>"}\'></span></li>',
+			'</ul>',
+			'<p><span data-i18n="[html]credits.popupcrowdin" data-i18n-options=\'{"crowdin":"<a href=https://crowdin.com>crowdin</a>"}\'></span></p>',
+			'<h3><span data-i18n="credits.popupAssets"></span></h3>',
+			'<p><span data-i18n="[html]credits.popupRED" data-i18n-options=\'{"RED":"<a href=http://en.cdprojektred.com/>CD PROJEKT RED</a>","Agreement":"<a href=http://bar.cdprojektred.com/regulations/>User Agreement</a>"}\'> </span></p>',
+			'<h3><span data-i18n="credits.popupJava"></span></h3>',
 			'<ul>',
 			'<li><a href="http://jquery.com" target="_blank">jQuery</a> (MIT)</li>',
 			'<li><a href="http://git.io/vkLly" target="_blank">jQuery.NiceScroll</a> (MIT)</li>',
+			'<li><a href="https://github.com/prashantchaudhary/ddslick" target="_blank">jQuery.ddslick</a></li>',
 			'<li><a href="http://leafletjs.com" target="_blank">Leaflet</a> (BSD2)</li>',
-			'<li><a href="http://git.io/vkfA2" target="_blank">Leaflet.label</a> (MIT)</li>',
-			'<li><a href="http://git.io/mwK1oA" target="_blank">Leaflet-hash</a> (MIT)</li>',
-			'<li><a href="http://git.io/vJw5v" target="_blank">Leaflet.fullscreen</a> (BSD2)</li>',
-			'<li><a href="http://git.io/vkCPC" target="_blank">Leaflet Control Search</a> (MIT)</li>',
+			'<li><a href="https://github.com/krisk/Fuse" target="_blank">Fuse</a> (Apache)</li>',
 			'<li><a href="http://git.io/vIAs2" target="_blank">Font Awesome</a> (MIT)</li>',
 			'</ul>'
 		].join('\n'));

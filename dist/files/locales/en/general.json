@@ -3,8 +3,10 @@
 		"velen": "Velen & Novigrad",
 		"skellige": "Skellige Isles",
 		"white_orchard": "White Orchard",
-		"kaer_morhen": "Kaer Morhen",
-		"toussaint": "Toussaint"
+		"kaer_morhen": "Kaer Morhen",	
+		"toussaint": "Toussaint",
+		"isle_mists": "Isle of Mist",
+		"thousand_fables": "Thousand Fables"
 	},
 	"home": {
 		"tagline": "Unofficial The Witcher 3 Interactive Maps",
@@ -32,6 +34,7 @@
 		"blacksmith": "Blacksmith",
 		"boat": "Boat",
 		"brothel": "Brothel",
+		"contracts": "Contracts",
 		"loveInterest": "Love Interest",
 		"entrance": "Entrance",
 		"event": "Event",
@@ -53,6 +56,7 @@
 		"scavenger": "Scavenger",
 		"signalfire": "Signal Fire",
 		"signpost": "Sign Post",
+		"sidequests": "Sidequests",
 		"shopkeeper": "Shopkeeper",
 		"smugglers": "Smugglers' Cache",
 		"spoils": "Spoils of War",
@@ -88,12 +92,26 @@
 		"exitFullscreenButton": "Exit Fullscreen"
 	},
 	"credits": {
-		"botCreated": "Created by __untamed0__, edited by __BaHTsIzBEdEvi__, licensed under __license__",
-		"botHelp": "With help from __mcarver__, & other __contributors__. Thanks to __designGears__ & __hhrhhr__ for map & asset extraction. For the full list of Javascript libraries used, __jsCredits__.",
-		"botAssets": "Witcher 3, logo, icons, map &amp; text are the property of __cdpr__"
+		"botCreated": "Created by __untamed0__ and enhanced by __BaHTsIzBEdEvi__, licensed under __license__.",
+		"botHelp": "With help from __mcarver__, __Gerignak__ and the other __contributors__. Thanks to __designGears__ and __hhrhhr__ for map and asset extraction.",
+		"botAssets": "Witcher 3, logo, icons & map are the property of __cdpr__.",
+		"popupCreated": "Created by __untamed0__ and enhanced by __BaHTsIzBEdEvi__, with contributions from:",
+		"popupbotHelp1": "__mcarver__ (lead contributor) - Marker count, hash permalink improvements, backup/restore settings, numerous fixes etc.",
+		"popupbotHelp2": "__ankri__ - Ability to hide markers on right or double click",
+		"popupbotHelp3": "__ITroxxCH__ - Translation/i18n implementation",
+		"popupbotHelp4": "__msmorgan__ - Javascript and map data structure improvements",
+		"popupbotHelp5": "__DesignGears__ & __hhrhhr__- Map and asset extraction",
+		"popupbotHelp6": "Thanks to the following people for contributions to improving the map data:",
+		"popupbotHelp7": "__lordfiSh__ - Toussaint Map Markers",
+		"popuptranslations": "Translations",
+		"popuptranslations1": "Russian - __Arkwulf__ (With the help of old crowdin translations)",
+		"popupcrowdin": "Special thanks to __crowdin__ for letting us use their excellent translation editor.",
+		"popupAssets": "Witcher 3 Assets",
+		"popupRED": "The Witcher 3, logo, icons, map and text are the property of __RED__  and used without permission. Non commercial use is permitted under section 9.4 of their __Agreement__.",
+		"popupJava": "Javascript libraries used"
 	},
 	"misc": {
-		"contribute": "Work in progress! Help appreciated at __link__",
+		"contribute": "Work in progress! Help appreciated at __link1__ or __link2__.",
 		"discuss": "Feedback, suggestions? Discuss on __link__",
 		"helpTranslate": "Want to help or improve translations?",
 		"portraitWarn": "Note: the map is best viewed in landscape mode, tap to dismiss",
