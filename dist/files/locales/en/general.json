@@ -1,12 +1,15 @@
 {
 	"maps": {
 		"velen": "Velen & Novigrad",
+		"velen_main": "Velen & Novigrad __hover__",
 		"skellige": "Skellige Isles",
 		"white_orchard": "White Orchard",
 		"kaer_morhen": "Kaer Morhen",	
 		"toussaint": "Toussaint",
+		"toussaint_main": "Toussaint __hover__",
 		"isle_mists": "Isle of Mist",
-		"thousand_fables": "Thousand Fables"
+		"thousand_fables": "Thousand Fables",
+		"thousand_fables_main": "Thousand Fables __hover__"
 	},
 	"home": {
 		"tagline": "Unofficial The Witcher 3 Interactive Maps",
@@ -108,7 +111,7 @@
 		"popupcrowdin": "Special thanks to __crowdin__ for letting us use their excellent translation editor.",
 		"popupAssets": "Witcher 3 Assets",
 		"popupRED": "The Witcher 3, logo, icons, map and text are the property of __RED__  and used without permission. Non commercial use is permitted under section 9.4 of their __Agreement__.",
-		"popupJava": "Javascript libraries used"
+		"popupJava": "Used Javascript Libraries"
 	},
 	"misc": {
 		"contribute": "Work in progress! Help appreciated at __link1__ or __link2__.",

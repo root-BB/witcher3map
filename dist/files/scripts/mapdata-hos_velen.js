@@ -378,7 +378,7 @@ window.mapdata_hos_velen = {
 	}, {
 		coords: [[104.46875, 80.75]],
 		label: $.t("v:contracts.label.griffin"),
-		popup: $.t("v:v:contracts.desc.griffin")
+		popup: $.t("v:contracts.desc.griffin")
 	}, {
 		coords: [[100.625, 110.3125]],
 		label: $.t("v:contracts.label.merry"),
@@ -1931,7 +1931,7 @@ window.mapdata_hos_velen = {
 		label: $.t("v:sidequests.label.fools"),
 		popup: $.t("v:sidequests.desc.fools")
 	}, {
-		coords: [[114.65625, 50.0625]],
+		coords: [[104.391, 76.938]],
 		label: $.t("v:sidequests.label.forefathers"),
 		popup: $.t("v:sidequests.desc.forefathers")
 	}, {

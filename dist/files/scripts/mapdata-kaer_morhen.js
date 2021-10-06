@@ -73,8 +73,8 @@ window.mapdata_kaer_morhen = {
 	// Events
 	event: [{
 		coords: [[75.0625, 41.3125]],
-		label: $.t("event.label.trail"),
-		popup: $.t("event.desc.trail")
+		label: $.t("k:event.label.trail"),
+		popup: $.t("k:event.desc.trail")
 	}],
 
 	// Grindstone

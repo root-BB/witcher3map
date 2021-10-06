@@ -20,7 +20,7 @@ window.mapdata_toussaint = {
 			[88.188,101.797],
 			[91.531,78.688],
 			[31.141,71.953],
-			[57.656,94.109],
+			[57.656,94.109]
 		],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
@@ -65,7 +65,7 @@ window.mapdata_toussaint = {
 			[69.609,100.609],
 			[40.047,81.156],
 			[86.156,63.734],
-			[98.203,43.688],
+			[98.203,43.688]
 		],
 		label: $.t("armourerstable.label"),
 		popup: $.t("armourerstable.desc")
@@ -198,8 +198,7 @@ window.mapdata_toussaint = {
 			[91.766,41.672],
 			[93.125,53.063],
 			[64.109,51.500],
-			[68.516,114.156],
-
+			[68.516,114.156]
 		],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
@@ -231,7 +230,7 @@ window.mapdata_toussaint = {
 			[40.063,80.938],
 			[65.391,65.125],
 			[86.047,63.703],
-			[98.125,43.656],
+			[98.125,43.656]
 		],
 		label: $.t("grindstone.label"),
 		popup: $.t("grindstone.desc")
@@ -256,7 +255,7 @@ window.mapdata_toussaint = {
 			[114.172,75.891],
 			[79.594,67.422],
 			[84.938,40.813],
-			[86.094,43.375],
+			[86.094,43.375]
 		],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
@@ -283,7 +282,7 @@ window.mapdata_toussaint = {
 			[65.156,65.109],
 			[85.628,53.734],
 			[63.653,90.625],
-			[75.606,75.188],
+			[75.606,75.188]
 		],
 		label: $.t("t:misc.label.gwent"),
 		popup: $.t("t:misc.desc.gwent")
@@ -306,7 +305,7 @@ window.mapdata_toussaint = {
 			[47.297,60.734],
 			[56.109,74.750],
 			[61.781,88.000],
-			[96.219,60.594],
+			[96.219,60.594]
 		],
 		label: $.t("harbor.label"),
 		popup: $.t("harbor.desc")
@@ -316,7 +315,7 @@ window.mapdata_toussaint = {
 	herbalist: [{
 		coords: [
 			[85.328,53.734],
-			[51.047,66.250],
+			[51.047,66.250]
 		],
 		label: $.t("herbalist.label"),
 		popup: $.t("herbalist.desc")
@@ -342,7 +341,7 @@ window.mapdata_toussaint = {
 			[63.453,81.234],
 			[61.188,102.641],
 			[54.250,106.828],
-			[95.984,88.625],
+			[95.984,88.625]
 		],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.desc")
@@ -388,7 +387,7 @@ window.mapdata_toussaint = {
 		coords: [
 			[77.156,103.594],
 			[97.813,49.516],
-			[38.203,54.75],
+			[38.203,54.75]
 		],
 		label: $.t("t:kid.label"),
 		popup: $.t("t:kid.desc")
@@ -401,7 +400,7 @@ window.mapdata_toussaint = {
 			[75.656,89.453],
 			[96.047,100.828],
 			[107.422,76.516],
-			[89.453,108.266],
+			[89.453,108.266]
 		],
 		label: $.t("monsterden.label"),
 		popup: $.t("monsterden.desc")
@@ -419,7 +418,7 @@ window.mapdata_toussaint = {
 			[76.328,86.969],
 			[68.766,115.000],
 			[75.484,40.313],
-			[75.328,40.578],
+			[75.328,40.578]
 		],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
@@ -435,7 +434,7 @@ window.mapdata_toussaint = {
 			[64.328,89.297],
 			[41.750,80.313],
 			[71.719,102.219],
-			[93.609,65.781],  //todo check
+			[93.609,65.781]
 		],
 		label: $.t("notice.label"),
 		popup: $.t("notice.desc")
@@ -790,6 +789,7 @@ window.mapdata_toussaint = {
 		coords: [
 			[81.219,109.656],
 			[117.016,71.484],
+			[97.563,44.672]
 		],
 		label: $.t("t:signalfire.label"),
 		popup: $.t("t:signalfire.desc")
