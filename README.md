@@ -90,7 +90,7 @@ The Witcher 3, logo, icons &amp; map are the property of [CD PROJEKT RED](http:/
 Translations
 - Russian - [Arkwulf](https://www.nexusmods.com/users/62669641) (with the help of old crowdin translation)
 - Turkish - [BaHTsIzBEdEvi](https://github.com/root-BB)
-- Czech - [MikeCZ](https://www.nexusmods.com/users/33112273) and [Lord Mazout](https://www.nexusmods.com/users/3168799)
+- Czech - [MikeCZ](https://www.nexusmods.com/users/33112273) and [Lord Mazour](https://www.nexusmods.com/users/3168799)
 
 This software uses the following libraries developed by third parties, and are licenced seperately;
 
