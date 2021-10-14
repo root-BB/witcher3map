@@ -92,11 +92,11 @@ window.mapdata_kaer_morhen = {
 	guarded: [{
 		coords: [[119.313, 74.906]],
 		label: $.t("guarded.label"),
-		popup: $.t("guarded.desc", {monster: "(lvl 14<span> " + $.t("k:monsters.wyvern") + "</span>)"})
+		popup: $.t("guarded.desc")
 	}, {
 		coords: [[102.625, 52.906]],
 		label: $.t("guarded.label"),
-		popup: $.t("guarded.desc", {monster: "(lvl 20<span> " + $.t("k:monsters.leshen") + "</span>)"})
+		popup: $.t("guarded.desc")
 	}],
 
 	// Gwent Player

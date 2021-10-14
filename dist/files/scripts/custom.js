@@ -526,6 +526,8 @@ $(function() {
 			'<h3><span data-i18n="credits.popuptranslations"></span></h3>',
 			'<ul>',
 			'<li><span data-i18n="[html]credits.popuptranslations1" data-i18n-options=\'{"Arkwulf":"<a href=https://www.nexusmods.com/users/62669641>Arkwulf</a>"}\'></span></li>',
+			'<li><span data-i18n="[html]credits.popuptranslations2" data-i18n-options=\'{"BaHTsIzBEdEvi":"<a href=https://github.com/root-BB>BaHTsIzBEdEvi</a>"}\'></span></li>',
+			'<li><span data-i18n="[html]credits.popuptranslations3" data-i18n-options=\'{"MikeCZ":"<a href=https://www.nexusmods.com/users/33112273>MikeCZ</a>","Lord Mazour":"<a href=https://www.nexusmods.com/users/3168799>Lord Mazour</a>"}\'></span></li>',
 			'</ul>',
 			'<p><span data-i18n="[html]credits.popupcrowdin" data-i18n-options=\'{"crowdin":"<a href=https://crowdin.com>crowdin</a>"}\'></span></p>',
 			'<h3><span data-i18n="credits.popupAssets"></span></h3>',

@@ -1,0 +1,285 @@
+{
+	"maps": {
+		"velen": "Velen a Novigrad",
+		"velen_main": "Velen a Novigrad __hover__",
+		"skellige": "Skelligské ostrovy",
+		"white_orchard": "Bělosad",
+		"kaer_morhen": "Kaer Morhen",
+		"toussaint": "Toussaint",
+		"toussaint_main": "Toussaint __hover__",
+		"isle_mists": "Ostrov mlh",
+		"thousand_fables": "Kraj tisíce bájí",
+		"thousand_fables_main": "Kraj tisíce bájí __hover__"
+	},
+	"home": {
+		"tagline": "Zaklínač 3 – Neoficiální interaktivní mapa",
+		"resultsFound": "výsledků nalezeno.",
+		"searchPlaceholder": "Hledaná slova..."
+	},
+	"notes": {
+		"label": "Značka:",
+		"title": "Název:",
+		"note": "Poznámka:",
+		"enterLabel": "Popiš značku...",
+		"enterTitle": "Název poznámky...",
+		"enterText": "Název poznámky...",
+		"saveNote": "Uložit poznámku",
+		"deleteNote": "Smazat poznámku"
+	},
+	"sidebar": {
+		"returnToMapSelection": "Návrat k výběru mapy",
+		"alchemy": "Alchymistické zásoby",
+		"abandoned": "Opuštěná osada",
+		"armourer": "Zbrojíř",
+		"armourerstable": "Zbrojířský stůl",
+		"banditcamp": "Tábor zbojníků",
+		"barber": "Holič",
+		"blacksmith": "Kovář",
+		"boat": "Loď",
+		"brothel": "Nevěstinec",
+		"contracts": "Zakázka",
+		"loveInterest": "Milostný poměr",
+		"entrance": "Podzemí",
+		"event": "Událost",
+		"grindstone": "Brusný kotouč",
+		"guarded": "Hlídaný poklad",
+		"gwent": "Hráč gwintu",
+		"harbor": "Přístav",
+		"hansebase": "Základna tlupy",
+		"herbalist": "Bylinkář",
+		"hidden": "Ukrytý poklad",
+		"innkeep": "Hospodský",
+		"kid": "Bludný rytíř v nesnázích",
+		"monsternest": "Hnízdo příšer",
+		"monsterden": "Doupě příšer",
+		"notice": "Vývěska",
+		"pid": "Člověk v nesnázích",
+		"pop": "Místo Moci",
+		"poi": "Bod zájmu",
+		"scavenger": "Sběračská výzva",
+		"signalfire": "Vatra",
+		"signpost": "Rozcestník",
+		"sidequests": "Vedlejší úkol",
+		"shopkeeper": "Obchodník",
+		"smugglers": "Pašerácká skrýš",
+		"spoils": "Válečná kořist",
+		"treasure": "Poklad",
+		"vineyardinfestation": "Zamořená vinice"
+	},
+	"controls": {
+		"show": "Zobrazit vše",
+		"hide": "Skrýt vše",
+		"showCounts": "Zobrazit počet",
+		"hideCounts": "Skrýt počet",
+		"resetInvisible": "Obnovit skryté",
+		"resetInvisConfirm": "Opravdu chceš obnovit všechny neviditelné značky na původní hodnotu?",
+		"hideMonsters": "Skrýt příšery",
+		"showMonsters": "Zobrazit příšery",
+		"helpFeatures": "Vlastnosti a nápověda",
+		"credits": "Autoři",
+		"backupSave": "Stáhne zálohu nastavení této mapy a uloží ji jako: __fileName__\n\nOpravdu to chceš?",
+		"backupLoad": "Obnovit nastavení:",
+		"backupLoadSuccess": "Nastavení obnoveno!",
+		"backupLoadFail": "Obnovení se nepovedlo, zkontroluj svůj soubor",
+		"backupHtmlFail": "Obnovení není možné. Prohlížeč nepodporuje HTML 5 File API.",
+		"zoomInButton": "Přiblížit",
+		"zoomOutButton": "Oddálit",
+		"searchButton": "Hledat...",
+		"backupDataButton": "Záloha dat",
+		"restoreDataButton": "Obnovení dat",
+		"centerMarkerButton": "Přesuň značku doprostřed",
+		"addNoteButton": "Přidat poznámku",
+		"cancelNoteButton": "Neukládat",
+		"viewFullscreenButton": "Celá obrazovka",
+		"exitFullscreenButton": "Ukončit režim celé obrazovky"
+	},
+	"credits": {
+		"botCreated": "Vytvořil uživatel __untamed0__ a vylepšil uživatel __BaHTsIzBEdEvi__, licencováno pomocí __license__.",
+		"botHelp": "Za pomoci __mcarver__, __Gerignak__  a dalších __contributors__. Díky __designGears__ a __hhrhhr__ za mapu a získání podkladů.",
+		"botAssets": "Zaklínač 3, logo, ikony, mapa a texty jsou vlastnictvím __cdpr__",
+		"popupCreated": "Vytvořil uživatel __untamed0__ a vylepšil uživatel __BaHTsIzBEdEvi__,  s přispěním:",
+		"popupbotHelp1": "__mcarver__ (hlavní přispěvatel) – Počet značek, vylepšení hash permalink, nastavení zálohování/obnovení, četné opravy atd.",
+		"popupbotHelp2": "__ankri__ - Možnost skrýt značky na pravé nebo dvojité kliknutí",
+		"popupbotHelp3": "__ITroxxCH__ - Překlad/implementace i18n",
+		"popupbotHelp4": "__msmorgan__ - Vylepšení struktury dat Javascriptu a mapy",
+		"popupbotHelp5": "__DesignGears__ a __hhrhhr__ - Získání mapy a assetů",
+		"popupbotHelp6": "Děkujeme následujícím lidem za příspěvky ke zlepšení mapových dat:",
+		"popupbotHelp7": "__lordfiSh__ - Značky na mapě Toussaintu",
+		"popuptranslations": "Překlady",
+		"popuptranslations1": "Ruština - __Arkwulf__ (S pomocí starých crowdin překladů)",
+		"popuptranslations2": "Turečtina - __BaHTsIzBEdEvi__",
+		"popuptranslations3": "Čeština - __MikeCZ__ a __Lord Mazour__",
+		"popupcrowdin": "Zvláštní poděkování patří __crowdin__ za to, že jsme mohli použít jejich vynikající editor překladů.",													 
+		"popupAssets": "Assety Zaklínače 3",
+		"popupRED": "Zaklínač 3, logo, ikony, mapa a texty jsou vlastnictvím společnosti __RED__ a jsou použity bez svolení. Nekomerční použití je povoleno podle bodu 9.4 jejich __Agreement__.",
+		"popupJava": "Použité javascript knihovny"
+	},
+	"misc": {
+		"contribute": "Práce stále probíhá! Oceníme pomoc na __link1__ nebo __link2__.",
+		"discuss": "Nápady, připomínky? Diskutujte na __link__",
+		"helpTranslate": "Chcete pomoct s překladem?",
+		"portraitWarn": "Pozn.: mapu je lepší prohlížet na šířku",
+		"loveInterestDesc": "Setkej se zde se svým milým",
+		"nsfwConfirm": "Změní 'Nevěstinec' na 'Milostný poměr', opravdu to chceš?",
+		"nsfwUndo": "Opravdu se chceš vrátit?",
+		"treasure": "Honba za pokladem",
+		"key": " - Klíč"
+	},
+	"abandoned": {
+		"label": "Opuštěná osada",
+		"desc": "Obyvatele této osady vyhnali zbojníci či příšery, ale jakmile nebezpečí pomine, opět se sem vrátí."
+	},
+	"alchemy": {
+		"label": "Alchymistické zásoby",
+		"desc": "Zde si můžeš koupit alchymistické přísady."
+	},
+	"armourer": {
+		"labelAmateur": "Amatérský zbrojíř",
+		"labelJourneyman": "Tovaryšský zbrojíř",
+		"labelMaster": "Mistr zbrojíř",
+		"desc": "Zde si můžeš vyrobit zbroj, opravit poškozené vybavení, rozebrat vybavení na součástky či vyjímat z předmětů vylepšení."
+	},
+	"armourerstable": {
+		"label": "Zbrojířský stůl",
+		"desc": "Zbrojířské stoly tvému vybavení na omezený čas poskytnou zvýšenou hodnotu zbroje."
+	},
+	"banditcamp": {
+		"label": "Tábor zbojníků",
+		"desc": "Zde se utábořila skupina nebezpečných zbojníků. "
+	},
+	"barber": {
+		"label": "Holič",
+		"desc": "U holičů se můžeš nechat ostříhat či oholit. "
+	},
+	"blacksmith": {
+		"labelAmateur": "Amatérský kovář",
+		"labelJourneyman": "Tovaryšský kovář",
+		"labelMaster": "Kovářský mistr",
+		"desc": "Zde si můžeš vyrobit zbraně, opravit poškozené vybavení, rozebrat vybavení na součástky či vyjímat z předmětů vylepšení."
+	},
+	"boat": {
+		"label": "Loď",
+		"desc": "Rychlé cestování můžeš použít i na lodi a překonat tak velké vodní plochy."
+	},
+	"entrance": {
+		"label": "Podzemí",
+		"desc": "Vchod do jeskyně či rozvalin."
+	},
+	"entranceunderwatercave": {
+		"label": "Podvodní jeskyně",
+		"desc": "Podvodní vchod do jeskyně"
+	},
+	"grindstone": {
+		"label": "Brusný kotouč",
+		"desc": "Zde naostřená čepel bude působit větší poškození."
+	},
+	"guarded": {
+		"label": "Hlídaný poklad",
+		"desc": "Mimořádně silná příšera __monster__ zde stráží cenný poklad."
+	},
+	"harbor": {
+		"label": "Přístav",
+		"desc": "Místo, kde můžeš najít loď a lodě se zde objevují."
+	},
+	"herbalist": {
+		"label": "Bylinkář",
+		"desc": "Zde si můžeš koupit alchymistické přísady."
+	},
+	"hidden": {
+		"label": "Ukrytý poklad",
+		"desc": "Tajná skrýš plná cenného zboží.",
+		"guarded": "Tajná skrýš plná cenného zboží (stráží ji __monster__)."
+	},
+	"monsterden": {
+		"label": "Doupě příšer",
+		"desc": "Místo zamořené příšerami. Neustálá hrozba pro obyvatele v okolí příšery: __monster__"
+	},
+	"monsternest": {
+		"label": "Hnízdo příšer",
+		"desc": "Znič hnízda příšer pomocí Úlu či Tančící hvězdy. __monster__"
+	},
+	"notice": {
+		"label": "Vývěska",
+		"desc": "Zde můžeš najít zakázky na příšery a oznámení týkající se místních záležitostí."
+	},
+	"pid": {
+		"afterrescue": "Po osvobození lze naleznout v: ",
+		"desc": "Zde najdeš člověka nebo skupinu lidí, kteří potřebují pomoc. __monster__.",
+		"label": "Člověk v nesnázích",
+		"rescue": "Musí být zachráněn před: ",
+		"rescueLocation": "zde"
+	},
+	"pop": {
+		"label": "Místo Moci",
+		"label*": "Místo Moci*",
+		"desc": "Načerpej z místa Moci a získej dočasný bonus. Při prvním čerpání z každého místa Moci získáš také 1 dovednostní bod.",
+		"popup": "Místo Moci – __sign__"
+	},
+	"scavenger": {
+		"dia": "Nákres: ",
+		"name": {
+			"ser": "Zmijí ",
+			"fel": "Kočičí ",
+			"gri": "Gryfí ",
+			"urs": "Medvědí ",
+			"wol": "Vlčí ",
+			"man": "Mantikoří "
+		},
+		"gear": "Vybavení ",
+		"item": {
+			"steel": "Ocelový meč ",
+			"silver": "Stříbrný meč ",
+			"armor": "Zbroj ",
+			"gaunt": "Pěstnice ",
+			"trous": "Kalhoty ",
+			"boot": "boty ",
+			"cross": "Kuše "
+		},
+		"level": {
+			"1": "- Základní",
+			"2": "- Vylepšené",
+			"3": "- Prvotřídní",
+			"4": "- Mistrovské",
+			"5": "- Velmistrovské"
+		}
+	},
+	"shopkeeper": {
+		"label": "Obchodník",
+		"desc": ""
+	},
+	"smugglers": {
+		"label": "Pašerácká skrýš",
+		"desc": "Zde je ukryté pašované zboží. "
+	},
+	"spoils": {
+		"label": "Válečná kořist",
+		"desc": "Zde můžeš najít kořist, která tu zůstala po bitvě. __monster__"
+	},
+	"sidequests": {
+		"bigfeet": "Ve velkých stopách",
+		"enchanting": "Slovotepectví",
+		"fist": "Ocelové pěsti",
+		"gwent": "Gwint",
+		"pursuit": "Dostih hrdinů",
+		"races": "Závody",
+		"winewars": "O víně a vině",
+		"vintnercontract": "Zakázka od vinaře"									 
+	},
+	"signs": {
+		"aard": "Aard",
+		"axii": "Axie",
+		"igni": "Igni",
+		"quen": "Quen",
+		"yrden": "Yrden"
+	},
+	"treasure": {
+		"treasure": "Poklad",
+		"watertreasure": "Poklad pod vodou",
+		"label": "Honba za pokladem",
+		"desk": ""
+	},
+	"vineyardinfestation": {
+		"label": "Zamořená vinice",
+		"desc": "Vinice zamořená příšerami."
+	}
+}

@@ -270,20 +270,20 @@ window.mapdata_white_orchard = {
 		popup: $.t("w:sidequests.desc.precious")
 	}, {
 		coords: [[-28.80617351, -42.75878906]],
-		label: $.t("w:sidequests.label.deserter"),
-		popup: $.t("w:sidequests.desc.deserter")
+		label: $.t("treasure.label") +$.t(": ") +$.t("w:sidequests.label.tr_deserter"),
+		popup: $.t("w:sidequests.desc.tr_deserter")
 	}, {
 		coords: [[-39.19820535, -57.56835938]],
-		label: $.t("w:sidequests.label.dirty"),
-		popup: $.t("w:sidequests.desc.dirty")
+		label: $.t("treasure.label") +$.t(": ") +$.t("w:sidequests.label.tr_dirty"),
+		popup: $.t("w:sidequests.desc.tr_dirty")
 	}, {
 		coords: [[-47.42808726, -111.7089844]],
-		label: $.t("w:sidequests.label.temerian") + $.t("misc.key"),
-		popup: $.t("w:sidequests.desc.temerian")
+		label: $.t("treasure.label") +$.t(": ") +$.t("w:sidequests.label.tr_temerian") + $.t("misc.key"),
+		popup: $.t("w:sidequests.desc.tr_temerian")
 	}, {
 		coords: [[-42.48830198, -75.49804688]],
-		label: $.t("w:sidequests.label.temerian"),
-		popup: $.t("w:sidequests.desc.temerian")
+		label: $.t("treasure.label") +$.t(": ") +$.t("w:sidequests.label.tr_temerian"),
+		popup: $.t("w:sidequests.desc.tr_temerian")
 	}],
 
 	// Sign Post

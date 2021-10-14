@@ -1,0 +1,111 @@
+{
+	"gwent": {
+		"label": {
+			"player": "Gwent oyuncusu"
+		},
+		"desc": {
+			"player": "Kazandığın altınlarla burada Gwent oynayabilirsin. ",
+			"warn": "Uyarı! bu oyuncu daha sonra kaybolabilir. "
+		}
+	},
+	"innkeep": {
+		"inns": {
+			"whiteOrchardInn": "Ak Bostan Hanı"
+		},
+		"popup": "Hancı",
+		"desc": {
+			"foodDrinkAndGwent": "Satılık Gwent kartları, yiyecek ve içecek. "
+		}
+	},
+	"misc": {
+		"liberated": "Bu tüccar bölge temizlendikten sonra ortaya çıkacaktır. ",
+		"disappears": "Hikaye ilerleyince kaybolacaktır."
+	},
+	"poi": {
+		"label": {
+			"boss": "Gizli Boss (Chort)",
+			"lootableBattlefield": "Yağmalanabilir Savaş Alanı",
+			"crystalSkull": "Kristal Kafatası"
+		},
+		"desc": {
+			"boss": "Burada 3 kez arka arkaya 6 ineği öldürürseniz, 27 seviye Chort ortaya çıkar ve size saldırır; Dikkat! Chort'u öldürdüğünde, yenileri gelmeye devam eder.",
+			"lootableBattlefield": "Burada ki savaş alanı oyun başlarında kolayca para kazanmak için yağmalanabilir",
+			"crystalSkull": "Intro Videosundan, Yennifer ile 'Son Dilek' görevinde yeni bir diyalog açar. Sadece White Orchard'dan çıkmamışsan alabilirsin"
+		}
+	},
+	"shopkeeper": {
+		"label": {
+			"shopkeeper": "Satıcı"
+		},
+		"desc": {
+			"gwentCraftingAndHorse": "Gwent kartları, işlenebilir malzemeler, ve temerya: gözlüğü, eyer, heybesi, zırhı satılmaktadır",
+			"alchemyRunesAndFood": "Rün taşları, simya malzemeleri ve yiyecek satılmaktadır"
+		}
+	},
+	"signpost": {
+		"label": {
+			"abandonedVillage": "Terk Edilmiş Köy",
+			"brokenBridge": "Çökmüş Köprüsü",
+			"woesongBridge": "Kederli Şarkı Köprüsü",
+			"sawmill": "Bıçkıhane",
+			"mill": "Değirmen",
+			"nilfgaardianGarrison": "Nilfgaardlı Garnizonu",
+			"cacklerBridge": "Kıkırdayan Köprüsü",
+			"crossroads": "Kavşak",
+			"ford": "Nehir Geçidi",
+			"ransackedVillage": "Yağmalanmış Köy"
+		},
+		"desc": {
+			"abandonedVillage": "Birkaç yıl önce silahlı bir grup bu yerleşkeye saldırdı. Sakinlerini katledip evlerini yaktı. O karanlık ve kanlı günden beri tek bir ruh bile burada yaşamıyor",
+			"brokenBridge": "Bu köprü Nilfgaardlı saldırısı sırasında geri çekilen Temeryalı birlikler tarafından yıkıldı. Zaten sallanıyordu. İyi ki yıkıldı",
+			"woesongBridge": "Köprüde duran ve şarkı söyleyen, sevdiği kişinin geri gelmesini bekleyen bir kız yüzünden böyle adlandırılmıştır",
+			"sawmill": "White Orchard sadece yüksek kalite meyveleri için değil, aynı zamanda Vulpine Ormanı'ndan gelen birinci sınıf kereste için de ünlüdür",
+			"mill": "Arabalar çevredeki bütün köylerden Ak Bostan'ın değirmenine tahıl taşır",
+			"nilfgaardianGarrison": "Bu stratejik nokta Ak Bostan'ın nehir geçişini koruyor. Nilfgaardlı birlikler ele geçirmiş",
+			"cacklerBridge": "Köprü karşılıksız aşktan ötürü deliren bir kadının şerefine adlandırılmış. Reddedildikten sonra, ölene dek köprüde bir aşağı bir yukarı koşup histerik biçimde gülerek günlerini geçirmiş",
+			"crossroads": "Yol burada ikiye ayrılıyor: Biri Vizima'ya diğeri Novigrad'a gider",
+			"ford": "Savaştan önce tüccarlar ve yolcular nehri buradan geçerdi. Şimdi sadece Nilfgaardlı askerler kullanıyor",
+			"ransackedVillage": "Bir grup asker sabahın erken saatlerinde bu köye saldırdı. Birçok köylüyü yataklarında katletti. Ormana zamanında kaçabilen şanslı küçük bir grup köylünün ise geri dönmek için hiçbir şeyi yoktu"
+   }
+	},
+	"sidequests": {
+		"label": {
+			"fry": "Gıcır Gıcır Kızartma Tavası",
+			"twist": "Sapkın Kundakçı",
+			"faith": "Sadık Dost",
+			"missing": "Savaşta Kaybolmuş",
+			"death": "Ölüm Döşeğinde",
+			"precious": "Değerli Kargo",
+			"tr_deserter": "Asker Kaçağının Altını",
+			"tr_dirty": "Kara Para",
+			"tr_temerian": "Temeryalıların Değerli Eşyaları"
+		},
+		"desc": {
+			"fry": "",
+			"twist": "",
+			"faith": "",
+			"missing": "",
+			"death": "",
+			"precious": "",
+			"tr_deserter": "",
+			"tr_dirty": "",
+			"tr_temerian": ""
+		}
+	},
+	"contracts": {
+		"label": {
+			"devil": "Kuyu Başındaki Şeytan"
+		},
+		"desc": {
+			"devil": ""
+		}
+	},
+	"event": {
+		"label": {
+			
+		},
+		"desc": {
+			
+		}
+	}
+}

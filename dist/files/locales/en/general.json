@@ -7,7 +7,7 @@
 		"kaer_morhen": "Kaer Morhen",	
 		"toussaint": "Toussaint",
 		"toussaint_main": "Toussaint __hover__",
-		"isle_mists": "Isle of Mist",
+		"isle_mists": "Isle of Mists",
 		"thousand_fables": "Thousand Fables",
 		"thousand_fables_main": "Thousand Fables __hover__"
 	},
@@ -64,7 +64,6 @@
 		"smugglers": "Smugglers' Cache",
 		"spoils": "Spoils of War",
 		"treasure": "Treasure",
-		"vintnercontract": "Vintner Contract",
 		"vineyardinfestation": "Vineyard Infestation"
 	},
 	"controls": {
@@ -108,6 +107,8 @@
 		"popupbotHelp7": "__lordfiSh__ - Toussaint Map Markers",
 		"popuptranslations": "Translations",
 		"popuptranslations1": "Russian - __Arkwulf__ (With the help of old crowdin translations)",
+		"popuptranslations2": "Turkish - __BaHTsIzBEdEvi__",
+		"popuptranslations3": "Czech - __MikeCZ__ and __Lord Mazour__",
 		"popupcrowdin": "Special thanks to __crowdin__ for letting us use their excellent translation editor.",
 		"popupAssets": "Witcher 3 Assets",
 		"popupRED": "The Witcher 3, logo, icons, map and text are the property of __RED__  and used without permission. Non commercial use is permitted under section 9.4 of their __Agreement__.",
@@ -174,7 +175,7 @@
 	},
 	"guarded": {
 		"label": "Guarded Treasure",
-		"desc": "A particularly powerful monster __monster__ guards a valuable cache here"
+		"desc": "A particularly powerful monster guards a valuable cache here"
 	},
 	"harbor": {
 		"label": "Harbor",
@@ -187,67 +188,15 @@
 	"hidden": {
 		"label": "Hidden Treasure",
 		"desc": "A hidden cache of valuable goods",
-		"guarded": "A hidden cache of valuable goods (Guarded by __monster__)"
+		"guarded": "A hidden cache of valuable goods."
 	},
 	"monsterden": {
 		"label": "Monster Den",
-		"desc": "Monster-infested location. A constant worry for those living nearby __monster__"
+		"desc": "Monster-infested location. A constant worry for those living nearby."
 	},
 	"monsternest": {
 		"label": "Monster Nest",
-		"desc": "Destroy monster nests with Grapeshot or Dancing Star bombs __monster__"
-	},
-	"monsters": {
-		"alghoul": "Alghoul",
-		"alghouls": "Alghouls",
-		"arachas": {
-			"armored": "Armored Arachas",
-			"venomous": "Venomous Arachas"
-		},
-		"archgriffin": "Archgriffin",
-		"bandits": "Bandits",
-		"basilisk": "Basilisk",
-		"bear": "Bear",
-		"bears": "Bears",
-		"cyclops": "Cyclops",
-		"drowners": "Drowners",
-		"echidna": "Echidna",
-		"elemental": {
-			"earth": "Earth Elemental",
-			"fire": "Fire Elemental",
-			"ice": "Ice Elemental"
-		},
-		"endregas": "Endregas",
-		"fiend": "Fiend",
-		"foglet": "Foglet",
-		"foglets": "Foglets",
-		"forktail": "Forktail",
-		"gargoyle": "Gargoyle",
-		"gargoyles": "Gargoyles",
-		"ghost": "Ghost",
-		"ghouls": "Ghouls",
-		"golem": "Golem",
-		"griffin": "Griffin",
-		"hag": {
-			"bilge": "Bilge Hag",
-			"grave": "Grave Hag",
-			"water": "Water Hag"
-		},
-		"harpies": "Harpies",
-		"leshen": "Leshen",
-		"mucknixers": "Mucknixers",
-		"nekkers": "Nekkers",
-		"nekkerWarrior": "Nekker Warrior",
-		"nightwraith": "Nightwraith",
-		"noonwraith": "Noonwraith",
-		"pirates": "Pirates",
-		"rabidRockTroll": "Rabid Rock Troll",
-		"rotfiends": "Rotfiends",
-		"sirens": "Sirens",
-		"wolves": "Wolves",
-		"wraith": "Wraith",
-		"wraiths": "Wraiths",
-		"wyvern": "Wyvern"
+		"desc": "Destroy monster nests with Grapeshot or Dancing Star bombs."
 	},
 	"notice": {
 		"label": "Notice Board",
@@ -255,7 +204,7 @@
 	},
 	"pid": {
 		"afterrescue": "After be saved, person goes: ",
-		"desc": "There's a person or a group of people here in need of assistance __monster__.",
+		"desc": "There's a person or a group of people here in need of assistance.",
 		"label": "Person(s) in Distress",
 		"rescue": "Needs to be saved from: ",
 		"rescueLocation": "here"
@@ -283,7 +232,7 @@
 			"armor": "Armor ",
 			"gaunt": "Gauntlets ",
 			"trous": "Trousers ",
-			"boot": "Trousers ",
+			"boot": "Boots ",
 			"cross": "Crossbow "
 		},
 		"level": {
@@ -304,7 +253,17 @@
 	},
 	"spoils": {
 		"label": "Spoils of War",
-		"desc": "Search here for loot left behind after a battle or skirmish __monster__"
+		"desc": "Search here for loot left behind after a battle or skirmish."
+	},
+	"sidequests": {
+		"bigfeet": "Big Feet to Fill",
+		"enchanting": "Enchanting",
+		"fist": "Fists of Fury",
+		"gwent": "Gwent",
+		"pursuit": "The Heroes' Pursuits",
+		"races": "Races",
+		"winewars": "Wine Wars",
+		"vintnercontract": "Vintner's Contract"
 	},
 	"signs": {
 		"aard": "Aard",

@@ -1,22 +1,4 @@
 {
-	"monsters": {
-		"basilisk": "Василиск",
-		"cyclops": "Циклопы",
-		"drowners": "Утопцы",
-		"endrega": "Эндриага",
-		"gargoyles": "Гаргульи",
-		"ghost": "Призрак",
-		"harpies": "Гарпии",
-		"leshen": "Леший",
-		"nekkers": "Накеры",
-		"nekkerWarrior": "Накер-воин",
-		"wolves": "Волки",
-		"wraiths": {
-			"wraiths": "Призраки",
-			"wraith": "Призрак"
-		},
-		"wyvern": "Виверна"
-	},
 	"poi": {
 	},
 	"signpost": {

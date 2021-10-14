@@ -1,22 +1,4 @@
 {
-	"monsters": {
-		"basilisk": "Basilisk",
-		"cyclops": "Cyclops",
-		"drowners": "Drowners",
-		"endrega": "Endrega",
-		"gargoyles": "Gargoyles",
-		"ghost": "Ghost",
-		"harpies": "Harpies",
-		"leshen": "Leshen",
-		"nekkers": "Nekkers",
-		"nekkerWarrior": "Nekker Warrior",
-		"wolves": "Wolves",
-		"wraiths": {
-			"wraiths": "Wraiths",
-			"wraith": "Wraith"
-		},
-		"wyvern": "Wyvern"
-	},
 	"poi": {
 	},
 	"signpost": {

@@ -25,15 +25,11 @@
 		"label": {
 			"boss": "Secret Boss (Chort)",
 			"lootableBattlefield": "Lootable Battlefield",
-			"serpentineSteelSword": "Serpentine steel sword",
-			"serpentineSilverSword": "Serpentine silver sword",
 			"crystalSkull": "Crystal Skull"
 		},
 		"desc": {
 			"boss": "If you kill 6 cows here 3 times in a row, 27 level Chort will appear and attack you; Attention! When you kill the chort, new ones keep coming.",
 			"lootableBattlefield": "This battlefield can be looted for easy early game coin",
-			"serpentineSteelSword": "Viper School Diagram (1/2)",
-			"serpentineSilverSword": "Viper School Diagram (2/2), below the chapel",
 			"crystalSkull": "From the Intro Video, unlocks a dialog with Yennifer at her 'The Last Wish' Quest. Can only be picked up if you haven't left White Orchard yet"
 		}
 	},
@@ -80,9 +76,9 @@
 			"missing": "Missing in Action",
 			"death": "On Death´s Bed",
 			"precious": "Precious Cargo",
-			"deserter": "Treasure Hunt: Deserter Gold",
-			"dirty": "Treasure Hunt: Dirty Funds",
-			"temerian": "Treasure Hunt: Temerian Valuables"
+			"tr_deserter": "Deserter Gold",
+			"tr_dirty": " Dirty Funds",
+			"tr_temerian": "Temerian Valuables"
 		},
 		"desc": {
 			"fry": "",
@@ -91,9 +87,9 @@
 			"missing": "",
 			"death": "",
 			"precious": "",
-			"deserter": "",
-			"dirty": "",
-			"temerian": ""
+			"tr_deserter": "",
+			"tr_dirty": "",
+			"tr_temerian": ""
 		}
 	},
 	"contracts": {

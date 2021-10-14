@@ -496,6 +496,10 @@ window.mapdata_toussaint = {
 		coords: [[53.96875,60.625]],
 		label: $.t("t:poi.label.ducal"),
 		popup: $.t("t:poi.desc.ducal")
+	}, {
+		coords: [[51.906,2.859]],
+		label: $.t("t:poi.label.photo"),
+		popup: $.t("t:poi.desc.photo")
 	}],
 
 	// Scavengers
@@ -575,21 +579,17 @@ window.mapdata_toussaint = {
 
 	// (Side) Quests
 	sidequests: [{
-		coords: [[74.60,75.50]],
-		label: $.t("t:sidequests.label.gwenttournment"),
-		popup: $.t("t:sidequests.desc.gwenttournment")
+		coords: [[52.844,65]],
+		label: $.t("t:sidequests.label.onlyone"),
+		popup: $.t("t:sidequests.desc.onlyone") + $.t(' <a href="https://wiiare.in/witcher3/embodiment-of-the-five-virtues/" target="_blank">[Questhelp]</a>')
 	}, {
 		coords: [[74.60,77.00]],
-		label: $.t("t:sidequests.label.WildKingdom"),
+		label: $.t("t:sidequests.label.wildkingdom"),
 		popup: $.t("t:sidequests.desc.WildKingdom")
 	}, {
 		coords: [[74.60,76.50]],
 		label: $.t("t:sidequests.label.kingforhire"),
 		popup: $.t("t:sidequests.desc.kingforhire")
-	}, {
-		coords: [[74.60,76.00]],
-		label: $.t("t:sidequests.label.winewars"),
-		popup: $.t("t:sidequests.desc.winewars")
 	}, {
 		coords: [[52.063,60.797]],
 		label: $.t("t:sidequests.label.facethestrage"),
@@ -599,14 +599,6 @@ window.mapdata_toussaint = {
 		label: $.t("t:sidequests.label.knightstale"),
 		popup: $.t("t:sidequests.desc.knightstale")
 	}, {
-		coords: [[37.594,97.641]], //todo makers
-		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.spoon"),
-		popup: $.t("t:sidequests.desc.spoon")
-	}, {
-		coords: [[57.891,85.313]],
-		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.escapology"),
-		popup: $.t("t:sidequests.desc.escapology")
-	}, {
 		coords: [[49.578,62.969]],
 		label: $.t("t:sidequests.label.tilldeath"),
 		popup: $.t("t:sidequests.desc.tilldeath")
@@ -614,10 +606,6 @@ window.mapdata_toussaint = {
 		coords: [[50.719,65.875]],
 		label: $.t("t:sidequests.label.master"),
 		popup: $.t("t:sidequests.desc.master")
-	}, {
-		coords: [[77.141,42.5]],
-		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.suffering"),
-		popup: $.t("t:sidequests.desc.hidden")
 	}, {
 		coords: [[52.281,65.234]],
 		label: $.t("t:sidequests.label.granite"),
@@ -631,29 +619,9 @@ window.mapdata_toussaint = {
 		label: $.t("t:sidequests.label.placelikehome"),
 		popup: $.t("t:sidequests.desc.placelikehome")
 	}, {
-		coords: [[52.844,65]],
-		label: $.t("t:sidequests.label.onlyone"),
-		popup: $.t("t:sidequests.desc.onlyone") + $.t(' <a href="https://wiiare.in/witcher3/embodiment-of-the-five-virtues/" target="_blank">[Questhelp]</a>')
-	}, {
-		coords: [[42.500,55.313]],
-		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.enjoytheplay"),
-		popup: $.t("t:sidequests.desc.enjoytheplay")
-	}, {
 		coords: [[50.453,63.734]],
 		label: $.t("t:sidequests.label.paperchase"),
 		popup: $.t("t:sidequests.desc.paperchase")
-	}, {
-		coords: [[91.094,86.703]],
-		label: $.t("t:sidequests.label.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.dun"),
-		popup: $.t("t:sidequests.desc.vintnercontract")
-	}, {
-		coords: [[49.047,92.781]],
-		label: $.t("t:sidequests.label.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.cleaning"),
-		popup: $.t("t:sidequests.desc.vintnercontract")
-	}, {
-		coords: [[85.563,72.172]],
-		label: $.t("t:sidequests.label.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.rivecalme"),
-		popup: $.t("t:sidequests.desc.vintnercontract")
 	}, {
 		coords: [[51.438,63.797]],
 		label: $.t("t:sidequests.label.portait"),
@@ -663,26 +631,6 @@ window.mapdata_toussaint = {
 		label: $.t("t:sidequests.label.cosplay"),
 		popup: $.t("t:sidequests.desc.cosplay")
 	}, {
-		coords: [[94.609,50.297]],
-		label: $.t("t:sidequests.label.bigfeet1"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[92.063,63.344]],
-		label: $.t("t:sidequests.label.bigfeet2"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[89.781,56.984]],
-		label: $.t("t:sidequests.label.bigfeet3"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[107.750,72.266]],
-		label: $.t("t:sidequests.label.bigfeet4"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
-		coords: [[101.484,61.531]],
-		label: $.t("t:sidequests.label.bigfeet5"),
-		popup: $.t("t:sidequests.desc.footsteps")
-	}, {
 		coords: [[66.5, 75.203125]],
 		label: $.t("t:sidequests.label.grist"),
 		popup: $.t("t:sidequests.desc.grist")
@@ -690,14 +638,6 @@ window.mapdata_toussaint = {
 		coords: [[64.703125, 43.5]],
 		label: $.t("t:sidequests.label.father"),
 		popup: $.t("t:sidequests.desc.father")
-	}, {
-		coords: [[47.3125, 63.203125]],
-		label: $.t("t:sidequests.label.fistst"),
-		popup: $.t("t:sidequests.desc.fistst")
-	}, {
-		coords: [[51.359375, 60.890625]],
-		label: $.t("t:sidequests.label.gwentt"),
-		popup: $.t("t:sidequests.desc.gwentt")
 	}, {
 		coords: [[48.953125, 61.90625]],
 		label: $.t("t:sidequests.label.sheers"),
@@ -719,69 +659,137 @@ window.mapdata_toussaint = {
 		label: $.t("t:sidequests.label.prophet"),
 		popup: $.t("t:sidequests.desc.prophet")
 	}, {
-		coords: [[93.734375, 65.5625]],
-		label: $.t("t:sidequests.label.consorting"),
-		popup: $.t("t:sidequests.desc.consorting")
+		coords: [[74.60,75.50]],
+		label: $.t("sidequests.gwent") +$.t(": ") +$.t("t:sidequests.label.gw_tournment"),
+		popup: $.t("t:sidequests.desc.gw_tournment")
 	}, {
-		coords: [[93.75, 65.90625]],
-		label: $.t("t:sidequests.label.coronata"),
-		popup: $.t("t:sidequests.desc.coronata")
+		coords: [[51.359375, 60.890625]],
+		label: $.t("sidequests.gwent") +$.t(": ") +$.t("t:sidequests.label.gw_fear"),
+		popup: $.t("t:sidequests.desc.gw_fear")
 	}, {
-		coords: [[93.75, 66.234375]],
-		label: $.t("t:sidequests.label.vermentino"),
-		popup: $.t("t:sidequests.desc.vermentino")
-	}, {
-		coords: [[79.640625, 53.65625]],
-		label: $.t("t:sidequests.label.chuchote"),
-		popup: $.t("t:sidequests.desc.chuchote")
-	}, {
-		coords: [[56.265625, 44.34375]],
-		label: $.t("t:sidequests.label.griffin"),
-		popup: $.t("t:sidequests.desc.griffin")
+		coords: [[47.3125, 63.203125]],
+		label: $.t("sidequests.fist") +$.t(": ") +$.t("t:sidequests.label.ff_st"),
+		popup: $.t("t:sidequests.desc.ff_st")
 	}, {
 		coords: [[94.546875, 82.28125]],
-		label: $.t("t:sidequests.label.treightdays"),
-		popup: $.t("t:sidequests.desc.treightdays")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_eightdays"),
+		popup: $.t("t:sidequests.desc.tr_eightdays")
 	}, {
 		coords: [[96.0625, 89.5]],
-		label: $.t("t:sidequests.label.trstink"),
-		popup: $.t("t:sidequests.desc.trstink")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_stink"),
+		popup: $.t("t:sidequests.desc.tr_stink")
 	}, {
 		coords: [[92.1875, 55.3125]],
-		label: $.t("t:sidequests.label.trstranger"),
-		popup: $.t("t:sidequests.desc.trstranger")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_stranger"),
+		popup: $.t("t:sidequests.desc.tr_stranger")
 	}, {
 		coords: [[61.234375, 102.859375]],
-		label: $.t("t:sidequests.label.trfilibert"),
-		popup: $.t("t:sidequests.desc.trfilibert")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_filibert"),
+		popup: $.t("t:sidequests.desc.tr_filibert")
 	}, {
 		coords: [[63.828125, 81.15625]],
-		label: $.t("t:sidequests.label.trwidow"),
-		popup: $.t("t:sidequests.desc.trwidow")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_widow"),
+		popup: $.t("t:sidequests.desc.tr_widow")
 	}, {
 		coords: [[89.15625, 53.625]],
-		label: $.t("t:sidequests.label.trcarnarvon"),
-		popup: $.t("t:sidequests.desc.trcarnarvon")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_carnarvon"),
+		popup: $.t("t:sidequests.desc.tr_carnarvon")
 	}, {
 		coords: [[24.328125, 72.6875]],
-		label: $.t("t:sidequests.label.trgardener"),
-		popup: $.t("t:sidequests.desc.trgardener")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_gardener"),
+		popup: $.t("t:sidequests.desc.tr_gardener")
 	}, {
 		coords: [[44.28125, 64.8125]],
-		label: $.t("t:sidequests.label.trselina"),
-		popup: $.t("t:sidequests.desc.trselina")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_selina"),
+		popup: $.t("t:sidequests.desc.tr_selina")
 	}, {
 		coords: [[69.375, 42.390625]],
-		label: $.t("t:sidequests.label.trexperiment"),
-		popup: $.t("t:sidequests.desc.trexperiment")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_experiment"),
+		popup: $.t("t:sidequests.desc.tr_experiment")
 	}, {
 		coords: [[54.328125, 107.046875]],
-		label: $.t("t:sidequests.label.trdoh"),
-		popup: $.t("t:sidequests.desc.trdoh")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_doh"),
+		popup: $.t("t:sidequests.desc.tr_doh")
 	}, {
 		coords: [[102.6875, 64.71875]],
-		label: $.t("t:sidequests.label.tragain"),
-		popup: $.t("t:sidequests.desc.tragain")
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_again"),
+		popup: $.t("t:sidequests.desc.tr_again")
+	}, {
+		coords: [[37.594,97.641]], //todo makers
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_spoon"),
+		popup: $.t("t:sidequests.desc.tr_spoon")
+	}, {
+		coords: [[57.891,85.313]],
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_escapology"),
+		popup: $.t("t:sidequests.desc.tr_escapology")
+	}, {
+		coords: [[77.141,42.5]],
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_suffering"),
+		popup: $.t("t:sidequests.desc.tr_hidden")
+	}, {
+		coords: [[42.500,55.313]],
+		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_enjoytheplay"),
+		popup: $.t("t:sidequests.desc.tr_enjoytheplay")
+	}, {
+		coords: [[74.60,76.00]],
+		label: $.t("sidequests.winewars") +$.t(": ") +$.t("t:sidequests.label.ww_belgaard"),
+		popup: $.t("t:sidequests.desc.ww_belgaard")
+	}, {
+		coords: [[99.328,79.219]],
+		label: $.t("sidequests.winewars") +$.t(": ") +$.t("t:sidequests.label.ww_deus"),
+		popup: $.t("t:sidequests.desc.ww_deus")
+	}, {
+		coords: [[93.734375, 65.5625]],
+		label: $.t("sidequests.winewars") +$.t(": ") +$.t("t:sidequests.label.ww_consorting"),
+		popup: $.t("t:sidequests.desc.ww_consorting")
+	}, {
+		coords: [[93.75, 65.90625]],
+		label: $.t("sidequests.winewars") +$.t(": ") +$.t("t:sidequests.label.ww_coronata"),
+		popup: $.t("t:sidequests.desc.ww_coronata")
+	}, {
+		coords: [[93.75, 66.234375]],
+		label: $.t("sidequests.winewars") +$.t(": ") +$.t("t:sidequests.label.ww_vermentino"),
+		popup: $.t("t:sidequests.desc.ww_vermentino")
+	}, {
+		coords: [[91.094,86.703]],
+		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_dun"),
+		popup: $.t("t:sidequests.desc.vc_vintnercontract")
+	}, {
+		coords: [[49.047,92.781]],
+		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_cleaning"),
+		popup: $.t("t:sidequests.desc.vc_vintnercontract")
+	}, {
+		coords: [[85.563,72.172]],
+		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_rivecalme"),
+		popup: $.t("t:sidequests.desc.vc_vintnercontract")
+	}, {
+		coords: [[79.640625, 53.65625]],
+		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_chuchote"),
+		popup: $.t("t:sidequests.desc.vc_chuchote")
+	}, {
+		coords: [[56.265625, 44.34375]],
+		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_griffin"),
+		popup: $.t("t:sidequests.desc.vc_griffin")
+	}, {
+		coords: [[94.609,50.297]],
+		label: $.t("sidequests.bigfeet") +$.t(": ") +$.t("t:sidequests.label.bf_1"),
+		popup: $.t("t:sidequests.desc.bf_1")
+	}, {
+		coords: [[92.063,63.344]],
+		label: $.t("sidequests.bigfeet") +$.t(": ") +$.t("t:sidequests.label.bf_2"),
+		popup: $.t("t:sidequests.desc.bf_2")
+	}, {
+		coords: [[89.781,56.984]],
+		label: $.t("sidequests.bigfeet") +$.t(": ") +$.t("t:sidequests.label.bf_3"),
+		popup: $.t("t:sidequests.desc.bf_3")
+	}, {
+		coords: [[107.750,72.266]],
+		label: $.t("sidequests.bigfeet") +$.t(": ") +$.t("t:sidequests.label.bf_4"),
+		popup: $.t("t:sidequests.desc.bf_4")
+	}, {
+		coords: [[101.484,61.531]],
+		label: $.t("sidequests.bigfeet") +$.t(": ") +$.t("t:sidequests.label.bf_5"),
+		popup: $.t("t:sidequests.desc.bf_5")
 	}],
 
 	// Signal Fire

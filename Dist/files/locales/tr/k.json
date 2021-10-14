@@ -1,0 +1,60 @@
+{
+	"poi": {
+	},
+	"signpost": {
+		"label": {
+			"bastion": "Tabya",
+			"ironMine": "Demir Madeni",
+			"kaerMorhen": "Kaer Morhen",
+			"lakesideHut": "Göl Kenarı Kulübesi",
+			"ruinedWatchtower": "Yıkık Gözcü Kulesi"
+		},
+		"desc": {
+			"bastion": "Bir zamanlar genç witcher'lar burada eğitim alıyorlardı. Şimdi ise burç unutulmuş bir harabe.",
+			"ironMine": "Demir cevheri bir zamanlar Kurt Okulu'nun demir işlemelerinde kullanılması için bu mekandan çıkarılıyordu.",
+			"kaerMorhen": "Yore denizinin kalesi, Kurt Okulu withcerlarının evi.",
+			"lakesideHut": "Uzun uzun yıllar önce burada harika bal likörü mayalayan bir keşiş yaşardı. Efsungerler ara sıra bu keşişi ziyaret edip uzak diyarlar hakkında sohbet ederlerdi.",
+			"ruinedWatchtower": "Bu göl kenarındaki gözcü kulesi bir zamanlar Kurt Okulu Efsungerlerinin gururuydu, ancak günümüzde rüzgarın taşlara çarparak ıslık çaldığı bir harabeden ibaret."
+		}
+	},
+	"alchemy": {
+		"popuptitle": {
+			"keira": "Keira Metz"
+		},
+		"desc": {
+			"keira": "Daha önce ölmediyse ortaya çıkar."
+		}
+	},
+	"sidequests": {
+		"label": {
+			"blade": "Berengar'ın Kılıcı",
+			"greenhouse": "Sera Etkisi",
+			"slayer": "Canavar Katili",
+			"bastion": "Tabya",
+			"forge": "Efsungerlerin Ocağı"
+		},
+		"desc": {
+			"blade": "",
+			"greenhouse": "",
+			"slayer": "",
+			"bastion": "",
+			"forge": ""
+		}
+	},
+	"contracts": {
+		"label": {
+			
+		},
+		"desc": {
+			
+		}
+	},
+	"event": {
+		"label": {
+			"trail": "Yankının İzleri"
+		},
+		"desc": {
+			"trail": ""
+		}
+	}
+}

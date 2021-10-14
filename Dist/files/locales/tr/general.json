@@ -1,0 +1,285 @@
+{
+	"maps": {
+		"velen": "Velen & Novigrad",
+		"velen_main": "Velen & Novigrad __hover__",
+		"skellige": "Skellige Adaları",
+		"white_orchard": "Ak Bostan",
+		"kaer_morhen": "Kaer Morhen",
+		"toussaint": "Toussaint",
+		"toussaint_main": "Toussaint __hover__",
+		"isle_mists": "Sisler Adası",
+		"thousand_fables": "Binbir Masal Diyarı",
+		"thousand_fables_main": "Binbir Masal Diyarı __hover__"
+	},
+	"home": {
+		"tagline": "Resmi Olmayan The Witcher 3 İnteraktif Haritası",
+		"resultsFound": "sonuç bulundu.",
+		"searchPlaceholder": "Ara..."
+	},
+	"notes": {
+		"label": "Etiket:",
+		"title": "Başlık:",
+		"note": "Not:",
+		"enterLabel": "Harita etiketi giriniz...",
+		"enterTitle": "Not etiketi giriniz...",
+		"enterText": "Not metni giriniz...",
+		"saveNote": "Notu Kaydet",
+		"deleteNote": "Notu Sil"
+	},
+	"sidebar": {
+		"returnToMapSelection": "Harita Seçim Sayfasına Geri Dön",
+		"alchemy": "Simya Erzakları",
+		"abandoned": "Terk Edilmiş Alan",
+		"armourer": "Zırhçı",
+		"armourerstable": "Zırhçı Masası",
+		"banditcamp": "Haydut Kampı",
+		"barber": "Berber",
+		"blacksmith": "Demirci",
+		"boat": "Tekne",
+		"brothel": "Genelev",
+		"contracts": "Kontratlar",
+		"loveInterest": "Aşk Yuvası",
+		"entrance": "Giriş",
+		"event": "Etkinlik",
+		"grindstone": "Bileme Taşı",
+		"guarded": "Korunan Hazine",
+		"gwent": "Gwent Oyuncusu",
+		"harbor": "Liman",
+		"hansebase": "Haydut Çetesi Üssü",
+		"herbalist": "Otacı",
+		"hidden": "Gizli Hazine",
+		"innkeep": "Han",
+		"kid": "Zordaki Gezgin Şövalye",
+		"monsternest": "Canavar Yuvası",
+		"monsterden": "Canavar İni",
+		"notice": "İlan Tahtası",
+		"pid": "Zor Durumdaki Kişi",
+		"pop": "Kudret Alanı",
+		"poi": "Önemli Alan",
+		"scavenger": "Ekipman Avı",
+		"signalfire": "Uyarı Ateşi",
+		"signpost": "Yön Levhası",
+		"sidequests": "İkincil Görev",
+		"shopkeeper": "Satıcı",
+		"smugglers": "Kaçakçı Zulası",
+		"spoils": "Savaş Ganimetleri",
+		"treasure": "Hazine",
+		"vineyardinfestation": "Bağ İstilası"
+	},
+	"controls": {
+		"show": "Hepsini Göster",
+		"hide": "Hepsini Gizle",
+		"showCounts": "Sayıları Göster",
+		"hideCounts": "Sayıları Gizle",
+		"resetInvisible": "Görünmezleri Sıfırla",
+		"resetInvisConfirm": "Bu, tüm görünmez / izlenen işaretleyicileri varsayılan durumuna (görünür) sıfırlar, emin misiniz?",
+		"hideMonsters": "Canavarları Gizle",
+		"showMonsters": "Canavarları Göster",
+		"helpFeatures": "Özellikler & Yardım",
+		"credits": "Emeği Geçenler",
+		"backupSave": "Bu, Witcher 3 Harita ayarlarının tümünün bir yedek kopyasını indirecektir.\n\nDosya şu şekilde kaydedilecektir: __fileName__\n\nEmin misiniz?",
+		"backupLoad": "Ayarlarınızı geri yükleyin:",
+		"backupLoadSuccess": "Veri Geri Yükleme Tamamlandı!",
+		"backupLoadFail": "Geri yüklenemedi, dosyanızı tekrar kontrol edin",
+		"backupHtmlFail": "Üzgünüm. Geri yükleme mümkün değildir. Bu tarayıcı HTML5 Dosya API'larını desteklemiyor.",
+		"zoomInButton": "Yakınlaştır",
+		"zoomOutButton": "Uzaklaştır",
+		"searchButton": "Ara...",
+		"backupDataButton": "Veri yedekleme",
+		"restoreDataButton": "Verileri geri yükle",
+		"centerMarkerButton": "Özel işareti merkezle",
+		"addNoteButton": "Not Ekle",
+		"cancelNoteButton": "Notu Iptal Et",
+		"viewFullscreenButton": "Tam Ekran",
+		"exitFullscreenButton": "Tam Ekrandan Çık"
+	},
+	"credits": {
+		"botCreated": "__untamed0__ tarafından oluşturulmuştur ve __BaHTsIzBEdEvi__ tarafından geliştirilmiştir, __license__ altında lisanslıdır.",
+		"botHelp": "__mcarver__, __Gerignak__ ve diğer __contributors__ çalışmalara yardımcı olmuşlardır. __designGears__ ve __hhrhhr__ harita ve varlıkları oyun dosyalarından ayıklamışlardır.",
+		"botAssets": "Witcher 3, logo, simge ve haritalar __cdpr__ malıdır.",
+		"popupCreated": "__untamed0__ tarafından oluşturulmuştur ve __BaHTsIzBEdEvi__ tarafından geliştirilmiştir, destek olanlar:",
+		"popupbotHelp1": "__mcarver__ (lider katılımcı) - İşaretleyici sayısı, karma kalıcı bağlantı iyileştirmeleri, yedekleme / geri yükleme ayarları, çok sayıda düzeltme vb.",
+		"popupbotHelp2": "__ankri__ - İşaretleyicileri sağ veya çift tıklatmayla gizleme yeteneği",
+		"popupbotHelp3": "__ITroxxCH__ - Çeviri/i18n uyarlaması",
+		"popupbotHelp4": "__msmorgan__ - Javascript ve harita veri yapısı iyileştirmeleri",
+		"popupbotHelp5": "__DesignGears__ & __hhrhhr__- harita ve dosyaların oyun dosyalarından ayıklanması",
+		"popupbotHelp6": "Harita verilerinin iyileştirilmesine katkılarından dolayı aşağıdaki kişilere teşekkür ederiz:",
+		"popupbotHelp7": "__lordfiSh__ - Toussaint Harita İşaretçileri",
+		"popuptranslations": "Çeviriler",
+		"popuptranslations1": "Rusça - __Arkwulf__ (Eski crowdin çevirilerinin yardımıyla)",
+		"popuptranslations2": "Türkçe - __BaHTsIzBEdEvi__",
+		"popuptranslations3": "Çekçe - __MikeCZ__ ve __Lord Mazour__",
+		"popupcrowdin": "Mükemmel çeviri düzenleyicilerini kullanmamıza izin verdiği için __crowdin__ sitesine teşekkür ederiz.",
+		"popupAssets": "Witcher 3 Varlıkları",
+		"popupRED": "The Witcher 3, logo, simge, harita ve metinler __RED__ malıdır ve izin alınmaksızın kullanılmıştır. Ticari olmayan kullanıma, __Agreement__ 9.4 bölümü uyarınca izin veririr.",
+		"popupJava": "Kullanılan Javascript Kitaplıkları"					  
+	},
+	"misc": {
+		"contribute": "Yapım aşamasındadır! Yardım için __link1__ yada __link2__.",
+		"discuss": "Geri bildirim, öneri? __link__ üzerinde tartış",
+		"helpTranslate": "Çevirmelere yardım etmek veya çevirileri geliştirmek ister misiniz?",
+		"portraitWarn": "Not: harita en iyi manzara modunda görüntülenir, kapatmak için hafifçe vurun",
+		"loveInterestDesc": "Aşk yuvanı burada ziyaret et",
+		"nsfwConfirm": "Bunun ismi 'Genel Ev' iken 'Aşk Yuvası' olacak. Onaylıyor musun?",
+		"nsfwUndo": "Geri dönmek istiyor musunuz?",
+		"treasure": "Hazine Avı",
+		"key": " - Anahtar"
+	},
+	"abandoned": {
+		"label": "Terk Edilmiş Alan",
+		"desc": "Canavar ya da haydut saldırıları nedeniyle terk edilmiş bir yer. Tehlike ortadan kaldırıldıktan sonra bir kez daha hayat ile dolacaktır"	  
+	},
+	"alchemy": {
+		"label": "Simya Erzakları",
+		"desc": "Burada simya malzemeleri satın alabilirsiniz"
+	},
+	"armourer": {
+		"labelAmateur": "Amatör Zırhçı",
+		"labelJourneyman": "Kalfa Zırhçı",
+		"labelMaster": "Usta Zırhçı",
+		"desc": "Burada zırh üretebilir, hasarlı ekipmanı onarabilir, parçalar için ekipmanı sökebilir veya yuvalardan yükseltmeleri kaldırabilirsiniz."
+	},
+	"armourerstable": {
+		"label": "Zırhçı Masası",
+		"desc": "Zırhı masaları sınırlı bir süre için ekstra zırh koruması sağlar."
+	},
+	"banditcamp": {
+		"label": "Haydut Kampı",
+		"desc": "Tehlikeli haydutlardan oluşan bir grup burada kamp yapmış. "
+	},
+	"barber": {
+		"label": "Berber",
+		"desc": "Yeni bir saç veya sakal tıraşı için berberi ziyaret et. "		
+	},
+	"blacksmith": {
+		"labelAmateur": "Amatör Demirci",
+		"labelJourneyman": "Kalfa Demirci",
+		"labelMaster": "Usta Demirci",
+		"desc": "Burada silah üretebilir, hasarlı ekipmanı onarabilir, parçalar için ekipmanı sökebilir veya yuvalardan yükseltmeleri kaldırabilirsiniz."
+	},
+	"boat": {
+		"label": "Tekne",
+		"desc": "Boyunu aşan sularda seyahat e tmek için tekneleri kullanabilirsin"
+	},
+	"entrance": {
+		"label": "Giriş",
+		"desc": "Mağaraya veya harabelere giriş"
+	},
+	"entranceunderwatercave": {
+		"label": "Sualtı Mağarası",
+		"desc": "Mağaraya sualtı girişi"
+	},
+	"grindstone": {
+		"label": "Bileme Taşı",
+		"desc": "Burada bilenmiş bir kılıç daha fazla hasar verir"
+	},
+	"guarded": {
+		"label": "Korunan Hazine",
+		"desc": "Bilhassa güçlü bir canavar burada kıymetli bir zulayı koruyor"
+	},
+	"harbor": {
+		"label": "Liman",
+		"desc": "Bot bulabileceğiniz yer, botlar burada oluşur"
+	},
+	"herbalist": {
+		"label": "Otacı",
+		"desc": "Buradan simya malzemeler satın alabilirsiniz"
+	},
+	"hidden": {
+		"label": "Gizli Hazine",
+		"desc": "Değerli malların bir zulası",
+		"guarded": "Değerli malların bir zulası"
+	},
+	"monsterden": {
+		"label": "Canavar İni",
+		"desc": "Canavarlar tarafından işgal edilmiş bir yer. Yakınında yaşayanlar için büyük bir sorun."
+	},
+	"monsternest": {
+		"label": "Canavar Yuvası",
+		"desc": "Canavar yuvasını misket yada patlayan yıldız bombaları ile yok et"			
+	},
+	"notice": {
+		"label": "İlan Tahtası",
+		"desc": "Burada canavar kontratlarını ve bölgeyle ilgili duyuruları bulabilirsin"
+	},
+	"pid": {
+		"afterrescue": "Kurtulduktan sonra kişi şu konuma gider: ",
+		"desc": "Burada bir kişi ya da bir grubun yardıma ihtiyacı var.",
+		"label": "Zor durumdaki kişi(ler)",
+		"rescue": "Şu konumdan kurtarılması gerekiyor: ",
+		"rescueLocation": "Konum"						  
+	},
+	"pop": {
+		"label": "Kudret Alanı",
+		"label*": "Kudret Alanı*",
+		"desc": "Bir Kudret Alanından güç çekerek geçici bonus kazan. Herhangi bir Kudret Alanından ilk defa güç çektiğinde 1 Yetenek Puanı kazanırsın",
+		"popup": "Kudret Alanı - __sign__"
+	},
+	"scavenger": {
+		"dia": "Şema : ",
+		"name": {
+			"ser": "Engerek ",
+			"fel": "Kedi ",
+			"gri": "Grifin ",
+			"urs": "Ayı ",
+			"wol": "Kurt ",
+			"man": "Mentikor "
+		},
+		"gear": "Gear ",
+		"item": {
+			"steel": "Çelik Kılıcı ",
+			"silver": "Gümüş Kılıcı ",
+			"armor": "Zırhı ",
+			"gaunt": "Zırheldivenleri ",
+			"trous": "Pantalonu ",
+			"boot": "Çizmeleri ",
+			"cross": "Arbaleti "
+		},
+		"level": {
+			"1": "- Temel",
+			"2": "- Gelişmiş",
+			"3": "- Üstün",
+			"4": "- Ustaca Yapım",
+			"5": "- Büyük Usta"
+		}
+	},
+	"shopkeeper": {
+		"label": "Satıcı",
+		"desc": ""
+	},
+	"smugglers": {
+		"label": "Kaçakçı Zulası",
+		"desc": "Kaçak mallar burada gizli. "
+	},
+	"spoils": {
+		"label": "Savaş Ganimetleri",
+		"desc": "Bir savaştan veya çarpışmadan sonra geride kalan ganimetler için burada arama yapın."
+	},
+	"sidequests": {
+		"bigfeet": "Büyük Beklentiler",
+		"enchanting": "Efsunlama",
+		"fist": "Öfkeli Yumruklar",
+		"gwent": "Gwent",
+		"pursuit": "Kahraman Çekişmeleri",
+		"races": "Yarışlar",
+		"winewars": "Şarap Savaşları",
+		"vintnercontract": "Şarap Tüccarının Kontratı"
+	},
+	"signs": {
+		"aard": "Aard",
+		"axii": "Axii",
+		"igni": "Igni",
+		"quen": "Quen",
+		"yrden": "Yrden"
+	},
+	"treasure": {
+		"treasure": "Hazine",
+		"watertreasure": "Su Altı Hazinesi",
+		"label": "Hazine Avı",
+		"desk": ""
+	},
+	"vineyardinfestation": {
+		"label": "Bağ İstilası",
+		"desc": "Bağ, canavarlar tarafından işgal edilmiş."
+	}
+}

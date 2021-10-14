@@ -15,12 +15,14 @@ window.i18noptions = {
 	fallbackLng: 'en',
 	resGetPath: ((isRoot) ? "" : "../")+'files/locales/__lng__/__ns__.json',
 	useDataAttrOptions: true,
-	lngWhitelist: [ 'en', 'ru' ]
+	lngWhitelist: [ 'en' , 'cz' , 'ru' , 'tr' ]
 };
 
 var languageOptions = [
 	{text: "English",value: "en",selected: (localStorage['lang'] == "en" ? true : false), description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/en.png"},
-	{text: "Русский",value: "ru",selected: (localStorage['lang'] == "ru" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/ru.png"}
+	{text: "Čeština",value: "cz",selected: (localStorage['lang'] == "cz" ? true : false), description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/cz.png"},
+	{text: "Русский",value: "ru",selected: (localStorage['lang'] == "ru" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/ru.png"},
+	{text: "Türkçe",value: "tr",selected: (localStorage['lang'] == "tr" ? true : false),description: " ",imageSrc: ((isRoot) ? "" : "../")+"files/images/flags/tr.png"}
 ];
 
 window.changeLang = function(lang) {
