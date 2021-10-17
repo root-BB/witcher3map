@@ -3,6 +3,15 @@
 		"lafargue": "Büyük Usta Demirci (Lafargue)",
 		"lafargueQuest": "'Usta Usta Usta Usta!' görevini tamamladıktan sonra ulaşılabilir olur. "
 	},
+	"brothel": {
+		"label": {
+			"Belle": "Beauclair Dilberi"
+		},
+		"popup": {
+			"Belle": "Beauclair Dilberi - Genelev"
+		},
+		"desc": "Burada bir fahişe hizmeti alabilirsin."
+	},
 	"hansebase": {
 		"label": "Tüccar Loncası Karargahı",
 		"desc": "Burada baştan-aşağı-silahlı haydutlarla karşılaşmayı um. "
@@ -12,7 +21,7 @@
 			"auberge": "Kızıl Fırça Patlıcan",
 			"salamander": "Gümüş Salamander Han'ı",
 			"pheasantry": "Sülün Yetiştirme Yeri",
-			"houseofpleasure": "Beauclair'in Çanları - Haz Evi",
+			"winery": "Engerek ve Elmas Şaraphanesi",
 			"barrelandbung": "Varil ve Tıkaç Han'ı"
 		},
 		"popup": "Han",

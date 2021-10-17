@@ -133,7 +133,12 @@ window.mapdata_toussaint = {
 	}],
 
 	// Brothel
-	brothel: [],
+	brothel: [{
+		coords: [[58.016, 72.063]],
+		label: $.t("t:brothel.label.Belle"),
+		popupTitle: $.t("t:brothel.popup.Belle"),
+		popup: $.t("t:brothel.desc")
+	}],
 
 	// Contracts
 	contracts: [{
@@ -378,7 +383,7 @@ window.mapdata_toussaint = {
 		popup: $.t("t:misc.desc.aftercleared")
 	},{
 		coords: [[52.128,65]],
-		label: $.t("t:innkeep.label.houseofpleasure"),
+		label: $.t("t:innkeep.label.winery"),
 		popup: $.t("t:innkeep.desc")
 	}],
 
@@ -585,7 +590,7 @@ window.mapdata_toussaint = {
 	}, {
 		coords: [[74.60,77.00]],
 		label: $.t("t:sidequests.label.wildkingdom"),
-		popup: $.t("t:sidequests.desc.WildKingdom")
+		popup: $.t("t:sidequests.desc.wildkingdom")
 	}, {
 		coords: [[74.60,76.50]],
 		label: $.t("t:sidequests.label.kingforhire"),
@@ -725,7 +730,7 @@ window.mapdata_toussaint = {
 	}, {
 		coords: [[77.141,42.5]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_suffering"),
-		popup: $.t("t:sidequests.desc.tr_hidden")
+		popup: $.t("t:sidequests.desc.tr_suffering")
 	}, {
 		coords: [[42.500,55.313]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("t:sidequests.label.tr_enjoytheplay"),
@@ -753,15 +758,15 @@ window.mapdata_toussaint = {
 	}, {
 		coords: [[91.094,86.703]],
 		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_dun"),
-		popup: $.t("t:sidequests.desc.vc_vintnercontract")
+		popup: $.t("t:sidequests.desc.vc_dun")
 	}, {
 		coords: [[49.047,92.781]],
 		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_cleaning"),
-		popup: $.t("t:sidequests.desc.vc_vintnercontract")
+		popup: $.t("t:sidequests.desc.vc_cleaning")
 	}, {
 		coords: [[85.563,72.172]],
 		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_rivecalme"),
-		popup: $.t("t:sidequests.desc.vc_vintnercontract")
+		popup: $.t("t:sidequests.desc.vc_rivecalme")
 	}, {
 		coords: [[79.640625, 53.65625]],
 		label: $.t("sidequests.vintnercontract") +$.t(": ") +$.t("t:sidequests.label.vc_chuchote"),

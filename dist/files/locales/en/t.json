@@ -3,6 +3,15 @@
 		"lafargue": "Grandmaster Smith (Lafargue)",
 		"lafargueQuest": "Available after finishing 'Master Master Master Master!' (lvl 40) quest. "
 	},
+	"brothel": {
+		"label": {
+			"Belle": "The Belles of Beauclair"
+		},
+		"popup": {
+			"Belle": "The Belles of Beauclair - House of Pleasures"
+		},
+		"desc": "You can call on the services of a prostitute here."
+	},
 	"hansebase": {
 		"label": "Hanse Base",
 		"desc": "Expect to run into armed-to-the-teeth bandits here. "
@@ -12,7 +21,7 @@
 			"auberge": "The Ruddy Brush Auberge",
 			"salamander": "The Silver Salamander Inn",
 			"pheasantry": "The Pheasantry",
-			"houseofpleasure": "The Bells of Beauclair - House of Pleasure",
+			"winery": "The Adder And Jewels Winery",
 			"barrelandbung": "The Barrel and Bung Inn"
 		},
 		"popup": "Innkeep",

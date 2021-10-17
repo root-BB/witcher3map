@@ -3,6 +3,15 @@
 		"lafargue": "Kovářský velmistr (Lafargue)",
 		"lafargueQuest": "Je k dispozici po úkolu 'Mistr nad mistry' (40. úroveň). "
 	},
+	"brothel": {
+		"label": {
+			"Belle": "Beauclairské Zvonečky"
+		},
+		"popup": {
+			"Belle": "Beauclairské Zvonečky - Dům rozkoše"
+		},
+		"desc": "Zde můžeš využít služeb prostitutek."
+	},
 	"hansebase": {
 		"label": "Základna tlupy",
 		"desc": "Zde je třeba očekávat střety se zbojníky, kteří jsou ozbrojení až po zuby. "
@@ -12,7 +21,7 @@
 			"auberge": "Hospůdka rytíře Liškutína z Kuroslep",
 			"salamander": "Krčma U Stříbrného salamandra",
 			"pheasantry": "Bažantnice",
-			"houseofpleasure": "Beauclairské Zvonečky - Dům rozkoše",
+			"winery": "Vinařstvi Zmije a klenoty",
 			"barrelandbung": "Krčma U Sudu a zátky"
 		},
 		"popup": "Hospodský",
