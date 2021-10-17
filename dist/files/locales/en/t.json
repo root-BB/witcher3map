@@ -288,12 +288,16 @@
 		"label": {
 			"contract": "Contract on a Witcher",
 			"grave": "Grave Robbers",
-			"naughty": "Naughty Feathers"
+			"naughty": "Naughty Feathers",
+			"ring": "Lost Engagement Ring",
+			"drunked": "Drunked Guillaume"
 		},
 		"desc": {
 			"contract": "",
 			"grave": "",
-			"naughty": ""
+			"naughty": "",
+			"ring": "",
+			"drunked": ""
 		}
 	}
 }

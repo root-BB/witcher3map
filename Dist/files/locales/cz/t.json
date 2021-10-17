@@ -288,12 +288,16 @@
 		"label": {
 			"contract": "Zakázka na zaklínače",
 			"grave": "Vykradači hrobů",
-			"naughty": "Zlobivé peří"
+			"naughty": "Zlobivé peří",
+			"ring": "Ztracený zásnubní prsten",
+			"drunked": "Opilý Guillaume"
 		},
 		"desc": {
 			"contract": "",
 			"grave": "",
-			"naughty": ""
+			"naughty": "",
+			"ring": "",
+			"drunked": ""
 		}
 	}
 }

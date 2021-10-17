@@ -289,12 +289,16 @@
 		"label": {
 			"contract": "Bir Efsunger ile Kontrat",
 			"grave": "Mezar Hırsızları",
-			"naughty": "Yaramaz Tüyler"
+			"naughty": "Yaramaz Tüyler",
+			"ring": "Kayıp Nişan Yüzüğü",
+			"drunked": "Sarhoş Guillaume"
 		},
 		"desc": {
 			"contract": "",
 			"grave": "",
-			"naughty": ""	
+			"naughty": "",
+			"ring": "",
+			"drunked": ""	
 		}
 	}
 }

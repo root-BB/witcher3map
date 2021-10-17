@@ -84,7 +84,15 @@ window.mapdata_white_orchard = {
 	}],
 	
 	// Events
-	event: [],
+	event: [{
+		coords: [[-65.982, -131.748]],
+		label: $.t("w:event.label.tomira"),
+		popup: $.t("w:event.desc.tomira")
+	}, {
+		coords: [[-48.283, -126.387]],
+		label: $.t("w:event.label.dwarves"),
+		popup: $.t("w:event.desc.dwarves")
+	}],
 
 	// Grindstone
 	grindstone: [{

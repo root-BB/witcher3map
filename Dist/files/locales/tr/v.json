@@ -669,7 +669,10 @@
 			"passage1": "Geçiş Fiyatı (Bölüm 1)",
 			"passage2": "Geçiş Fiyatı (Bölüm 2)",
 			"passage3": "Geçiş Fiyatı (Bölüm 3)",
-			"raids": "Cadı Avcısı Baskınları"
+			"raids": "Cadı Avcısı Baskınları I",
+			"raids2": "Cadı Avcısı Baskınları II",
+			"vivienne": "Novigrad'da Vivienne ile Buluşma",
+			"daughter": "Çiftçinin Kızını Askerlerden Kurtarmak"
 		},
 		"desc": {
 			"friend": "",
@@ -704,7 +707,10 @@
 			"passage1": "",
 			"passage2": "",
 			"passage3": "",
-			"raids": ""
+			"raids": "",
+			"raids2": "",
+			"vivienne": "",
+			"daughter": ""
 		}
 	}
 }

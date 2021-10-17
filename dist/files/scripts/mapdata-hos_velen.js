@@ -644,6 +644,18 @@ window.mapdata_hos_velen = {
 		coords: [[189.5, 98.640625]],
 		label: $.t("v:event.label.raids"),
 		popup: $.t("v:event.desc.raids")
+	}, {
+		coords: [[215.328, 105.031]],
+		label: $.t("v:event.label.raids2"),
+		popup: $.t("v:event.desc.raids2")
+	}, {
+		coords: [[209.656, 88.375]],
+		label: $.t("v:event.label.vivienne"),
+		popup: $.t("v:event.desc.vivienne")
+	}, {
+		coords: [[102.094, 78.188]],
+		label: $.t("v:event.label.daughter"),
+		popup: $.t("v:event.desc.daughter")
 	}],
 
 	// Grindstone

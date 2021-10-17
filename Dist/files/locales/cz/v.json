@@ -669,7 +669,10 @@
 			"passage1": "Cena průchodu (1. část)",
 			"passage2": "Cena průchodu (2. část)",
 			"passage3": "Cena průchodu (3. část)",
-			"raids": "Nájezd lovců čarodějnic"
+			"raids": "Nájezd lovců čarodějnic I",
+			"raids2": "Nájezd lovců čarodějnic II",
+			"vivienne": "Seznamte se s Vivienne v Novigradu",
+			"daughter": "Zachránění farmářské dcery před vojáky"
 		},
 		"desc": {
 			"friend": "",
@@ -704,7 +707,10 @@
 			"passage1": "",
 			"passage2": "",
 			"passage3": "",
-			"raids": ""
+			"raids": "",
+			"raids2": "",
+			"vivienne": "",
+			"daughter": ""
 		}
 	}
 }

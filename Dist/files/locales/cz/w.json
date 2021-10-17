@@ -101,7 +101,13 @@
 		}
 	},
 	"event": {
-		"label": {},
-		"desc": {}
+		"label": {
+			"tomira": "Zachraňte Tomiru před spálením",
+			"dwarves": "Seznamte se s trpaslíky z Isle of Mist"
+		},
+		"desc": {
+			"tomira": "",
+			"dwarves": ""
+		}
 	}
 }

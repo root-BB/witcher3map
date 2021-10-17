@@ -134,7 +134,7 @@ window.mapdata_toussaint = {
 
 	// Brothel
 	brothel: [{
-		coords: [[58.016, 72.063]],
+		coords: [[58.359, 72.572]],
 		label: $.t("t:brothel.label.Belle"),
 		popupTitle: $.t("t:brothel.popup.Belle"),
 		popup: $.t("t:brothel.desc")
@@ -222,6 +222,14 @@ window.mapdata_toussaint = {
 		coords: [[60.40625, 56.90625]],
 		label: $.t("t:event.label.naughty"),
 		popup: $.t("t:event.desc.naughty")
+	}, {
+		coords: [[54.078, 56.969]],
+		label: $.t("t:event.label.ring"),
+		popup: $.t("t:event.desc.ring")
+	}, {
+		coords: [[50.750, 61.063]],
+		label: $.t("t:event.label.drunked"),
+		popup: $.t("t:event.desc.drunked")
 	}],
 
 	// Grindstone

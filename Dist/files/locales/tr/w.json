@@ -102,10 +102,12 @@
 	},
 	"event": {
 		"label": {
-			
+			"tomira": "Tomira'yı Yanmaktan Kurtarmak",
+			"dwarves": "Sisler Adası Cüceleri ile Karşılaşmak"
 		},
 		"desc": {
-			
+			"tomira": "",
+			"dwarves": ""
 		}
 	}
 }

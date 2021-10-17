@@ -102,10 +102,12 @@
 	},
 	"event": {
 		"label": {
-			
+			"tomira": "Save Tomira From Burning",
+			"dwarves": "Meet the Isle of Mist Dwarves"
 		},
 		"desc": {
-			
+			"tomira": "",
+			"dwarves": ""
 		}
 	}
 }
