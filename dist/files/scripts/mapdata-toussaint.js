@@ -37,7 +37,9 @@ window.mapdata_toussaint = {
 	armourer: [{
 		coords: [
 			[39.969,81.000],
-			[64.956,65.109]
+			[64.956,65.109],
+			[86.156,63.453],
+			[79.703,108.828]
 		],
 		label: $.t("armourer.labelJourneyman"),
 		popup: $.t("armourer.desc")
@@ -100,7 +102,9 @@ window.mapdata_toussaint = {
 	blacksmith: [{
 		coords: [
 			[49.813,64.359],
-			[65.113,64.688]
+			[65.113,64.688],
+			[69.578,100.859],
+			[116.516,71.250]
 		],
 		label: $.t("blacksmith.labelJourneyman"),
 		popup: $.t("blacksmith.desc")
@@ -328,7 +332,8 @@ window.mapdata_toussaint = {
 	herbalist: [{
 		coords: [
 			[85.328,53.734],
-			[51.047,66.250]
+			[51.047,66.250],
+			[32.406,68.047]
 		],
 		label: $.t("herbalist.label"),
 		popup: $.t("herbalist.desc")
@@ -588,6 +593,14 @@ window.mapdata_toussaint = {
 		coords: [[75.656, 75.750]],
 		label: $.t("sidebar.shopkeeper"),
 		popup: $.t("shopkeeper.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/60.125/114.000">' + $.t("pid.rescueLocation") + '</a>'
+	}, {
+		coords: [[55.344, 62.078]],
+		label: $.t("t:shopkeeper.label.tailor"),
+		popup: $.t("shopkeeper.desc")
+	}, {
+		coords: [[58.359, 71.797]],
+		label: $.t("t:shopkeeper.label.butcher"),
+		popup: $.t("shopkeeper.desc")
 	}],
 
 	// (Side) Quests

@@ -215,6 +215,14 @@
 		"desc": "Načerpej z místa Moci a získej dočasný bonus. Při prvním čerpání z každého místa Moci získáš také 1 dovednostní bod.",
 		"popup": "Místo Moci – __sign__"
 	},
+	"poi": {
+		"label": {
+			"lootableBattlefield": "Bojiště s kořistí"
+		},
+		"desc": {
+			"lootableBattlefield": "Toto bojiště lze prohledat a získat snadno peníze na začátku hry."
+		}
+	},
 	"scavenger": {
 		"dia": "Nákres: ",
 		"name": {

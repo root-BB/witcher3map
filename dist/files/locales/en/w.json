@@ -24,12 +24,10 @@
 	"poi": {
 		"label": {
 			"boss": "Secret Boss (Chort)",
-			"lootableBattlefield": "Lootable Battlefield",
 			"crystalSkull": "Crystal Skull"
 		},
 		"desc": {
 			"boss": "If you kill 6 cows here 3 times in a row, 27 level Chort will appear and attack you; Attention! When you kill the chort, new ones keep coming.",
-			"lootableBattlefield": "This battlefield can be looted for easy early game coin",
 			"crystalSkull": "From the Intro Video, unlocks a dialog with Yennifer at her 'The Last Wish' Quest. Can only be picked up if you haven't left White Orchard yet"
 		}
 	},

@@ -217,8 +217,8 @@ window.mapdata_white_orchard = {
 	// Point of Interest
 	poi: [{
 		coords: [[-49.611, 7.998]],
-		label: $.t("w:poi.label.lootableBattlefield"),
-		popup: $.t("w:poi.desc.lootableBattlefield")
+		label: $.t("poi.label.lootableBattlefield"),
+		popup: $.t("poi.desc.lootableBattlefield")
 	}, {
 		coords: [[-60, 2]],
 		label: $.t("w:poi.label.crystalSkull"),
@@ -383,7 +383,18 @@ window.mapdata_white_orchard = {
 			[-72.382, -0.483],
 			[-76.153, -20.435],
 			[-77.390, -33.618],
-			[-64.340, -157.456]
+			[-64.340, -157.456],
+			[-63.627, -12.393],
+			[-64.868, -9.668],
+			[-61.101, -19.688],
+			[-78.819, -143.965],
+			[-53.982, -141.064],
+			[-79.836, -66.445],
+			[-79.505, -51.987],
+			[-32.473, -79.541],
+			[-67.826, -18.325],
+			[-68.057, -18.765],
+			[-58.905, 4.658]
 			],
 		label: $.t("treasure.treasure"),
 		popup: $.t("treasure.desk")

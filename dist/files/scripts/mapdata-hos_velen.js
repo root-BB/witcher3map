@@ -1476,6 +1476,10 @@ window.mapdata_hos_velen = {
 		coords: [[53.469, 80.234]],
 		label: $.t("v:poi.label.spirits"),
 		popup: $.t("v:poi.desc.spirits")
+	}, {
+		coords: [[122.656, 148.281]],
+		label: $.t("poi.label.lootableBattlefield"),
+		popup: $.t("poi.desc.lootableBattlefield")
 	}],
 
 	// Scavengers
@@ -1644,7 +1648,7 @@ window.mapdata_hos_velen = {
 		popup: $.t("v:shopkeeper.desc.kingfOfBeggarsMerchant")
 	}, {
 		coords: [[216.016, 104.219]],
-		label: $.t("v:shopkeeper.label.shopkeeper"),
+		label: $.t("v:shopkeeper.label.gildorf"),
 		popup: $.t("v:shopkeeper.desc.aeramasTrinketMerchant")
 	}, {
 		coords: [[211.797, 96.109]],
@@ -2745,7 +2749,6 @@ window.mapdata_hos_velen = {
 			[56.594, 145.375],
 			[50.781, 175.438],
 			[86.750, 168.531],
-			[128.094, 161.031],
 			[130.344, 116.188],
 			[129.703, 119.688],
 			[136.656, 125.422],
@@ -2783,7 +2786,9 @@ window.mapdata_hos_velen = {
 			[186.719, 166.750],
 			[146.281, 180.063],
 			[144.625, 193.813],
-			[157.375, 128.344]
+			[157.375, 128.344],
+			[119.125, 133.563],
+			[139.313, 152.813]
 		],
 		label: $.t("treasure.treasure"),
 		popup: $.t("treasure.desk")
@@ -2804,7 +2809,6 @@ window.mapdata_hos_velen = {
 			[38.781, 72.250],
 			[113.063, 153.750],
 			[115.125, 154.750],
-			[117.469, 151.844],
 			[114.625, 136.594],
 			[158.063, 94.750],
 			[220.625, 99.563],

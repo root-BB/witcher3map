@@ -112,6 +112,7 @@
 	"shopkeeper": {
 		"label": {
 			"anselm": "Obchodník Anselm",
+			"gildorf": "Obchodník Gildorf",
 			"banker": "Bankéř",
 			"bookMerchant": "Knihkupec",
 			"clothingMerchant": "Obchodník s oblečením",
@@ -124,7 +125,7 @@
 			"mulbrydale": "Obchodník na cestách"
 		},
 		"desc": {
-			"aeramasTrinketMerchant": "Prodává alchymistické zásoby, úkolové předměty (pro Aeramasovo sídlo) a 'Elixír očisty' (1000 korun).",
+			"aeramasTrinketMerchant": "Prodává alchymistické zásoby, úkolové předměty ('Mléko a temnoty', 'Soška šlechtice' a 'Na tango jsou potřeba tři') a 'Elixír očisty' (1000 korun).",
 			"alchemyAndFood": "Prodává alchymistické zásoby a jídlo.",
 			"alchemyAndRunes": "Prodává runové kameny a alchymistické zásoby.",
 			"alchemyFoodAndDrink": "Prodává alchymistické zásoby, jídlo a pití.",

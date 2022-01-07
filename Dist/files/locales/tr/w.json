@@ -24,12 +24,10 @@
 	"poi": {
 		"label": {
 			"boss": "Gizli Boss (Chort)",
-			"lootableBattlefield": "Yağmalanabilir Savaş Alanı",
 			"crystalSkull": "Kristal Kafatası"
 		},
 		"desc": {
 			"boss": "Burada 3 kez arka arkaya 6 ineği öldürürseniz, 27 seviye Chort ortaya çıkar ve size saldırır; Dikkat! Chort'u öldürdüğünde, yenileri gelmeye devam eder.",
-			"lootableBattlefield": "Burada ki savaş alanı oyun başlarında kolayca para kazanmak için yağmalanabilir",
 			"crystalSkull": "Intro Videosundan, Yennifer ile 'Son Dilek' görevinde yeni bir diyalog açar. Sadece White Orchard'dan çıkmamışsan alabilirsin"
 		}
 	},

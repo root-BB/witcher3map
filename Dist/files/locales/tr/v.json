@@ -37,7 +37,7 @@
 			"warn": "Uyarı, bu oyuncu oyunun ilerleyen zamanalarında kaybolabilir. "
 		},
 		"popup": {
-			"shopkeeper": "Mağazacı Gwent Oyuncusu",
+			"shopkeeper": "Tüccar Gwent Oyuncusu",
 			"bookMerchant": "Kitap Tüccarı Gwent Oyuncusu",
 			"crippledKate": "Topal Kate Gwent Oyuncusu",
 			"tournament": "Gwent Turnuvası (Görev)",
@@ -112,6 +112,7 @@
 	"shopkeeper": {
 		"label": {
 			"anselm": "Tüccar Anselm",
+			"gildorf": "Tüccar Gildorf",
 			"banker": "Bankacı",
 			"bookMerchant": "Kitap Satıcısı",
 			"clothingMerchant": "Kıyafet Satıcısı",
@@ -124,7 +125,7 @@
 			"mulbrydale": "Gezgin Tüccar"
 		},
 		"desc": {
-			"aeramasTrinketMerchant": "Simya malzemeleri, görev öğeleri (Aeramas' Malikanesi için) ve 'Temizleme İksiri' (1000 altın) satar",
+			"aeramasTrinketMerchant": "Simya malzemeleri, görev öğeleri ('Mandıra ve Karanlık', 'Soylu Heykelciği' ve 'Tango İçin Üç Kişi Gerekir') ve 'Temizleme İksiri' (1000 altın) satar",
 			"alchemyAndFood": "Simya malzemeleri ve yiyecek satar",
 			"alchemyAndRunes": "Rün taşları ve simya malzemeleri satar",
 			"alchemyFoodAndDrink": "Simya malzemeleri, yiyecek ve içecek satar",

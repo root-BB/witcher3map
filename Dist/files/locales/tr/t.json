@@ -285,6 +285,16 @@
 			"ruins": "Toussaint bir zamanlar elflerin topraklarıydı. Dukal sarayı o çağın en öne çıkan kalıntılarındandı, ama sadece bu kadar değildi. Aen Seidhe arkasında, işlevi şimdi sadece tahmin edilebilecek büyük ve küçük bir çok yapıt bıraktı. Bunun örneği olarak, bazıları son elf kralının efsanevi dinlenme yerine bağlanan Termes Sarayı kalıntılarıdır, bazıları ise onların unutulan tanrının tapınağı olduğuna inanıyor. Gerçekte ne olduklarını, asla bilemeyiz."
 		}
 	},
+	"shopkeeper": {
+		"label": {
+			"butcher": "Kasap Dükkanı",
+			"tailor": "Terzi Atölyesi"
+		},
+		"desc": {
+			"butcher": "",
+			"tailor": ""
+		}
+	},
 	"event": {
 		"label": {
 			"contract": "Bir Efsunger ile Kontrat",

@@ -112,6 +112,7 @@
 	"shopkeeper": {
 		"label": {
 			"anselm": "Shopkeeper Anselm",
+			"gildorf": "Shopkeeper Gildorf",
 			"banker": "Banker",
 			"bookMerchant": "Book Merchant",
 			"clothingMerchant": "Clothing Merchant",
@@ -124,7 +125,7 @@
 			"mulbrydale": "Wandering Merchant"
 		},
 		"desc": {
-			"aeramasTrinketMerchant": "Sells alchemy supplies, quest items (for Aeramas' Manor), and 'Potion of Clearance' (1000 gold)",
+			"aeramasTrinketMerchant": "Sells alchemy supplies, quest items ('Of Dairy and Darkness', 'The Nobleman Statuette' and 'It Takes Three to Tango'), and 'Potion of Clearance' (1000 gold)",
 			"alchemyAndFood": "Sells alchemy supplies and food.",
 			"alchemyAndRunes": "Sells runestones and alchemy supplies",
 			"alchemyFoodAndDrink": "Sells alchemy supplies, food, and drink",

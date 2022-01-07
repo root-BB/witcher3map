@@ -284,6 +284,16 @@
 			"ruins": "Toussaint byl kdysi krajem elfů. Knížecí palác je nejvýznamnější vzpomínkou na toto období, nikoliv však jedinou. Aen Seidhe po sobě zanechali spoustu menších i větších budov, o jejichž účelu se dnes lidé mohou leda tak dohadovat. Jedním z příkladů jsou i trosky Termešského paláce, které někteří spojují s bájným místem věčného odpočinku posledního elfského krále, zatímco jiní je považují za chrám zasvěcený jakémusi zapomenutému božství. O co se však jednalo doopravdy, se už nikdy nedozvíme."
 		}
 	},
+	"shopkeeper": {
+		"label": {
+			"butcher": "Řeznictví",
+			"tailor": "Krejčířství"
+		},
+		"desc": {
+			"butcher": "",
+			"tailor": ""
+		}
+	},
 	"event": {
 		"label": {
 			"contract": "Zakázka na zaklínače",

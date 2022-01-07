@@ -1256,7 +1256,8 @@ window.mapdata_skellige = {
 		label: $.t("s:sidequests.label.nithing"),
 		popup: $.t("s:sidequests.desc.nithing")
 	}, {
-		coords: [[50.48547355, 38.91357422]],
+		coords: [[50.48547355, 38.91357422],
+				[52.909, 46.736]],
 		label: $.t("s:sidequests.label.warriors"),
 		popup: $.t("s:sidequests.desc.warriors")
 	}, {

@@ -215,6 +215,14 @@
 		"desc": "Bir Kudret Alanından güç çekerek geçici bonus kazan. Herhangi bir Kudret Alanından ilk defa güç çektiğinde 1 Yetenek Puanı kazanırsın",
 		"popup": "Kudret Alanı - __sign__"
 	},
+	"poi": {
+		"label": {
+			"lootableBattlefield": "Yağmalanabilir Savaş Alanı"
+		},
+		"desc": {
+			"lootableBattlefield": "Burada ki savaş alanı oyun başlarında kolayca para kazanmak için yağmalanabilir"
+		}
+	},
 	"scavenger": {
 		"dia": "Şema : ",
 		"name": {

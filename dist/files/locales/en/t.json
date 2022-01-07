@@ -284,6 +284,16 @@
 			"ruins": "Toussaint was once a land of elves. The ducal palace is the most prominent remnant of that era, but it is not the only. The Aen Seidhe left behind a great many smaller and larger structures whose function can today only be guessed at. An example of this are the Termes Palace ruins, which some tie to the legendary resting place of the last elven king, while others consider them a tmeple to shome forgotten deity. What they were in truth, we shall never know."
 		}
 	},
+	"shopkeeper": {
+		"label": {
+			"butcher": "Butcher's Shop",
+			"tailor": "Tailor's Workshop"
+		},
+		"desc": {
+			"butcher": "",
+			"tailor": ""
+		}
+	},
 	"event": {
 		"label": {
 			"contract": "Contract on a Witcher",
