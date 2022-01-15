@@ -8,8 +8,8 @@
 		"toussaint": "Toussaint",
 		"toussaint_main": "Toussaint __hover__",
 		"isle_mists": "Isle of Mists",
-		"thousand_fables": "Thousand Fables",
-		"thousand_fables_main": "Thousand Fables __hover__"
+		"fables": "Thousand Fables",
+		"fables_main": "Thousand Fables __hover__"
 	},
 	"home": {
 		"tagline": "Unofficial The Witcher 3 Interactive Maps",
@@ -284,7 +284,7 @@
 		"treasure": "Treasure",
 		"watertreasure": "Underwater Treasure",
 		"label": "Treasure Hunt",
-		"desk": ""
+		"desc": ""
 	},
 	"vineyardinfestation": {
 		"label": "Vineyard Infestation",

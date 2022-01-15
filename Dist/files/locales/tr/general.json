@@ -8,8 +8,8 @@
 		"toussaint": "Toussaint",
 		"toussaint_main": "Toussaint __hover__",
 		"isle_mists": "Sisler Adası",
-		"thousand_fables": "Binbir Masal Diyarı",
-		"thousand_fables_main": "Binbir Masal Diyarı __hover__"
+		"fables": "Binbir Masal Diyarı",
+		"fables_main": "Binbir Masal Diyarı __hover__"
 	},
 	"home": {
 		"tagline": "Resmi Olmayan The Witcher 3 İnteraktif Haritası",
@@ -284,7 +284,7 @@
 		"treasure": "Hazine",
 		"watertreasure": "Su Altı Hazinesi",
 		"label": "Hazine Avı",
-		"desk": ""
+		"desc": ""
 	},
 	"vineyardinfestation": {
 		"label": "Bağ İstilası",

@@ -36,8 +36,7 @@ $(function() {
 		markers.smugglers,
 		markers.spoils,
 		markers.treasure,
-		markers.vineyardinfestation,
-		markers.vintnercontract
+		markers.vineyardinfestation
 	];
 
 	// little hack to remove empty marker array so they don't break the page
@@ -186,7 +185,7 @@ $(function() {
 		noWrap: true
 	};
 
-	if (map_path === 'hos_velen' || map_path === 'isle_mists' || map_path === 'skellige' || map_path === 'white_orchard' || map_path === 'toussaint' || map_path === 'kaer_morhen' || map_path === 'toussaint_fables'){
+	if (map_path === 'hos_velen' || map_path === 'isle_mists' || map_path === 'skellige' || map_path === 'white_orchard' || map_path === 'toussaint' || map_path === 'kaer_morhen' || map_path === 'fables'){
 		layer_settings['continuousWorld'] = true;
 		layer_settings['crs'] = L.CRS.Simple;
 	}

@@ -1,15 +1,15 @@
 {
 	"poi": {
 		"label": {
-			"hut": "Chata",
+			"hut": "Kulübe",
 			"ferenc": "Ferenc",
 			"gasp": "Gaspard",
 			"ivo": "Ivo"
 		},
 		"desc": {
-			"hut": "",
-			"ferenc": "",
-			"gasp": "",
+			"hut": " ",
+			"ferenc": " ",
+			"gasp": " ",
 			"ivo": ""
 		}
 	}

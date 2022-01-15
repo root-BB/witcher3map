@@ -1,11 +1,11 @@
-window.map_path   = 'isle_mists';
-window.map_sWest  = L.latLng(-85.050,-180);
-window.map_nEast  = L.latLng(200,180);
-window.map_center = [7.000,22.000];
+window.map_path   = 'fables';
+window.map_sWest  = L.latLng(-100,-180);
+window.map_nEast  = L.latLng(100,180);
+window.map_center = [0.000,0.000];
 window.map_minZoom  = 2;
-window.map_mZoom  = 5;
-window.map_Zoom  = 3;
-window.mapdata_isle_mists = {
+window.map_mZoom  = 4;
+window.map_Zoom  = 1;
+window.mapdata_fables = {
 	
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [],
@@ -38,23 +38,7 @@ window.mapdata_isle_mists = {
 	contracts: [],
 
 	//------------------------------------------------Entrance------------------------------------------------
-	entrance: [{
-		coords: [[32.842,60.292]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
-	},{
-		coords: [[26.588,68.203]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
-	},{
-		coords: [[21.125,67.500]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
-	},{
-		coords: [[7.885,54.667]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
-	}],
+	entrance: [],
 
 	//------------------------------------------------Events------------------------------------------------
 	event: [],
@@ -66,7 +50,12 @@ window.mapdata_isle_mists = {
 	guarded: [],
 
 	//------------------------------------------------Gwent Player------------------------------------------------
-	gwent: [],
+	gwent: [{
+		coords: [[2.284,-50.361]],
+		label: $.t("sidebar.gwent"),
+		popupTitle: $.t("f:gwent.popup.girl"),
+		popup: $.t("f:gwent.desc.girl")
+	}],
 	
 	//------------------------------------------------Hanse Base------------------------------------------------
 	hansebase: [],
@@ -93,7 +82,11 @@ window.mapdata_isle_mists = {
 	monsternest: [],
 
 	//------------------------------------------------Notice Board------------------------------------------------
-	notice: [],
+	notice: [{
+		coords: [[-1.318,-50.185]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	}],
 
 	//------------------------------------------------Person in Distress------------------------------------------------
 	pid: [],
@@ -103,31 +96,84 @@ window.mapdata_isle_mists = {
 
 	//------------------------------------------------Point of Interest------------------------------------------------
 	poi: [{
-		coords: [[15.961,48.164]],
-		label: $.t("i:poi.label.hut"),
-		popup: $.t("i:poi.desc.hut")
+		coords: [[-2.811,-91.230]],
+		label: $.t("f:poi.label.thumb"),
+		popup: $.t("f:poi.desk.thumb")
 	},{
-		coords: [[-18.479,-7.031]],
-		label: $.t("i:poi.label.ferenc"),
-		popup: $.t("i:poi.desc.ferenc")
+		coords: [[-8.928,-106.875]],
+		label: $.t("f:poi.label.pigs"),
+		popup: $.t("f:poi.desk.pigs")
 	},{
-		coords: [[49.951,-2.988]],
-		label: $.t("i:poi.label.gasp"),
-		popup: $.t("i:poi.desc.gasp")
+		coords: [[-29.535,-78.574]],
+		label: $.t("f:poi.label.tower"),
+		popup: $.t("f:poi.desk.tower")
 	},{
-		coords: [[38.685,39.375]],
-		label: $.t("i:poi.label.ivo"),
-		popup: $.t("i:poi.desc.ivo")
+		coords: [[-45.089,-99.492]],
+		label: $.t("f:poi.label.dragon"),
+		popup: $.t("f:poi.desk.dragon")
+	},{
+		coords: [[-47.989,-114.960]],
+		label: $.t("f:poi.label.balbina"),
+		popup: $.t("f:poi.desk.balbina")
+	},{
+		coords: [[-65.219,-105.292]],
+		label: $.t("f:poi.label.camp"),
+		popup: $.t("f:poi.desk.camp")
+	},{
+		coords: [[-63.312,-82.968]],
+		label: $.t("f:poi.label.hood"),
+		popup: $.t("f:poi.desk.hood")
+	},{
+		coords: [[-53.540,-79.980]],
+		label: $.t("f:poi.label.blaviken"),
+		popup: $.t("f:poi.desk.blaviken")
+	},{
+		coords: [[-58.904,-58.710]],
+		label: $.t("f:poi.label.den"),
+		popup: $.t("f:poi.desk.den")
+	},{
+		coords: [[-45.089,-30.234]],
+		label: $.t("f:poi.label.joss"),
+		popup: $.t("f:poi.desk.joss")
+	},{
+		coords: [[-37.439,-55.371]],
+		label: $.t("f:poi.label.wisp"),
+		popup: $.t("f:poi.desk.wisp")
+	},{
+		coords: [[-60.326,-9.667]],
+		label: $.t("f:poi.label.witch"),
+		popup: $.t("f:poi.desk.witch")
+	},{
+		coords: [[-61.938,35.156]],
+		label: $.t("f:poi.label.grigg"),
+		popup: $.t("f:poi.desk.grigg")
+	},{
+		coords: [[-69.534,36.562]],
+		label: $.t("f:poi.label.start"),
+		popup: $.t("f:poi.desk.start")
+	},{
+		coords: [[-19.808,-99.492]],
+		label: $.t("f:poi.label.emperor"),
+		popup: $.t("f:poi.desk.emperor")
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
 	scavenger: [],
 
 	//------------------------------------------------Shopkeeper------------------------------------------------
-	shopkeeper: [],
+	shopkeeper: [{
+		coords: [[1.581,-52.119]],
+		label: $.t("sidebar.shopkeeper"),
+		popupTitle: $.t("f:shopkeeper.popup.girl"),
+		popup: $.t("f:shopkeeper.desc.girl")
+	}],
 
 	//------------------------------------------------Sidequests------------------------------------------------
-	sidequests: [],
+	sidequests: [{
+		coords: [[-1.142,-48.251]],
+		label: $.t("f:sidequests.label.duck"),
+		popup: $.t("f:sidequests.desk.duck")
+	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------
 	signpost: [],
@@ -142,130 +188,14 @@ window.mapdata_isle_mists = {
 	spoils: [],
 	
 	//------------------------------------------------Treasure------------------------------------------------
-	treasure: [
-	//Surface Treause
-	{
-		coords: [[51.069,-5.449]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
+	treasure: [{
+		coords: [[26.902,-79.101]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("f:treasure.popup.pot")
 	},{
-		coords: [[22.268,8.613]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[17.978,6.328]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[9.968,2.636]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[-26.745,-5.273]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[-30.751,12.128]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[-8.754,36.738]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[0.175,40.429]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[-2.811,45.351]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[17.308,44.296]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[-0.175,87.890]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[26.745,79.453]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[29.228,74.179]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[37.579,75.058]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[29.993,65.566]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[35.317,59.062]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[42.032,53.613]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[46.195,45.703]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},
-	//Underwater Treause
-	{
-		coords: [[22.105,3.515]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[25.799,-3.339]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[22.431,-10.019]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[21.779,-22.500]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[8.059,-40.253]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[13.581,-24.082]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[45.828,56.953]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[49.724,50.273]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[52.052,44.648]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[23.725,84.902]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[18.479,81.562]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[-31.353,-0.351]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
+		coords: [[-46.558,-70.312]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("f:treasure.popup.knight")
 	}],
 	
 	//------------------------------------------------Vineyard Infestation------------------------------------------------

@@ -81,20 +81,20 @@
 			"tr_temerian": "Темерские ценности"
 		},
 		"desc": {
-			"fry": "",
-			"twist": "",
-			"faith": "",
-			"missing": "",
-			"death": "",
-			"precious": "",
-			"tr_deserter": "",
-			"tr_dirty": "",
+			"fry": " ",
+			"twist": " ",
+			"faith": " ",
+			"missing": " ",
+			"death": " ",
+			"precious": " ",
+			"tr_deserter": " ",
+			"tr_dirty": " ",
 			"tr_temerian": ""
 		}
 	},
 	"contracts": {
 		"label": {
-			"devil": "Заказ: Лизо у колодца"
+			"devil": "Лизо у колодца"
 		},
 		"desc": {
 			"devil": ""
@@ -106,7 +106,7 @@
 			"dwarves": "Краснолюды с Острова Туманов в Белом Саду"
 		},
 		"desc": {
-			"tomira": "",
+			"tomira": " ",
 			"dwarves": ""
 		}
 	}

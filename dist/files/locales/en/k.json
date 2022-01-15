@@ -34,10 +34,10 @@
 			"forge": "The Witcher's Forge"
 		},
 		"desc": {
-			"blade": "",
-			"greenhouse": "",
-			"slayer": "",
-			"bastion": "",
+			"blade": " ",
+			"greenhouse": " ",
+			"slayer": " ",
+			"bastion": " ",
 			"forge": ""
 		}
 	},

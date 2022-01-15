@@ -79,14 +79,14 @@
 			"tr_temerian": "Temerian Valuables"
 		},
 		"desc": {
-			"fry": "",
-			"twist": "",
-			"faith": "",
-			"missing": "",
-			"death": "",
-			"precious": "",
-			"tr_deserter": "",
-			"tr_dirty": "",
+			"fry": " ",
+			"twist": " ",
+			"faith": " ",
+			"missing": " ",
+			"death": " ",
+			"precious": " ",
+			"tr_deserter": " ",
+			"tr_dirty": " ",
 			"tr_temerian": ""
 		}
 	},
@@ -104,7 +104,7 @@
 			"dwarves": "Meet the Isle of Mist Dwarves"
 		},
 		"desc": {
-			"tomira": "",
+			"tomira": " ",
 			"dwarves": ""
 		}
 	}

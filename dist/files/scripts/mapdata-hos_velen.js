@@ -1,29 +1,54 @@
 window.map_path   = 'hos_velen';
 window.map_sWest  = L.latLng(0,0);
 window.map_nEast  = L.latLng(265,240);
-window.map_center = [126,115];
+window.map_center = [126.000,115.000];
 window.map_minZoom  = 1;
 window.map_mZoom  = 6;
 window.map_Zoom  = 2;
 window.mapdata_hos_velen = {
-// Abandoned Site
+
+	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [{
-		coords: [
-			// NW Velen
-			[82.797,87.984],
-			[106.219,31.016],
-			[86.703,27.938],
-			[75.875,26.844],
-			[177.96875,211.65625],
-			[185.75,209.53125],
-			[238.15625,201.6875],
-			[250.25,143.5],
-			[241.125,155.875],
-			[239.75,69.9375]
-		],
+		coords: [[82.797,87.984]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
-	},{ // NE Velen
+	},{
+		coords: [[106.219,31.016]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[86.703,27.938]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[75.875,26.844]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[177.969,211.656]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[185.750,209.531]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[238.156,201.687]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[250.250,143.500]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[241.125,155.875]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
+		coords: [[239.750,69.937]],
+		label: $.t("abandoned.label"),
+		popup: $.t("abandoned.desc")
+	},{
 		coords: [[115.828,133.875]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
@@ -35,7 +60,7 @@ window.mapdata_hos_velen = {
 		coords: [[122.281,179.266]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
-	},{ // SW Velen
+	},{
 		coords: [[29.984,48.000]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
@@ -43,14 +68,14 @@ window.mapdata_hos_velen = {
 		coords: [[33.969,99.250]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
-	},{ // SE Velen
+	},{
 		coords: [[99.938,130.172]],
 		label: $.t("abandoned.label"),
 		popup: $.t("abandoned.desc")
 	}],
 
-	// Alchemy Supplies
-	alchemy: [{ //Novigrad
+	//------------------------------------------------Alchemy Supplies------------------------------------------------
+	alchemy: [{
 		coords: [[218.984,116.516]],
 		label: $.t("alchemy.label"),
 		popup: $.t("v:alchemy.desc*")
@@ -58,27 +83,27 @@ window.mapdata_hos_velen = {
 		coords: [[226.328,92.500]],
 		label: $.t("alchemy.label"),
 		popup: $.t("alchemy.desc")
-	},{ // NW Velen
+	},{
 		coords: [[114.813,49.547]],
 		label: $.t("alchemy.label"),
 		popupTitle: $.t("v:alchemy.pellar"),
 		popup: $.t("alchemy.desc")
 	}],
 
-	// Armourer
-	armourer: [{ // Novigrad
+	//------------------------------------------------Armourer------------------------------------------------
+	armourer: [{
 		coords: [[208.672,100.828]],
 		label: $.t("armourer.labelJourneyman"),
 		popup: $.t("armourer.desc")
-	},{ // Oxenfurt
+	},{
 		coords: [[158.047,166.344]],
 		label: $.t("armourer.labelJourneyman"),
 		popup: $.t("armourer.desc")
-	},{ // NE Velen
+	},{
 		coords: [[129.688,118.719]],
 		label: $.t("armourer.labelAmateur"),
 		popup: $.t("armourer.desc") + ' ' + $.t("pid.rescue") + ' <a href="#6/115.500/107.875">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // NW Velen
+	},{
 		coords: [[104.734,77.531]],
 		label: $.t("armourer.labelJourneyman"),
 		popup: $.t("armourer.desc")
@@ -93,71 +118,143 @@ window.mapdata_hos_velen = {
 		popup: $.t("v:armourer.yoanaQuest") + $.t("armourer.desc")
 	}],
 
-	// Armourer's Table
+	//------------------------------------------------Armourer's Table------------------------------------------------
 	armourerstable: [{
-		coords: [
-			// Novigrad
-			[211.531,97.141],
-			[210.750,99.016],
-			// Oxenfurt
-			[160.922,164.297],
-			// NE Velen
-			[129.844,119.094],
-			// NW Velen
-			[106.609,51.953],
-			[105.375,76.094],
-			[68.625,74.219],
-			[82.313,40.984],
-			[75.859,25.828],
-			// SE Velen
-			[101.047,166.734],
-			[102.688,109.234],
-			//New
-			[164.796875,185.46875]
-		],
+		coords: [[211.531,97.141]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[210.750,99.016]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[160.922,164.297]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[129.844,119.094]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[106.609,51.953]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[105.375,76.094]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[68.625,74.219]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[82.313,40.984]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[75.859,25.828]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[101.047,166.734]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[102.688,109.234]],
+		label: $.t("armourerstable.label"),
+		popup: $.t("armourerstable.desc")
+	},{
+		coords: [[164.796,185.468]],
 		label: $.t("armourerstable.label"),
 		popup: $.t("armourerstable.desc")
 	}],
 
-	// Bandit Camp
+	//------------------------------------------------Bandit Camp------------------------------------------------
 	banditcamp: [{
-		coords: [
-			// NE Velen
-			[136.625,89.219],
-			// NW Velen
-			[110.625,60.016],
-			[94.344,37.016],
-			[88.375,34.984],
-			[85.125,33.172],
-			[96.938,31.047],
-			[72.953,24.188],
-			[77.656,17.750],
-			// SW Velen
-			[67.531,23.656],
-			[66.703,26.719],
-			// SE Velen
-			[106.188,115.703],
-			//New
-			[177.75,195.75],
-			[204.5,197.96875],
-			[214.65625,223.28125],
-			[225.8125,218.78125],
-			[257.46875,208.5],
-			[260.625,178.46875],
-			[260.9375,165.4375],
-			[252.875,113.6875]
-		],
+		coords: [[136.625,89.219]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc")
-	},{ // S Novigrad
+	},{
+		coords: [[110.625,60.016]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[94.344,37.016]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[88.375,34.984]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[85.125,33.172]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[96.938,31.047]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[72.953,24.188]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[77.656,17.750]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[67.531,23.656]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[66.703,26.719]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[106.188,115.703]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[177.750,195.750]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[204.500,197.968]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[214.656,223.281]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[225.812,218.781]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[257.468,208.500]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[260.625,178.468]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[260.937,165.437]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
+		coords: [[252.875,113.687]],
+		label: $.t("banditcamp.label"),
+		popup: $.t("banditcamp.desc")
+	},{
 		coords: [[175.547,83.125]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 9)'
-	},{ // E Novigrad
+	},{
 		coords: [[209.156,162.734]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 7)'
-	},{ // NE Velen
+	},{
 		coords: [[128.469,151.563]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 9)'
@@ -165,7 +262,7 @@ window.mapdata_hos_velen = {
 		coords: [[134.406,129.094]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 9)'
-	},{ // SE Velen
+	},{
 		coords: [[38.828,153.984]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 10)'
@@ -189,31 +286,33 @@ window.mapdata_hos_velen = {
 		coords: [[47.000,123.172]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc") + '(lvl 9)'
-	},{ // SW Velen
+	},{
 		coords: [[57.922,26.797]],
 		label: $.t("banditcamp.label"),
 		popup: $.t("banditcamp.desc")
 	}],
 
-	// Barber
+	//------------------------------------------------Barber------------------------------------------------
 	barber: [{
-		coords: [
-			// Novigrad
-			[215.016,104.297],
-			[214.484,113.281],
-			// Oxenfurt
-			[153.734,164.906]
-		],
+		coords: [[215.016,104.297]],
 		label: $.t("barber.label"),
 		popup: $.t("barber.desc")
-	},{ // NW Velen
+	},{
+		coords: [[214.484,113.281]],
+		label: $.t("barber.label"),
+		popup: $.t("barber.desc")
+	},{
+		coords: [[153.734,164.906]],
+		label: $.t("barber.label"),
+		popup: $.t("barber.desc")
+	},{
 		coords: [[81.891,69.703]],
 		label: $.t("barber.label"),
 		popup: $.t("barber.desc") + $.t("v:barber.free") + $.t("pid.rescue") + ' <a href="#6/102.391/34.109">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
-	// Blacksmith
-	blacksmith: [{ // Novigrad
+	//------------------------------------------------Blacksmith------------------------------------------------
+	blacksmith: [{
 		coords: [[197.094,98.766]],
 		label: $.t("blacksmith.labelMaster"),
 		popupTitle: $.t("v:blacksmith.hattori"),
@@ -226,11 +325,11 @@ window.mapdata_hos_velen = {
 		coords: [[211.188,97.266]],
 		label: $.t("blacksmith.labelAmateur"),
 		popup: $.t("blacksmith.desc")
-	},{ // Oxenfurt
+	},{
 		coords: [[152.125,170.453]],
 		label: $.t("blacksmith.labelJourneyman"),
 		popup: $.t("blacksmith.desc")
-	},{ // NW Velen
+	},{
 		coords: [[106.328,52.313]],
 		label: $.t("blacksmith.labelAmateur"),
 		popup: $.t("blacksmith.desc")
@@ -238,75 +337,217 @@ window.mapdata_hos_velen = {
 		coords: [[67.844,74.031]],
 		label: $.t("blacksmith.labelAmateur"),
 		popup: $.t("blacksmith.desc")
-	},{ // SE Velen
+	},{
 		coords: [[103.156,108.813]],
 		label: $.t("blacksmith.labelAmateur"),
 		popup: $.t("blacksmith.desc")
-	},{ // New
-		coords: [[30.4375,123.5625]],
+	},{
+		coords: [[30.437,123.562]],
 		label: $.t("blacksmith.labelAmateur"),
 		popup: $.t("blacksmith.desc")
 	}],
 
-	// Boat
+	//------------------------------------------------Boat------------------------------------------------
 	boat: [{
-		coords: [
-			[49.65625,26.25],
-			[52.53125,75.1875],
-			[38.78125,99.03125],
-			[59.0625,124.96875],
-			[57.4375,103.3125],
-			[66.4375,81.5625],
-			[68.0625,39.1875],
-			[83.171875,49.453125],
-			[84.25,103.125],
-			[108.9375,104.875],
-			[63,201.75],
-			[77.25,190.0625],
-			[114.094,133.031],
-			[123.625,173.875],
-			[127.3125,176.5],
-			[157.1875,83.25],
-			[166.25,86.53125],
-			[151.84375,85.21875],
-			[155.0625,108.03125],
-			[175.96875,124.25],
-			[170.65625,135.65625],
-			[157.5625,156.09375],
-			[165.25,163.34375],
-			[149.71875,162.78125],
-			[145.40625,167],
-			[137.84375,167.5],
-			[139.53125,176.5625],
-			[150,172.09375],
-			[154.03125,171.1875],
-			[155.25,176.09375],
-			[239.6875,202.5625],
-			[240.28125,210.65625],
-			[171.4375,76.3125],
-			[193.5625,77],
-			[199.25,87.125],
-			[198.6875,91.375],
-			[199.4375,95.125],
-			[207.5625,88.75],
-			[206.6875,90.25],
-			[215.75,91.625],
-			[216.25,94.125],
-			[220,95.875],
-			[198.375,118.0625],
-			[204.9375,120.0625],
-			[208.1875,118.75],
-			[233.9375,104],
-			[239.1875,89.4375],
-			[48.28125,53.59375],
-			[65.563,69.594]
-		],
+		coords: [[49.656,26.250]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[52.531,75.187]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[38.781,99.031]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[59.062,124.968]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[57.437,103.312]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[66.437,81.562]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[68.062,39.187]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[83.171,49.453]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[84.250,103.125]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[108.937,104.875]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[63.000,201.750]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[77.250,190.062]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[114.094,133.031]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[123.625,173.875]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[127.312,176.500]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[157.187,83.250]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[166.250,86.531]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[151.843,85.218]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[155.062,108.031]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[175.968,124.250]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[170.656,135.656]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[157.562,156.093]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[165.250,163.343]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[149.718,162.781]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[145.406,167.000]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[137.843,167.500]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[139.531,176.562]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[150.000,172.093]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[154.031,171.187]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[155.250,176.093]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[239.687,202.562]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[240.281,210.656]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[171.437,76.312]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[193.562,77.000]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[199.250,87.125]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[198.687,91.375]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[199.437,95.125]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[207.562,88.750]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[206.687,90.250]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[215.750,91.625]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[216.250,94.125]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[220.000,95.875]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[198.375,118.062]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[204.937,120.062]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[208.187,118.750]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[233.937,104.000]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[239.187,89.437]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[48.281,53.593]],
+		label: $.t("boat.label"),
+		popup: $.t("boat.desc")
+	},{
+		coords: [[65.563,69.594]],
 		label: $.t("boat.label"),
 		popup: $.t("boat.desc")
 	}],
 
-	// Brothel
-	brothel: [{ // Novigrad
+	//------------------------------------------------Brothel------------------------------------------------
+	brothel: [{
 		coords: [[201.547,98.188]],
 		label: $.t("v:brothel.label.crippledKate"),
 		popupTitle: $.t("v:brothel.popup.crippledKate"),
@@ -318,100 +559,99 @@ window.mapdata_hos_velen = {
 		popup: $.t("v:brothel.desc")
 	}],
 
-	// Contracts
+	//------------------------------------------------Contracts------------------------------------------------
 	contracts: [{
-		coords: [[209.0625,104.390625]],
+		coords: [[209.062,104.390]],
 		label: $.t("v:contracts.label.elusive"),
 		popup: $.t("v:contracts.desc.elusive")
 	},{
-		coords: [[205.625,97.28125]],
+		coords: [[205.625,97.281]],
 		label: $.t("v:contracts.label.deadly"),
 		popup: $.t("v:contracts.desc.deadly")
 	},{
-		coords: [[208.828125,103.59375]],
+		coords: [[208.828,103.593]],
 		label: $.t("v:contracts.label.doors"),
 		popup: $.t("v:contracts.desc.doors")
 	},{
-		coords: [[82.0625,42.53125]],
+		coords: [[82.062,42.531]],
 		label: $.t("v:contracts.label.jenny"),
 		popup: $.t("v:contracts.desc.jenny")
 	},{
-		coords: [[185.515625,116.21875]],
+		coords: [[185.515,116.218]],
 		label: $.t("v:contracts.label.lord"),
 		popup: $.t("v:contracts.desc.lord")
 	},{
-		coords: [[128.953125,95.46875]],
+		coords: [[128.953,95.468]],
 		label: $.t("v:contracts.label.missing"),
 		popup: $.t("v:contracts.desc.missing")
 	},{
-		coords: [[100.625,109.90625]],
+		coords: [[100.625,109.906]],
 		label: $.t("v:contracts.label.tracks"),
 		popup: $.t("v:contracts.desc.tracks")
 	},{
-		coords: [[33.65625,206.6875]],
+		coords: [[33.656,206.687]],
 		label: $.t("v:contracts.label.patrol"),
 		popup: $.t("v:contracts.desc.patrol")
 	},{
-		coords: [[86.28125,177.34375]],
+		coords: [[86.281,177.343]],
 		label: $.t("v:contracts.label.phantom"),
 		popup: $.t("v:contracts.desc.phantom")
 	},{
-		coords: [[104.5625,79.78125]],
+		coords: [[104.562,79.781]],
 		label: $.t("v:contracts.label.shrieker"),
 		popup: $.t("v:contracts.desc.shrieker")
 	},{
-		coords: [[77.25,148.21875]],
+		coords: [[77.250,148.218]],
 		label: $.t("v:contracts.label.swamp"),
 		popup: $.t("v:contracts.desc.swamp")
 	},{
-		coords: [[237.15625,130.546875]],
+		coords: [[237.156,130.546]],
 		label: $.t("v:contracts.label.apirian"),
 		popup: $.t("v:contracts.desc.apirian")
 	},{
-		coords: [[104.53125,80.3125]],
+		coords: [[104.531,80.312]],
 		label: $.t("v:contracts.label.beast"),
 		popup: $.t("v:contracts.desc.beast")
 	},{
-		coords: [[158.171875,165.328125]],
+		coords: [[158.171,165.328]],
 		label: $.t("v:contracts.label.creature"),
 		popup: $.t("v:contracts.desc.creature")
 	},{
-		coords: [[104.46875,80.75]],
+		coords: [[104.468,80.750]],
 		label: $.t("v:contracts.label.griffin"),
 		popup: $.t("v:contracts.desc.griffin")
 	},{
-		coords: [[100.625,110.3125]],
+		coords: [[100.625,110.312]],
 		label: $.t("v:contracts.label.merry"),
 		popup: $.t("v:contracts.desc.merry")
 	},{
-		coords: [[69.21875,75.84375]],
+		coords: [[69.218,75.843]],
 		label: $.t("v:contracts.label.mystery"),
 		popup: $.t("v:contracts.desc.mystery")
 	},{
-		coords: [[158.15625,165.59375]],
+		coords: [[158.156,165.593]],
 		label: $.t("v:contracts.label.drunk"),
 		popup: $.t("v:contracts.desc.drunk")
 	},{
-		coords: [[188.5625,101.15625]],
+		coords: [[188.562,101.156]],
 		label: $.t("v:contracts.label.white"),
 		popup: $.t("v:contracts.desc.white")
 	},{
-		coords: [[153.765625,113.046875]],
+		coords: [[153.765,113.046]],
 		label: $.t("v:contracts.label.wood"),
 		popup: $.t("v:contracts.desc.wood")
 	}],
 
-	// Entrance
-	// todo,entrance to what?
-	entrance: [{ // Novigrad
+	//------------------------------------------------Entrance------------------------------------------------
+	entrance: [{
 		coords: [[229.984,88.844]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // NE Novigrad
+	},{
 		coords: [[237.406,151.125]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // SE Novigrad
+	},{
 		coords: [[179.438,175.406]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
@@ -423,15 +663,15 @@ window.mapdata_hos_velen = {
 		coords: [[156.031,209.125]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // S Novigrad
+	},{
 		coords: [[173.750,77.156]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // NE Velen
+	},{
 		coords: [[148.141,107.047]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // NW Velen
+	},{
 		coords: [[130.313,41.109]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
@@ -447,7 +687,7 @@ window.mapdata_hos_velen = {
 		coords: [[152.172,48.781]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // SW Velen
+	},{
 		coords: [[44.531,39.563]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
@@ -455,7 +695,7 @@ window.mapdata_hos_velen = {
 		coords: [[41.688,46.266]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // SE Velen
+	},{
 		coords: [[53.891,126.719]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
@@ -499,65 +739,75 @@ window.mapdata_hos_velen = {
 		coords: [[43.094,163.641]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
-	},{ // New
-		coords: [
-				[115.8125,45.90625],
-				[151.15625,164.59375],
-				[251.8125,134.875],
-				[226.875,151.5625],
-				[99.750,120.625]
-				],
+	},{
+		coords: [[115.812,45.906]],
+		label: $.t("entrance.label"),
+		popup: $.t("entrance.desc")
+	},{
+		coords: [[151.156,164.593]],
+		label: $.t("entrance.label"),
+		popup: $.t("entrance.desc")
+	},{
+		coords: [[251.812,134.875]],
+		label: $.t("entrance.label"),
+		popup: $.t("entrance.desc")
+	},{
+		coords: [[226.875,151.562]],
+		label: $.t("entrance.label"),
+		popup: $.t("entrance.desc")
+	},{
+		coords: [[99.750,120.625]],
 		label: $.t("entrance.label"),
 		popup: $.t("entrance.desc")
 	}],
 
-	// Events
+	//------------------------------------------------Events------------------------------------------------
 	event: [{
-		coords: [[143.46875,101.875]],
+		coords: [[143.468,101.875]],
 		label: $.t("v:event.label.friend"),
 		popup: $.t("v:event.desc.friend")
 	},{
-		coords: [[190.625,144.3125]],
+		coords: [[190.625,144.312]],
 		label: $.t("v:event.label.weolcome"),
 		popup: $.t("v:event.desc.weolcome")
 	},{
-		coords: [[128.1875,102.78125]],
+		coords: [[128.187,102.781]],
 		label: $.t("v:event.label.mercy1"),
 		popup: $.t("v:event.desc.mercy1")
 	},{
-		coords: [[170.953125,87.453125]],
+		coords: [[170.953,87.453]],
 		label: $.t("v:event.label.mercy2"),
 		popup: $.t("v:event.desc.mercy2")
 	},{
-		coords: [[120.25,142.28125]],
+		coords: [[120.250,142.281]],
 		label: $.t("v:event.label.caravan"),
 		popup: $.t("v:event.desc.caravan") + $.t("pid.afterrescue") + ' <a href="#6/100.531/76.344">' + $.t("pid.rescueLocation") + '</a>'
 	},{
-		coords: [[101.34375,80.1875]],
+		coords: [[101.343,80.187]],
 		label: $.t("v:event.label.crow"),
 		popup: $.t("v:event.desc.crow")
 	},{
-		coords: [[89.859375,62.21875]],
+		coords: [[89.859,62.218]],
 		label: $.t("v:event.label.crossing1"),
 		popup: $.t("v:event.desc.crossing1")
 	},{
-		coords: [[111.5625,110.96875]],
+		coords: [[111.562,110.968]],
 		label: $.t("v:event.label.crossing2"),
 		popup: $.t("v:event.desc.crossing2")
 	},{
-		coords: [[78.53125,128.46875]],
+		coords: [[78.531,128.468]],
 		label: $.t("v:event.label.crossing3"),
 		popup: $.t("v:event.desc.crossing3")
 	},{
-		coords: [[83.140625,94.953125]],
+		coords: [[83.140,94.953]],
 		label: $.t("v:event.label.crossing4"),
 		popup: $.t("v:event.desc.crossing4")
 	},{
-		coords: [[205.875,95.84375]],
+		coords: [[205.875,95.843]],
 		label: $.t("v:event.label.drunken"),
 		popup: $.t("v:event.desc.drunken")
 	},{
-		coords: [[93.625,76.9375]],
+		coords: [[93.625,76.937]],
 		label: $.t("v:event.label.dare1"),
 		popup: $.t("v:event.desc.dare1")
 	},{
@@ -565,39 +815,39 @@ window.mapdata_hos_velen = {
 		label: $.t("v:event.label.dare2"),
 		popup: $.t("v:event.desc.dare2")
 	},{
-		coords: [[209.65625,93.875]],
+		coords: [[209.656,93.875]],
 		label: $.t("v:event.label.dare3"),
 		popup: $.t("v:event.desc.dare3")
 	},{
-		coords: [[144.0625,71.921875]],
+		coords: [[144.062,71.921]],
 		label: $.t("v:event.label.troll"),
 		popup: $.t("v:event.desc.troll")
 	},{
-		coords: [[88,81.8125]],
+		coords: [[88.000,81.812]],
 		label: $.t("v:event.label.robbery"),
 		popup: $.t("v:event.desc.robbery")
 	},{
-		coords: [[204.71875,115.34375]],
+		coords: [[204.718,115.343]],
 		label: $.t("v:event.label.karmic"),
 		popup: $.t("v:event.desc.karmic")
 	},{
-		coords: [[126.65625,73.4375]],
+		coords: [[126.656,73.437]],
 		label: $.t("v:event.label.looters1"),
 		popup: $.t("v:event.desc.looters1")
 	},{
-		coords: [[145.4375,136.5]],
+		coords: [[145.437,136.500]],
 		label: $.t("v:event.label.looters2"),
 		popup: $.t("v:event.desc.looters2")
 	},{
-		coords: [[99.84375,166.5625]],
+		coords: [[99.843,166.562]],
 		label: $.t("v:event.label.looters3"),
 		popup: $.t("v:event.desc.looters3")
 	},{
-		coords: [[210.578125,109.75]],
+		coords: [[210.578,109.750]],
 		label: $.t("v:event.label.children"),
 		popup: $.t("v:event.desc.children")
 	},{
-		coords: [[195.40625,96.890625]],
+		coords: [[195.406,96.890]],
 		label: $.t("v:event.label.racist1"),
 		popup: $.t("v:event.desc.racist1")
 	},{
@@ -605,43 +855,43 @@ window.mapdata_hos_velen = {
 		label: $.t("v:event.label.racist2"),
 		popup: $.t("v:event.desc.racist2")
 	},{
-		coords: [[194.734375,102.65625]],
+		coords: [[194.734,102.656]],
 		label: $.t("v:event.label.pyre"),
 		popup: $.t("v:event.desc.pyre")
 	},{
-		coords: [[185.75,145.3125]],
+		coords: [[185.750,145.312]],
 		label: $.t("v:event.label.strangers"),
 		popup: $.t("v:event.desc.strangers")
 	},{
-		coords: [[195.34375,88.265625]],
+		coords: [[195.343,88.265]],
 		label: $.t("v:event.label.strumpet"),
 		popup: $.t("v:event.desc.strumpet")
 	},{
-		coords: [[200.78125,108.046875]],
+		coords: [[200.781,108.046]],
 		label: $.t("v:event.label.suspicious"),
 		popup: $.t("v:event.desc.suspicious")
 	},{
-		coords: [[206.40625,106.46875]],
+		coords: [[206.406,106.468]],
 		label: $.t("v:event.label.flame"),
 		popup: $.t("v:event.desc.flame")
 	},{
-		coords: [[163.6875,177.65625]],
+		coords: [[163.687,177.656]],
 		label: $.t("v:event.label.basilisk"),
 		popup: $.t("v:event.desc.basilisk")
 	},{
-		coords: [[157.59375,163.8125]],
+		coords: [[157.593,163.812]],
 		label: $.t("v:event.label.passage1"),
 		popup: $.t("v:event.desc.passage1")
 	},{
-		coords: [[157.53125,169.5]],
+		coords: [[157.531,169.500]],
 		label: $.t("v:event.label.passage2"),
 		popup: $.t("v:event.desc.passage2")
 	},{
-		coords: [[160.4375,178.96875]],
+		coords: [[160.437,178.968]],
 		label: $.t("v:event.label.passage3"),
 		popup: $.t("v:event.desc.passage3")
 	},{
-		coords: [[189.5,98.640625]],
+		coords: [[189.500,98.640]],
 		label: $.t("v:event.label.raids"),
 		popup: $.t("v:event.desc.raids")
 	},{
@@ -658,58 +908,119 @@ window.mapdata_hos_velen = {
 		popup: $.t("v:event.desc.daughter")
 	}],
 
-	// Grindstone
+	//------------------------------------------------Grindstone------------------------------------------------
 	grindstone: [{
-		coords: [
-			// Novigrad
-			[211.547,97.453],
-			[210.641,99.266],
-			// S Novigrad
-			[168.094,91.391],
-			// Oxenfurt
-			[160.734,164.500],
-			// NE Velen
-			[129.922,118.313],
-			// NW Velen
-			[153.016,46.609],
-			[106.594,52.625],
-			[105.156,76.313],
-			[82.734,70.828],
-			[68.234,74.516],
-			[82.328,40.094],
-			[75.875,25.531],
-			// SE Velen
-			[100.703,167.141],
-			[102.531,108.906],
-			// New
-			[23.984375,150.546875],
-			[164.296875,185.546875],
-			[189.8125,97.0625],
-			[196.25,99.75]
-		],
+		coords: [[211.547,97.453]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[210.641,99.266]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[168.094,91.391]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[160.734,164.500]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[129.922,118.313]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[153.016,46.609]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[106.594,52.625]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[105.156,76.313]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[82.734,70.828]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[68.234,74.516]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[82.328,40.094]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[75.875,25.531]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[100.703,167.141]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[102.531,108.906]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[23.984,150.546]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[164.296,185.546]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[189.812,97.062]],
+		label: $.t("grindstone.label"),
+		popup: $.t("grindstone.desc")
+	},{
+		coords: [[196.250,99.750]],
 		label: $.t("grindstone.label"),
 		popup: $.t("grindstone.desc")
 	}],
 
-	// Guarded Treasure
+	//------------------------------------------------Guarded Treasure------------------------------------------------
 	guarded: [{
-		coords: [
-			// NW Velen
-			[107.281,42.953],
-			[98.313,40.141],
-			[98.578,21.844],
-			// SE Velen
-			[49.641,150.531],
-			[84.875,123.281],
-			// New
-			[181.15625,220.6875],
-			[246.25,182.8125],
-			[258.84375,129.1875],
-			[248.4375,162.6875]
-		],
+		coords: [[107.281,42.953]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
-	},{ // NE Novigrad
+	},{
+		coords: [[98.313,40.141]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[98.578,21.844]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[49.641,150.531]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[84.875,123.281]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[181.156,220.687]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[246.250,182.812]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[258.843,129.187]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
+		coords: [[248.437,162.687]],
+		label: $.t("guarded.label"),
+		popup: $.t("guarded.desc")
+	},{
 		coords: [[215.016,126.328]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
@@ -721,11 +1032,11 @@ window.mapdata_hos_velen = {
 		coords: [[239.594,104.219]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
-	},{ // SE Novigrad
+	},{
 		coords: [[164.563,198.594]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
-	},{ // S Novigrad
+	},{
 		coords: [[171.500,119.516]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
@@ -733,7 +1044,7 @@ window.mapdata_hos_velen = {
 		coords: [[184.609,58.609]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
-	},{ // NE Velen
+	},{
 		coords: [[121.781,136.625]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
@@ -761,7 +1072,7 @@ window.mapdata_hos_velen = {
 		coords: [[147.047,57.047]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
-	},{ // SW Velen
+	},{
 		coords: [[37.094,55.438]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
@@ -777,7 +1088,7 @@ window.mapdata_hos_velen = {
 		coords: [[34.438,93.125]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
-	},{ // SE Velen
+	},{
 		coords: [[56.953,200.891]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
@@ -797,10 +1108,14 @@ window.mapdata_hos_velen = {
 		coords: [[69.406,162.688]],
 		label: $.t("guarded.label"),
 		popup: $.t("guarded.desc")
+	},{
+		coords: [[132.000,69.516]],
+		label: $.t("guarded.label"),
+		popup: $.t("v:guarded.desc.cyclops")
 	}],
 
-	// Gwent Player
-	gwent: [{ // Novigrad
+	//------------------------------------------------Gwent Player------------------------------------------------
+	gwent: [{
 		coords: [[205.438,99.578]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.shopkeeper"),
@@ -915,17 +1230,17 @@ window.mapdata_hos_velen = {
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.innkeeper"),
 		popup: $.t("v:gwent.desc.warn") + $.t("v:gwent.desc.player")
-	},{ // S Novigrad
+	},{
 		coords: [[185.375,117.734]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.innkeeper"),
 		popup: $.t("v:gwent.desc.player")
-	},{ // SE Novigrad
+	},{
 		coords: [[170.047,179.250]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.herbalist"),
 		popup: $.t("v:gwent.desc.player")
-	},{ // Oxenfurt
+	},{
 		coords: [[156.094,165.297]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.innkeeper"),
@@ -945,12 +1260,12 @@ window.mapdata_hos_velen = {
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.blacksmith"),
 		popup: $.t("v:gwent.desc.player")
-	},{ // NE Velen
+	},{
 		coords: [[129.922,118.688]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.armorer"),
 		popup: $.t("v:gwent.desc.player") + $.t("pid.rescue") + ' <a href="#6/115.500/107.875">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // NW Velen
+	},{
 		coords: [[107.641,54.969]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.shopkeeper"),
@@ -1005,7 +1320,7 @@ window.mapdata_hos_velen = {
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.yoana"),
 		popup: $.t("v:gwent.desc.player")
-	},{ // SE Velen
+	},{
 		coords: [[99.984,110.703]],
 		label: $.t("v:gwent.label.player"),
 		popupTitle: $.t("v:gwent.popup.shopkeeper"),
@@ -1031,48 +1346,79 @@ window.mapdata_hos_velen = {
 		popupTitle: $.t("v:gwent.popup.player"),
 		popup: $.t("v:gwent.desc.player")
 	}],
+	
+	//------------------------------------------------Hanse Base------------------------------------------------
+	hansebase: [],
 
-	// Harbor
+	//------------------------------------------------Harbor------------------------------------------------
 	harbor: [{
-		coords: [
-			// Novigrad
-			[199.828,86.109],
-			// Oxenfurt
-			[157.563,161.406],
-			// NE Velen
-			[123.422,172.734],
-			[114.156,134.563],
-			[114.813,104.563],
-			// NW Velen
-			[82.125,89.125],
-			[95.344,26.344],
-			[107.375,41.438],
-			// SW Velen
-			[53.266,75.359],
-			[28.094,46.609],
-			// SE Velen
-			[33.641,119.953]
-		],
+		coords: [[199.828,86.109]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[157.563,161.406]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[123.422,172.734]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[114.156,134.563]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[114.813,104.563]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[82.125,89.125]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[95.344,26.344]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[107.375,41.438]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[53.266,75.359]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[28.094,46.609]],
+		label: $.t("harbor.label"),
+		popup: $.t("harbor.desc")
+	},{
+		coords: [[33.641,119.953]],
 		label: $.t("harbor.label"),
 		popup: $.t("harbor.desc")
 	}],
 
-	// Herbalist
+	//------------------------------------------------Herbalist------------------------------------------------
 	herbalist: [{
-		coords: [
-			// Novigrad
-			[207.172,103.047],
-			[201.656,102.625],
-			// S Novigrad
-			[184.547,118.500],
-			// SE Novigrad
-			[169.859,179.094],
-			//New
-			[178.59375,216.21875]
-		],
+		coords: [[207.172,103.047]],
 		label: $.t("herbalist.label"),
 		popup: $.t("herbalist.desc")
-	},{ // NW Velen
+	},{
+		coords: [[201.656,102.625]],
+		label: $.t("herbalist.label"),
+		popup: $.t("herbalist.desc")
+	},{
+		coords: [[184.547,118.500]],
+		label: $.t("herbalist.label"),
+		popup: $.t("herbalist.desc")
+	},{
+		coords: [[169.859,179.094]],
+		label: $.t("herbalist.label"),
+		popup: $.t("herbalist.desc")
+	},{
+		coords: [[178.593,216.218]],
+		label: $.t("herbalist.label"),
+		popup: $.t("herbalist.desc")
+	},{
 		coords: [[86.609,29.156]],
 		label: $.t("herbalist.label"),
 		popup: $.t("v:misc.liberated") + $.t("herbalist.desc")
@@ -1080,44 +1426,74 @@ window.mapdata_hos_velen = {
 		coords: [[107.125,31.641]],
 		label: $.t("herbalist.label"),
 		popup: $.t("v:misc.liberated") + $.t("herbalist.desc")
-	},{ // SW Velen
+	},{
 		coords: [[34.578,98.656]],
 		label: $.t("herbalist.label"),
 		popup: $.t("v:misc.liberated") + $.t("herbalist.desc")
-	},{ // SE Velen
+	},{
 		coords: [[99.828,129.547]],
 		label: $.t("herbalist.label"),
 		popup: $.t("v:misc.liberated") + $.t("herbalist.desc")
-	},{ // New
+	},{
 		coords: [[199.563,187.438]],
 		label: $.t("herbalist.label"),
 		popup: $.t("v:misc.liberated") + $.t("herbalist.desc") + $.t(" ") + $.t("pid.rescue") + ' <a href="#6/198.344/187.281">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
-	// Hidden Treasure
+	//------------------------------------------------Hidden Treasure------------------------------------------------
 	hidden: [{
-		coords: [
-			// NW Velen
-			[153.063,45.953],
-			[107.531,36.859],
-			[104.422,26.078],
-			[94.859,28.031],
-			// SW Velen
-			[54.469,51.313],
-			// SE Velen
-			[105.625,148.141],
-			// New
-			[190.9375,195.125],
-			[186.3125,211.25],
-			[197.59375,226.125],
-			[245.5625,212.5625],
-			[252.625,133.625],
-			[239.8125,155.9375],
-			[241.75,94.0625]
-		],
+		coords: [[153.063,45.953]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.desc")
-	},{ // S Novigrad
+	},{
+		coords: [[107.531,36.859]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[104.422,26.078]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[94.859,28.031]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[54.469,51.313]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[105.625,148.141]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[190.937,195.125]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[186.312,211.250]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[197.593,226.125]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[245.562,212.562]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[252.625,133.625]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[239.812,155.937]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
+		coords: [[241.750,94.062]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.desc")
+	},{
 		coords: [[154.313,96.734]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
@@ -1125,7 +1501,7 @@ window.mapdata_hos_velen = {
 		coords: [[168.563,78.875]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
-	},{ // NE Velen
+	},{
 		coords: [[115.891,134.969]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
@@ -1149,11 +1525,11 @@ window.mapdata_hos_velen = {
 		coords: [[166.922,155.281]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
-	},{ // NW Velen
+	},{
 		coords: [[86.016,17.078]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
-	},{ // SE Velen
+	},{
 		coords: [[50.922,182.641]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
@@ -1165,7 +1541,7 @@ window.mapdata_hos_velen = {
 		coords: [[112.969,162.563]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
-	},{ // SW Velen
+	},{
 		coords: [[56.438,20.781]],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.guarded")
@@ -1183,8 +1559,8 @@ window.mapdata_hos_velen = {
 		popup: $.t("hidden.guarded")
 	}],
 
-	// Innkeep
-	innkeep: [{ // Novigrad
+	//------------------------------------------------Innkeep------------------------------------------------
+	innkeep: [{
 		coords: [[206.000,96.547]],
 		label: $.t("v:innkeep.inns.theGoldenSturgen"),
 		popup: $.t("v:innkeep.desc.foodDrinkAndGwent")
@@ -1208,66 +1584,100 @@ window.mapdata_hos_velen = {
 		coords: [[209.328,104.719]],
 		label: $.t("v:innkeep.inns.theKingfisher"),
 		popup: $.t("v:misc.disappearingTrader") + $.t("v:innkeep.desc.foodDrinkAndGwent")
-	},{ // S Novigrad
+	},{
 		coords: [[185.125,118.047]],
 		label: $.t("v:innkeep.inns.cunnyOfTheGoose"),
 		popup: $.t("v:innkeep.desc.foodDrinkAndGwent")
-	},{ // Oxenfurt
+	},{
 		coords: [[156.063,165.172]],
 		label: $.t("v:innkeep.inns.theAlchemy"),
 		popup: $.t("v:innkeep.desc.foodDrinkAndGwent")
-	},{ // NE Velen
+	},{
 		coords: [[128.141,95.516]],
 		label: $.t("v:innkeep.inns.innAtTheCrossroads"),
 		popup: $.t("v:innkeep.desc.gwentAndDrink")
 	}],
 
-	// Monster Den
+	//------------------------------------------------Knight in Distress------------------------------------------------
+	kid: [],
+
+	//------------------------------------------------Monster Den------------------------------------------------
 	monsterden: [{
-		coords: [
-			// NE Velen
-			[142.984,118.125],
-			// SE Velen
-			[81.656,136.359]
-		],
+		coords: [[142.984,118.125]],
 		label: $.t("monsterden.label"),
 		popup: $.t("monsterden.desc")
-	},{ // NE Novigrad
+	},{
+		coords: [[81.656,136.359]],
+		label: $.t("monsterden.label"),
+		popup: $.t("monsterden.desc")
+	},{
 		coords: [[237.641,105.016]],
 		label: $.t("monsterden.label"),
 		popup: $.t("monsterden.desc")
-	},{ // S Novigrad
+	},{
 		coords: [[165.891,99.375]],
 		label: $.t("monsterden.label"),
 		popup: $.t("monsterden.desc")
 	}],
 
-	// Monster Nest
+	//------------------------------------------------Monster Nest------------------------------------------------
 	monsternest: [{
-		coords: [
-			// NE Velen
-			[153.734,135.203],
-			[160.500,127.328],
-			// NW Velen
-			[110.656,88.094],
-			[100.078,66.047],
-			[82.969,86.828],
-			// SW Velen
-			[44.984,40.906],
-			[45.984,41.656],
-			// SE Velen
-			[60.047,126.375],
-			// New
-			[204.84375,186.4375],
-			[238.8125,199.90625],
-			[235.65625,201.53125],
-			[240.5625,171.5],
-			[255.125,119.75],
-			[218.6875,183.875]
-		],
+		coords: [[153.734,135.203]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
-	},{ // S Novigrad
+	},{
+		coords: [[160.500,127.328]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[110.656,88.094]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[100.078,66.047]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[82.969,86.828]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[44.984,40.906]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[45.984,41.656]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[60.047,126.375]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[204.843,186.437]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[238.812,199.906]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[235.656,201.531]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[240.562,171.500]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[255.125,119.750]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
+		coords: [[218.687,183.875]],
+		label: $.t("monsternest.label"),
+		popup: $.t("monsternest.desc")
+	},{
 		coords: [[154.141,85.000]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
@@ -1283,7 +1693,7 @@ window.mapdata_hos_velen = {
 		coords: [[170.266,112.969]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
-	},{ // NE Velen
+	},{
 		coords: [[133.422,162.531]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
@@ -1299,11 +1709,11 @@ window.mapdata_hos_velen = {
 		coords: [[160.750,137.891]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
-	},{ // SW Velen
+	},{
 		coords: [[43.578,108.563]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
-	},{ // SE Velen
+	},{
 		coords: [[86.891,168.969]],
 		label: $.t("monsternest.label"),
 		popup: $.t("monsternest.desc")
@@ -1329,87 +1739,130 @@ window.mapdata_hos_velen = {
 		popup: $.t("monsternest.desc")
 	}],
 
-	// Notice Board
+	//------------------------------------------------Notice Board------------------------------------------------
 	notice: [{
-		coords: [
-			// Novigrad
-			[209.078,103.609],
-			[205.641,97.031],
-			[215.844,105.000],
-			[188.594,100.641],
-			// NE Novigrad
-			[237.172,130.297],
-			// E Novigrad
-			[198.047,126.578],
-			[205.750,157.922],
-			// S Novigrad
-			[185.500,116.000],
-			// Oxenfurt
-			[158.156,165.109],
-			// NE Velen
-			[131.547,119.453],
-			[128.953,95.047],
-			[153.344,112.781],
-			// NW Velen
-			[82.078,42.078],
-			[104.547,78.828],
-			[69.234,75.438],
-			// SE Velen
-			[77.266,147.797],
-			[100.641,109.469],
-			[33.688,206.219],
-			// New
-			[99.5,137.21875]
-		],
+		coords: [[209.078,103.609]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[205.641,97.031]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[215.844,105.000]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[188.594,100.641]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[237.172,130.297]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[198.047,126.578]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[205.750,157.922]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[185.500,116.000]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[158.156,165.109]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[131.547,119.453]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[128.953,95.047]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[153.344,112.781]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[82.078,42.078]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[104.547,78.828]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[69.234,75.438]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[77.266,147.797]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[100.641,109.469]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[33.688,206.219]],
+		label: $.t("notice.label"),
+		popup: $.t("notice.desc")
+	},{
+		coords: [[99.500,137.218]],
 		label: $.t("notice.label"),
 		popup: $.t("notice.desc")
 	}],
 
-	// Person in Distress
-	pid: [{ // NE Velen
+	//------------------------------------------------Person in Distress------------------------------------------------
+	pid: [{
 		coords: [[147.578,119.578]],
 		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/151.281/115.438">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // NW Velen
+	},{
 		coords: [[102.500,33.828]],
 		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/81.625/69.906">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // New
-		coords: [[198.6875,186.90625]],
+	},{
+		coords: [[198.687,186.906]],
 		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/199.563/187.438">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // SE Novigrad
+	},{
 		coords: [[142.984,199.375]],
 		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/130.125/198.188">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // NE Velen
+	},{
 		coords: [[115.391,107.094]],
 		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/129.438/118.906">' + $.t("pid.rescueLocation") + '</a>'
-	},{ // NW Velen
+	},{
 		coords: [[72.656,103.797]],
 		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/83.688/70.125">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
-	// Place of Power
-	pop: [{ // Novigrad
+	//------------------------------------------------Place of Power------------------------------------------------
+	pop: [{
 		coords: [[230.391,98.688]],
 		label: $.t("pop.label"),
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.igni")}),
 		popup: $.t("pop.desc")
-	},{ // E Novigrad
+	},{
 		coords: [[200.813,162.688]],
 		label: $.t("pop.label"),
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.axii")}),
 		popup: $.t("pop.desc")
-	},{ // NW Velen
+	},{
 		coords: [[152.688,47.781]],
 		label: $.t("pop.label"),
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.quen")}),
 		popup: $.t("pop.desc")
-	},{ // SW Velen
-		coords: [[15.063,76.14]],
+	},{
+		coords: [[15.063,76.140]],
 		label: $.t("pop.label"),
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.aard")}),
 		popup: $.t("pop.desc")
@@ -1418,7 +1871,7 @@ window.mapdata_hos_velen = {
 		label: $.t("pop.label") + '*',
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.yrden")}),
 		popup: $.t("v:misc.wanderingInTheDark") + $.t("pop.desc")
-	},{ // SE Velen
+	},{
 		coords: [[35.688,133.594]],
 		label: $.t("pop.label") + '*',
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.quen")}),
@@ -1435,8 +1888,8 @@ window.mapdata_hos_velen = {
 		popup: $.t("pop.desc")
 	}],
 
-	// Point of Interest
-	poi: [{ // Novigrad
+	//------------------------------------------------Point of Interest------------------------------------------------
+	poi: [{
 		coords: [[210.156,109.453]],
 		label: $.t("v:poi.label.triss"),
 		popup: $.t("v:poi.desc.triss")
@@ -1448,20 +1901,20 @@ window.mapdata_hos_velen = {
 		coords: [[217.453,110.297]],
 		label: $.t("v:poi.label.vilmeriusHospital"),
 		popup: $.t("v:poi.desc.vilmeriusHospital")
-	},{ // NW Velen
+	},{
 		coords: [[89.828,48.344]],
 		label: $.t("v:poi.label.keira"),
 		popup: $.t("v:poi.desc.keira")
-	},{ //New
-		coords: [[239.5,214.6875]],
+	},{
+		coords: [[239.500,214.687]],
 		label: $.t("v:poi.label.rune"),
 		popup: $.t("v:poi.desc.rune")
 	},{
-		coords: [[153.5,163.71875]],
+		coords: [[153.500,163.718]],
 		label: $.t("v:poi.label.shani"),
 		popup: $.t("v:poi.desc.shani")
 	},{
-		coords: [[209.6875,102.625]],
+		coords: [[209.687,102.625]],
 		label: $.t("v:poi.label.statue"),
 		popup: $.t("v:poi.desc.statue")
 	},{
@@ -1482,13 +1935,13 @@ window.mapdata_hos_velen = {
 		popup: $.t("poi.desc.lootableBattlefield")
 	}],
 
-	// Scavengers
+	//------------------------------------------------Scavengers------------------------------------------------
 	scavenger: [{
 		coords: [[156.031,208.844]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.2"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.armor") + $.t("scavenger.level.2")
 	},{
-		coords: [[100.671875,177.34375]],
+		coords: [[100.671,177.343]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.2"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.boot") + $.t("scavenger.level.2")
 	},{
@@ -1524,7 +1977,7 @@ window.mapdata_hos_velen = {
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.3"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.steel") + $.t("scavenger.level.3")
 	},{
-		coords: [[151.09375,170.3125]],
+		coords: [[151.093,170.312]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.2"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.trous") + $.t("scavenger.level.2")
 	},{
@@ -1544,7 +1997,7 @@ window.mapdata_hos_velen = {
 		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.1"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.1")
 	},{
-		coords: [[41.3125,164.4375]],
+		coords: [[41.312,164.437]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.2"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.2")
 	},{
@@ -1564,7 +2017,7 @@ window.mapdata_hos_velen = {
 		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.4"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.4")
 	},{
-		coords: [[53,130.547]],
+		coords: [[53.000,130.547]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.3"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.3")
 	},{
@@ -1588,7 +2041,7 @@ window.mapdata_hos_velen = {
 		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.2"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.boot") + $.t("scavenger.level.2")
 	},{
-		coords: [[106.703,72.75]],
+		coords: [[106.703,72.750]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.2"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.silver") + $.t("scavenger.level.2")
 	},{
@@ -1600,7 +2053,7 @@ window.mapdata_hos_velen = {
 		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.4"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.steel") + $.t("scavenger.level.4")
 	},{
-		coords: [[229.71875,89.125]],
+		coords: [[229.718,89.125]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.1"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.armor") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.trous") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.boot") + $.t("scavenger.level.1")
 	},{
@@ -1612,7 +2065,7 @@ window.mapdata_hos_velen = {
 		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.1"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.armor") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.trous") + $.t("scavenger.level.1") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.boot") + $.t("scavenger.level.1")
 	},{
-		coords: [[24.984375,150.359375]],
+		coords: [[24.984,150.359]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.4"),
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.4") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.4")
 	},{
@@ -1621,8 +2074,8 @@ window.mapdata_hos_velen = {
 		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.3") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.3") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.3") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.3")
 	}],
 
-	// Shopkeeper
-	shopkeeper: [{ // Novigrad
+	//------------------------------------------------Shopkeeper------------------------------------------------
+	shopkeeper: [{
 		coords: [[208.734,102.859]],
 		label: $.t("v:shopkeeper.label.bookMerchant"),
 		popup: $.t("v:shopkeeper.desc.bookMerchant")
@@ -1686,20 +2139,15 @@ window.mapdata_hos_velen = {
 		coords: [[200.828,98.297]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.foodAndDrink")
-	},{ // NE Novigrad
+	},{
 		coords: [[231.297,163.828]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.runesAlchemyAndFood")
-	},{ // SE Novigrad
+	},{
 		coords: [[130.578,196.953]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("pid.rescue") + ' <a href="#6/142.563/200.250">' + $.t("pid.rescueLocation") + '</a>'
-	},/*{ // S Novigrad
-		// appears on map but nobody there?
-		coords: [[65.95,-21.09]],
-		label: $.t("shopkeeper.shopkeeper"),
-		popup: '???'
-	},*/ {
+	},{
 		coords: [[179.969,88.781]],
 		label: $.t("v:shopkeeper.label.wanderingMerchant"),
 		popup: $.t("v:shopkeeper.desc.windmillMerchant")
@@ -1716,11 +2164,11 @@ window.mapdata_hos_velen = {
 		label: $.t("v:shopkeeper.label.wanderingMerchant"),
 		popupTitle: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.runesAlchemyAndFood")
-	},{ // Oxenfurt
+	},{
 		coords: [[159.141,164.516]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.paintMerchant")
-	},{ // NE Velen
+	},{
 		coords: [[147.313,149.422]],
 		label: $.t("v:shopkeeper.label.wanderingMerchant"),
 		popupTitle: $.t("v:shopkeeper.label.shopkeeper"),
@@ -1737,7 +2185,7 @@ window.mapdata_hos_velen = {
 		coords: [[137.406,160.781]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:misc.liberated") + $.t("v:shopkeeper.desc.runesAlchemyAndFood")
-	},{ // NW Velen
+	},{
 		coords: [[107.469,54.906]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.uselessMerchant")
@@ -1781,11 +2229,11 @@ window.mapdata_hos_velen = {
 		coords: [[76.797,26.313]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.armourAndCraftingSupplies")
-	},{ // SW Velen
+	},{
 		coords: [[30.359,46.734]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:misc.liberated") + $.t("v:shopkeeper.desc.runesAlchemyAndFood")
-	},{ // SE Velen
+	},{
 		coords: [[100.578,130.578]],
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:misc.liberated") + $.t("v:shopkeeper.desc.alchemyAndFood")
@@ -1818,116 +2266,126 @@ window.mapdata_hos_velen = {
 		label: $.t("v:shopkeeper.label.shopkeeper"),
 		popup: $.t("v:shopkeeper.desc.weaponsAndCraftingSupplies")
 	},{
-		coords: [[130.0625,126.03125]],
+		coords: [[130.062,126.031]],
 		label: $.t("v:shopkeeper.label.mulbrydale"),
 		popup: $.t("shopkeeper.desc")
 	},{
-		coords: [
-			[35.40625,124.25],
-			[28.5,123.875],
-			[212.640625,91.09375],
-			[208.6875,107.390625],
-			[187.797,152.172]
-				],
+		coords: [[35.406,124.250]],
+		label: $.t("shopkeeper.label"),
+		popup: $.t("shopkeeper.desc")
+	},{
+		coords: [[28.500,123.875]],
+		label: $.t("shopkeeper.label"),
+		popup: $.t("shopkeeper.desc")
+	},{
+		coords: [[212.640,91.093]],
+		label: $.t("shopkeeper.label"),
+		popup: $.t("shopkeeper.desc")
+	},{
+		coords: [[208.687,107.390]],
+		label: $.t("shopkeeper.label"),
+		popup: $.t("shopkeeper.desc")
+	},{
+		coords: [[187.797,152.172]],
 		label: $.t("shopkeeper.label"),
 		popup: $.t("shopkeeper.desc")
 	}],
 
-	// Sidequests
+	//------------------------------------------------Sidequests------------------------------------------------
 	sidequests: [{
-		coords: [[182.59375,155.875]],
+		coords: [[182.593,155.875]],
 		label: $.t("v:sidequests.label.barnful"),
 		popup: $.t("v:sidequests.desc.barnful")
 	},{
-		coords: [[199.34375,106.34375]],
+		coords: [[199.343,106.343]],
 		label: $.t("v:sidequests.label.dangerous"),
 		popup: $.t("v:sidequests.desc.dangerous")
 	},{
-		coords: [[66.6875,91.125]],
+		coords: [[66.687,91.125]],
 		label: $.t("v:sidequests.label.dog"),
 		popup: $.t("v:sidequests.desc.dog")
 	},{
-		coords: [[89.84375,48.609375]],
+		coords: [[89.843,48.609]],
 		label: $.t("v:sidequests.label.favor"),
 		popup: $.t("v:sidequests.desc.favor")
 	},{
-		coords: [[200.375,105.203125]],
+		coords: [[200.375,105.203]],
 		label: $.t("v:sidequests.label.feast"),
 		popup: $.t("v:sidequests.desc.feast")
 	},{
-		coords: [[72.4375,59.625]],
+		coords: [[72.437,59.625]],
 		label: $.t("v:sidequests.label.greedy"),
 		popup: $.t("v:sidequests.desc.greedy")
 	},{
-		coords: [[205.515625,107.984375]],
+		coords: [[205.515,107.984]],
 		label: $.t("v:sidequests.label.entombed"),
 		popup: $.t("v:sidequests.desc.entombed")
 	},{
-		coords: [[197.609375,93.546875]],
+		coords: [[197.609,93.546]],
 		label: $.t("v:sidequests.label.waterfront"),
 		popup: $.t("v:sidequests.desc.waterfront")
 	},{
-		coords: [[180,176.125]],
+		coords: [[180.000,176.125]],
 		label: $.t("v:sidequests.label.eyeforeye"),
 		popup: $.t("v:sidequests.desc.eyeforeye")
 	},{
-		coords: [[89.84375,48.875]],
+		coords: [[89.843,48.875]],
 		label: $.t("v:sidequests.label.invitation"),
 		popup: $.t("v:sidequests.desc.invitation")
 	},{
-		coords: [[160.421875,166.4375]],
+		coords: [[160.421,166.437]],
 		label: $.t("v:sidequests.label.avid"),
 		popup: $.t("v:sidequests.desc.avid")
 	},{
-		coords: [[148.15625,114.09375]],
+		coords: [[148.156,114.093]],
 		label: $.t("v:sidequests.label.bitter"),
 		popup: $.t("v:sidequests.desc.bitter")
 	},{
-		coords: [[207.203125,97.140625]],
+		coords: [[207.203,97.140]],
 		label: $.t("v:sidequests.label.pearl"),
 		popup: $.t("v:sidequests.desc.pearl")
 	},{
-		coords: [[42.71875,204.25]],
+		coords: [[42.718,204.250]],
 		label: $.t("v:sidequests.label.blood"),
 		popup: $.t("v:sidequests.desc.blood")
 	},{
-		coords: [[198.96875,107.734375]],
+		coords: [[198.968,107.734]],
 		label: $.t("v:sidequests.label.cabaret"),
 		popup: $.t("v:sidequests.desc.cabaret")
 	},{
-		coords: [[198.96875,108]],
+		coords: [[198.968,108.000]],
 		label: $.t("v:sidequests.label.sins"),
 		popup: $.t("v:sidequests.desc.sins")
 	},{
-		coords: [[106.96875,74.875]],
+		coords: [[106.968,74.875]],
 		label: $.t("v:sidequests.label.ciri"),
 		popup: $.t("v:sidequests.desc.ciri")
 	},{
-		coords: [[149.5625,129.1875]],
+		coords: [[149.562,129.187]],
 		label: $.t("v:sidequests.label.deathfire"),
 		popup: $.t("v:sidequests.desc.deathfire")
 	},{
-		coords: [[105.03125,59.84375]],
+		coords: [[105.031,59.843]],
 		label: $.t("v:sidequests.label.defender"),
 		popup: $.t("v:sidequests.desc.defender")
 	},{
-		coords: [[212.78125,145.46875]],
+		coords: [[212.781,145.468]],
 		label: $.t("v:sidequests.label.empty"),
 		popup: $.t("v:sidequests.desc.empty")
 	},{
-		coords: [[152.5,115.34375]],
+		coords: [[152.500,115.343]],
 		label: $.t("v:sidequests.label.fake"),
 		popup: $.t("v:sidequests.desc.fake")
 	},{
-		coords: [[218,106.109375]],
+		coords: [[218.000,106.109]],
 		label: $.t("v:sidequests.label.fencing"),
 		popup: $.t("v:sidequests.desc.fencing")
 	},{
-		coords: [[209.109375,103.25]],
+		coords: [[209.109,103.250]],
 		label: $.t("v:sidequests.label.thread"),
 		popup: $.t("v:sidequests.desc.thread")
 	},{
-		coords: [[101.78125,137.71875]],
+		coords: [[101.781,137.718]],
 		label: $.t("v:sidequests.label.fools"),
 		popup: $.t("v:sidequests.desc.fools")
 	},{
@@ -1935,313 +2393,317 @@ window.mapdata_hos_velen = {
 		label: $.t("v:sidequests.label.forefathers"),
 		popup: $.t("v:sidequests.desc.forefathers")
 	},{
-		coords: [[89.0625,47.875]],
+		coords: [[89.062,47.875]],
 		label: $.t("v:sidequests.label.forefathers"),
 		popup: $.t("v:sidequests.desc.forefathers")
 	},{
-		coords: [[164.21875,89.75]],
+		coords: [[164.218,89.750]],
 		label: $.t("v:sidequests.label.fromfar"),
 		popup: $.t("v:sidequests.desc.fromfar")
 	},{
-		coords: [[129.6875,111.09375]],
+		coords: [[129.687,111.093]],
 		label: $.t("v:sidequests.label.funeral"),
 		popup: $.t("v:sidequests.desc.funeral")
 	},{
-		coords: [[86.34375,148.46875]],
+		coords: [[86.343,148.468]],
 		label: $.t("v:sidequests.label.ghosts"),
 		popup: $.t("v:sidequests.desc.ghosts")
 	},{
-		coords: [[209.078125,104.125]],
+		coords: [[209.078,104.125]],
 		label: $.t("v:sidequests.label.haunted"),
 		popup: $.t("v:sidequests.desc.haunted")
 	},{
-		coords: [[104.5625,129.296875]],
+		coords: [[104.562,129.296]],
 		label: $.t("v:sidequests.label.hazardous1"),
 		popup: $.t("v:sidequests.desc.hazardous1")
 	},{
-		coords: [[87.203125,164.265625]],
+		coords: [[87.203,164.265]],
 		label: $.t("v:sidequests.label.hazardous2"),
 		popup: $.t("v:sidequests.desc.hazardous2")
 	},{
-		coords: [[213.1875,94.671875]],
+		coords: [[213.187,94.671]],
 		label: $.t("v:sidequests.label.stuff"),
 		popup: $.t("v:sidequests.desc.stuff")
 	},{
-		coords: [[210.46875,107.234375]],
+		coords: [[210.468,107.234]],
 		label: $.t("v:sidequests.label.messages"),
 		popup: $.t("v:sidequests.desc.messages")
 	},{
-		coords: [[221.109375,104.375]],
+		coords: [[221.109,104.375]],
 		label: $.t("v:sidequests.label.stakes"),
 		popup: $.t("v:sidequests.desc.stakes")
 	},{
-		coords: [[198.390625,104.546875]],
+		coords: [[198.390,104.546]],
 		label: $.t("v:sidequests.label.honor"),
 		popup: $.t("v:sidequests.desc.honor")
 	},{
-		coords: [[111.84375,54.5]],
+		coords: [[111.843,54.500]],
 		label: $.t("v:sidequests.label.rites"),
 		popup: $.t("v:sidequests.desc.rites")
 	},{
-		coords: [[237.71875,129.5]],
+		coords: [[237.718,129.500]],
 		label: $.t("v:sidequests.label.red"),
 		popup: $.t("v:sidequests.desc.red")
 	},{
-		coords: [[76.15625,28.03125]],
+		coords: [[76.156,28.031]],
 		label: $.t("v:sidequests.label.snares"),
 		popup: $.t("v:sidequests.desc.snares")
 	},{
-		coords: [[103.84375,39.8125]],
+		coords: [[103.843,39.812]],
 		label: $.t("v:sidequests.label.mob"),
 		popup: $.t("v:sidequests.desc.mob")
 	},{
-		coords: [[89.828125,49.125]],
+		coords: [[89.828,49.125]],
 		label: $.t("v:sidequests.label.magiclamp"),
 		popup: $.t("v:sidequests.desc.magiclamp")
 	},{
-		coords: [[104.84375,77.3125]],
+		coords: [[89.828,49.375]],
+		label: $.t("v:sidequests.label.towerful"),
+		popup: $.t("v:sidequests.desc.towerful")
+	},{
+		coords: [[104.843,77.312]],
 		label: $.t("v:sidequests.label.masterarmor"),
 		popup: $.t("v:sidequests.desc.masterarmor")
 	},{
-		coords: [[209.515625,102.640625]],
+		coords: [[209.515,102.640]],
 		label: $.t("v:sidequests.label.oldfriend"),
 		popup: $.t("v:sidequests.desc.oldfriend")
 	},{
-		coords: [[240.9375,124.375]],
+		coords: [[240.937,124.375]],
 		label: $.t("v:sidequests.label.hospitality"),
 		popup: $.t("v:sidequests.desc.hospitality")
 	},{
-		coords: [[210.5625,95.609375]],
+		coords: [[210.562,95.609]],
 		label: $.t("v:sidequests.label.city1"),
 		popup: $.t("v:sidequests.desc.city1")
 	},{
-		coords: [[221.8125,98.96875]],
+		coords: [[221.812,98.968]],
 		label: $.t("v:sidequests.label.city2"),
 		popup: $.t("v:sidequests.desc.city2")
 	},{
-		coords: [[155.09375,208.53125]],
+		coords: [[155.093,208.531]],
 		label: $.t("v:sidequests.label.darkness"),
 		popup: $.t("v:sidequests.desc.darkness")
 	},{
-		coords: [[197.0625,99.03125]],
+		coords: [[197.062,99.031]],
 		label: $.t("v:sidequests.label.dumplings"),
 		popup: $.t("v:sidequests.desc.dumplings")
 	},{
-		coords: [[201.578125,98.515625]],
+		coords: [[201.578,98.515]],
 		label: $.t("v:sidequests.label.arse"),
 		popup: $.t("v:sidequests.desc.arse")
 	},{
-		coords: [[107.078125,73.765625]],
+		coords: [[107.078,73.765]],
 		label: $.t("v:sidequests.label.crookback"),
 		popup: $.t("v:sidequests.desc.crookback")
 	},{
-		coords: [[247.5,174.34375]],
+		coords: [[247.500,174.343]],
 		label: $.t("v:sidequests.label.rose"),
 		popup: $.t("v:sidequests.desc.rose")
 	},{
-		coords: [[153.53125,163.25]],
+		coords: [[153.531,163.250]],
 		label: $.t("v:sidequests.label.neighborhood1"),
 		popup: $.t("v:sidequests.desc.neighborhood1")
 	},{
-		coords: [[149.3125,166.5]],
+		coords: [[149.312,166.500]],
 		label: $.t("v:sidequests.label.neighborhood2"),
 		popup: $.t("v:sidequests.desc.neighborhood2")
 	},{
-		coords: [[149.28125,183.34375]],
+		coords: [[149.281,183.343]],
 		label: $.t("v:sidequests.label.spooked"),
 		popup: $.t("v:sidequests.desc.spooked")
 	},{
-		coords: [[95.15625,47.71875]],
+		coords: [[95.156,47.718]],
 		label: $.t("v:sidequests.label.takewant"),
 		popup: $.t("v:sidequests.desc.takewant")
 	},{
-		coords: [[202.25,118.6875]],
+		coords: [[202.250,118.687]],
 		label: $.t("v:sidequests.label.dwarven"),
 		popup: $.t("v:sidequests.desc.dwarven")
 	},{
-		coords: [[98.78125,110.5625]],
+		coords: [[98.781,110.562]],
 		label: $.t("v:sidequests.label.reardon"),
 		popup: $.t("v:sidequests.desc.reardon")
 	},{
-		coords: [[159.375,167.21875]],
+		coords: [[159.375,167.218]],
 		label: $.t("v:sidequests.label.taxman"),
 		popup: $.t("v:sidequests.desc.taxman")
 	},{
-		coords: [[84.40625,175.4375]],
+		coords: [[84.406,175.437]],
 		label: $.t("v:sidequests.label.stars"),
 		popup: $.t("v:sidequests.desc.stars")
 	},{
-		coords: [[155.9375,153.28125]],
+		coords: [[155.937,153.281]],
 		label: $.t("v:sidequests.label.volunteer"),
 		popup: $.t("v:sidequests.desc.volunteer")
 	},{
-		coords: [[76.6875,148.28125]],
+		coords: [[76.687,148.281]],
 		label: $.t("v:sidequests.label.hillock"),
 		popup: $.t("v:sidequests.desc.hillock")
 	},{
-		coords: [[154.96875,110.71875]],
+		coords: [[154.968,110.718]],
 		label: $.t("v:sidequests.label.pass"),
 		popup: $.t("v:sidequests.desc.pass")
 	},{
-		coords: [[197.03125,82.625]],
+		coords: [[197.031,82.625]],
 		label: $.t("v:sidequests.label.woe"),
 		popup: $.t("v:sidequests.desc.woe")
 	},{
-		coords: [[128.953125,95.25]],
+		coords: [[128.953,95.250]],
 		label: $.t("v:sidequests.label.heart"),
 		popup: $.t("v:sidequests.desc.heart")
 	},{
-		coords: [[99.65625,109.71875]],
+		coords: [[99.656,109.718]],
 		label: $.t("v:sidequests.label.wannabe"),
 		popup: $.t("v:sidequests.desc.wannabe")
 	},{
-		coords: [[242.90625,198.5625]],
+		coords: [[242.906,198.562]],
 		label: $.t("v:sidequests.label.trace"),
 		popup: $.t("v:sidequests.desc.trace")
 	},{
-		coords: [[207.875,103.0625]],
+		coords: [[207.875,103.062]],
 		label: $.t("sidequests.races") +$.t(": ") +$.t("v:sidequests.label.rc_derby"),
 		popup: $.t("v:sidequests.desc.rc_derby")
 	},{
-		coords: [[104.5625,79.3125]],
+		coords: [[104.562,79.312]],
 		label: $.t("sidequests.races") +$.t(": ") +$.t("v:sidequests.label.rc_perch"),
 		popup: $.t("v:sidequests.desc.rc_perch")
 	},{
-		coords: [[239.46875,213.28125]],
+		coords: [[239.468,213.281]],
 		label: $.t("sidequests.races") +$.t(": ") +$.t("v:sidequests.label.rc_western"),
 		popup: $.t("v:sidequests.desc.rc_western")
 	},{
-		coords: [[156.046875,165.546875]],
+		coords: [[156.046,165.546]],
 		label: $.t("sidequests.gwent") +$.t(": ") +$.t("v:sidequests.label.gw_inn"),
 		popup: $.t("v:sidequests.desc.gw_inn")
 	},{
-		coords: [[107.09375,74]],
+		coords: [[107.093,74.000]],
 		label: $.t("sidequests.gwent") +$.t(": ") +$.t("v:sidequests.label.gw_velen"),
 		popup: $.t("v:sidequests.desc.gw_velen")
 	},{
-		coords: [[209.0625,103.859375]],
+		coords: [[209.062,103.859]],
 		label:$.t("sidequests.fist") +$.t(": ") +$.t("v:sidequests.label.ff_n"),
 		popup: $.t("v:sidequests.desc.ff_n")
 	},{
-		coords: [[99.328125,110.015625]],
+		coords: [[99.328,110.015]],
 		label: $.t("sidequests.fist") +$.t(": ") +$.t("v:sidequests.label.ff_v"),
 		popup: $.t("v:sidequests.desc.ff_v")
 	},{
-		coords: [[239.28125,214.390625]],
+		coords: [[239.281,214.390]],
 		label: $.t("sidequests.enchanting") +$.t(": ") +$.t("v:sidequests.label.en_q"),
 		popup: $.t("v:sidequests.desc.en_q")
 	},{
-		coords: [[239.296875,214.1875]],
+		coords: [[239.296,214.187]],
 		label: $.t("sidequests.enchanting") +$.t(": ") +$.t("v:sidequests.label.en_s"),
 		popup: $.t("v:sidequests.desc.en_s")
 	},{
-		coords: [[104.53125,26.5]],
+		coords: [[104.531,26.500]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_mistake"),
 		popup: $.t("v:sidequests.desc.tr_mistake")
 	},{
-		coords: [[160.4375,166.1875]],
+		coords: [[160.437,166.187]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_legacy"),
 		popup: $.t("v:sidequests.desc.tr_legacy")
 	},{
-		coords: [[56.484375,20.984375]],
+		coords: [[56.484,20.984]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_ignored"),
 		popup: $.t("v:sidequests.desc.tr_ignored")
 	},{
-		coords: [[207.3125,209.8125]],
+		coords: [[207.312,209.812]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_inheritance"),
 		popup: $.t("v:sidequests.desc.tr_inheritance")
 	},{
-		coords: [[115.9375,135.203125]],
+		coords: [[115.937,135.203]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_events"),
 		popup: $.t("v:sidequests.desc.tr_events")
 	},{
-		coords: [[171.875,139.71875]],
+		coords: [[171.875,139.718]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_battlefield"),
 		popup: $.t("v:sidequests.desc.tr_battlefield")
 	},{
-		coords: [[164.609375,147.0625]],
+		coords: [[164.609,147.062]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_bloodgold"),
 		popup: $.t("v:sidequests.desc.tr_bloodgold")
 	},{
-		coords: [[168.65625,79.28125]],
+		coords: [[168.656,79.281]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_wrecks"),
 		popup: $.t("v:sidequests.desc.tr_wrecks")
 	},{
-		coords: [[55.125,50.25]],
+		coords: [[55.125,50.250]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_gods"),
 		popup: $.t("v:sidequests.desc.tr_gods")
 	},{
-		coords: [[166.96875,155.78125]],
+		coords: [[166.968,155.781]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_dowry"),
 		popup: $.t("v:sidequests.desc.tr_dowry")
 	},{
-		coords: [[239.46875,213.515625]],
+		coords: [[239.468,213.515]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_shores"),
 		popup: $.t("v:sidequests.desc.tr_shores")
 	},{
-		coords: [[113.03125,163.03125]],
+		coords: [[113.031,163.031]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_world"),
 		popup: $.t("v:sidequests.desc.tr_world")
 	},{
-		coords: [[130.5,174.40625]],
+		coords: [[130.500,174.406]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_goods"),
 		popup: $.t("v:sidequests.desc.tr_goods")
 	},{
-		coords: [[105.59375,148.5625]],
+		coords: [[105.593,148.562]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_fire"),
 		popup: $.t("v:sidequests.desc.tr_fire")
 	},{
-		coords: [[94.90625,28.5625]],
+		coords: [[94.906,28.562]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_zuleyka"),
 		popup: $.t("v:sidequests.desc.tr_zuleyka")
 	},{
-		coords: [[39.90625,71]],
+		coords: [[39.906,71.000]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_sunkenc"),
 		popup: $.t("v:sidequests.desc.tr_sunkenc")
 	},{
-		coords: [[107.578125,37.125]],
+		coords: [[107.578,37.125]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_sunkent"),
 		popup: $.t("v:sidequests.desc.tr_sunkent")
 	},{
-		coords: [[245.859375,211.9375]],
+		coords: [[245.859,211.937]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_cursed"),
 		popup: $.t("v:sidequests.desc.tr_cursed")
 	},{
-		coords: [[51.375,35.03125]],
+		coords: [[51.375,35.031]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_defense"),
 		popup: $.t("v:sidequests.desc.tr_defense")
 	},{
-		coords: [[254.25,134.4375]],
+		coords: [[254.250,134.437]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_redemption"),
 		popup: $.t("v:sidequests.desc.tr_redemption")
 	},{
-		coords: [[191.125,195.1875]],
+		coords: [[191.125,195.187]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_force"),
 		popup: $.t("v:sidequests.desc.tr_force")
 	},{
-		coords: [[197.609375,226.515625]],
+		coords: [[197.609,226.515]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_romilly"),
 		popup: $.t("v:sidequests.desc.tr_romilly")
 	},{
-		coords: [[241.328125,94.578125]],
+		coords: [[241.328,94.578]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_perfidy"),
 		popup: $.t("v:sidequests.desc.tr_perfidy")
 	},{
-		coords: [[154.40625,97.1875]],
+		coords: [[154.406,97.187]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_forcoin"),
 		popup: $.t("v:sidequests.desc.tr_forcoin")
 	},{
-		coords: [[238.03125,157.0625]],
+		coords: [[238.031,157.062]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_tinker"),
 		popup: $.t("v:sidequests.desc.tr_tinker")
 	},{
-		coords: [[125.71875,144.09375]],
+		coords: [[125.718,144.093]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("v:sidequests.label.tr_luck"),
 		popup: $.t("v:sidequests.desc.tr_luck")
 	}],
 
-	// Sign Post
-	signpost: [{ // Novigrad
+	//------------------------------------------------Sign Post------------------------------------------------
+	signpost: [{
 		coords: [[207.375,103.750]],
 		label: $.t("v:signpost.label.hierarchSquare"),
 		popup: $.t("v:signpost.desc.hierarchSquare")
@@ -2289,7 +2751,7 @@ window.mapdata_hos_velen = {
 		coords: [[198.016,125.922]],
 		label: $.t("v:signpost.label.sevenCatsInn"),
 		popup: $.t("v:signpost.desc.sevenCatsInn")
-	},{ // NE Novigrad
+	},{
 		coords: [[245.109,121.094]],
 		label: $.t("v:signpost.label.sarrasinGrange"),
 		popup: $.t("v:signpost.desc.sarrasinGrange")
@@ -2321,7 +2783,7 @@ window.mapdata_hos_velen = {
 		coords: [[234.469,105.234]],
 		label: $.t("v:signpost.label.cavern"),
 		popup: $.t("v:signpost.desc.cavern")
-	},{ // E Novigrad
+	},{
 		coords: [[205.438,157.313]],
 		label: $.t("v:signpost.label.alness"),
 		popup: $.t("v:signpost.desc.alness")
@@ -2333,7 +2795,7 @@ window.mapdata_hos_velen = {
 		coords: [[189.813,161.063]],
 		label: $.t("v:signpost.label.vegelbudResidence"),
 		popup: $.t("v:signpost.desc.vegelbudResidence")
-	},{ // SE Novigrad
+	},{
 		coords: [[184.719,155.609]],
 		label: $.t("v:signpost.label.carsten"),
 		popup: $.t("v:signpost.desc.carsten")
@@ -2365,7 +2827,7 @@ window.mapdata_hos_velen = {
 		coords: [[215.406,154.203]],
 		label: $.t("v:signpost.label.dancingWindmill"),
 		popup: $.t("v:signpost.desc.dancingWindmill")
-	},{ // S Novigrad
+	},{
 		coords: [[193.328,81.500]],
 		label: $.t("v:signpost.label.loggersHut"),
 		popup: $.t("v:signpost.desc.loggersHut")
@@ -2401,7 +2863,7 @@ window.mapdata_hos_velen = {
 		coords: [[156.516,108.625]],
 		label: $.t("v:signpost.label.borderPost"),
 		popup: $.t("v:signpost.desc.borderPost")
-	},{ // Oxenfurt
+	},{
 		coords: [[157.484,172.031]],
 		label: $.t("v:signpost.label.novigradGate"),
 		popup: $.t("v:signpost.desc.novigradGate")
@@ -2413,7 +2875,7 @@ window.mapdata_hos_velen = {
 		coords: [[156.859,162.375]],
 		label: $.t("v:signpost.label.oxenfurtHarbor"),
 		popup: $.t("v:signpost.desc.oxenfurtHarbor")
-	},{ // NE Velen
+	},{
 		coords: [[139.359,146.203]],
 		label: $.t("v:signpost.label.stonecuttersSettlement"),
 		popup: $.t("v:signpost.desc.stonecuttersSettlement")
@@ -2449,7 +2911,7 @@ window.mapdata_hos_velen = {
 		coords: [[128.797,94.375]],
 		label: $.t("v:signpost.label.innAtTheCrossroads"),
 		popup: $.t("v:signpost.desc.innAtTheCrossroads")
-	},{ // NW Velen
+	},{
 		coords: [[143.859,52.156]],
 		label: $.t("v:signpost.label.harpyFeedingGround"),
 		popup: $.t("v:signpost.desc.harpyFeedingGround")
@@ -2533,7 +2995,7 @@ window.mapdata_hos_velen = {
 		coords: [[58.672,99.766]],
 		label: $.t("v:signpost.label.drudge"),
 		popup: $.t("v:signpost.desc.drudge")
-	},{ // SW Velen
+	},{
 		coords: [[68.141,22.922]],
 		label: $.t("v:signpost.label.condyle"),
 		popup: $.t("v:signpost.desc.condyle")
@@ -2557,7 +3019,7 @@ window.mapdata_hos_velen = {
 		coords: [[33.813,98.703]],
 		label: $.t("v:signpost.label.olenasGrove"),
 		popup: $.t("v:signpost.desc.olenasGrove")
-	},{ // SE Velen
+	},{
 		coords: [[32.125,120.547]],
 		label: $.t("v:signpost.label.roadToBaldMountain"),
 		popup: $.t("v:signpost.desc.roadToBaldMountain")
@@ -2629,48 +3091,48 @@ window.mapdata_hos_velen = {
 		coords: [[111.234,178.766]],
 		label: $.t("v:signpost.label.grotto"),
 		popup: $.t("v:signpost.desc.grotto")
-	},{ // New
-		coords: [[197.203125,225.640625]],
+	},{
+		coords: [[197.203,225.640]],
 		label: $.t("v:signpost.label.arns"),
 		popup: $.t("v:signpost.desc.arns")
 	},{
-		coords: [[254,153.3125]],
+		coords: [[254.000,153.312]],
 		label: $.t("v:signpost.label.bowdon"),
 		popup: $.t("v:signpost.desc.bowdon")
 	},{
-		coords: [[243.34375,197.46875]],
+		coords: [[243.343,197.468]],
 		label: $.t("v:signpost.label.brun"),
 		popup: $.t("v:signpost.desc.brun")
 	},{
-		coords: [[240.75,69.75]],
+		coords: [[240.750,69.750]],
 		label: $.t("v:signpost.label.crane"),
 		popup: $.t("v:signpost.desc.crane")
 	},{
-		coords: [[217.5625,184.625]],
+		coords: [[217.562,184.625]],
 		label: $.t("v:signpost.label.draken"),
 		popup: $.t("v:signpost.desc.draken")
 	},{
-		coords: [[203.28125,207.4375]],
+		coords: [[203.281,207.437]],
 		label: $.t("v:signpost.label.erde"),
 		popup: $.t("v:signpost.desc.erde")
 	},{
-		coords: [[240.9375,175.625]],
+		coords: [[240.937,175.625]],
 		label: $.t("v:signpost.label.garin"),
 		popup: $.t("v:signpost.desc.garin")
 	},{
-		coords: [[176.34375,209.875]],
+		coords: [[176.343,209.875]],
 		label: $.t("v:signpost.label.heddel"),
 		popup: $.t("v:signpost.desc.heddel")
 	},{
-		coords: [[258.03125,128.6875]],
+		coords: [[258.031,128.687]],
 		label: $.t("v:signpost.label.hunter"),
 		popup: $.t("v:signpost.desc.hunter")
 	},{
-		coords: [[213.625,221.8125]],
+		coords: [[213.625,221.812]],
 		label: $.t("v:signpost.label.kilker"),
 		popup: $.t("v:signpost.desc.kilker")
 	},{
-		coords: [[239.3125,211.5625]],
+		coords: [[239.312,211.562]],
 		label: $.t("v:signpost.label.mill"),
 		popup: $.t("v:signpost.desc.mill")
 	},{
@@ -2678,145 +3140,419 @@ window.mapdata_hos_velen = {
 		label: $.t("v:signpost.label.vikk"),
 		popup: $.t("v:signpost.desc.vikk")
 	},{
-		coords: [[228.21875,197.5]],
+		coords: [[228.218,197.500]],
 		label: $.t("v:signpost.label.voneverec"),
 		popup: $.t("v:signpost.desc.voneverec")
 	},{
-		coords: [[221,217.96875]],
+		coords: [[221.000,217.968]],
 		label: $.t("v:signpost.label.zuetzer"),
 		popup: $.t("v:signpost.desc.zuetzer")
 	}],
 
-	// Smugglers' Cache
+	//------------------------------------------------Signal Fire------------------------------------------------
+	signalfire: [],
+
+	//------------------------------------------------Smugglers' Cache------------------------------------------------
 	smugglers: [{
-		coords: [
-			// Novigrad
-			[193.547,103.891],
-			[201.000,121.516],
-			// S Novigrad
-			[183.547,68.297],
-			// NW Velen
-			[75.844,15.000]
-		],
+		coords: [[193.547,103.891]],
+		label: $.t("smugglers.label"),
+		popup: $.t("smugglers.desc")
+	},{
+		coords: [[201.000,121.516]],
+		label: $.t("smugglers.label"),
+		popup: $.t("smugglers.desc")
+	},{
+		coords: [[183.547,68.297]],
+		label: $.t("smugglers.label"),
+		popup: $.t("smugglers.desc")
+	},{
+		coords: [[75.844,15.000]],
 		label: $.t("smugglers.label"),
 		popup: $.t("smugglers.desc")
 	}],
 
-	// Spoils of War
-	spoils: [{ // NE Velen
+	//------------------------------------------------Spoils of War------------------------------------------------
+	spoils: [{
 		coords: [[153.609,79.109]],
 		label: $.t("spoils.label"),
 		popup: $.t("spoils.desc")
-	},{ // NW Velen
+	},{
 		coords: [[111.500,105.250]],
 		label: $.t("spoils.label"),
 		popup: $.t("spoils.desc")
-	},{ // SW Velen
+	},{
 		coords: [[46.078,24.953]],
 		label: $.t("spoils.label"),
 		popup: $.t("spoils.desc")
 	}],
 	
-	// Treasure
-	treasure: [{ //Surface Treause
-		coords: [
-			[101.094,25.344],
-			[97.656,26.375],
-			[97.375,28.438],
-			[89.938,25.438],
-			[91.625,36.906],
-			[90.563,66.953],
-			[103.781,73.484],
-			[103.172,74.625],
-			[103.766,76.516],
-			[107.828,92.938],
-			[119.453,68.688],
-			[128.875,50.578],
-			[139.953,59.344],
-			[143.422,52.844],
-			[52.219,61.594],
-			[53.375,67.188],
-			[54.656,77.969],
-			[55.094,79.250],
-			[51.188,77.813],
-			[50.469,80.094],
-			[72.500,113.469],
-			[99.438,108.906],
-			[100.500,117.313],
-			[84.344,150.063],
-			[68.281,143.719],
-			[59.844,143.438],
-			[56.594,145.375],
-			[50.781,175.438],
-			[86.750,168.531],
-			[130.344,116.188],
-			[129.703,119.688],
-			[136.656,125.422],
-			[153.391,135.344],
-			[151.344,142.000],
-			[173.656,78.063],
-			[193.531,66.188],
-			[191.250,194.969],
-			[213.563,111.094],
-			[30.344,47.063],
-			[28.906,50.469],
-			[39.531,48.438],
-			[39.094,48.250],
-			[44.656,40.125],
-			[51.875,51.563],
-			[52.625,50.500],
-			[47.844,77.094],
-			[86.094,25.625],
-			[71.938,60.281],
-			[37.969,125.688],
-			[52.219,129.844],
-			[33.844,146.594],
-			[44.438,156.594],
-			[94.813,183.438],
-			[109.125,173.906],
-			[127.719,166.406],
-			[124.594,147.406],
-			[143.719,118.500],
-			[148.281,119.875],
-			[168.094,98.125],
-			[220.188,105.844],
-			[249.594,144.531],
-			[227.281,216.844],
-			[199.750,186.969],
-			[186.719,166.750],
-			[146.281,180.063],
-			[144.625,193.813],
-			[157.375,128.344],
-			[119.125,133.563],
-			[139.313,152.813]
-		],
+	//------------------------------------------------Treasure------------------------------------------------
+	treasure: [
+	//Surface Treause
+	{
+		coords: [[101.094,25.344]],
 		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desk")
-	},{ //Underwater Treause
-		coords: [
-			[97.531,18.719],
-			[98.313,17.094],
-			[153.500,69.266],
-			[83.188,95.531],
-			[67.750,99.719],
-			[50.344,99.531],
-			[38.531,81.875],
-			[39.344,72.625],
-			[43.125,106.063],
-			[43.563,110.719],
-			[40.781,111.594],
-			[39.875,72.188],
-			[38.781,72.250],
-			[113.063,153.750],
-			[115.125,154.750],
-			[114.625,136.594],
-			[158.063,94.750],
-			[220.625,99.563],
-			[203.000,98.375],
-			[38.063,124.500],
-			[208.031,120.156]
-		],
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[97.656,26.375]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[97.375,28.438]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[89.938,25.438]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[91.625,36.906]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[90.563,66.953]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[103.781,73.484]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[103.172,74.625]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[103.766,76.516]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[107.828,92.938]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[119.453,68.688]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[128.875,50.578]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[139.953,59.344]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[143.422,52.844]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[52.219,61.594]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[53.375,67.188]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[54.656,77.969]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[55.094,79.250]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[51.188,77.813]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[50.469,80.094]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[72.500,113.469]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[99.438,108.906]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[100.500,117.313]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[84.344,150.063]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[68.281,143.719]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[59.844,143.438]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[56.594,145.375]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[50.781,175.438]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[86.750,168.531]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[130.344,116.188]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[129.703,119.688]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[136.656,125.422]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[153.391,135.344]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[151.344,142.000]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[173.656,78.063]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[193.531,66.188]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[191.250,194.969]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[213.563,111.094]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[30.344,47.063]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[28.906,50.469]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[39.531,48.438]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[39.094,48.250]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[44.656,40.125]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[51.875,51.563]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[52.625,50.500]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[47.844,77.094]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[86.094,25.625]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[71.938,60.281]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[37.969,125.688]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[52.219,129.844]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[33.844,146.594]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[44.438,156.594]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[94.813,183.438]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[109.125,173.906]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[127.719,166.406]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[124.594,147.406]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[143.719,118.500]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[148.281,119.875]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[168.094,98.125]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[220.188,105.844]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[249.594,144.531]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[227.281,216.844]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[199.750,186.969]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[186.719,166.750]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[146.281,180.063]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[144.625,193.813]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[157.375,128.344]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[119.125,133.563]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[139.313,152.813]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},
+	//Underwater Treause
+	{
+		coords: [[97.531,18.719]],
 		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desk")
-	}]
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[98.313,17.094]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[153.500,69.266]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[83.188,95.531]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[67.750,99.719]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[50.344,99.531]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[38.531,81.875]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[39.344,72.625]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[43.125,106.063]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[43.563,110.719]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[40.781,111.594]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[39.875,72.188]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[38.781,72.250]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[113.063,153.750]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[115.125,154.750]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[114.625,136.594]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[158.063,94.750]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[220.625,99.563]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[203.000,98.375]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[38.063,124.500]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[208.031,120.156]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	}],
+	
+	//------------------------------------------------Vineyard Infestation------------------------------------------------
+	vineyardinfestation: []
 };

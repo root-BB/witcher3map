@@ -23,8 +23,8 @@ $.i18n.init(i18noptions, function() {
 		} else if (namespace == "k") {
 			getMapdata('kaer_morhen');
 		} else if (namespace == "f") {
-			getMapdata('toussaint_fables');
-		} else if (namespace == "m") {
+			getMapdata('fables');
+		} else if (namespace == "i") {
 			getMapdata('isle_mists');
 		}
 	});

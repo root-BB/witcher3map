@@ -8,8 +8,8 @@
 		"toussaint": "Туссент",
 		"toussaint_main": "Туссент __hover__",
 		"isle_mists": "Остров туманов",
-		"thousand_fables": "Страна тысячи сказок",
-		"thousand_fables_main": "Страна тысячи сказок __hover__"
+		"fables": "Страна тысячи сказок",
+		"fables_main": "Страна тысячи сказок __hover__"
 	},
 	"home": {
 		"tagline": "Неофициальная интерактивная карта The Witcher 3",
@@ -284,7 +284,7 @@
 		"treasure": "Сокровища",
 		"watertreasure": "Сокровища под водой",
 		"label": "Охота на сокровища",
-		"desk": ""
+		"desc": ""
 	},
 	"vineyardinfestation": {
 		"label": "Чудовища на винограднике",

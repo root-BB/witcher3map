@@ -16,8 +16,8 @@ $.i18n.init(i18noptions, function() {
 									$.i18n.loadNamespace('t', function() {
 										$.cachedScript("files/scripts/mapdata-toussaint.js").done(function(script, textStatus) {
 											$.i18n.loadNamespace('f', function() {
-												$.cachedScript("files/scripts/mapdata-toussaint_fables.js").done(function(script, textStatus) {
-													$.i18n.loadNamespace('m', function() {
+												$.cachedScript("files/scripts/mapdata-fables.js").done(function(script, textStatus) {
+													$.i18n.loadNamespace('i', function() {
 														$.cachedScript("files/scripts/mapdata-isle_mists.js").done(function(script, textStatus) {
 
 															processData('velen', mapdata_hos_velen);
@@ -25,7 +25,7 @@ $.i18n.init(i18noptions, function() {
 															processData('white_orchard', mapdata_white_orchard);
 															processData('kaer_morhen', mapdata_kaer_morhen);
 															processData('toussaint', mapdata_toussaint);
-															processData('toussaint_fables', mapdata_toussaint_fables);
+															processData('fables', mapdata_fables);
 															processData('isle_mists', mapdata_isle_mists);
 				
 															var searchInput = $('#search');

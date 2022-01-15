@@ -79,14 +79,14 @@
 			"tr_temerian": "Temeryalıların Değerli Eşyaları"
 		},
 		"desc": {
-			"fry": "",
-			"twist": "",
-			"faith": "",
-			"missing": "",
-			"death": "",
-			"precious": "",
-			"tr_deserter": "",
-			"tr_dirty": "",
+			"fry": " ",
+			"twist": " ",
+			"faith": " ",
+			"missing": " ",
+			"death": " ",
+			"precious": " ",
+			"tr_deserter": " ",
+			"tr_dirty": " ",
 			"tr_temerian": ""
 		}
 	},
@@ -104,7 +104,7 @@
 			"dwarves": "Sisler Adası Cüceleri ile Karşılaşmak"
 		},
 		"desc": {
-			"tomira": "",
+			"tomira": " ",
 			"dwarves": ""
 		}
 	}
