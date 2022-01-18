@@ -1,10 +1,10 @@
-window.map_path   = 'white_orchard';
-window.map_sWest  = L.latLng(-85,-180);
-window.map_nEast  = L.latLng(0,45);
+window.map_path  = 'white_orchard';
+window.map_sWest = L.latLng(-85,-180);
+window.map_nEast = L.latLng(0,45);
 window.map_center = [-65.000,-65.000];
-window.map_minZoom  = 2;
-window.map_mZoom  = 5;
-window.map_Zoom  = 3;
+window.map_minZoom = 2;
+window.map_mZoom = 5;
+window.map_Zoom = 3;
 window.mapdata_white_orchard = {
 	//------------------------------------------------Abandoned Site------------------------------------------------
 	abandoned: [{
@@ -362,7 +362,7 @@ window.mapdata_white_orchard = {
 		popup: $.t("w:signpost.desc.nilfgaardianGarrison")
 	},{
 		coords: [[-46.073,-13.271]],
-		label:  $.t("w:signpost.label.cacklerBridge"),
+		label: $.t("w:signpost.label.cacklerBridge"),
 		popup: $.t("w:signpost.desc.cacklerBridge")
 	},{
 		coords: [[-63.015,-4.482]],

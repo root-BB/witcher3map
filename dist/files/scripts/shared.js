@@ -16,6 +16,8 @@ $.i18n.init(i18noptions, function() {
 		} else if (namespace == "v") {
 			//			getMapdata('velen');
 			getMapdata('hos_velen');
+		} else if (namespace == "g") {
+			getMapdata('gaunter');
 		} else if (namespace == "s") {
 			getMapdata('skellige');
 		} else if (namespace == "t") {
@@ -142,7 +144,7 @@ window.processData = function (data) {
 
 icons.note_marker = L.icon({
 	iconUrl  : '../files/images/icons/note_marker.png',
-	iconSize : [23, 28]
+	iconSize : [23, 23]
 });
 
 icons.abandoned = L.icon({

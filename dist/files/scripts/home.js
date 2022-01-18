@@ -7,45 +7,50 @@ window.markers = {};
 $.i18n.init(i18noptions, function() {
 	$.i18n.loadNamespace('v', function() {
 		$.cachedScript("files/scripts/mapdata-hos_velen.js").done(function(script, textStatus) {
-			$.i18n.loadNamespace('s', function() {
-				$.cachedScript("files/scripts/mapdata-skellige.js").done(function(script, textStatus) {
-					$.i18n.loadNamespace('w', function() {
-						$.cachedScript("files/scripts/mapdata-white_orchard.js").done(function(script, textStatus) {
-							$.i18n.loadNamespace('k', function() {
-								$.cachedScript("files/scripts/mapdata-kaer_morhen.js").done(function(script, textStatus) {
-									$.i18n.loadNamespace('t', function() {
-										$.cachedScript("files/scripts/mapdata-toussaint.js").done(function(script, textStatus) {
-											$.i18n.loadNamespace('f', function() {
-												$.cachedScript("files/scripts/mapdata-fables.js").done(function(script, textStatus) {
-													$.i18n.loadNamespace('i', function() {
-														$.cachedScript("files/scripts/mapdata-isle_mists.js").done(function(script, textStatus) {
-
-															processData('velen', mapdata_hos_velen);
-															processData('skellige', mapdata_skellige);
-															processData('white_orchard', mapdata_white_orchard);
-															processData('kaer_morhen', mapdata_kaer_morhen);
-															processData('toussaint', mapdata_toussaint);
-															processData('fables', mapdata_fables);
-															processData('isle_mists', mapdata_isle_mists);
-				
-															var searchInput = $('#search');
-				
-															//bind the search when all scripts are loaded
-															searchInput.keyup(function() {
-																doSearch();
+			$.i18n.loadNamespace('g', function() {
+				$.cachedScript("files/scripts/mapdata-gaunter.js").done(function(script, textStatus) {
+					$.i18n.loadNamespace('s', function() {
+						$.cachedScript("files/scripts/mapdata-skellige.js").done(function(script, textStatus) {
+							$.i18n.loadNamespace('w', function() {
+								$.cachedScript("files/scripts/mapdata-white_orchard.js").done(function(script, textStatus) {
+									$.i18n.loadNamespace('k', function() {
+										$.cachedScript("files/scripts/mapdata-kaer_morhen.js").done(function(script, textStatus) {
+											$.i18n.loadNamespace('t', function() {
+												$.cachedScript("files/scripts/mapdata-toussaint.js").done(function(script, textStatus) {
+													$.i18n.loadNamespace('f', function() {
+														$.cachedScript("files/scripts/mapdata-fables.js").done(function(script, textStatus) {
+															$.i18n.loadNamespace('i', function() {
+																$.cachedScript("files/scripts/mapdata-isle_mists.js").done(function(script, textStatus) {
+		
+																	processData('velen', mapdata_hos_velen);
+																	processData('gaunter', mapdata_gaunter);
+																	processData('skellige', mapdata_skellige);
+																	processData('white_orchard', mapdata_white_orchard);
+																	processData('kaer_morhen', mapdata_kaer_morhen);
+																	processData('toussaint', mapdata_toussaint);
+																	processData('fables', mapdata_fables);
+																	processData('isle_mists', mapdata_isle_mists);
+						
+																	var searchInput = $('#search');
+						
+																	//bind the search when all scripts are loaded
+																	searchInput.keyup(function() {
+																		doSearch();
+																	});
+						
+																	//auto search when coming from back button
+																	if(searchInput.val()) doSearch();
+						
+																	$('#clear').click(function () {
+																		$('#search').val('');
+																		$('#results').empty();
+																		$('#clear').hide();
+																		$('#nav').show();
+																	});
+						
+																	$(document).i18n();
+																});
 															});
-				
-															//auto search when coming from back button
-															if(searchInput.val()) doSearch();
-				
-															$('#clear').click(function () {
-																$('#search').val('');
-																$('#results').empty();
-																$('#clear').hide();
-																$('#nav').show();
-															});
-				
-															$(document).i18n();
 														});
 													});
 												});

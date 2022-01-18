@@ -1,0 +1,26 @@
+{
+	"treasure": {
+		"popup": {
+			"viper": "Otrávený stříbrný meč Hadí školy",
+			"cave": "Jeskyně plná pokladů"
+		}
+	},
+	"poi": {
+		"label": {
+			"start": "Výchozí bod",
+			"well": "Studna",
+			"shani": "Falešná Shani",
+			"swing": "Houpačka",
+			"tomb": "Hrobka",
+			"answer": "Koncový bod"
+		},
+		"desk": {
+			"start": "Vstupní bod na mapě.",
+			"well": "Jedna ze špatných odpovědí na hádanku.",
+			"shani": "Falešný Shani tě volá, aby tě rozptýlil.",
+			"swing": "Jedna ze špatných odpovědí na hádanku.",
+			"tomb": "Jedna ze špatných odpovědí na hádanku.",
+			"answer": "Správná odpověď na hádanku."
+		}
+	}
+}

@@ -44,17 +44,23 @@
 		"label": {
 			"juttaAnDimun": "Jutta an Dimun",
 			"jarlMadmanLugos": "Jarl Šílený Lugoš",
-			"gship": "Loď duchů"
+			"gship": "Loď duchů",
+			"poem": "Hádanka Báseň",
+			"birna": "Birna Bran"
 		},
 		"popupTitle": {
 			"juttaAnDimun": " ",
 			"jarlMadmanLugos": "Jarl Šílený Lugoš",
-			"gship": "Loď duchů"
+			"gship": "Loď duchů",
+			"poem": "Hádanka Báseň",
+			"birna": "Birna Bran"
 		},
 		"desc": {
 			"juttaAnDimun": " ",
 			"jarlMadmanLugos": "Dostaneš od něj kartu 'Upír: Katakan' (úkol Gwent: Skellige) (všechny karty <a href='https://wiiare.in/portfolio-type/the-witcher-3-wild-hunt-card-collector-achievement-trophy-guide/' target='_blank'>zde</a>",
-			"gship": "Obvykle se na krátký okamžik objeví těsně po 1 hodině dopoledne."
+			"gship": "Obvykle se na krátký okamžik objeví těsně po 1 hodině dopoledne.",
+			"poem": "Mrtvola s básní obsahující hádanku.",
+			"birna": "Zjistí, zda jste stáli na straně Cerys an Craite během sekundárního úkolu 'King's Gambit'"
 		}
 	},
 	"pop": {
@@ -359,6 +365,14 @@
 			"hemdall": " ",
 			"woe": " ",
 			"yustianna": ""
+		}
+	},
+	"treasure": {
+		"label": {
+			"solution": ""
+		},
+		"desc": {
+			"solution": "Poklad naznačený Hádanka Báseň"
 		}
 	}
 }

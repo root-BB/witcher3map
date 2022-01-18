@@ -1,10 +1,10 @@
-window.map_path   = 'skellige';
-window.map_sWest  = L.latLng(-85.050,-180);
-window.map_nEast  = L.latLng(79.300,135);
+window.map_path  = 'skellige';
+window.map_sWest = L.latLng(-85.050,-180);
+window.map_nEast = L.latLng(79.300,135);
 window.map_center = [-30.000,-23.000];
-window.map_minZoom  = 2;
-window.map_mZoom  = 6;
-window.map_Zoom  = 2;
+window.map_minZoom = 2;
+window.map_mZoom = 6;
+window.map_Zoom = 2;
 window.mapdata_skellige = {
 
 	//------------------------------------------------Abandoned Site------------------------------------------------
@@ -964,7 +964,7 @@ window.mapdata_skellige = {
 		coords: [[-77.485,49.007]],
 		label: $.t("s:innkeep.inns.harvikenInn"),
 		popupTitle: $.t("s:innkeep.popup"),
-		popup:  $.t("s:innkeep.desc.foodDrinkAndGwent")
+		popup: $.t("s:innkeep.desc.foodDrinkAndGwent")
 	},{
 		coords: [[-29.075,100.723]],
 		label: $.t("s:innkeep.inns.houseOfWarriors"),
@@ -974,22 +974,22 @@ window.mapdata_skellige = {
 		coords: [[50.569,40.430]],
 		label: $.t("s:innkeep.inns.uriallaHarbourInn"),
 		popupTitle: $.t("s:innkeep.popup"),
-		popup:  $.t("s:innkeep.desc.foodDrinkAndGwent")
+		popup: $.t("s:innkeep.desc.foodDrinkAndGwent")
 	},{
 		coords: [[31.241,-113.049]],
 		label: $.t("s:innkeep.inns.svorlagInn"),
 		popupTitle: $.t("s:innkeep.popup"),
-		popup:  $.t("s:innkeep.desc.foodDrinkAndGwent")
+		popup: $.t("s:innkeep.desc.foodDrinkAndGwent")
 	},{
 		coords: [[-42.131,-62.073]],
 		label: $.t("s:innkeep.inns.arinbjornInn"),
 		popupTitle: $.t("s:innkeep.popup"),
-		popup:  $.t("s:innkeep.desc.foodDrinkAndGwent")
+		popup: $.t("s:innkeep.desc.foodDrinkAndGwent")
 	},{
 		coords: [[-3.294,-36.167]],
 		label: $.t("s:innkeep.inns.theNewPort"),
 		popupTitle: $.t("s:innkeep.popup"),
-		popup:  $.t("s:innkeep.desc.foodDrinkAndGwent")
+		popup: $.t("s:innkeep.desc.foodDrinkAndGwent")
 	}],
 
 	//------------------------------------------------Knight in Distress------------------------------------------------
@@ -1087,7 +1087,7 @@ window.mapdata_skellige = {
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/-37.265/-31.707">' + $.t("pid.rescueLocation") + '</a>'
 	},{
 		coords: [[-38.994,-6.372]],
-		label:  $.t("pid.label"),
+		label: $.t("pid.label"),
 		popup: $.t("pid.desc") + ' ' + $.t("pid.afterrescue") + ' <a href="#6/-39.096/-6.965">' + $.t("pid.rescueLocation") + '</a>'
 	}],
 
@@ -1147,13 +1147,23 @@ window.mapdata_skellige = {
 	},{
 		coords: [[-62.800,-39.000]],
 		label: $.t("s:poi.label.jarlMadmanLugos"),
-		popupTitle:  $.t("s:poi.popupTitle.jarlMadmanLugos"),
+		popupTitle: $.t("s:poi.popupTitle.jarlMadmanLugos"),
 		popup: $.t("s:poi.desc.jarlMadmanLugos")
 	},{
 		coords: [[21.617,59.854]],
 		label: $.t("s:poi.label.gship"),
-		popupTitle:  $.t("s:poi.popupTitle.gship"),
+		popupTitle: $.t("s:poi.popupTitle.gship"),
 		popup: $.t("s:poi.desc.gship")
+	},{
+		coords: [[-3.755,1.494]],
+		label: $.t("s:poi.label.poem"),
+		popupTitle: $.t("s:poi.popupTitle.poem"),
+		popup: $.t("s:poi.desc.poem")
+	},{
+		coords: [[-32.101,-51.350]],
+		label: $.t("s:poi.label.birna"),
+		popupTitle: $.t("s:poi.popupTitle.birna"),
+		popup: $.t("s:poi.desc.birna")
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
@@ -2123,6 +2133,18 @@ window.mapdata_skellige = {
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-56.146,21.533]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[1.186,1.538]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("s:treasure.desc.solution")
+	},{
+		coords: [[-3.426,1.582]],
+		label: $.t("treasure.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[-76.373,-120.059]],
 		label: $.t("treasure.treasure"),
 		popup: $.t("treasure.desc")
 	},

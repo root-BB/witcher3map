@@ -44,17 +44,23 @@
 		"label": {
 			"juttaAnDimun": "Jutta An Dimun",
 			"jarlMadmanLugos": "Jarl Madman Lugos",
-			"gship": "Ghost Ship"
+			"gship": "Ghost Ship",
+			"poem": "Riddle Poem",
+			"birna": "Birna Bran"
 		},
 		"popupTitle": {
 			"juttaAnDimun": " ",
 			"jarlMadmanLugos": "Jarl Madman Lugos",
-			"gship": "Ghost Ship"
+			"gship": "Ghost Ship",
+			"poem": "Riddle Poem",
+			"birna": "Birna Bran"
 		},
 		"desc": {
 			"juttaAnDimun": " ",
 			"jarlMadmanLugos": "You get the Card 'Vampire: Katakan' from him (Gwent Quest: Skellige) (all cards <a href='https://wiiare.in/portfolio-type/the-witcher-3-wild-hunt-card-collector-achievement-trophy-guide/' target='_blank'>here</a>",
-			"gship": "It usually appears just after 1 AM game time for a brief moment."
+			"gship": "It usually appears just after 1 AM game time for a brief moment.",
+			"poem": "A corpse with a poem containing a riddle.",
+			"birna": "It find out if you sided with Cerys an Craite during the secondary quest 'King's Gambit'"
 		}
 	},
 	"pop": {
@@ -359,6 +365,14 @@
 			"hemdall": " ",
 			"woe": " ",
 			"yustianna": ""
+		}
+	},
+	"treasure": {
+		"label": {
+			"solution": ""
+		},
+		"desc": {
+			"solution": "Treasure noted by Riddle Poem"
 		}
 	}
 }

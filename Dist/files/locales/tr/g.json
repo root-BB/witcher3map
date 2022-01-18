@@ -1,0 +1,26 @@
+{
+	"treasure": {
+		"popup": {
+			"viper": "Engerek Zehirli Gümüş Kılıç",
+			"cave": "Hazine dolu bir mağara"
+		}
+	},
+	"poi": {
+		"label": {
+			"start": "Başlangıç Noktası",
+			"well": "Kuyu",
+			"shani": "Sahte Shani",
+			"swing": "Salıncak",
+			"tomb": "Mezar",
+			"answer": "Bitiş Noktası"
+		},
+		"desk": {
+			"start": "Haritaya giriş yapılan nokta.",
+			"well": "Bilmecenin hatalı cevaplarından biri.",
+			"shani": "Dikkat dağıtmak için seni çağıran sahte Shani.",
+			"swing": "Bilmecenin hatalı cevaplarından biri.",
+			"tomb": "Bilmecenin hatalı cevaplarından biri.",
+			"answer": "Bilmecenin doğru cevabı."
+		}
+	}
+}

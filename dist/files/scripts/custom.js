@@ -104,7 +104,7 @@ $(function() {
 		direction: 'auto'
 	};
 
-	if (map_path === 'velen' || map_path === 'hos_velen' || map_path === 'toussaint' || map_path === 'kaer_morhen'){
+	if (map_path === 'velen' || map_path === 'hos_velen' || map_path === 'gaunter' || map_path === 'toussaint' || map_path === 'kaer_morhen'){
 		map_settings['crs'] = L.CRS.Simple;
 	}
 
@@ -185,7 +185,7 @@ $(function() {
 		noWrap: true
 	};
 
-	if (map_path === 'hos_velen' || map_path === 'isle_mists' || map_path === 'skellige' || map_path === 'white_orchard' || map_path === 'toussaint' || map_path === 'kaer_morhen' || map_path === 'fables'){
+	if (map_path === 'hos_velen' || map_path === 'gaunter' || map_path === 'isle_mists' || map_path === 'skellige' || map_path === 'white_orchard' || map_path === 'toussaint' || map_path === 'kaer_morhen' || map_path === 'fables'){
 		layer_settings['continuousWorld'] = true;
 		layer_settings['crs'] = L.CRS.Simple;
 	}

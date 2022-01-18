@@ -1,10 +1,10 @@
-window.map_path   = 'fables';
-window.map_sWest  = L.latLng(-100,-180);
-window.map_nEast  = L.latLng(100,180);
-window.map_center = [0.000,0.000];
-window.map_minZoom  = 2;
-window.map_mZoom  = 4;
-window.map_Zoom  = 1;
+window.map_path  = 'fables';
+window.map_sWest = L.latLng(-80,-180);
+window.map_nEast = L.latLng(60,120);
+window.map_center = [-50.000,-50.000];
+window.map_minZoom = 3;
+window.map_mZoom = 4;
+window.map_Zoom = 3;
 window.mapdata_fables = {
 	
 	//------------------------------------------------Abandoned Site------------------------------------------------

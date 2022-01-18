@@ -1,10 +1,10 @@
-window.map_path   = 'isle_mists';
-window.map_sWest  = L.latLng(-85.050,-180);
-window.map_nEast  = L.latLng(200,180);
+window.map_path  = 'isle_mists';
+window.map_sWest = L.latLng(-85.050,-180);
+window.map_nEast = L.latLng(200,180);
 window.map_center = [7.000,22.000];
-window.map_minZoom  = 2;
-window.map_mZoom  = 5;
-window.map_Zoom  = 3;
+window.map_minZoom = 2;
+window.map_mZoom = 5;
+window.map_Zoom = 3;
 window.mapdata_isle_mists = {
 	
 	//------------------------------------------------Abandoned Site------------------------------------------------
