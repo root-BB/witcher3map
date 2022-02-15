@@ -52,6 +52,9 @@ window.mapdata_gaunter = {
 	//------------------------------------------------Gwent Player------------------------------------------------
 	gwent: [],
 	
+	//------------------------------------------------Gwent Quest------------------------------------------------
+	gwentquest: [],
+	
 	//------------------------------------------------Hanse Base------------------------------------------------
 	hansebase: [],
 
@@ -89,27 +92,27 @@ window.mapdata_gaunter = {
 	poi: [{
 		coords: [[25.000,43.750]],
 		label: $.t("g:poi.label.start"),
-		popup: $.t("g:poi.desk.start")
+		popup: $.t("g:poi.desc.start")
 	},{
 		coords: [[122.250,67.000]],
 		label: $.t("g:poi.label.well"),
-		popup: $.t("g:poi.desk.well")
+		popup: $.t("g:poi.desc.well")
 	},{
 		coords: [[178.000,124.000]],
 		label: $.t("g:poi.label.shani"),
-		popup: $.t("g:poi.desk.shani")
+		popup: $.t("g:poi.desc.shani")
 	},{
 		coords: [[235.000,86.375]],
 		label: $.t("g:poi.label.swing"),
-		popup: $.t("g:poi.desk.swing")
+		popup: $.t("g:poi.desc.swing")
 	},{
 		coords: [[287.000,117.125]],
 		label: $.t("g:poi.label.tomb"),
-		popup: $.t("g:poi.desk.tomb")
+		popup: $.t("g:poi.desc.tomb")
 	},{
 		coords: [[282.500,164.875]],
 		label: $.t("g:poi.label.answer"),
-		popup: $.t("g:poi.desk.answer")
+		popup: $.t("g:poi.desc.answer")
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
@@ -136,11 +139,11 @@ window.mapdata_gaunter = {
 	//------------------------------------------------Treasure------------------------------------------------
 	treasure: [{
 		coords: [[188.875,22.000]],
-		label: $.t("sidebar.treasure"),
+		label: $.t("treasure.label"),
 		popup: $.t("g:treasure.popup.viper")
 	},{
 		coords: [[213.500,140.125]],
-		label: $.t("sidebar.treasure"),
+		label: $.t("treasure.label"),
 		popup: $.t("g:treasure.popup.cave")
 	}],
 	

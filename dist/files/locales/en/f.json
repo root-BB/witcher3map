@@ -1,68 +1,62 @@
 {
-	"gwent": {
-		"popup": {
-			"girl": "Little Flint Girl"
-		},
-		"desc": {
-			"girl": ""
-		}
-	},
-	"treasure": {
-		"popup": {
-			"pot": "Pot of Gold",
-			"knight": "Dead Knight"
-		}
-	},
-	"poi": {
-		"label": {
-			"thumb": "Thumbelina's Town",
-			"pigs": "Three Little Pigs' Home",
-			"tower": "Longlocks' Tower",
-			"dragon": "Dead Vizima Dragon",
-			"balbina": "Balbina's Hut",
-			"camp": "Redbeard's Camp",
-			"hood": "Little Red Riding Hood Grandma's House",
-			"blaviken": "The Musicians of Blaviken",
-			"den": "Three Bears' Den",
-			"joss": "Joss",
-			"wisp": "Will o' the Wisp",
-			"witch": "Wicked Witch's Hut",
-			"grigg": "Grigg Village",
-			"start": "Start Point",
-			"emperor": "The Emperor Of Nilfgaard"
-		},
-		"desk": {
-			"thumb": " ",
-			"pigs": " ",
-			"tower": " ",
-			"dragon": " ",
-			"balbina": " ",
-			"camp": " ",
-			"hood": " ",
-			"blaviken": " ",
-			"den": " ",
-			"joss": " ",
-			"wisp": " ",
-			"witch": " ",
-			"grigg": " ",
-			"start": " ",
-			"emperor": ""
-		}
-	},
-	"shopkeeper": {
-		"popup": {
-			"girl": "Little Flint Girl"
-			},
-		"desc": {
-			"girl": "Most of these junk items only exist in the Land of a Thousand Fables, and therefore disappear when Geralt leaves the illusion, so it is best to sell them to the Little Flint Girl before leaving the area. Also you can take ribbon which is important for main quest."
-		}
-	},
-	"sidequests": {
-		"label": {
-			"duck": "Duck, Duck, Goosed!"
-		},
-		"desk": {
-			"duck": ""
-		}
-	}
+    "gwent": {
+        "popup": {
+            "girl": "Little Flint Girl - Gwent Player"
+        }
+    },
+    "poi": {
+        "desc": {
+            "balbina": "",
+            "blaviken": "",
+            "camp": "",
+            "den": "",
+            "dragon": "",
+            "emperor": "",
+            "grigg": "",
+            "hood": "",
+            "joss": "",
+            "pigs": "",
+            "start": "",
+            "thumb": "",
+            "tower": "",
+            "wisp": "",
+            "witch": ""
+        },
+        "label": {
+            "balbina": "Balbina's Hut",
+            "blaviken": "The Musicians of Blaviken",
+            "camp": "Redbeard's Camp",
+            "den": "Three Bears' Den",
+            "dragon": "Dead Vizima Dragon",
+            "emperor": "The Emperor Of Nilfgaard",
+            "grigg": "Grigg Village",
+            "hood": "Little Red Riding Hood Grandma's House",
+            "joss": "Joss",
+            "pigs": "Three Little Pigs' Home",
+            "start": "Start Point",
+            "thumb": "Thumbelina's Town",
+            "tower": "Longlocks' Tower",
+            "wisp": "Will o' the Wisp",
+            "witch": "Wicked Witch's Hut"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "girl": "Most of these junk items only exist in the Land of a Thousand Fables, and therefore disappear when Geralt leaves the illusion, so it is best to sell them to the Little Flint Girl before leaving the area. Also you can take ribbon which is important for main quest. "
+        },
+        "popup": {
+            "girl": "Little Flint Girl"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "duck": ""
+        }
+    },
+    "treasure": {
+        "popup": {
+            "knight": "Dead Knight",
+            "pot": "Pot of Gold"
+        }
+    }
 }

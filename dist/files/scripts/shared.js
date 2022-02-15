@@ -142,6 +142,11 @@ window.processData = function (data) {
 	});
 };
 
+icons.donation = L.icon({
+	iconUrl  : '../files/images/donation.png',
+	iconSize : [23, 35]
+});
+
 icons.note_marker = L.icon({
 	iconUrl  : '../files/images/icons/note_marker.png',
 	iconSize : [23, 23]
@@ -209,6 +214,11 @@ icons.guarded = L.icon({
 
 icons.gwent = L.icon({
 	iconUrl  : '../files/images/icons/gwent.png',
+	iconSize : [24, 30]
+});
+
+icons.gwentquest = L.icon({
+	iconUrl  : '../files/images/icons/gwentquest.png',
 	iconSize : [24, 30]
 });
 

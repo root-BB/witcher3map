@@ -1,6 +1,7 @@
 Desctiption
 --------------------------------------
 It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).
+Version 2.0.0.0 is the latest version. I do not plan to make major changes after this version; minor bug fixes will be upload when necessary.
 
 #### Additional Features (Added by [BaHTsIzBEdEvi](https://github.com/root-BB)):
 * Updated Velen&Novigrad map, which was expanded with the Hearts of Stone Expansion Pack.

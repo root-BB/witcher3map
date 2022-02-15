@@ -40,20 +40,20 @@ window.mapdata_isle_mists = {
 	//------------------------------------------------Entrance------------------------------------------------
 	entrance: [{
 		coords: [[32.842,60.292]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
 	},{
 		coords: [[26.588,68.203]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
 	},{
 		coords: [[21.125,67.500]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
 	},{
 		coords: [[7.885,54.667]],
-		label: $.t("entrance.label"),
-		popup: $.t("entrance.desc")
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
 	}],
 
 	//------------------------------------------------Events------------------------------------------------
@@ -67,6 +67,9 @@ window.mapdata_isle_mists = {
 
 	//------------------------------------------------Gwent Player------------------------------------------------
 	gwent: [],
+	
+	//------------------------------------------------Gwent Quest------------------------------------------------
+	gwentquest: [],
 	
 	//------------------------------------------------Hanse Base------------------------------------------------
 	hansebase: [],
@@ -146,75 +149,79 @@ window.mapdata_isle_mists = {
 	//Surface Treause
 	{
 		coords: [[51.069,-5.449]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[22.268,8.613]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[17.978,6.328]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[9.968,2.636]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-26.745,-5.273]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-30.751,12.128]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-8.754,36.738]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[0.175,40.429]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-2.811,45.351]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[17.308,44.296]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-0.175,87.890]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
-		coords: [[26.745,79.453]],
-		label: $.t("treasure.treasure"),
+		coords: [[28.745,79.453]],
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[29.228,74.179]],
-		label: $.t("treasure.treasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[37.579,75.058]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[29.993,65.566]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[35.317,59.062]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[42.032,53.613]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[46.195,45.703]],
-		label: $.t("treasure.treasure"),
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[21.779,-22.500]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[41.828,57.953]],
+		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},
 	//Underwater Treause
@@ -231,19 +238,11 @@ window.mapdata_isle_mists = {
 		label: $.t("treasure.watertreasure"),
 		popup: $.t("treasure.desc")
 	},{
-		coords: [[21.779,-22.500]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
 		coords: [[8.059,-40.253]],
 		label: $.t("treasure.watertreasure"),
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[13.581,-24.082]],
-		label: $.t("treasure.watertreasure"),
-		popup: $.t("treasure.desc")
-	},{
-		coords: [[45.828,56.953]],
 		label: $.t("treasure.watertreasure"),
 		popup: $.t("treasure.desc")
 	},{
@@ -265,6 +264,12 @@ window.mapdata_isle_mists = {
 	},{
 		coords: [[-31.353,-0.351]],
 		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
+	},
+	//Tree Hollow Treause
+	{
+		coords: [[37.579,75.058]],
+		label: $.t("treasure.hollowtreasure"),
 		popup: $.t("treasure.desc")
 	}],
 	

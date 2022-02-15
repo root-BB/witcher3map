@@ -49,12 +49,6 @@ $(function() {
 	var wayPoint = false;
 	var circle = null;
 
-	if (localStorage['sfw']) {
-		$('span#brothel-text').text($.t('sidebar.loveInterest'));
-		$('div#sfw').find('a').hide();
-		$('div#sfw').find('a.original').show();
-	}
-
 	if (localStorage['hideWarn']) {
 		$('#warn').remove();
 	}
@@ -226,11 +220,7 @@ $(function() {
 		deleteCircle();
 		createCircle(e.popup._latlng.lat, e.popup._latlng.lng);
 		$('#info-wrap').stop();
-		if (localStorage['sfw'] && e.popup._source._popup._content.match(/prostitute/i)) {
-			$('#info').html('<h1>' + $.t('sidebar.loveInterest') + '</h1>' + $.t('misc.loveInterestDesc'));
-		} else {
-			$('#info').html(e.popup._source._popup._content);
-		}
+		$('#info').html(e.popup._source._popup._content);
 		$('#info').getNiceScroll(0).doScrollTop(0,0);
 		$('#info-wrap').fadeIn('fast');
 		if ($('#info').html().indexOf('class="note-row"') > -1) {
@@ -460,26 +450,6 @@ $(function() {
 	$(document).on('click', 'div#warn', function(e) {
 		localStorage['hideWarn'] = true;
 		$(this).remove();
-	});
-
-	$('div#sfw').on('click', 'a.gotosfw', function(e) {
-		e.preventDefault();
-		if (confirm($.t('misc.nsfwConfirm'))) {
-			localStorage['sfw'] = true;
-			$('span#brothel-text').text($.t('sidebar.loveInterest'));
-			$('div#sfw > a.gotosfw').hide();
-			$('div#sfw > a.original').show();
-		}
-	});
-
-	$('div#sfw').on('click', 'a.original', function(e) {
-		e.preventDefault();
-		if ($.t('misc.nsfwUndo')) {
-			localStorage.removeItem('sfw');
-			$('span#brothel-text').text($.t('sidebar.brothel'));
-			$('div#sfw > a.original').hide();
-			$('div#sfw > a.gotosfw').show();
-		}
 	});
 
 	var popupClick = function(e) {

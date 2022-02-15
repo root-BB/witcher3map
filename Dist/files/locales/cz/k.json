@@ -1,55 +1,53 @@
 {
-	"poi": {},
-	"signpost": {
-		"label": {
-			"bastion": "Bašta",
-			"ironMine": "Železný důl",
-			"kaerMorhen": "Kaer Morhen",
-			"lakesideHut": "Chata u pobřeží",
-			"ruinedWatchtower": "Zborcená hláska"
-		},
-		"desc": {
-			"bastion": "Kdysi zde cvičili mladí zaklínači. Nyní z bašty zůstala jen zapomenutá ruina.",
-			"ironMine": "Kdysi se zde těžila železná ruda, která se používala ve výhních školy Vlka.",
-			"kaerMorhen": "Stará mořská pevnost, domov zaklínačů ze školy Vlka.",
-			"lakesideHut": "Před tuctem let zde žil poustevník, který vařil výtečnou medovinu. Zaklínači ho občas navštěvovali a povídali si o vzdálených krajích.",
-			"ruinedWatchtower": "Tato jezerní hláska byla kdysi pýchou zaklínačů ze školy Vlka, ale dnes je v troskách a mezi jejími rozpadlými stěnami se prohání už jen vítr."
-		}
-	},
-	"alchemy": {
-		"popuptitle": {
-			"keira": "Keira Metz"
-		},
-		"desc": {
-			"keira": "Objeví se, pokud předtím nezemře."
-		}
-	},
-	"sidequests": {
-		"label": {
-			"blade": "Berengarovo ostří",
-			"greenhouse": "Skleníkový efekt",
-			"slayer": "Zabiják příšer",
-			"bastion": "Bašta",
-			"forge": "Zaklínačská výheň"
-		},
-		"desc": {
-			"blade": " ",
-			"greenhouse": " ",
-			"slayer": " ",
-			"bastion": " ",
-			"forge": ""
-		}
-	},
-	"contracts": {
-		"label": {},
-		"desc": {}
-	},
-	"event": {
-		"label": {
-			"trail": "Stezka ozvěn"
-		},
-		"desc": {
-			"trail": ""
-		}
-	}
+    "alchemy": {
+        "desc": {
+            "keira": "Objeví se, pokud předtím nezemře. "
+        },
+        "popuptitle": {
+            "keira": "Keira Metz"
+        }
+    },
+    "armourer": {
+        "desc": {
+            "zoltan": "Objeví se pouze v případě, že byl Zoltan osloven během úkolu „__quest__“. "
+        },
+        "popuptitle": {
+            "zoltan": "Zoltan Chivay"
+        }
+    },
+    "event": {
+        "desc": {
+            "trail": ""
+        }
+    },
+    "gwentquest": {
+        "players": {
+            "lambert": "Lambert"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "bastion": "",
+            "berengar": "",
+            "forge": "",
+            "greenhouse": "",
+            "slayer": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "bastion": "Kdysi zde cvičili mladí zaklínači. Nyní z bašty zůstala jen zapomenutá ruina. ",
+            "ironMine": "Kdysi se zde těžila železná ruda, která se používala ve výhních školy Vlka. ",
+            "kaerMorhen": "Stará mořská pevnost, domov zaklínačů ze školy Vlka. ",
+            "lakesideHut": "Před tuctem let zde žil poustevník, který vařil výtečnou medovinu. Zaklínači ho občas navštěvovali a povídali si o vzdálených krajích. ",
+            "ruinedWatchtower": "Tato jezerní hláska byla kdysi pýchou zaklínačů ze školy Vlka, ale dnes je v troskách a mezi jejími rozpadlými stěnami se prohání už jen vítr. "
+        },
+        "label": {
+            "bastion": "Bašta",
+            "ironMine": "Železný důl",
+            "kaerMorhen": "Kaer Morhen",
+            "lakesideHut": "Chata u pobřeží",
+            "ruinedWatchtower": "Zborcená hláska"
+        }
+    }
 }

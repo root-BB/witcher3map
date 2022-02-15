@@ -54,8 +54,11 @@ window.mapdata_fables = {
 		coords: [[2.284,-50.361]],
 		label: $.t("sidebar.gwent"),
 		popupTitle: $.t("f:gwent.popup.girl"),
-		popup: $.t("f:gwent.desc.girl")
+		popup: $.t("gwent.desc.player")
 	}],
+	
+	//------------------------------------------------Gwent Quest------------------------------------------------
+	gwentquest: [],
 	
 	//------------------------------------------------Hanse Base------------------------------------------------
 	hansebase: [],
@@ -84,7 +87,7 @@ window.mapdata_fables = {
 	//------------------------------------------------Notice Board------------------------------------------------
 	notice: [{
 		coords: [[-1.318,-50.185]],
-		label: $.t("notice.label"),
+		label: $.t("sidebar.notice"),
 		popup: $.t("notice.desc")
 	}],
 
@@ -98,63 +101,63 @@ window.mapdata_fables = {
 	poi: [{
 		coords: [[-2.811,-91.230]],
 		label: $.t("f:poi.label.thumb"),
-		popup: $.t("f:poi.desk.thumb")
+		popup: $.t("f:poi.desc.thumb")
 	},{
 		coords: [[-8.928,-106.875]],
 		label: $.t("f:poi.label.pigs"),
-		popup: $.t("f:poi.desk.pigs")
+		popup: $.t("f:poi.desc.pigs")
 	},{
 		coords: [[-29.535,-78.574]],
 		label: $.t("f:poi.label.tower"),
-		popup: $.t("f:poi.desk.tower")
+		popup: $.t("f:poi.desc.tower")
 	},{
 		coords: [[-45.089,-99.492]],
 		label: $.t("f:poi.label.dragon"),
-		popup: $.t("f:poi.desk.dragon")
+		popup: $.t("f:poi.desc.dragon")
 	},{
 		coords: [[-47.989,-114.960]],
 		label: $.t("f:poi.label.balbina"),
-		popup: $.t("f:poi.desk.balbina")
+		popup: $.t("f:poi.desc.balbina")
 	},{
 		coords: [[-65.219,-105.292]],
 		label: $.t("f:poi.label.camp"),
-		popup: $.t("f:poi.desk.camp")
+		popup: $.t("f:poi.desc.camp")
 	},{
 		coords: [[-63.312,-82.968]],
 		label: $.t("f:poi.label.hood"),
-		popup: $.t("f:poi.desk.hood")
+		popup: $.t("f:poi.desc.hood")
 	},{
 		coords: [[-53.540,-79.980]],
 		label: $.t("f:poi.label.blaviken"),
-		popup: $.t("f:poi.desk.blaviken")
+		popup: $.t("f:poi.desc.blaviken")
 	},{
 		coords: [[-58.904,-58.710]],
 		label: $.t("f:poi.label.den"),
-		popup: $.t("f:poi.desk.den")
+		popup: $.t("f:poi.desc.den")
 	},{
 		coords: [[-45.089,-30.234]],
 		label: $.t("f:poi.label.joss"),
-		popup: $.t("f:poi.desk.joss")
+		popup: $.t("f:poi.desc.joss")
 	},{
 		coords: [[-37.439,-55.371]],
 		label: $.t("f:poi.label.wisp"),
-		popup: $.t("f:poi.desk.wisp")
+		popup: $.t("f:poi.desc.wisp")
 	},{
 		coords: [[-60.326,-9.667]],
 		label: $.t("f:poi.label.witch"),
-		popup: $.t("f:poi.desk.witch")
+		popup: $.t("f:poi.desc.witch")
 	},{
 		coords: [[-61.938,35.156]],
 		label: $.t("f:poi.label.grigg"),
-		popup: $.t("f:poi.desk.grigg")
+		popup: $.t("f:poi.desc.grigg")
 	},{
 		coords: [[-69.534,36.562]],
 		label: $.t("f:poi.label.start"),
-		popup: $.t("f:poi.desk.start")
+		popup: $.t("f:poi.desc.start")
 	},{
-		coords: [[-19.808,-99.492]],
+		coords: [[-31.203,-32.871]],
 		label: $.t("f:poi.label.emperor"),
-		popup: $.t("f:poi.desk.emperor")
+		popup: $.t("f:poi.desc.emperor")
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
@@ -171,8 +174,8 @@ window.mapdata_fables = {
 	//------------------------------------------------Sidequests------------------------------------------------
 	sidequests: [{
 		coords: [[-1.142,-48.251]],
-		label: $.t("f:sidequests.label.duck"),
-		popup: $.t("f:sidequests.desk.duck")
+		label: $.t("sidequests.label.duck"),
+		popup: $.t("f:sidequests.desc.duck")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------
@@ -190,11 +193,11 @@ window.mapdata_fables = {
 	//------------------------------------------------Treasure------------------------------------------------
 	treasure: [{
 		coords: [[26.902,-79.101]],
-		label: $.t("sidebar.treasure"),
+		label: $.t("treasure.label"),
 		popup: $.t("f:treasure.popup.pot")
 	},{
 		coords: [[-46.558,-70.312]],
-		label: $.t("sidebar.treasure"),
+		label: $.t("treasure.label"),
 		popup: $.t("f:treasure.popup.knight")
 	}],
 	

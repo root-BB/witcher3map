@@ -1,68 +1,62 @@
 {
-	"gwent": {
-		"popup": {
-			"girl": "Děvčátko s křesadly"
-		},
-		"desc": {
-			"girl": ""
-		}
-	},
-	"treasure": {
-		"popup": {
-			"pot": "Hrnec zlata",
-			"knight": "Mrtvý rytíř"
-		}
-	},
-	"poi": {
-		"label": {
-			"thumb": "Malenčino městečko",
-			"pigs": "Domeček tří malých prasátek",
-			"tower": "Dlouhovlásčina věž",
-			"dragon": "Mrtvý wyzimský drak",
-			"balbina": "Balbínin dům",
-			"camp": "Rudovousův tábor",
-			"hood": "Dům babičky Červené Karkulky",
-			"blaviken": "Hudebníci z Blavikenu",
-			"den": "Doupě tří medvědů",
-			"joss": "Jožka",
-			"wisp": "Bludička",
-			"witch": "Chatrč Zlé čarodějnice",
-			"grigg": "Vesnice frfníků",
-			"start": "Počáteční bod",
-			"emperor": "Nilfgaardský císař"
-		},
-		"desk": {
-			"thumb": " ",
-			"pigs": " ",
-			"tower": " ",
-			"dragon": " ",
-			"balbina": " ",
-			"camp": " ",
-			"hood": " ",
-			"blaviken": " ",
-			"den": " ",
-			"joss": " ",
-			"wisp": " ",
-			"witch": " ",
-			"grigg": " ",
-			"start": " ",
-			"emperor": ""
-		}
-	},
-	"shopkeeper": {
-		"popup": {
-			"girl": "Děvčátko s křesadly"
-		},
-		"desc": {
-			"girl": "Většina této veteše existuje pouze v Kraji tisíce bájí, a proto zmizí, když Geralt iluzi opustí, takže je nejlepší je před odchodem z oblasti prodat děvčátku s křesadly. Také si můžeš vzít stuhu, která je důležitá pro hlavní úkol."
-		}
-	},
-	"sidequests": {
-		"label": {
-			"duck": "Ga ga ga!"
-		},
-		"desk": {
-			"duck": ""
-		}
-	}
+    "gwent": {
+        "popup": {
+            "girl": "Děvčátko s křesadly - hrající gwint"
+        }
+    },
+    "poi": {
+        "desc": {
+            "balbina": "",
+            "blaviken": "",
+            "camp": "",
+            "den": "",
+            "dragon": "",
+            "emperor": "",
+            "grigg": "",
+            "hood": "",
+            "joss": "",
+            "pigs": "",
+            "start": "",
+            "thumb": "",
+            "tower": "",
+            "wisp": "",
+            "witch": ""
+        },
+        "label": {
+            "balbina": "Balbínin dům",
+            "blaviken": "Hudebníci z Blavikenu",
+            "camp": "Rudovousův tábor",
+            "den": "Doupě tří medvědů",
+            "dragon": "Mrtvý wyzimský drak",
+            "emperor": "Nilfgaardský císař",
+            "grigg": "Vesnice frfníků",
+            "hood": "Dům babičky Červené Karkulky",
+            "joss": "Jožka",
+            "pigs": "Domeček tří malých prasátek",
+            "start": "Počáteční bod",
+            "thumb": "Malenčino městečko",
+            "tower": "Dlouhovlásčina věž",
+            "wisp": "Bludička",
+            "witch": "Chatrč Zlé čarodějnice"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "girl": "Většina této veteše existuje pouze v Kraji tisíce bájí, a proto zmizí, když Geralt iluzi opustí, takže je nejlepší je před odchodem z oblasti prodat děvčátku s křesadly. Také si můžeš vzít stuhu, která je důležitá pro hlavní úkol. "
+        },
+        "popup": {
+            "girl": "Děvčátko s křesadly"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "duck": ""
+        }
+    },
+    "treasure": {
+        "popup": {
+            "knight": "Mrtvý rytíř",
+            "pot": "Hrnec zlata"
+        }
+    }
 }

@@ -1,68 +1,62 @@
 {
-	"gwent": {
-		"popup": {
-			"girl": "Küçük Çakmaktaşçı Kız"
-		},
-		"desc": {
-			"girl": ""
-		}
-	},
-	"treasure": {
-		"popup": {
-			"pot": "Altın Çanağı",
-			"knight": "Ölü Şövalye"
-		}
-	},
-	"poi": {
-		"label": {
-			"thumb": "Parmak Kız'ın Kasabası",
-			"pigs": "Üç Küçük Domuzcuğum Evi",
-			"tower": "Uzunlüle'nin Kulesi",
-			"dragon": "Ölü Vizima Ejderhası",
-			"balbina": "Balbina'nın Kulübesi",
-			"camp": "Kızılsakal'ın Kampı",
-			"hood": "Kırmızı Başlıklı Kızın Büyükannesi'nin Evi",
-			"blaviken": "Blaviken Müzisyenleri",
-			"den": "Üç Ayı Hanı",
-			"joss": "Joss",
-			"wisp": "Ilgım",
-			"witch": "Kötü Kalpli Canının Kulübesi",
-			"grigg": "Cincüce Köyü",
-			"start": "Başlangıç Noktası",
-			"emperor": "Nilfgaard İmparatoru"
-		},
-		"desk": {
-			"thumb": " ",
-			"pigs": " ",
-			"tower": " ",
-			"dragon": " ",
-			"balbina": " ",
-			"camp": " ",
-			"hood": " ",
-			"blaviken": " ",
-			"den": " ",
-			"joss": " ",
-			"wisp": " ",
-			"witch": " ",
-			"grigg": " ",
-			"start": " ",
-			"emperor": ""
-		}
-	},
-	"shopkeeper": {
-		"popup": {
-			"girl": "Küçük Çakmaktaşçı Kız"
-			},
-		"desc": {
-			"girl": "Bu önemsiz eşyaların çoğu sadece Binbir Masal Diyarı'nda bulunur ve bu nedenle Geralt illüzyondan ayrıldığında kaybolur, bu yüzden onları bölgeden ayrılmadan önce Küçük Çakmaktaşı Kız'a satmak en iyisidir. Ayrıca ana görev için önemli olan kurdeleyi de alabilirsiniz."
-		}
-	},
-	"sidequests": {
-		"label": {
-			"duck": "Yağ Satarım, Bal Satarım!"
-		},
-		"desk": {
-			"duck": ""
-		}
-	}
+    "gwent": {
+        "popup": {
+            "girl": "Küçük Çakmaktaşçı Kız - Gwent Oyuncusu"
+        }
+    },
+    "poi": {
+        "desc": {
+            "balbina": "",
+            "blaviken": "",
+            "camp": "",
+            "den": "",
+            "dragon": "",
+            "emperor": "",
+            "grigg": "",
+            "hood": "",
+            "joss": "",
+            "pigs": "",
+            "start": "",
+            "thumb": "",
+            "tower": "",
+            "wisp": "",
+            "witch": ""
+        },
+        "label": {
+            "balbina": "Balbina'nın Kulübesi",
+            "blaviken": "Blaviken Müzisyenleri",
+            "camp": "Kızılsakal'ın Kampı",
+            "den": "Üç Ayı Hanı",
+            "dragon": "Ölü Vizima Ejderhası",
+            "emperor": "Nilfgaard İmparatoru",
+            "grigg": "Cincüce Köyü",
+            "hood": "Kırmızı Başlıklı Kızın Büyükannesi'nin Evi",
+            "joss": "Joss",
+            "pigs": "Üç Küçük Domuzcuğum Evi",
+            "start": "Başlangıç Noktası",
+            "thumb": "Parmak Kız'ın Kasabası",
+            "tower": "Uzunlüle'nin Kulesi",
+            "wisp": "Ilgım",
+            "witch": "Kötü Kalpli Canının Kulübesi"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "girl": "Bu önemsiz eşyaların çoğu sadece Binbir Masal Diyarı'nda bulunur ve bu nedenle Geralt illüzyondan ayrıldığında kaybolur, bu yüzden onları bölgeden ayrılmadan önce Küçük Çakmaktaşı Kız'a satmak en iyisidir. Ayrıca ana görev için önemli olan kurdeleyi de alabilirsiniz. "
+        },
+        "popup": {
+            "girl": "Küçük Çakmaktaşçı Kız"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "duck": ""
+        }
+    },
+    "treasure": {
+        "popup": {
+            "knight": "Ölü Şövalye",
+            "pot": "Altın Çanağı"
+        }
+    }
 }

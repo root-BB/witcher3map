@@ -1,16 +1,16 @@
 {
-	"poi": {
-		"label": {
-			"hut": "Kulübe",
-			"ferenc": "Ferenc",
-			"gasp": "Gaspard",
-			"ivo": "Ivo"
-		},
-		"desc": {
-			"hut": " ",
-			"ferenc": " ",
-			"gasp": " ",
-			"ivo": ""
-		}
-	}
+    "poi": {
+        "desc": {
+            "ferenc": "",
+            "gasp": "",
+            "hut": "",
+            "ivo": ""
+        },
+        "label": {
+            "ferenc": "Ferenc",
+            "gasp": "Gaspard",
+            "hut": "Kulübe",
+            "ivo": "Ivo"
+        }
+    }
 }

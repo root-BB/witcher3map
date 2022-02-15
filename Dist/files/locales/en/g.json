@@ -1,26 +1,26 @@
 {
-	"treasure": {
-		"popup": {
-			"viper": "Viper Venomous Silver Sword",
-			"cave": "A cave full of treasure"
-		}
-	},
-	"poi": {
-		"label": {
-			"start": "Starting Point",
-			"well": "Well",
-			"shani": "Fake Shani",
-			"swing": "Swing",
-			"tomb": "Tomb",
-			"answer": "Ending Point"
-		},
-		"desk": {
-			"start": "The entry point on the map.",
-			"well": "One of the wrong answers to the riddle.",
-			"shani": "The fake Shani calling you for a distraction.",
-			"swing": "One of the wrong answers to the riddle.",
-			"tomb": "One of the wrong answers to the riddle.",
-			"answer": "The correct answer to the riddle."
-		}
-	}
+    "poi": {
+        "desc": {
+            "answer": "The correct answer to the riddle. ",
+            "shani": "The fake Shani calling you for a distraction. ",
+            "start": "The entry point on the map. ",
+            "swing": "One of the wrong answers to the riddle. ",
+            "tomb": "One of the wrong answers to the riddle. ",
+            "well": "One of the wrong answers to the riddle. "
+        },
+        "label": {
+            "answer": "Ending Point",
+            "shani": "Fake Shani",
+            "start": "Starting Point",
+            "swing": "Swing",
+            "tomb": "Tomb",
+            "well": "Well"
+        }
+    },
+    "treasure": {
+        "popup": {
+            "cave": "A cave full of treasure",
+            "viper": "Viper Venomous Silver Sword"
+        }
+    }
 }

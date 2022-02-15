@@ -1,313 +1,253 @@
 {
-	"armourer": {
-		"lafargue": "Kovářský velmistr (Lafargue)",
-		"lafargueQuest": "Je k dispozici po úkolu 'Mistr nad mistry' (40. úroveň). "
-	},
-	"brothel": {
-		"label": {
-			"Belle": "Beauclairské Zvonečky"
-		},
-		"popup": {
-			"Belle": "Beauclairské Zvonečky - Dům rozkoše"
-		},
-		"desc": "Zde můžeš využít služeb prostitutek."
-	},
-	"hansebase": {
-		"label": "Základna tlupy",
-		"desc": "Zde je třeba očekávat střety se zbojníky, kteří jsou ozbrojení až po zuby. "
-	},
-	"innkeep": {
-		"label": {
-			"auberge": "Hospůdka rytíře Liškutína z Kuroslep",
-			"salamander": "Krčma U Stříbrného salamandra",
-			"pheasantry": "Bažantnice",
-			"winery": "Vinařstvi Zmije a klenoty",
-			"barrelandbung": "Krčma U Sudu a zátky"
-		},
-		"popup": "Hospodský",
-		"desc": "Zde můžete nakupovat nebo prodávat různé předměty."
-	},
-	"kid": {
-		"label": "Bludný rytíř v nesnázích",
-		"desc": "Zde můžeš pomoct bludnému rytíři v boji proti zbojníkům. "
-	},
-	"misc": {
-		"label": {
-			"gwent": "Hráč gwintu"
-		},
-		"desc": {
-			"insideden": "Uvnitř doupěte příšer",
-			"insidecave": "Uvnitř jeskyně",
-			"gwent": "Hráč gwintu, u kterého můžeš vyhrát skelligskou kartu (achievement Skellige jako malované).",
-			"aftercleared": "Bude přístupné, až po vyčištění oblasti."
-		}
-	},
-	"poi": {
-		"label": {
-			"ducal": "Knížecí šambelán",
-			"photo": "CDPR Fotografie"
-		},
-		"desc": {
-			"ducal": " ",
-			"photo": "Je to tímto směrem, ale mimo mapu. Podrobný popis: <a href='https://www.youtube.com/watch?v=YDPY5H7spSU' target='_blank'>klikněte zde</a>."
-		}
-	},
-	"sidequests": {
-		"label": {
-			"kingforhire": "Nájemný rytíř",
-			"facethestrage": "Proměna",
-			"knightstale": "Příběh rytíře",
-			"tilldeath": "Dokud vás smrt nerozdělí",
-			"granite": "Plný pytel potíží",
-			"onlyone": "Může být jen jeden",
-			"placelikehome": "Všude dobře…",
-			"smittenkight": "Cvrlikání zaláskovaného rytíře",
-			"wildkingdom": "Království beauclairské divočiny",
-			"master": "Mistr nad mistry",
-			"vintnercontract": "Zakázka od vinaře",
-			"portait": "Podobizna zaklínače v nejlepších letech",
-			"paperchase": "Razítko mocnější meče",
-			"cosplay": "Když se to s kostýmy přehání",
-			"grist": "Ze starého meliva",
-			"father": "Ach, ta láska bratrská",
-			"sheers": "Óda na radost a jednoho zaklínače",
-			"raging": "Zuřící vlk",
-			"hunger": "Hladová hra",
-			"jailbird": "Zlatá klícka",
-			"prophet": "Slova proroků do sarkofágů tesaná",
-			"gw_tournment": "Okresní přebor",
-			"gw_fear": "Pozdrav ze Skellige",
-			"ff_st": "Toussaint",
-			"tr_eightdays": "Cesta kolem světa za... osm dní",
-			"tr_stink": "Peníze nesmrdí",
-			"tr_stranger": "Neber si sladkosti od cizinců",
-			"tr_filibert": "Filibert vždy splácí své dluhy",
-			"tr_widow": "Černá vdova",
-			"tr_carnarvon": "Carnarvonova kletba",
-			"tr_gardener": "Nevěrný zahradník",
-			"tr_selina": "Poslední loupež Selininy tlupy",
-			"tr_experiment": "Pokus v toussaintské věznici",
-			"tr_doh": "Čekání na Go a Dota",
-			"tr_again": "O co že to vlastně šlo?",
-			"tr_spoon": "Lži o lžičkách!",
-			"tr_escapology": "Mistr úniků",
-			"tr_suffering": "Utrpení mladého Francoise",
-			"tr_enjoytheplay": "Ale jinak to představení docela ušlo, ne?",
-			"ww_belgaard": "Belgaard",
-			"ww_deus": "Bůh ve stroji",
-			"ww_consorting": "Usmíření",
-			"ww_coronata": "Coronata",
-			"ww_vermentino": "Vermentino",
-			"vc_dun": "Úbočí Dun Tynne",
-			"vc_cleaning": "Úklid na těžko dostupných místech",
-			"vc_rivecalme": "Sklad na Tichém břehu",
-			"vc_chuchote": "Šepotná sluj",
-			"vc_griffin": "Gryfí vrch",
-			"bf_1": "První skupina",
-			"bf_2": "Druhá skupina",
-			"bf_3": "Třetí skupina",
-			"bf_4": "Čtvrtá skupina",
-			"bf_5": "Pátá skupina"
-		},
-		"desc": {
-			"kingforhire": " ",																			
-			"facethestrage": " ",
-			"knightstale": " ",															
-			"tilldeath": " ",
-			"granite": " ",
-			"onlyone": " ",
-			"placelikehome": " ",
-			"smittenkight": " ",															
-			"wildkingdom": " ",
-			"master": " ",																																		
-			"vintnercontract": " ",																			   
-			"portait": " ",
-			"paperchase": " ",
-			"cosplay": " ",
-			"grist": " ",
-			"father": " ",
-			"sheers": " ",
-			"raging": " ",
-			"hunger": " ",
-			"jailbird": " ",
-			"prophet": " ",
-			"gw_tournment": " ",
-			"gw_fear": " ",
-			"ff_st": " ",
-			"tr_eightdays": " ",
-			"tr_stink": " ",
-			"tr_stranger": " ",
-			"tr_filibert": " ",
-			"tr_widow": " ",
-			"tr_carnarvon": " ",
-			"tr_gardener": " ",
-			"tr_selina": " ",
-			"tr_experiment": " ",
-			"tr_doh": " ",
-			"tr_again": " ",
-			"tr_spoon": " ",
-			"tr_escapology": " ",
-			"tr_suffering": " ",
-			"tr_enjoytheplay": " ",
-			"ww_belgaard": " ",
-			"ww_deus": " ",
-			"ww_consorting": " ",
-			"ww_coronata": " ",
-			"ww_vermentino": " ",
-			"vc_dun": " ",
-			"vc_cleaning": " ",
-			"vc_rivecalme": " ",
-			"vc_chuchote": " ",
-			"vc_griffin": " ",
-			"bf_1": " ",
-			"bf_2": " ",
-			"bf_3": " ",
-			"bf_4": " ",
-			"bf_5": ""
-		}
-	},
-	"contracts": {
-		"label": {
-			"biggamehunter": "Hon na vysokou",
-			"coldasice": "Poslední zvůle",
-			"tufo": "Příšera z vinice Tufo",
-			"bonvineblues": "Slota skotu",
-			"phantoms": "Klepniny klepy"
-		},
-		"desc": {
-			"biggamehunter": " ",
-			"coldasice": " ",
-			"tufo": " ",
-			"bonvineblues": " ",
-			"phantoms": ""
-		}
-	},
-	"signalfire": {
-		"label": "Vatra",
-		"desc": "Pokud běžec s loučí zapálí vatru, dorazí posily na pomoc zbojníkům. "
-	},
-	"signpost": {
-		"label": {
-			"dulcineawindmill": "Dulcinein větrný mlýn",
-			"cockatrice": "Krčma U Kuroliška",
-			"plegmundsbridge": "Plegmundův most",
-			"corvobianco": "Vinice Corvo Bianco",
-			"palace": "Beauclairský palác",
-			"palacegardens": "Palácové zahrady",
-			"embassy": "Nilfgaardské vyslanectví",
-			"gate": "Metinnská brána",
-			"francollarts": "Vesnice Francollarts",
-			"fort": "Rozvaliny pevnosti Astre",
-			"fox": "Liščí Nora",
-			"castelravello": "Vinice Castel Ravello",
-			"cemetry": "Hřbitov Mère-Lachaiselongue",
-			"prison": "Vězení",
-			"farm": "Gelenserův statek",
-			"ruins": "Rozvaliny Termešského paláce",
-			"mutnaruins": "Trosky Tesham Mutna",
-			"granplace": "Hlavní náměstí",
-			"tunier": "Turnajiště",
-			"statue": "Socha proroka Lebedy",
-			"hortense": "Vinice Hortense",
-			"flovive": "Vesnice Flovive",
-			"fortussar": "Rozvaliny pevnosti Ussar",
-			"cottage": "Trastamarská myslivna",
-			"montcranecastle": "Hrad na Jeřábí hoře",
-			"duntynnecastle": "Hrad Dun Tynne",
-			"duntynnehillside": "Úbočí Dun Tynne",
-			"arthachpalaceruins": "Trosky paláce Gallion",
-			"thesilversalamanderinn": "Krčma U Stříbrného salamandra",
-			"tradingpost": "Obchodní stanice",
-			"basanefarm": "Statek Basane",
-			"croixmill": "Vodní mlýn hraběte de la Croix",
-			"coopersgate": "Bečvářská brána",
-			"haborgate": "Přístavní brána",
-			"sansebastian": "San Sebastian",
-			"beauclairport": "Přístaviště",
-			"coronatavineyard": "Vinice Coronata",
-			"duntynnecrossroads": "Křižovatka u Dun Tynne",
-			"chuchotecave": "Šepotná sluj",
-			"sansretourvalley": "Sansretourská kotlina",
-			"riouxcannesoutpost": "Dřevorubecká základna Rioux-Cannes",
-			"seidhellyghadamphitheater": "Starý amfiteátr",
-			"belgaardvineyard": "Vinice Belgaard",
-			"lebiodasgate": "Lebedova brána",
-			"ardaisoquarry": "Kamenolom Ardaiso",
-			"casteldacciaabandonedestate": "Opuštěná usedlost Casteldaccia"
-		},
-		"desc": {
-			"casteldacciaabandonedestate": "Maximus Makrinus byl kdysi bludným rytířem, který proslul tím, že zbojníkům řádícím v Divočině nikdy neprokázal žádné slitování. Po dlouhé a příběhy ověnčené životní dráze pověsil meč na hřebík a usadil se v sídle po svých předcích k zaslouženému odpočinku. Nikdo neví, jak došlo k vyvraždění celé jeho rodiny. Někteří tvrdí, že z hor sestoupil obr, jiní, že si znesvářil jednu z větších tlup. Jedinou nepopiratelnou skutečností je to, že se sídlu Casteldaccia nyní všichni vyhýbají velkým obloukem.",
-			"ardaisoquarry": "Každý člověk, ať už je to násoska, anebo se pití ani nedotkne, ví, že se toussaintské hospodářství celé točí kolem plodů vinné révy. Jen málokdo si však uvědomuje, že území knížectví je bohaté na naleziště břidlice a dalších cenných stavebnin a že jejich těžba bývala kdysi základem zdejšího živobytí. Proto když bohabojní Toussainťané seznali, že je záhodno postavit sochu svatého Lebedy, nemuseli stavební kámen odnikud dovážet - prostě obnovili práci v Ardaisu.",
-			"lebiodasgate": "Práce na Lebedově chrámu v Beauclair zahájil jeho slavný učeň Plegmund. Ten přesvědčil kněžnu Karobertu, aby tuto část města přestavěla a nechala vykopat hluboké katakomby pro nejzámožnější občany města. Ti méně majetní měli být pohřbíváni na novém hřbitově vedle chrámu. Těm nejchudším z chudých však musel i nadále stačit hřbitov za Chmurami, který je s městem spojen Chrámovou bránou, které se také říká brána Lebedova.",
-			"belgaardvineyard": "Někdejší majitel této vinice se u jednoho lichváře tak zadlužil, že ten na něj poslal zbojníky, aby dluh vymohli. Když zjistili, že u sebe žádné peníze nemá, zavraždili jeho i veškeré osazenstvo tohoto sídla. Jako by jim tento odporný čin nestačil, udělali si z vinice svou základnu. Z ní pak pořádali výjezdy, přepadávali kupce a obírali je o bezpočet sudů s vínem, které pak napájelo jejich opilecké řádění. Byli tak lítí a dobře zásobení, že je nikdo nedokázal vyhnat - dokud jeden statečný lučbář, který projížděl jejich územím, do vína nepřisypal silný výtažek ze skočce jedovatého.",
-			"seidhellyghadamphitheater": "Na břehu jezera známého jako Seidhe Llygad, čili Horské oko, leží prastarý amfiteátr - další pozůstalost z elfské minulosti Toussaintu. V roce 1178 byla stavba obnovena, aby se v ní mohly předvádět hry nejznámějších beauclairských divadelních umělců. Její slavnostní otevření však uťal smutný konec: záhadná smrt hlavní herečky. Od té doby se toto místo považuje za prokleté a jen málokdo se k němu odváží přiblížit.",
-			"riouxcannesoutpost": "Druhou nejběžněji pěstovanou rostlinou v Toussaintu - tou první je samozřejmě vinná réva - je olivovník. Pěstuje se zejména kvůli olivám, z nichž se pak lisováním získává olej, ale svou oblibu nalezl i u rytců. Nejoblíbenějším stromem je však bezesporu beauclairský dub, který slouží k výrobě sudů na víno. A tím nejdůležitějším místem v Toussaintu, kde se tento strom zpracovává, je dřevorubecká základna Rioux-Cannes.",
-			"sansretourvalley": "Sansretourská kotlina je středobodem světové výroby vína. Právě na révou porostlých stráních tohoto údolí lze najít vinice Castel Ravello, Coronata a Vermentino - sídla slavných vinařských rodin, která jim po staletí záviděl každý druhý vinař.",
-			"chuchotecave": "Podle lidových zvěstí na tomto místě kdysi přebývala Šeptana - lesní čarodějnice ochotná pomoci každému v nouzi. Když Šeptana nahlédla do srdce jistého rytíře, seznala, že je černé, a pomoc mu odmítla. Rytíře se zmocnil vztek a čarodějnici v její jeskyni upálil zaživa. Brzy nato rytíř zešílel a zabil se - prý ho mučil podivný hlas, který mu našeptával do ucha a který kromě něj nikdo neslyšel.",
-			"duntynnecrossroads": "Drahý poutníče, vstupuješ na území Dun Tynne, jež náleží urozenému siru Roderickovi. Pakliže si ho navštíviti přeješ, vydej se odsud směrem západním a jistojistě na jeho hrad narazíš. Pokud však hledáš cestu k brodu přes řeku Zurčinu, tvé kroky by měly směřovati na sever.",
-			"dulcineawindmill": "Lady Dulcinea byla šlechtičnou na dvoře kněžny Karoberty. Podle pověsti všude tam, kde se objevila, sváděli rytíři souboje o její přízeň a šlechtičny omdlévaly závistí. Ale než aby přijala návrh jednoho ze svých urozených ctitelů, přijala lady Dulcinea, byvši znavená okázalostí knížecího dvora, návrh prostého mlynáře a odešla z paláce, aby s ním žila v jeho mlýně. Proslýchá se, že tam spolu žili šťastně až do smrti.",
-			"cockatrice": "Kdysi dávno majitel Kuroliška Adam de Guy s oblibou vyprávěl pověst o tom, jak krčma přišla ke svému jménu. Když byl mladý, jak pravil příběh, sloužil u jednoho bludného rytíře a spolu porazili krvežíznivého kuroliška. Hlava této šelmy zdobila vchod do hospůdky po mnoho let, dokud jistý Oxenfurťan nezjistil, že se bohužel jednalo o celkem neumětelskou splácaninu bažanta, lasičky a kusů prasete. Adamova pýcha byla v troskách, a tak trofej sundal. Název však už krčmě zůstal.",
-			"plegmundsbridge": "Za vlády kněžny Karoberty měl tento most usnadnit dopravu mezi vinicemi na opačných březích řeky Sansretour. Byl pojmenován po jednom poutníkovi, který se tehdy v Toussaintu těšil značné přízni. Byl to jistý učedník proroka Lebedy, který přesně na tomto místě vykonal jeden ze svých četných zázraků: překročil řeku suchou vodou.",
-			"corvobianco": "Sídlo Corvo Bianco - ve Starší řeči známé jako Gwyn Cerbin - bylo postaveno na elfských rozvalinách a je jednou z nejstarších vinic v knížectví. Vyrábí se zde až nečekaně jedinečné víno jménem Sepremento. Rozmáchlý život jednoho z majitelů, posledního člena rodu Boliů, bohužel celý pozemek dohnal až ke krachu. Další vlastník, Baron Rossell, se vinici pokusil navrátit někdejší slávu, ale jeho snaha přišla vniveč. Corvo Bianco bylo poté vydraženo a nakonec přešlo pod správu knížecí pokladnice.",
-			"palace": "Beauclairský palác, jednu z nejlépe zachovaných památek na elfské období, velmi pracně uvedl do původního stavu proslulý nilfgaardský stavitel Faramond. Mistr Faramond, učenec a odborník na nelidské stavitelství, je považován za zakladatele neoelfské školy, mezi jejíž nejpříznačnější příklady patří právě palác beauclairský, sídlo toussaintských vládců.",
-			"palacegardens": "Nádherné zahrady na břehu jezera Seidhe Llygad byly - stejně jako beauclairský palác - během střetů s elfy téměř zničeny. Mistr Faramond, který velel přestavbě, udělal, co bylo v jeho silách, ale ty choulostivější rostliny se mu zachránit nepodařilo. Dnes je toto oblíbené zotavovací místo zdejších dvořanů plné zejména smrků, olivovníků, beauclairskch dubů, růžových keřů, jalovcového houští, pěnišníků a samozřejmě révy.",
-			"embassy": "Toussaint je lenním knížectvím nilfgaardského císařství. Právoplatnou vládkyní této oblasti je kněžna Anna Henrietta, ale ve skutečnosti je podřízena vůli svého drahého staršího bratrance - Emhyra var Emreis. Pro Její osvícenou Milost a celou její malou říši proto bylo naprostou samozřejmostí, když si v Toussaintu císař zřídil vyslanectví, jež sestává z hrstky hodnostářů, kteří v knížectví trvale žijí a díky svým zkušenostem kněžně pomáhají s takříkajíc osvíceneckými rozhodnutími.",
-			"gate": "Velké toussaintské toky nepředstavují jen cestu, kudy se víno dostává z knížectví. Během jarních oblev bývají vody Sansretouru velmi nebezpečné a místní vývozci se obracejí k přepravním možnostem, u kterých tolik nehrozí katastrofické ztráty. Tito kupci spolu zakládají karavany, najímají si stráže a vydávají se se svým zbožím do cizích krajů. Jejich oblíbený cíl? Metinna, jejíž hlavní město se rovněž nazývá Metinna. Toussainťané žertem říkají, že jejich víno je lékem na pověstný nedostatek představivosti tohoto království.",
-			"francollarts": "Karobertské lesy získaly své jméno po babičce současné kněžny - po kněžně Karolíně Robertě -, která v tomto lese s oblibou pořádala složité hry na schovávanou. Z malého loveckého tábora na jeho okraji postupně vyrostla klidná vesnička jménem Francollarts. Lovci, dřevorubci a včelaři sem přicházeli prodávat plody lesa. Vesnice ožívá jednou za rok, když Baron Trastamara pořádá své výroční slavnosti dřeva, v jejichž rámci pozve celý dvůr na okázalý lov.",
-			"fort": "Kdysi dávno vládce říše Epicéa vyskočil do sedla svého oře a zapřisáhl se, že objede celý hrad – po hradbách. Svou přísahu bohužel nesplnil a místo toho se po pár krocích zřítil dolů. Jeho milovaná dcera Kunegunda toho dne přísahala, že za chotě pojme jen toho muže, který by dokázal odvážný čin svého otce dokončit. Při pokusu splnit krutou podmínku oné lepé panny přišlo o život mnoho mladíků. Když však jeden z nich konečně uspěl, podíval se na spoušť, kterou měla na svědomí, a rozhodl se, že není hodna jeho přízně. Kunegunda si s hrůzou uvědomila, jak ohavně se chovala, a sama se vrhla z hradeb dolů, načež zemřela stejným způsobem jako tolik jejích nešťastných nápadníků.",
-			"fox": "V malém údolí na úpatí hory Gorgony leží vesnička jménem Liščí Nora. Na polích kolem této vísky rostou - zcela zázračně a nevysvětlitelně - hrnce. Z půdy samovolně raší kameninové nádoby, jako by to byl nějaký kouzelnický trik přírody, který nevyžaduje žádný zásah člověka. Rostou zde hrnce všech tvarů a velikostí, a proto Liščí Nora udržuje obchodní styky s vesnicí Dudno v Maechtu - protože na polích kolem této vísky rostou - zcela zázračně a nevysvětlitelně - poklice. Všech tvarů a velikostí.",
-			"castelravello": "Znalci tvrdí, že ani to nejlepší víno z Metinny či Alby se nedokáže rovnat ani obyčejným značkám ze Sansretourské kotliny. Mezi bezpočtem větších či menších vinic, které zde byly založeny, je nejznámější Castel Ravello - a právem. Z jeho úbočí pochází pominské, fioranské, erveluské a Est Est - králové vinné říše, kteří nemají sobě rovné.",
-			"cemetry": "Na vinici Belgaard se kdysi odehrála proslulá otrava, která si vyžádala životy velké skupiny zbojníků, již plenili tuto oblast. Lidé, kteří měli za úkol vyčistit následky, hodlali původně těla spálit, ale jedna pobožná duše si pomyslela, že i takovíto prohnilí zahnojenci si zaslouží něco lepšího. Proto se onen člověk rozhodl, že jejich těla budou uložena k odpočinku na malém hřbitově Mère-Lachaiselongue. Později zde mučednickou smrtí zemřel sir Ramon z Gichonu, když se snažil zbavit přízraků oněch zbojníků, které se sem neustále vracely.",
-			"prison": "Je zatěžko uvěřit tomu, že Toussaint, nyní tak zářivý a plný života, kdysi padl za oběť obrovskému rozmachu nákazy malomocenství. Aby se nakažení oddělili od zdravých, byl na Jeřábím ostrově knížecím výnosem zřízen tábor malomocných. Když všichni obyvatelé tábora zemřeli, zařízení se postupně rozpadlo a bylo rozhodnuto o tom, že bude přestavěno na věznici, kterou zůstalo až dodnes.",
-			"farm": "Starý Gelenser pěstoval ředkvičky. Ano, ředkvičky. Žádnou révu či olivy, ba ani řepu. Jak sám říkal: 'Hrome, jen o chlebu a víně se přece žít nedá, no ne?!' Starý Gelenser nezaložil ředkvičkovou říši. Dějiny jeho rodu neoplývají úžasnými pověstmi. Žil, zplodil potomky, sázel ředkvičky a zemřel. Ó Lebedo, dopřej nám všem tak klidný a prostý život.",
-			"mutnaruins": "Všeobecně se ví, že upíři do našeho světa přišli během Konjunkce sfér. Ve snaze přizpůsobit se novým podmínkám se rychle rozšířili po celé pevnině. Podle pověsti se jeden z nich, Khagmar, usadil v Toussaintu. O jeho skutcích kolují chmurné báje, ale je těžké stvrdit, jestli vůbec kdy žil. Všechny zvěsti se však shodují na jednom: Khagmarův příběh je nerozlučně spjat se záhadnou pevností jménem Tesham Mutna.",
-			"granplace": "Největší toussaintské tržiště se hemží barevnými stánky a kupci ze všech koutů světa. Proslýchá se, že pokud něco není k sehnání na beauclairském trhu, pak to prostě neexistuje. Kromě vína všech značek se zde prodává i břidlice z Ardaisa, rouno z toussaintských ovcí merino chovaných v Basane či olivový olej z hájů kolem Dun Tynne.",
-			"tunier": "Tradice je v Toussaintu svatá. Toto krásné knížectví má tradic celou řadu a tou nejposvátnější z nich jsou okázalé rytířské přebory, které se konají u příležitosti téměř každých významných místních slavností. Tyto soutěže si vydobyly slávu a uznání nejen v celém Nilfgaardu, ale také na severu. Rytíři z téměř celého světa sem přijíždějí, aby se nechali zapsat a získali věhlas ve zkoušce schopností mezi sebou i proti výkvětu toussaintského rytířství.",
-			"statue": "Během vlády kněžny Karoberty navštívil Toussaint jeden z učedníků proroka Lebedy jménem Plegmund. Jeho slova a skutky - mezi něž se řadí i zázraky - byly tak přesvědčivé, že se na tuto novou víru zakrátko obrátilo celé knížectví. Tento záchvěv pobožnosti byl korunován stavbou chrámu zasvěceného tomuto prorokovi, ale to Plegmundovi nestačilo. Přesvědčil kněžnu, aby Lebedovi nechala zhotovit i sochu - takovou, jakou svět dosud neviděl.",
-			"hortense": "Toussaint se může chlubit mnoha světoznámými vinicemi, jakými jsou třeba Castel Ravello, Pomerol, Vermentino či Tufo. Jejich majitelé se velmi pečlivě starají o časem osvědčené tradice a rodinné recepty, ve kterých spočívá proslulost jejich vín. Ale Toussaint je domovem i spousty malých vinic, které nemají ani vlastní erb a jejichž víno si dosud nezískalo žádnou zvláštní slávu, takže se o nich těžko něco říká. Přesně takovým místem je i Hortense.",
-			"flovive": "Kdysi dávno se na sansretourské mokřady snesl déšť žab. Kněžna Ademarta nechala rozhlásit, že ten, komu se podaří zbavit zemi těchto prokletých obojživelníků, obdrží štědrou odměnu. Ale ani bludní rytíři, ani druidi či kdokoliv jiný její úkol splnit nedokázal - dokud na to nepřišel jeden chudý vorař jménem Flovive. Učaroval žabám svou hrou na housle a ty, pod vlivem jeho nápěvku, za ním šly až za hranice knížectví. Na památku této události nese osada, kde přebývali toussaintští voraři, jeho jméno.",
-			"fortussar": "Rozvaliny pevnosti Ussar se nachází ve východní části Toussaintu a východo-jižně od kamenolomu Ardaiso. Zpočátku je obýván haštěry, včetně jejich matky. Uvnitř jeskyně pod zříceninou lze také nalézt místo Moci znamení Igni.",
-			"cottage": "Amadis de Trastamara získal tento pozemek od kněžny Karoberty coby uznání za své služby Toussaintu. Dar od vládkyně však měl nečekaný háček, neboť se ukázalo, že v tomto sídle straší a - co je horší - dluží obrovské částky na daních. Trastamara se o svém trápení poradil s druidy z Caed Myrkvid a dostalo se mu následující rady: pokud se s tím zjevením nedokážeš dohodnout, nech ho na pokoji.",
-			"montcranecastle": "Jak naznačuje jeho přízvisko, vévoda Robert řečený Prostopášník si pití neodpíral. Příběhy o jeho alkoholovém skotačení se dodnes řadí mezi ty nejoblíbenější toussaintské tradiční vyprávěnky. A právě tento stav neutuchající ovíněnosti mohl být příčinou jeho rozhodnutí obehnat knížectví řadou hradů, které měly chránit Toussaint před barbarskými lidmi z vysočiny kolem hory Gorgony. Potíž je totiž v tom, že o tomto lidu nikdy nikdo neslyšel ani zbla.",
-			"duntynnecastle": "K tomuto hradu se váže temná pověst o Valthariovi Statném, šviháckém rytíři, jenž se oženil s krásnou nazairskou princeznou Helgundou. Valtharius se pak vydal na zdlouhavé tažení a po návratu našel svou choť, kterak si užívá tělesných slastí s jedním jeho příbuzným, načež se rozlítil a oba je zabil. Z tohoto příběhu plyne ponaučení, že z Nazairu nikdy nevzešlo nic dobrého a že když má někdo mladou ženu, měl by zůstat doma a netoulat se někde po světě.",
-			"duntynnehillside": "Úpatí Dun Tynne leželo dlouho ladem. Případní podnikavci se měli nahnáno kvůli pověsti o Valthariovi Statném, a jelikož se zde stejně nikdy nepěstovalo víno, které by stálo za zmínku, neměli pražádný důvod svůj strach překonávat. Nejposlednější majitel sídla - šlechtic jménem Roderick - se však rozhodl vysázet révu na stráních, které se táhnou od Žehnaského údolí a Sansretourské kotliny až k této tvrzi. Jako pojistku zde založil i olivový háj, který měl mnohem jistější návratnost.",
-			"arthachpalaceruins": "Pokusy o usměrnění vod v Sansretourských mokřadech, které prováděl vévoda Adam Nazairský, nebyly úspěšné - tedy mírně řečeno. Bylo kvůli nim zatopeno několik vesnic, soukromých sídel a dokonce i Gallion, elfský letní palác. Právě těmto pokusům, kvůli kterým se ocitla půlka Jeřábího ostrova natrvalo pod vodou, vděčí Sansretourské mokřady za svůj současný stav a vzhled. Také zapříčinily vznik nepříjemné bažiny severně od města, kterou nikdo nedokáže projít v bezpečí.",
-			"thesilversalamanderinn": "Když se lidé ptají nilfgaardského majitele této krčmy, jistého Calixta Moireho, odkud pochází název tohoto podniku, vždycky je odkáže na druhou bitvu o Sodden. Jeho otec Antoine v boji prokázal mimořádnou odvahu, o čemž svědčí medaile Stříbrného salamandra, kterou mu udělil sám císař za udatnost a odhodlání na bitevním poli.",
-			"basanefarm": "Ač to tak nevypadá, Toussaint nestojí a nepadá jen s vinařským průmyslem. Vyváží také cenné stavebniny a velké množství vlny. Na stráních Jeřábí hory hojně roste jetel, kterým se krmí mnoho rozličných plemen ovcí, a to včetně proslulého toussaintského druhu merino, jehož rouno se prodává za neskutečné peníze. Basane je jedním ze statků, které se soustředí na chov a pasení těchto pozoruhodných zvířat.",
-			"croixmill": "Rodu de la Croix se v obchodu nikdy příliš nedařilo. Jejich réva padla za oběť pokusům vévody Adama Nazairského o usměrnění toku řeky Sansretour a jejich olivové háje pohltila pohroma v podobě červců. Poté přestavěli svůj starý vodní mlýn, spoléhajíce se na výrobu chleba, který jim měl otevřít bránu k úspěchu. A téměř se tak stalo - dokud tím horším způsobem nepřišli na to, že větší množství mouky v uzavřených prostorách může vést k silným prašným výbuchům.",
-			"coopersgate": "Odborníci vědí, že tajemství toussaintského vína nespočívá v révě na úpatí kopců, ale v dubových porostech. Z tohoto dřeva se vyrábějí tak žádané sudy, že by dřevorubci málem byli vykáceli celé knížectví dohola, kdyby je bývaly nezastavily námitky rozzuřených druidů. Po letech vyjednávání bylo dosaženo dohody a tak bylo založeno zvláštní uskupení - cech bečvářů. Díky jeho přísnému dozoru nad celým dřevozpracujícím průmyslem je kácení lesů na udržitelné úrovni a z cechu se stal ten nejbohatší ve městě - o čemž svědčí i okázalá brána do města, kterou zaplatili.",
-			"haborgate": "Když se pokládaly kameny na obranné hradby kolem Vyšnova, obyvatelé Beauclair neměli tušení, jak moc se jejich město nakonec rozroste. San Sebastian a přístavní čtvrť se nakonec rozpínaly tak, že beauclairští obyvatelé museli v hradbách prorazit další průchod, aby usnadnili pohyb mezi hlavními čtvrtěmi města. Někteří dokonce volali po tom, aby byly hradby strženy úplně - poněvadž čeho se mohou bát, když jejich město chrání ti nejudatnější bludní rytíři, jaké svět kdy znal?",
-			"sansebastian": "Město Beauclair se rychle rozrůstalo a zaplnilo prostor svých hradeb, načež se vylilo i za ně. Díky tomu vzniklo Dolní Město, které je také známé jménem svého zakladatele - San Sebastian. V současné době tato čtvrť skýtá domov převážně dělníkům a jejich dílnám a spojuje Vyšnov s přístavem - středobodem obchodu nejen města Beauclair, ale i celého knížectví.",
-			"beauclairport": "Nejlepší víno na světě pochází z Toussaintu - to vám řekne každý znalec. Lahve se známými značkami stojí celé jmění a dokonce zdobí královské tabule - dnes si opravdu někdo jen stěží představí královskou hostinu bez Côte-de-Blessure či Est Est. A právě tady, v beauclairském přístavu, toto víno začíná svou pouť jak na jih - do srdce nilfgaardského císařství -, tak na daleký sever.",
-			"tradingpost": "Každý kupec s trochou sebeúcty se občas vydá obchodovat do hlavního města Toussaintu - vyslechne nejnovější drby u proslulých Beauclairských Zvonečků v San Sebastian, anebo se zajde podívat dolů do přístavu, jestli se přístavním dělníkům 'neztratil' sud nebo dva. Ale ty skutečně důležité obchody se neodehrávají ve městě, nýbrž v tomto skrovném kupeckém táboře daleko od věčných beauclairských slavností, jejichž ovzduším se line zpěv a víno.",
-			"coronatavineyard": "Zakladatel rodu Štefan de Coronata kdysi požádal jednoho druida, aby mu pomohl zbavit se stonožek, které mu požírají révu. Druid mu navrhl, aby začal chovat kuny, které se larvami tohoto hmyzu rády krmí. Štefan si druidovu radu vzal k srdci a brzy této pohromy zbavil nejen svou vlastní vinici, ale i ty sousední. Za tento štědrý čin mu byl udělen šlechtický titul. Do svého rodového znaku si vybral modrého vlka, protože došel k názoru, že kdyby se honosil štítem s kunou, vypadal by hloupě.",
-			"ruins": "Toussaint byl kdysi krajem elfů. Knížecí palác je nejvýznamnější vzpomínkou na toto období, nikoliv však jedinou. Aen Seidhe po sobě zanechali spoustu menších i větších budov, o jejichž účelu se dnes lidé mohou leda tak dohadovat. Jedním z příkladů jsou i trosky Termešského paláce, které někteří spojují s bájným místem věčného odpočinku posledního elfského krále, zatímco jiní je považují za chrám zasvěcený jakémusi zapomenutému božství. O co se však jednalo doopravdy, se už nikdy nedozvíme."
-		}
-	},
-	"shopkeeper": {
-		"label": {
-			"butcher": "Řeznictví",
-			"tailor": "Krejčířství"
-		},
-		"desc": {
-			"butcher": " ",
-			"tailor": ""
-		}
-	},
-	"event": {
-		"label": {
-			"contract": "Zakázka na zaklínače",
-			"grave": "Vykradači hrobů",
-			"naughty": "Zlobivé peří",
-			"ring": "Ztracený zásnubní prsten",
-			"drunked": "Opilý Guillaume"
-		},
-		"desc": {
-			"contract": " ",
-			"grave": " ",
-			"naughty": " ",
-			"ring": " ",
-			"drunked": ""
-		}
-	}
+    "armourer": {
+        "lafargue": "Lafargue"
+    },
+    "banditcamp": {
+        "desc": {
+            "hanse": "Zobrazí se pouze v případě, že „__location__“ „__hanse__“ bylo vymazáno. ",
+            "ussar": "Spawnuje se pouze v případě, že vejce nebyla zničena během mise „__quest__“. "
+        }
+    },
+    "brothel": {
+        "popup": {
+            "Belle": "Beauclairské Zvonečky"
+        }
+    },
+    "contracts": {
+        "desc": {
+            "biggamehunter": "",
+            "bonvineblues": "",
+            "coldasice": "",
+            "phantoms": "",
+            "tufo": ""
+        }
+    },
+    "entrance": {
+        "desc": {
+            "Tesham": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "contract": "",
+            "drunked": "",
+            "grave": "",
+            "naughty": "",
+            "ring": ""
+        }
+    },
+    "guarded": {
+        "desc": {
+            "hanse": "Zobrazí se pouze v případě, že „__location__“ „__hanse__“ bylo vymazáno. "
+        }
+    },
+    "hansebase": {
+        "desc": "Zde je třeba očekávat střety se zbojníky, kteří jsou ozbrojení až po zuby. ",
+        "label": "Základna tlupy"
+    },
+    "innkeep": {
+        "desc": "Zde můžete nakupovat nebo prodávat různé předměty. ",
+        "label": {
+            "auberge": "Hospůdka rytíře Liškutína z Kuroslep",
+            "barrelandbung": "Krčma U Sudu a zátky",
+            "pheasantry": "Bažantnice",
+            "salamander": "Krčma U Stříbrného salamandra",
+            "winery": "Vinařstvi Zmije a klenoty"
+        }
+    },
+    "kid": {
+        "desc": "Zde můžeš pomoct bludnému rytíři v boji proti zbojníkům. ",
+        "label": "Bludný rytíř v nesnázích"
+    },
+    "poi": {
+        "desc": {
+            "ducal": "",
+            "haremask": "",
+			"hengaidth": "Je roztroušena na 4 různých místech v podzemí. Pokud se rozhodnete hledat Syannu, máte přístup pouze k jednomu z těchto míst. ",
+            "photo": "Je to tímto směrem, ale mimo mapu. Podrobný popis: __link1__ klikněte zde __link2__. ",
+            "reginald": "Aktivuje se, pokud bylo mužství sira Reginalda d'Aubryho obnoveno v úkolu „__quest__“. Každým dotykem se na 60 minut aktivuje buff zvaný „Reginald's Power“, který dává hráči neomezenou schopnost běhu, když je mimo boj. ",
+            "tesham": "Je roztroušena na 3 různých místech v podzemí. "
+        },
+        "label": {
+            "ducal": "Knížecí šambelán",
+            "haremask": "Zaječí maska",
+			"hengaidth": "Sada Hen Gaidth",
+            "photo": "CDPR Fotografie",
+            "reginald": "Mužství sira Reginalda d'Aubryho",
+            "tesham": "Sada Tesham Mutna"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "butcher": "Prodává jídlo. ",
+            "craftingSuppliesAndDrink": "Prodává výrobní zásoby a pití.",
+            "dye": "Prodává barvivo na zbroj a odstraňovač barviv. ",
+            "paintingscraftingSupplies": "Prodává obrazy a výrobní zásoby. "
+        },
+        "label": {
+            "butcher": "Řezník",
+            "dye": "Obchodník s barvivy",
+            "vintner": "Vinař"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "bf_1": "",
+            "bf_2": "",
+            "bf_3": "",
+            "bf_4": "",
+            "bf_5": "",
+            "cosplay": "",
+            "facethestrage": "",
+            "father": "",
+            "ff_st": "",
+            "granite": "",
+            "grist": "",
+            "gw_fear": "",
+            "gw_tournment": "",
+            "hunger": "",
+            "jailbird": "",
+            "kingforhire": "",
+            "knightstale": "",
+            "master": "",
+            "onlyone": "",
+            "paperchase": "",
+            "placelikehome": "",
+            "portait": "",
+            "prophet": "",
+            "raging": "",
+            "sheers": "",
+            "smittenkight": "",
+            "tilldeath": "",
+            "tr_again": "",
+            "tr_carnarvon": "",
+            "tr_doh": "",
+            "tr_eightdays": "",
+            "tr_enjoytheplay": "",
+            "tr_escapology": "",
+            "tr_experiment": "",
+            "tr_filibert": "",
+            "tr_gardener": "",
+            "tr_selina": "",
+            "tr_spoon": "",
+            "tr_stink": "",
+            "tr_stranger": "",
+            "tr_suffering": "",
+            "tr_widow": "",
+            "vc_chuchote": "",
+            "vc_cleaning": "",
+            "vc_dun": "",
+            "vc_griffin": "",
+            "vc_rivecalme": "",
+            "vintnercontract": "",
+            "wildkingdom": "",
+            "ww_belgaard": "",
+            "ww_consorting": "",
+            "ww_coronata": "",
+            "ww_deus": "",
+            "ww_vermentino": ""
+        }
+    },
+    "signalfire": {
+        "desc": "Pokud běžec s loučí zapálí vatru, dorazí posily na pomoc zbojníkům. ",
+        "label": "Vatra"
+    },
+    "signpost": {
+        "desc": {
+            "ardaisoquarry": "Každý člověk, ať už je to násoska, anebo se pití ani nedotkne, ví, že se toussaintské hospodářství celé točí kolem plodů vinné révy. Jen málokdo si však uvědomuje, že území knížectví je bohaté na naleziště břidlice a dalších cenných stavebnin a že jejich těžba bývala kdysi základem zdejšího živobytí. Proto když bohabojní Toussainťané seznali, že je záhodno postavit sochu svatého Lebedy, nemuseli stavební kámen odnikud dovážet - prostě obnovili práci v Ardaisu. ",
+            "arthachpalaceruins": "Pokusy o usměrnění vod v Sansretourských mokřadech, které prováděl vévoda Adam Nazairský, nebyly úspěšné - tedy mírně řečeno. Bylo kvůli nim zatopeno několik vesnic, soukromých sídel a dokonce i Gallion, elfský letní palác. Právě těmto pokusům, kvůli kterým se ocitla půlka Jeřábího ostrova natrvalo pod vodou, vděčí Sansretourské mokřady za svůj současný stav a vzhled. Také zapříčinily vznik nepříjemné bažiny severně od města, kterou nikdo nedokáže projít v bezpečí. ",
+            "basanefarm": "Ač to tak nevypadá, Toussaint nestojí a nepadá jen s vinařským průmyslem. Vyváží také cenné stavebniny a velké množství vlny. Na stráních Jeřábí hory hojně roste jetel, kterým se krmí mnoho rozličných plemen ovcí, a to včetně proslulého toussaintského druhu merino, jehož rouno se prodává za neskutečné peníze. Basane je jedním ze statků, které se soustředí na chov a pasení těchto pozoruhodných zvířat. ",
+            "beauclairport": "Nejlepší víno na světě pochází z Toussaintu - to vám řekne každý znalec. Lahve se známými značkami stojí celé jmění a dokonce zdobí královské tabule - dnes si opravdu někdo jen stěží představí královskou hostinu bez Côte-de-Blessure či Est Est. A právě tady, v beauclairském přístavu, toto víno začíná svou pouť jak na jih - do srdce nilfgaardského císařství -, tak na daleký sever. ",
+            "belgaardvineyard": "Někdejší majitel této vinice se u jednoho lichváře tak zadlužil, že ten na něj poslal zbojníky, aby dluh vymohli. Když zjistili, že u sebe žádné peníze nemá, zavraždili jeho i veškeré osazenstvo tohoto sídla. Jako by jim tento odporný čin nestačil, udělali si z vinice svou základnu. Z ní pak pořádali výjezdy, přepadávali kupce a obírali je o bezpočet sudů s vínem, které pak napájelo jejich opilecké řádění. Byli tak lítí a dobře zásobení, že je nikdo nedokázal vyhnat - dokud jeden statečný lučbář, který projížděl jejich územím, do vína nepřisypal silný výtažek ze skočce jedovatého. ",
+            "casteldacciaabandonedestate": "Maximus Makrinus byl kdysi bludným rytířem, který proslul tím, že zbojníkům řádícím v Divočině nikdy neprokázal žádné slitování. Po dlouhé a příběhy ověnčené životní dráze pověsil meč na hřebík a usadil se v sídle po svých předcích k zaslouženému odpočinku. Nikdo neví, jak došlo k vyvraždění celé jeho rodiny. Někteří tvrdí, že z hor sestoupil obr, jiní, že si znesvářil jednu z větších tlup. Jedinou nepopiratelnou skutečností je to, že se sídlu Casteldaccia nyní všichni vyhýbají velkým obloukem. ",
+            "castelravello": "Znalci tvrdí, že ani to nejlepší víno z Metinny či Alby se nedokáže rovnat ani obyčejným značkám ze Sansretourské kotliny. Mezi bezpočtem větších či menších vinic, které zde byly založeny, je nejznámější Castel Ravello - a právem. Z jeho úbočí pochází pominské, fioranské, erveluské a Est Est - králové vinné říše, kteří nemají sobě rovné. ",
+            "cemetry": "Na vinici Belgaard se kdysi odehrála proslulá otrava, která si vyžádala životy velké skupiny zbojníků, již plenili tuto oblast. Lidé, kteří měli za úkol vyčistit následky, hodlali původně těla spálit, ale jedna pobožná duše si pomyslela, že i takovíto prohnilí zahnojenci si zaslouží něco lepšího. Proto se onen člověk rozhodl, že jejich těla budou uložena k odpočinku na malém hřbitově Mère-Lachaiselongue. Později zde mučednickou smrtí zemřel sir Ramon z Gichonu, když se snažil zbavit přízraků oněch zbojníků, které se sem neustále vracely. ",
+            "chuchotecave": "Podle lidových zvěstí na tomto místě kdysi přebývala Šeptana - lesní čarodějnice ochotná pomoci každému v nouzi. Když Šeptana nahlédla do srdce jistého rytíře, seznala, že je černé, a pomoc mu odmítla. Rytíře se zmocnil vztek a čarodějnici v její jeskyni upálil zaživa. Brzy nato rytíř zešílel a zabil se - prý ho mučil podivný hlas, který mu našeptával do ucha a který kromě něj nikdo neslyšel. ",
+            "cockatrice": "Kdysi dávno majitel Kuroliška Adam de Guy s oblibou vyprávěl pověst o tom, jak krčma přišla ke svému jménu. Když byl mladý, jak pravil příběh, sloužil u jednoho bludného rytíře a spolu porazili krvežíznivého kuroliška. Hlava této šelmy zdobila vchod do hospůdky po mnoho let, dokud jistý Oxenfurťan nezjistil, že se bohužel jednalo o celkem neumětelskou splácaninu bažanta, lasičky a kusů prasete. Adamova pýcha byla v troskách, a tak trofej sundal. Název však už krčmě zůstal. ",
+            "coopersgate": "Odborníci vědí, že tajemství toussaintského vína nespočívá v révě na úpatí kopců, ale v dubových porostech. Z tohoto dřeva se vyrábějí tak žádané sudy, že by dřevorubci málem byli vykáceli celé knížectví dohola, kdyby je bývaly nezastavily námitky rozzuřených druidů. Po letech vyjednávání bylo dosaženo dohody a tak bylo založeno zvláštní uskupení - cech bečvářů. Díky jeho přísnému dozoru nad celým dřevozpracujícím průmyslem je kácení lesů na udržitelné úrovni a z cechu se stal ten nejbohatší ve městě - o čemž svědčí i okázalá brána do města, kterou zaplatili. ",
+            "coronatavineyard": "Zakladatel rodu Štefan de Coronata kdysi požádal jednoho druida, aby mu pomohl zbavit se stonožek, které mu požírají révu. Druid mu navrhl, aby začal chovat kuny, které se larvami tohoto hmyzu rády krmí. Štefan si druidovu radu vzal k srdci a brzy této pohromy zbavil nejen svou vlastní vinici, ale i ty sousední. Za tento štědrý čin mu byl udělen šlechtický titul. Do svého rodového znaku si vybral modrého vlka, protože došel k názoru, že kdyby se honosil štítem s kunou, vypadal by hloupě. ",
+            "corvobianco": "Sídlo Corvo Bianco - ve Starší řeči známé jako Gwyn Cerbin - bylo postaveno na elfských rozvalinách a je jednou z nejstarších vinic v knížectví. Vyrábí se zde až nečekaně jedinečné víno jménem Sepremento. Rozmáchlý život jednoho z majitelů, posledního člena rodu Boliů, bohužel celý pozemek dohnal až ke krachu. Další vlastník, Baron Rossell, se vinici pokusil navrátit někdejší slávu, ale jeho snaha přišla vniveč. Corvo Bianco bylo poté vydraženo a nakonec přešlo pod správu knížecí pokladnice. ",
+            "cottage": "Amadis de Trastamara získal tento pozemek od kněžny Karoberty coby uznání za své služby Toussaintu. Dar od vládkyně však měl nečekaný háček, neboť se ukázalo, že v tomto sídle straší a - co je horší - dluží obrovské částky na daních. Trastamara se o svém trápení poradil s druidy z Caed Myrkvid a dostalo se mu následující rady: pokud se s tím zjevením nedokážeš dohodnout, nech ho na pokoji. ",
+            "croixmill": "Rodu de la Croix se v obchodu nikdy příliš nedařilo. Jejich réva padla za oběť pokusům vévody Adama Nazairského o usměrnění toku řeky Sansretour a jejich olivové háje pohltila pohroma v podobě červců. Poté přestavěli svůj starý vodní mlýn, spoléhajíce se na výrobu chleba, který jim měl otevřít bránu k úspěchu. A téměř se tak stalo - dokud tím horším způsobem nepřišli na to, že větší množství mouky v uzavřených prostorách může vést k silným prašným výbuchům. ",
+            "dulcineawindmill": "Lady Dulcinea byla šlechtičnou na dvoře kněžny Karoberty. Podle pověsti všude tam, kde se objevila, sváděli rytíři souboje o její přízeň a šlechtičny omdlévaly závistí. Ale než aby přijala návrh jednoho ze svých urozených ctitelů, přijala lady Dulcinea, byvši znavená okázalostí knížecího dvora, návrh prostého mlynáře a odešla z paláce, aby s ním žila v jeho mlýně. Proslýchá se, že tam spolu žili šťastně až do smrti. ",
+            "duntynnecastle": "K tomuto hradu se váže temná pověst o Valthariovi Statném, šviháckém rytíři, jenž se oženil s krásnou nazairskou princeznou Helgundou. Valtharius se pak vydal na zdlouhavé tažení a po návratu našel svou choť, kterak si užívá tělesných slastí s jedním jeho příbuzným, načež se rozlítil a oba je zabil. Z tohoto příběhu plyne ponaučení, že z Nazairu nikdy nevzešlo nic dobrého a že když má někdo mladou ženu, měl by zůstat doma a netoulat se někde po světě. ",
+            "duntynnecrossroads": "Drahý poutníče, vstupuješ na území Dun Tynne, jež náleží urozenému siru Roderickovi. Pakliže si ho navštíviti přeješ, vydej se odsud směrem západním a jistojistě na jeho hrad narazíš. Pokud však hledáš cestu k brodu přes řeku Zurčinu, tvé kroky by měly směřovati na sever. ",
+            "duntynnehillside": "Úpatí Dun Tynne leželo dlouho ladem. Případní podnikavci se měli nahnáno kvůli pověsti o Valthariovi Statném, a jelikož se zde stejně nikdy nepěstovalo víno, které by stálo za zmínku, neměli pražádný důvod svůj strach překonávat. Nejposlednější majitel sídla - šlechtic jménem Roderick - se však rozhodl vysázet révu na stráních, které se táhnou od Žehnaského údolí a Sansretourské kotliny až k této tvrzi. Jako pojistku zde založil i olivový háj, který měl mnohem jistější návratnost. ",
+            "embassy": "Toussaint je lenním knížectvím nilfgaardského císařství. Právoplatnou vládkyní této oblasti je kněžna Anna Henrietta, ale ve skutečnosti je podřízena vůli svého drahého staršího bratrance - Emhyra var Emreis. Pro Její osvícenou Milost a celou její malou říši proto bylo naprostou samozřejmostí, když si v Toussaintu císař zřídil vyslanectví, jež sestává z hrstky hodnostářů, kteří v knížectví trvale žijí a díky svým zkušenostem kněžně pomáhají s takříkajíc osvíceneckými rozhodnutími. ",
+            "farm": "Starý Gelenser pěstoval ředkvičky. Ano, ředkvičky. Žádnou révu či olivy, ba ani řepu. Jak sám říkal: „Hrome, jen o chlebu a víně se přece žít nedá, no ne?!“ Starý Gelenser nezaložil ředkvičkovou říši. Dějiny jeho rodu neoplývají úžasnými pověstmi. Žil, zplodil potomky, sázel ředkvičky a zemřel. Ó Lebedo, dopřej nám všem tak klidný a prostý život. ",
+            "flovive": "Kdysi dávno se na sansretourské mokřady snesl déšť žab. Kněžna Ademarta nechala rozhlásit, že ten, komu se podaří zbavit zemi těchto prokletých obojživelníků, obdrží štědrou odměnu. Ale ani bludní rytíři, ani druidi či kdokoliv jiný její úkol splnit nedokázal - dokud na to nepřišel jeden chudý vorař jménem Flovive. Učaroval žabám svou hrou na housle a ty, pod vlivem jeho nápěvku, za ním šly až za hranice knížectví. Na památku této události nese osada, kde přebývali toussaintští voraři, jeho jméno. ",
+            "fort": "Kdysi dávno vládce říše Epicéa vyskočil do sedla svého oře a zapřisáhl se, že objede celý hrad – po hradbách. Svou přísahu bohužel nesplnil a místo toho se po pár krocích zřítil dolů. Jeho milovaná dcera Kunegunda toho dne přísahala, že za chotě pojme jen toho muže, který by dokázal odvážný čin svého otce dokončit. Při pokusu splnit krutou podmínku oné lepé panny přišlo o život mnoho mladíků. Když však jeden z nich konečně uspěl, podíval se na spoušť, kterou měla na svědomí, a rozhodl se, že není hodna jeho přízně. Kunegunda si s hrůzou uvědomila, jak ohavně se chovala, a sama se vrhla z hradeb dolů, načež zemřela stejným způsobem jako tolik jejích nešťastných nápadníků. ",
+            "fortussar": "Rozvaliny pevnosti Ussar se nachází ve východní části Toussaintu a východo-jižně od kamenolomu Ardaiso. Zpočátku je obýván haštěry, včetně jejich matky. Uvnitř jeskyně pod zříceninou lze také nalézt místo Moci znamení Igni. ",
+            "fox": "V malém údolí na úpatí hory Gorgony leží vesnička jménem Liščí Nora. Na polích kolem této vísky rostou - zcela zázračně a nevysvětlitelně - hrnce. Z půdy samovolně raší kameninové nádoby, jako by to byl nějaký kouzelnický trik přírody, který nevyžaduje žádný zásah člověka. Rostou zde hrnce všech tvarů a velikostí, a proto Liščí Nora udržuje obchodní styky s vesnicí Dudno v Maechtu - protože na polích kolem této vísky rostou - zcela zázračně a nevysvětlitelně - poklice. Všech tvarů a velikostí. ",
+            "francollarts": "Karobertské lesy získaly své jméno po babičce současné kněžny - po kněžně Karolíně Robertě -, která v tomto lese s oblibou pořádala složité hry na schovávanou. Z malého loveckého tábora na jeho okraji postupně vyrostla klidná vesnička jménem Francollarts. Lovci, dřevorubci a včelaři sem přicházeli prodávat plody lesa. Vesnice ožívá jednou za rok, když Baron Trastamara pořádá své výroční slavnosti dřeva, v jejichž rámci pozve celý dvůr na okázalý lov. ",
+            "gate": "Velké toussaintské toky nepředstavují jen cestu, kudy se víno dostává z knížectví. Během jarních oblev bývají vody Sansretouru velmi nebezpečné a místní vývozci se obracejí k přepravním možnostem, u kterých tolik nehrozí katastrofické ztráty. Tito kupci spolu zakládají karavany, najímají si stráže a vydávají se se svým zbožím do cizích krajů. Jejich oblíbený cíl? Metinna, jejíž hlavní město se rovněž nazývá Metinna. Toussainťané žertem říkají, že jejich víno je lékem na pověstný nedostatek představivosti tohoto království. ",
+            "granplace": "Největší toussaintské tržiště se hemží barevnými stánky a kupci ze všech koutů světa. Proslýchá se, že pokud něco není k sehnání na beauclairském trhu, pak to prostě neexistuje. Kromě vína všech značek se zde prodává i břidlice z Ardaisa, rouno z toussaintských ovcí merino chovaných v Basane či olivový olej z hájů kolem Dun Tynne. ",
+            "haborgate": "Když se pokládaly kameny na obranné hradby kolem Vyšnova, obyvatelé Beauclair neměli tušení, jak moc se jejich město nakonec rozroste. San Sebastian a přístavní čtvrť se nakonec rozpínaly tak, že beauclairští obyvatelé museli v hradbách prorazit další průchod, aby usnadnili pohyb mezi hlavními čtvrtěmi města. Někteří dokonce volali po tom, aby byly hradby strženy úplně - poněvadž čeho se mohou bát, když jejich město chrání ti nejudatnější bludní rytíři, jaké svět kdy znal?. ",
+            "hortense": "Toussaint se může chlubit mnoha světoznámými vinicemi, jakými jsou třeba Castel Ravello, Pomerol, Vermentino či Tufo. Jejich majitelé se velmi pečlivě starají o časem osvědčené tradice a rodinné recepty, ve kterých spočívá proslulost jejich vín. Ale Toussaint je domovem i spousty malých vinic, které nemají ani vlastní erb a jejichž víno si dosud nezískalo žádnou zvláštní slávu, takže se o nich těžko něco říká. Přesně takovým místem je i Hortense. ",
+            "lebiodasgate": "Práce na Lebedově chrámu v Beauclair zahájil jeho slavný učeň Plegmund. Ten přesvědčil kněžnu Karobertu, aby tuto část města přestavěla a nechala vykopat hluboké katakomby pro nejzámožnější občany města. Ti méně majetní měli být pohřbíváni na novém hřbitově vedle chrámu. Těm nejchudším z chudých však musel i nadále stačit hřbitov za Chmurami, který je s městem spojen Chrámovou bránou, které se také říká brána Lebedova. ",
+            "montcranecastle": "Jak naznačuje jeho přízvisko, vévoda Robert řečený Prostopášník si pití neodpíral. Příběhy o jeho alkoholovém skotačení se dodnes řadí mezi ty nejoblíbenější toussaintské tradiční vyprávěnky. A právě tento stav neutuchající ovíněnosti mohl být příčinou jeho rozhodnutí obehnat knížectví řadou hradů, které měly chránit Toussaint před barbarskými lidmi z vysočiny kolem hory Gorgony. Potíž je totiž v tom, že o tomto lidu nikdy nikdo neslyšel ani zbla. ",
+            "mutnaruins": "Všeobecně se ví, že upíři do našeho světa přišli během Konjunkce sfér. Ve snaze přizpůsobit se novým podmínkám se rychle rozšířili po celé pevnině. Podle pověsti se jeden z nich, Khagmar, usadil v Toussaintu. O jeho skutcích kolují chmurné báje, ale je těžké stvrdit, jestli vůbec kdy žil. Všechny zvěsti se však shodují na jednom: Khagmarův příběh je nerozlučně spjat se záhadnou pevností jménem Tesham Mutna. ",
+            "palace": "Beauclairský palác, jednu z nejlépe zachovaných památek na elfské období, velmi pracně uvedl do původního stavu proslulý nilfgaardský stavitel Faramond. Mistr Faramond, učenec a odborník na nelidské stavitelství, je považován za zakladatele neoelfské školy, mezi jejíž nejpříznačnější příklady patří právě palác beauclairský, sídlo toussaintských vládců. ",
+            "palacegardens": "Nádherné zahrady na břehu jezera Seidhe Llygad byly - stejně jako beauclairský palác - během střetů s elfy téměř zničeny. Mistr Faramond, který velel přestavbě, udělal, co bylo v jeho silách, ale ty choulostivější rostliny se mu zachránit nepodařilo. Dnes je toto oblíbené zotavovací místo zdejších dvořanů plné zejména smrků, olivovníků, beauclairskch dubů, růžových keřů, jalovcového houští, pěnišníků a samozřejmě révy. ",
+            "plegmundsbridge": "Za vlády kněžny Karoberty měl tento most usnadnit dopravu mezi vinicemi na opačných březích řeky Sansretour. Byl pojmenován po jednom poutníkovi, který se tehdy v Toussaintu těšil značné přízni. Byl to jistý učedník proroka Lebedy, který přesně na tomto místě vykonal jeden ze svých četných zázraků: překročil řeku suchou vodou. ",
+            "prison": "Je zatěžko uvěřit tomu, že Toussaint, nyní tak zářivý a plný života, kdysi padl za oběť obrovskému rozmachu nákazy malomocenství. Aby se nakažení oddělili od zdravých, byl na Jeřábím ostrově knížecím výnosem zřízen tábor malomocných. Když všichni obyvatelé tábora zemřeli, zařízení se postupně rozpadlo a bylo rozhodnuto o tom, že bude přestavěno na věznici, kterou zůstalo až dodnes. ",
+            "riouxcannesoutpost": "Druhou nejběžněji pěstovanou rostlinou v Toussaintu - tou první je samozřejmě vinná réva - je olivovník. Pěstuje se zejména kvůli olivám, z nichž se pak lisováním získává olej, ale svou oblibu nalezl i u rytců. Nejoblíbenějším stromem je však bezesporu beauclairský dub, který slouží k výrobě sudů na víno. A tím nejdůležitějším místem v Toussaintu, kde se tento strom zpracovává, je dřevorubecká základna Rioux-Cannes. ",
+            "ruins": "Toussaint byl kdysi krajem elfů. Knížecí palác je nejvýznamnější vzpomínkou na toto období, nikoliv však jedinou. Aen Seidhe po sobě zanechali spoustu menších i větších budov, o jejichž účelu se dnes lidé mohou leda tak dohadovat. Jedním z příkladů jsou i trosky Termešského paláce, které někteří spojují s bájným místem věčného odpočinku posledního elfského krále, zatímco jiní je považují za chrám zasvěcený jakémusi zapomenutému božství. O co se však jednalo doopravdy, se už nikdy nedozvíme. ",
+            "sansebastian": "Město Beauclair se rychle rozrůstalo a zaplnilo prostor svých hradeb, načež se vylilo i za ně. Díky tomu vzniklo Dolní Město, které je také známé jménem svého zakladatele - San Sebastian. V současné době tato čtvrť skýtá domov převážně dělníkům a jejich dílnám a spojuje Vyšnov s přístavem - středobodem obchodu nejen města Beauclair, ale i celého knížectví. ",
+            "sansretourvalley": "Sansretourská kotlina je středobodem světové výroby vína. Právě na révou porostlých stráních tohoto údolí lze najít vinice Castel Ravello, Coronata a Vermentino - sídla slavných vinařských rodin, která jim po staletí záviděl každý druhý vinař. ",
+            "seidhellyghadamphitheater": "Na břehu jezera známého jako Seidhe Llygad, čili Horské oko, leží prastarý amfiteátr - další pozůstalost z elfské minulosti Toussaintu. V roce 1178 byla stavba obnovena, aby se v ní mohly předvádět hry nejznámějších beauclairských divadelních umělců. Její slavnostní otevření však uťal smutný konec: záhadná smrt hlavní herečky. Od té doby se toto místo považuje za prokleté a jen málokdo se k němu odváží přiblížit. ",
+            "statue": "Během vlády kněžny Karoberty navštívil Toussaint jeden z učedníků proroka Lebedy jménem Plegmund. Jeho slova a skutky - mezi něž se řadí i zázraky - byly tak přesvědčivé, že se na tuto novou víru zakrátko obrátilo celé knížectví. Tento záchvěv pobožnosti byl korunován stavbou chrámu zasvěceného tomuto prorokovi, ale to Plegmundovi nestačilo. Přesvědčil kněžnu, aby Lebedovi nechala zhotovit i sochu - takovou, jakou svět dosud neviděl. ",
+            "thesilversalamanderinn": "Když se lidé ptají nilfgaardského majitele této krčmy, jistého Calixta Moireho, odkud pochází název tohoto podniku, vždycky je odkáže na druhou bitvu o Sodden. Jeho otec Antoine v boji prokázal mimořádnou odvahu, o čemž svědčí medaile Stříbrného salamandra, kterou mu udělil sám císař za udatnost a odhodlání na bitevním poli. ",
+            "tradingpost": "Každý kupec s trochou sebeúcty se občas vydá obchodovat do hlavního města Toussaintu - vyslechne nejnovější drby u proslulých Beauclairských Zvonečků v San Sebastian, anebo se zajde podívat dolů do přístavu, jestli se přístavním dělníkům „neztratil“ sud nebo dva. Ale ty skutečně důležité obchody se neodehrávají ve městě, nýbrž v tomto skrovném kupeckém táboře daleko od věčných beauclairských slavností, jejichž ovzduším se line zpěv a víno. ",
+            "tunier": "Tradice je v Toussaintu svatá. Toto krásné knížectví má tradic celou řadu a tou nejposvátnější z nich jsou okázalé rytířské přebory, které se konají u příležitosti téměř každých významných místních slavností. Tyto soutěže si vydobyly slávu a uznání nejen v celém Nilfgaardu, ale také na severu. Rytíři z téměř celého světa sem přijíždějí, aby se nechali zapsat a získali věhlas ve zkoušce schopností mezi sebou i proti výkvětu toussaintského rytířství. "
+        },
+        "label": {
+            "ardaisoquarry": "Kamenolom Ardaiso",
+            "arthachpalaceruins": "Trosky paláce Gallion",
+            "basanefarm": "Statek Basane",
+            "beauclairport": "Přístaviště",
+            "belgaardvineyard": "Vinice Belgaard",
+            "casteldacciaabandonedestate": "Opuštěná usedlost Casteldaccia",
+            "castelravello": "Vinice Castel Ravello",
+            "cemetry": "Hřbitov Mère-Lachaiselongue",
+            "chuchotecave": "Šepotná sluj",
+            "cockatrice": "Krčma U Kuroliška",
+            "coopersgate": "Bečvářská brána",
+            "coronatavineyard": "Vinice Coronata",
+            "corvobianco": "Vinice Corvo Bianco",
+            "cottage": "Trastamarská myslivna",
+            "croixmill": "Vodní mlýn hraběte de la Croix",
+            "dulcineawindmill": "Dulcinein větrný mlýn",
+            "duntynnecastle": "Hrad Dun Tynne",
+            "duntynnecrossroads": "Křižovatka u Dun Tynne",
+            "duntynnehillside": "Úbočí Dun Tynne",
+            "embassy": "Nilfgaardské vyslanectví",
+            "farm": "Gelenserův statek",
+            "flovive": "Vesnice Flovive",
+            "fort": "Rozvaliny pevnosti Astre",
+            "fortussar": "Rozvaliny pevnosti Ussar",
+            "fox": "Liščí Nora",
+            "francollarts": "Vesnice Francollarts",
+            "gate": "Metinnská brána",
+            "granplace": "Hlavní náměstí",
+            "haborgate": "Přístavní brána",
+            "hortense": "Vinice Hortense",
+            "lebiodasgate": "Lebedova brána",
+            "montcranecastle": "Hrad na Jeřábí hoře",
+            "mutnaruins": "Trosky Tesham Mutna",
+            "palace": "Beauclairský palác",
+            "palacegardens": "Palácové zahrady",
+            "plegmundsbridge": "Plegmundův most",
+            "prison": "Vězení",
+            "riouxcannesoutpost": "Dřevorubecká základna Rioux-Cannes",
+            "ruins": "Rozvaliny Termešského paláce",
+            "sansebastian": "San Sebastian",
+            "sansretourvalley": "Sansretourská kotlina",
+            "seidhellyghadamphitheater": "Starý amfiteátr",
+            "statue": "Socha proroka Lebedy",
+            "thesilversalamanderinn": "Krčma U Stříbrného salamandra",
+            "tradingpost": "Obchodní stanice",
+            "tunier": "Turnajiště"
+        }
+    }
 }
