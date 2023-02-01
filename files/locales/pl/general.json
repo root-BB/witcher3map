@@ -319,16 +319,16 @@
     },
     "maps": {
         "fables": "Kraina Tysiąca Baśni",
-        "fables_main": "Kraina Tysiąca Baśni <img src=files/images/logo/Dlp1_Pl.png />",
+        "fables_main": "Kraina Tysiąca Baśni <img src=files/images/logo/dlp1_pl.png />",
         "gaunter": "Świat Gauntera",
-        "gaunter_main": "Świat Gauntera <img src=files/images/logo/Dlp2_Pl.png />",
+        "gaunter_main": "Świat Gauntera <img src=files/images/logo/dlp2_pl.png />",
         "isle_mists": "Wyspa Mgieł",
         "kaer_morhen": "Kaer Morhen",
         "skellige": "Wyspy Skellige",
         "toussaint": "Toussaint",
-        "toussaint_main": "Toussaint <img src=files/images/logo/Dlp1_Pl.png />",
+        "toussaint_main": "Toussaint <img src=files/images/logo/dlp1_pl.png />",
         "velen": "Velen i Novigrad",
-        "velen_main": "Velen & Novigrad  <img src=files/images/logo/Dlp2_Pl.png />",
+        "velen_main": "Velen & Novigrad  <img src=files/images/logo/dlp2_pl.png />",
         "white_orchard": "Biały Sad"
     },
     "misc": {

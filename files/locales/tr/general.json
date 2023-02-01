@@ -319,16 +319,16 @@
     },
     "maps": {
         "fables": "Binbir Masal Diyarı",
-        "fables_main": "Binbir Masal Diyarı <img src=files/images/logo/Dlp1_En.png />",
+        "fables_main": "Binbir Masal Diyarı <img src=files/images/logo/dlp1_tr.png />",
         "gaunter": "Gaunter'ın Dünyası",
-        "gaunter_main": "Gaunter'ın Dünyası <img src=files/images/logo/Dlp2_En.png />",
+        "gaunter_main": "Gaunter'ın Dünyası <img src=files/images/logo/dlp2_tr.png />",
         "isle_mists": "Sisler Adası",
         "kaer_morhen": "Kaer Morhen",
         "skellige": "Skellige Adaları",
         "toussaint": "Toussaint",
-        "toussaint_main": "Toussaint <img src=files/images/logo/Dlp1_En.png />",
+        "toussaint_main": "Toussaint <img src=files/images/logo/dlp1_tr.png />",
         "velen": "Velen & Novigrad",
-        "velen_main": "Velen & Novigrad <img src=files/images/logo/Dlp2_En.png />",
+        "velen_main": "Velen & Novigrad <img src=files/images/logo/dlp2_tr.png />",
         "white_orchard": "Ak Bostan"
     },
     "misc": {
@@ -347,8 +347,8 @@
         "portraitWarn": "Not: harita en iyi manzara modunda görüntülenir, kapatmak için hafifçe vurun",
         "treasure": "Hazine Avı",
         "underground": "Yeraltı",
-		"logo": "<img src='files/images/logo/logo_en.png' class='center'>",
-		"logo_min": "<img src='../files/images/logo/logo_en_min.png' class='center'>"
+		"logo": "<img src='files/images/logo/logo_tr.png' class='center'>",
+		"logo_min": "<img src='../files/images/logo/logo_tr_min.png' class='center'>"
     },
     "monsterden": {
         "desc": "Canavarlar tarafından işgal edilmiş bir yer. Yakınında yaşayanlar için büyük bir sorun. "

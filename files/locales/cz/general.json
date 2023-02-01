@@ -319,16 +319,16 @@
     },
     "maps": {
         "fables": "Kraj tisíce bájí",
-        "fables_main": "Kraj tisíce bájí <img src=files/images/logo/Dlp1_Cz.png />",
+        "fables_main": "Kraj tisíce bájí <img src=files/images/logo/dlp1_cz.png />",
         "gaunter": "Gaunterův svět",
-        "gaunter_main": "Gaunterův svět <img src=files/images/logo/Dlp2_Cz.png />",
+        "gaunter_main": "Gaunterův svět <img src=files/images/logo/dlp2_cz.png />",
         "isle_mists": "Ostrov mlh",
         "kaer_morhen": "Kaer Morhen",
         "skellige": "Skelligské ostrovy",
         "toussaint": "Toussaint",
-        "toussaint_main": "Toussaint <img src=files/images/logo/Dlp1_Cz.png />",
+        "toussaint_main": "Toussaint <img src=files/images/logo/dlp1_cz.png />",
         "velen": "Velen a Novigrad",
-        "velen_main": "Velen a Novigrad <img src=files/images/logo/Dlp2_Cz.png />",
+        "velen_main": "Velen a Novigrad <img src=files/images/logo/dlp2_cz.png />",
         "white_orchard": "Bělosad"
     },
     "misc": {

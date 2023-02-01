@@ -319,16 +319,16 @@
     },
     "maps": {
         "fables": "千言萬語",
-        "fables_main": "千言萬語 <img src=files/images/logo/Dlp1_Zh.png />",
+        "fables_main": "千言萬語 <img src=files/images/logo/dlp1_zh.png />",
         "gaunter": "剛特的世界",
-        "gaunter_main": "剛特的世界 <img src=files/images/logo/Dlp2_Zh.png />",
+        "gaunter_main": "剛特的世界 <img src=files/images/logo/dlp2_zh.png />",
         "isle_mists": "迷霧之島",
         "kaer_morhen": "凱爾莫罕",
         "skellige": "史凱利傑群島",
         "toussaint": "陶森特",
-        "toussaint_main": "陶森特 <img src=files/images/logo/Dlp1_Zh.png />",
+        "toussaint_main": "陶森特 <img src=files/images/logo/dlp1_zh.png />",
         "velen": "威倫 & 諾維格瑞",
-        "velen_main": "威倫 & 諾維格瑞 <img src=files/images/logo/Dlp2_Zh.png />",
+        "velen_main": "威倫 & 諾維格瑞 <img src=files/images/logo/dlp2_zh.png />",
         "white_orchard": "白果園"
     },
     "misc": {

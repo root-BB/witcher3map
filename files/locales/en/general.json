@@ -319,16 +319,16 @@
     },
     "maps": {
         "fables": "Thousand Fables",
-        "fables_main": "Thousand Fables <img src=files/images/logo/Dlp1_En.png />",
+        "fables_main": "Thousand Fables <img src=files/images/logo/dlp1_en.png />",
         "gaunter": "Gaunter's World",
-        "gaunter_main": "Gaunter's World <img src=files/images/logo/Dlp2_En.png />",
+        "gaunter_main": "Gaunter's World <img src=files/images/logo/dlp2_en.png />",
         "isle_mists": "Isle of Mists",
         "kaer_morhen": "Kaer Morhen",
         "skellige": "Skellige Isles",
         "toussaint": "Toussaint",
-        "toussaint_main": "Toussaint <img src=files/images/logo/Dlp1_En.png />",
+        "toussaint_main": "Toussaint <img src=files/images/logo/dlp1_en.png />",
         "velen": "Velen & Novigrad",
-        "velen_main": "Velen & Novigrad  <img src=files/images/logo/Dlp2_En.png />",
+        "velen_main": "Velen & Novigrad  <img src=files/images/logo/dlp2_en.png />",
         "white_orchard": "White Orchard"
     },
     "misc": {
