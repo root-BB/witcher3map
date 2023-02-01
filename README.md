@@ -1,7 +1,7 @@
 Desctiption
 --------------------------------------
 It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).
-Version 2.0.0.0 is the latest version. I do not plan to make major changes after this version; minor bug fixes will be upload when necessary.
+I have released version 3.5 as an intermediate version upon popular demand. I'll post updates as development progresses.
 
 #### Additional Features (Added by [BaHTsIzBEdEvi](https://github.com/root-BB)):
 * Updated Velen&Novigrad map, which was expanded with the Hearts of Stone Expansion Pack.
@@ -15,14 +15,15 @@ Version 2.0.0.0 is the latest version. I do not plan to make major changes after
 * Boat locations have been added.
 * Added treasure locations that can be overlooked.
 * Added missing Scavengers locations.
+* Added Honeycomb locations.
 * Added many missing locations.
 * Added where merchants in Person(s) in Distress category will go when released.
 * Many incorrect locations have been fixed.
 * Few minor bugs fixed.
 * The theme has been changed.
-* Made more user friendly (Click-to-Run) to make it easier to use in the local network.
-* It has a much smaller file size.
-* No need to install additional programs.
+* Icon transparencies changed.
+* Added language base icons
+* Sidebar transparency added
 
 #### Features ([untamed0 Version](https://github.com/witcher3map/witcher3map))
 * Interactive map featuring all markers in game (plus some extra ones)
@@ -43,41 +44,14 @@ Available Languages
 - Russian
 - Turkish
 - Czech
+- Chinese
+- Polish
 
 There may be mistakes in translations; In case of any typos or grammatical mistakes, you can create an issue on [Github](https://github.com/root-BB/witcher3map/issues) or [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
 Other translations are still progressing in the [crowdin](https://crowdin.com/project/witcher-3-interactive-map). Those who want to help with the translation can also use the [original translations](https://crowdin.com/project/witcher3map).
 If there is another language you want translated you can create an issue on [Github](https://github.com/root-BB/witcher3map/issues) or [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
 
-Usage
---------------------------------------
-Due to the 100MB file limit in Github's fork repository, I placed the files exceeding the 100MB limit in the zip archive to avoid dealing with different servers; Extract the zip before running the application or download it directly from [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
-
-Just run the "Witcher 3 Map.exe" or "Witcher 3 Map (x86).exe" file in the downloaded folder. 
-
-The exe file opens the "index.html" file in the Dist folder with Portable Firefox in the Assets folder. "The Witcher 3 Map.ps1" file is the source code of the executable files.
-
-#### Use With Default Browser
-I've noticed that portable firefox is a bit slow in some situations; In addition, using a browser other than the customary browser can be annoying. But in order to use this version, you need to make a small adjustment. To summarize, the browser's CORS Security policy (a security policy that prevents local files from running certain file types) must be deactivated in order to open the map in any browser. It is very difficult to prepare an executable as click-to-run, as there are too many possibilities depending on the system, browser and user; so I explained below how you do it in few steps;
-
-In Chromium-Based Browsers (Google Chrome, Edge, Opera Etc.)
-- Open the "Witcher 3 Map.cmd" file with notepad or a derivative application.
-- Enter the location of the exe file of the browser you are using between the quotes in the first line (Example: Set BrowserLocation="C:\Program Files\Opera\launcher.exe").
-- Save and close the file.
-- You can open the map by running cmd.
-- Optionally, you can create a shortcut of the cmd file and add an icon.
-Note1: Just below the line you made the change are the sample file locations for chrome, edge, and opera (Warning: it's also possible in a different file location).
-Note2: When you run cmd, it will create an additional profile to your default browser. The map can only be opened through this newly created profile.
-
-In Mozilla Firefox
-- Type "about:config" in the address bar and press enter.
-- On the page that opens, click the "I accept the risk!" button.
-- Type "security.fileuri.strict_origin_policy" at the top of the new page (in the search field).
-- Double-click on the search result and in this way set the "true" variable to "false".
-- - Enter "-FilePath-/Witcher3Map/Dist/index.html" in the address bar. (If Firefox is your default browser, you can open it simply by double-clicking the index.html in the dist folder).
-Warning: Since this setting will cause a security vulnerability on the browser, it is not recommended to use the browser in this way continuously. After using the map, the settings can be turned back to "true" by following the same steps.
-
-#### There is also a site that continues in parallel with my work with the work of the [TiVa85](https://www.nexusmods.com/witcher3/users/40356455); You can access the site [here](http://www.tivaprojects.com/witcher3map/).
-You can also access [Nexus page](https://www.nexusmods.com/witcher3/mods/6061).
+You can also access [Nexus page](https://www.nexusmods.com/witcher3/mods/6061) for offline map.
 
 Credits & Licence
 --------------------------------------
@@ -92,6 +66,8 @@ Translations
 - Russian - [Arkwulf](https://www.nexusmods.com/users/62669641) (with the help of old crowdin translation)
 - Turkish - [BaHTsIzBEdEvi](https://github.com/root-BB)
 - Czech - [MikeCZ](https://www.nexusmods.com/users/33112273) and [Lord Mazour](https://www.nexusmods.com/users/3168799)
+- Chinese - [YheonYeung](https://crowdin.com/profile/YheonYeung)
+- Polish - [Toffi3](https://crowdin.com/profile/toffi3), [Umber91310486](https://crowdin.com/profile/Umber91310486) and [Mochał](https://crowdin.com/profile/regulargvy13)
 
 This software uses the following libraries developed by third parties, and are licenced seperately;
 
