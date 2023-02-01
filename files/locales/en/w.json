@@ -1,0 +1,74 @@
+{
+    "contracts": {
+        "desc": {
+            "devil": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "dwarves": "",
+            "tomira": ""
+        }
+    },
+    "innkeep": {
+        "inns": {
+            "whiteOrchardInn": "White Orchard Inn"
+        }
+    },
+    "poi": {
+        "desc": {
+            "boss": "If you kill 6 cows here 3 times in a row, 27 level Chort will appear and attack you; Attention! When you kill the chort, new ones keep coming. ",
+            "crystalSkull": "Unlocks a dialog with Yennifer at her '__quest__' mission. ",
+			"diary": "If received during the '__quest__' quest, additional earnings can be obtained by talking to Tomira after the quest. "
+        },
+        "label": {
+            "boss": "Secret Boss (Chort)",
+            "crystalSkull": "Crystal Skull",
+			"diary": "Yellowed Diary"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "gwentCraftingAndHorse": "Sells Gwent cards, crafting supplies, and Temerian: blinders, saddle, saddlebags, armour"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "death": "",
+            "faith": "",
+            "fry": "",
+            "missing": "",
+            "precious": "",
+            "tr_deserter": "",
+            "tr_dirty": "",
+            "tr_temerian": "",
+            "twist": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "abandonedVillage": "A few years ago, a group of armed men marched into this settlement. They butchered its inhabitants and burned down their homes. Not a soul has dwelt here since that black and bloody day. ",
+            "brokenBridge": "This bridge was destroyed by retreating Temerian troops during the Nilfgaardian attack. It was shoddily built to begin with. Good riddance. ",
+            "cacklerBridge": "Bridge named in honor of a woman who went mad from unfulfilled love. After her heart snapped, she spent all her days running up and down this bridge while laughing hysterically. ",
+            "crossroads": "The road splits here. One fork leads to Vizima, the other to Novigrad. ",
+            "ford": "Before the war, merchants and travelers would cross the river here. Now only Nilfgaardian soldiers traverse this path. ",
+            "mill": "Carts haul grain from all the surrounding villages to White Orchard's mill. ",
+            "nilfgaardianGarrison": "This strategic point guards White Orchard's main river crossing. Nilfgaardian troops have taken it over. ",
+            "ransackedVillage": "A band of soldiers attacked this village early one morning. They slaughtered most of the villagers in their beds, and the lucky few who fled to the woods in time had nothing left to return to. ",
+            "sawmill": "White Orchard is famous not only for its premium fruit, but also for the top-quality, furniture-grade lumber harvested from the Vulpine Woods. ",
+            "woesongBridge": "So named because of a girl who once would stand on the bridge and sing, waiting for her beloved's return. "
+        },
+        "label": {
+            "abandonedVillage": "Abandoned Village",
+            "brokenBridge": "Broken Bridge",
+            "cacklerBridge": "Cackler Bridge",
+            "crossroads": "Crossroads",
+            "ford": "Ford",
+            "mill": "Mill",
+            "nilfgaardianGarrison": "Nilfgaardian Garrison",
+            "ransackedVillage": "Ransacked Village",
+            "sawmill": "Sawmill",
+            "woesongBridge": "Woesong Bridge"
+        }
+    }
+}

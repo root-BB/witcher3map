@@ -1,0 +1,74 @@
+{
+    "contracts": {
+        "desc": {
+            "devil": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "dwarves": "",
+            "tomira": ""
+        }
+    },
+    "innkeep": {
+        "inns": {
+            "whiteOrchardInn": "Karczma w Białym Sadzie"
+        }
+    },
+    "poi": {
+        "desc": {
+            "boss": "Jeśli zabijesz 6 krów 3 razy pod rząd, pojawi się Czart (27 poziom) i cię zaatakuje; Uwaga! Jeśli zabijesz Czarta, nowe będą się ciągle pojawiać",
+            "crystalSkull": "Odblokowuje dialog z Yennefer podczas jej '__quest__' misji",
+			"diary": "Jeśli otrzymane podczas zadania '__quest__', dodatkowe zarobki można uzyskać, rozmawiając z Tomirą po zadaniu."
+        },
+        "label": {
+            "boss": "Sekretny Boss (Czart)",
+            "crystalSkull": "Kryształowa czaszka",
+			"diary": "Pożółkły pamiętnik"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "gwentCraftingAndHorse": "Sprzedaje karty do Gwinta, składniki rzemieślnicze oraz Temerskie: juki, siodło, klapy dla konia oraz pancerz"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "death": "",
+            "faith": "",
+            "fry": "",
+            "missing": "",
+            "precious": "",
+            "tr_deserter": "",
+            "tr_dirty": "",
+            "tr_temerian": "",
+            "twist": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "abandonedVillage": "Kilkanaście lat temu do wsi przybyła banda zbrojnych. Zabili mieszkańców, a ich obejścia spalili. Od tamtego krwawego dnia nikt tu nie mieszka.",
+            "brokenBridge": "Most został zniszczony przez Temerskie oddziały wycofujące się przed Nilfgaardzkim natarciem",
+            "cacklerBridge": "Most nazwany na cześć oszalałej z miłośći dziewczyny, która porzucona przez kochanka biegała w tę i z powrotem całymi dniami histerycznie się smiejąc",
+            "crossroads": "Szlak rozwidla się na drogę prowadzącą do Vyzimy i na trakt do Novigradu",
+            "ford": "Przed wojną z przeprawy korzystali kupcy i inni podróżni, a obecnie przemieszczają się tędy Nilfgaardzkie wojska",
+            "mill": "Do młyna w Białym Sadzie zjeżdżają wozy ze zbożem z wszystkich okolicznych wsi.",
+            "nilfgaardianGarrison": "Przeprawa przy białym sadzie jest ważnym punktem strategicznym i została obsadzona przez Nilfgaardzkich żołnierzy",
+            "ransackedVillage": "Nieprzyjacielskie wojska zaatakowały tę wioskę tuż po świcie. Niewielu mieszkańców przeżyło a ci, którym udało się zbiec do lasu, nie mieli już do czego wracać",
+            "sawmill": "Biały Sad słynie nie tylko z dorodnych owoców, ale również z pierwszorzędnego drewna z Lisiego Boru, używanego do wyrobu mebli.",
+            "woesongBridge": "Nazwa pochodzi od pewnej dziewczyny, która wychodziła na most, by wyglądać ukochanego"
+        },
+        "label": {
+            "abandonedVillage": "Opuszczona wioska",
+            "brokenBridge": "Zniszczony most",
+            "cacklerBridge": "Most Śmieszki",
+            "crossroads": "Rozstaje",
+            "ford": "Przeprawa przez rzekę",
+            "mill": "Młyn",
+            "nilfgaardianGarrison": "Nilfgaardzki garnizon",
+            "ransackedVillage": "Spalona wieś",
+            "sawmill": "Tartak",
+            "woesongBridge": "Most Płaczki"
+        }
+    }
+}

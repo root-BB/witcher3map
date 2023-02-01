@@ -1,0 +1,53 @@
+{
+    "alchemy": {
+        "desc": {
+            "keira": "Pojawia się jeśli wcześniej nie umarła"
+        },
+        "popuptitle": {
+            "keira": "Keira Metz"
+        }
+    },
+    "armourer": {
+        "desc": {
+            "zoltan": "Pojawia się tylko jeśli porozmawiało się z Zoltanem podczas __quest__ misji"
+        },
+        "popuptitle": {
+            "zoltan": "Zoltan Chivay"
+        }
+    },
+    "event": {
+        "desc": {
+            "trail": ""
+        }
+    },
+    "gwentquest": {
+        "players": {
+            "lambert": "Lambert"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "bastion": "",
+            "berengar": "",
+            "forge": "",
+            "greenhouse": "",
+            "slayer": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "bastion": "Kiedyś młodzi wiedźmini tutaj trenowali. Teraz Bastion jest zapomnianą ruiną",
+            "ironMine": "Z tego miejsca kiedyś były wydobywane rudy żelaza dla kuźni Szkoły Wilka. ",
+            "kaerMorhen": "Warownia Starego Morza, siedziba wiedźmińskiej szkoły cechu Wilka. ",
+            "lakesideHut": "Kilkanaście lat temu mieszkał tu pustelnik, który warzył doskonały miód pitny. Wiedźmini odwiedzali go od czasu do czasu i rozmawiali o dalekich krainach. ",
+            "ruinedWatchtower": "Strażnica nad jeziorem była kiedyś chlubą wiedźminów cechu wilka, dziś w jej ruinach hula tylko wiatr. "
+        },
+        "label": {
+            "bastion": "Bastion",
+            "ironMine": "Kopalnia Żelaza",
+            "kaerMorhen": "Kaer Morhen",
+            "lakesideHut": "Chata nad jeziorem",
+            "ruinedWatchtower": "Ruiny wieży strażniczej"
+        }
+    }
+}

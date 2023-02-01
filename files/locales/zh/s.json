@@ -1,0 +1,271 @@
+{
+    "alchemy": {
+        "gremist": "格瑞米斯特"
+    },
+    "contracts": {
+        "desc": {
+            "beast": "",
+            "dragon": "",
+            "eldberg": "",
+            "groom": "",
+            "heart": "",
+            "miners": "",
+            "missing": "",
+            "muire": "",
+            "wanted": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "children2": "",
+            "farting": "",
+            "hemdall": "",
+            "siren": "",
+            "wild": "",
+            "woe": "",
+            "yustianna": ""
+        }
+    },
+    "gwentquest": {
+        "players": {
+            "crach": "克拉奇・奎特",
+            "ermion": "爾米亞",
+            "lugos": "瘋子盧戈",
+            "sjusta": "斯胡斯塔"
+        }
+    },
+    "innkeep": {
+        "desc": {
+            "foodAndDrink": "販賣食物和飲料。",
+            "foodDrinkAndGwent": "販賣昆特牌、食物和飲料。"
+        },
+        "inns": {
+            "arinbjornInn": "阿林比翁旅館",
+            "harvikenInn": "哈爾維肯旅館",
+            "houseOfWarriors": "勇士之家",
+            "svorlagInn": "斯沃拉格旅館",
+            "theNewPort": "新港旅館",
+            "uriallaHarbourInn": "尤里埃拉港口旅館"
+        }
+    },
+    "misc": {
+        "liberated": "該商人在解放該地區後出現。"
+    },
+    "poi": {
+        "desc": {
+            "birna": "它會在支線任務“__quest__”中確定您是否支持賽瑞絲・奎特。",
+            "dowry": "'__quest__' 任務物品。",
+            "gship": "它通常在凌晨1點遊戲時間之後出現一小段時間。",
+            "poem": "一具帶有一首包含謎語的詩的屍體。"
+        },
+        "label": {
+            "birna": "碧爾娜・布蘭",
+            "dowry": "丁滿的嫁妝",
+            "gship": "幽靈船",
+            "poem": "謎語詩"
+        },
+        "popupTitle": {
+            "birna": "碧爾娜・布蘭",
+            "dowry": "丁滿的嫁妝",
+            "gship": "幽靈船",
+            "poem": "謎語詩"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "barber": "此人也是一位理髮師",
+            "clothesAndCraftingSupplies": "販賣衣服和手工藝用品。",
+            "craftingSuppliesAndFish": "販賣手工藝用品和魚",
+            "mapsCraftingSupplies": "販賣地圖和手工藝用品",
+            "mapsCraftingSuppliesFishAndSaddles": "販賣地圖、手工藝用品、魚和 '精工騎兵馬鞍'（+75）",
+            "mapsCraftingSuppliesFoodAndDrink": "販賣地圖、手工藝用品、食物和飲料"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "arena": "",
+            "assault": "",
+            "beloved": "",
+            "blade": "",
+            "brave": "",
+            "clothing": "",
+            "coronation": "",
+            "disturbed": "",
+            "dreams": "",
+            "ff_champion": "",
+            "ff_skellige": "",
+            "flesh": "",
+            "fromfar1": "",
+            "gambit": "",
+            "glory": "",
+            "grossbart": "",
+            "gw_sk": "",
+            "hardtimes": "",
+            "horn": "",
+            "keepers": "",
+            "last": "",
+            "maiden": "",
+            "nithing": "",
+            "nowheres": "",
+            "passenger": "",
+            "possession": "",
+            "practicum": "",
+            "price": "",
+            "ps_fa": "",
+            "ps_fy": "",
+            "ps_sg": "",
+            "ps_sk": "",
+            "punishment1": "",
+            "punishment2": "",
+            "sawmill": "",
+            "spirit": "",
+            "stranger": "",
+            "taken1": "",
+            "taken2": "",
+            "therapy": "",
+            "tr_dare": "",
+            "tr_depths": "",
+            "tr_fortune": "",
+            "tr_inheritance": "",
+            "tr_ironsides": "",
+            "tr_marks": "",
+            "tr_nilf": "",
+            "tr_pearls": "",
+            "tr_praised": "",
+            "tr_precious": "",
+            "tr_ruins": "",
+            "tr_shortcut": "",
+            "tr_unlucky": "",
+            "undvik": "",
+            "unpaid": "",
+            "warriors": "",
+            "worthy1": "",
+            "worthy2": "",
+            "worthy3": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "abandonedSawmill": "雖然位於森林深處，卻是採集木柴的好地點，可是現在鋸木廠荒廢已久，許久未使用。",
+            "abandonedVillage": "寒冰巨人突然從沉睡中醒來，向世人展現他的憤怒時，這座村子的居民被迫棄村逃亡。",
+            "ancientCrypt": "雖然史凱利傑人以幾近瘋狂的勇敢而聞名，還是有些地方他們不敢靠近。這裡就是其中之一。",
+            "arinbjorn": "平靜的小村落，偶發的衝突事件只有村婦互甩巴掌或男人拿酒瓶互砸。",
+            "bayOfWinds": "三個世代以前，這個海灣是相當受當地年輕人歡迎的會面地點。有一晚，可怕的風暴來襲，大浪朝著海灘拍打，吞噬了好幾個來玩耍的年輕人，使他們葬身大海。",
+            "blandare": "跟其他史凱利傑村莊不同，布藍岱爾位於內陸，離海岸有段距離，村民以採礦與畜牧為生。",
+            "boxholm": "巴克斯霍姆原本是凱爾尼森堡壘附近的一座繁榮村莊，但如今風華已去，只留下一堆石頭、瓦礫與殘缺的回憶。",
+            "bridgeToKaerTrolde": "根據傳說，這座石橋是奎特家族的英雄元老，葛林姆加一手所刻出來的。",
+            "clanTordarrochForge": "以前這裡是一間著名的鑄坊，專門打造全史凱利傑品質最棒的工具和武器。寒冰巨人掌管小島後，將鑄坊變成了他的食品儲藏室。",
+            "crossroads": "岔路會通往凱爾卓。",
+            "distillery": "這地方被神秘氣息籠罩，唯一確定的是這裡生產的烈酒在史凱利傑無人能比。",
+            "dorveRuins": "寒冰巨人摧毀的村莊遺址。",
+            "druidsCamp": "德魯伊所搭的營區，用來調查摧毀附近森林的魔法災變。",
+            "eldbergLighthouse": "史裘達爾領主所下令興建的燈塔，用來照亮通往阿林比翁的海路。",
+            "elverumLighthouse": "這間燈塔的前管理員是個古怪的角色。除了照料燈塔，寫詩、織地毯的時候是正常，其他時候都不正常。比如，他會在每個正午的時候脫光衣服繞著燈塔跑步，嘴裡喊著「頭腦清晰，身體健康」，並且早餐只吃魚尾。",
+            "fayrlund": "這座小村莊裡住了史凱利傑最厲害的獵人，因此名聲遠傳。",
+            "fornhala": "神秘的廢棄村莊。",
+            "freyasGarden": "獻給弗蕾雅女神的花園，以前這裡長滿了數千朵漂亮又芳香的花朵和藥草，今日卻荒廢，無人使用已久。",
+            "fyresdal": "住在這裡的人外表看似強悍不好惹，但內心其實溫柔好相處。",
+            "gedyneith": "在所有史凱利傑人心中神聖莊嚴的橡樹，德魯伊和弗蕾雅神的信徒都會膜拜它。島上最重要的儀式都會在這裡舉辦，包括婚禮、喪禮以及皇室加冕儀式。",
+            "giantsToes": "島民相信銜尾蛇將反對衪的巨人變成石頭以示懲罰，但其實這只是幾世紀以來有風與水形塑而成的岩層。",
+            "grotto": "只能坐船前往的偏遠地點。",
+            "gullPoint": "海鳥會從好幾里外的地方來到這塊貧瘠之地聚集、交配和產卵。",
+            "harviken": "迪門家族的據點，也是霍格・黑手每次成功洗劫之後分贓物的地方。",
+            "holmsteinsPort": "海姆斯坦村莊用的港口碼頭，德拉蒙家族的主要港口。",
+            "hov": "全史凱利傑的人都知道這座村莊，當地惡名昭彰的競技場以前舉辦過激烈的搏鬥賽，讓各個小島的頂尖戰士一較高下。",
+            "isolatedHut": "據說以前有個草藥醫生從大陸來到群島上，並定居在此。她在附近村落找不到居住的地方，因此決定在這間海濱小屋落腳，三不五時會有人來找她要魔法藥膏或繃帶。",
+            "kaerAlmhult": "幾世紀以前興建來作為史凱利傑國王的堡壘。不過，事實上每位統治者都喜歡繼續坐在家族的位置上，凱爾艾胡因此無人使用。之後這裡被改建成監獄，現今則成了廢墟。",
+            "kaerGelen": "這座堡壘的遺跡吸引了你在暗巷內最不想碰到的那種人。",
+            "kaerMuire": "這座堡壘幾世紀以來都是德拉蒙家族的據點，不過現在跟當初全新的樣子差了十萬八千里。",
+            "KaerTroldeHarbor": "這是史凱利傑最繁忙的港口之一。世界各個角落的貨品都會被送來這裡買賣交易。",
+            "larvik": "印達爾斯費爾島上最大的村莊，也是辛達家族領主多納的家。村裡的居民老實又畏懼天神，是信仰弗蕾雅女神的傳統人士。",
+            "lofoten": "羅伏藤曾是一座富有又充滿活力的村莊，現在則變成了殘破不堪的廢墟。",
+            "lofotenCemetery": "羅伏藤的居民經常來這座小型墓園幫他們的摯愛掃墓，並且祈求弗蕾雅女神保佑他們死後的靈魂。",
+            "lurthen": "盧森最有名的居民就是彼得・皮胡斯，他可以一口喝下整桶蜂蜜酒，喝完還不會倒地。",
+            "marlinCoast": "一直到不久前，都還有漁夫常來這片海灘釣槍魚。",
+            "minersCamp": "這是當地礦工去北邊山上勘探金礦礦脈時所利用的小營地。",
+            "oldWatchtower": "這是一座古老瞭望台的遺跡。據傳說所述，一位發瘋的科維爾公主曾經把自己關在裡頭，還堅信只有能解救她的男人夠格當她的丈夫。不過沒有人前去嘗試拯救她，後來公主老死，高塔逐漸年久失修。",
+            "palisade": "柵欄遺跡，曾標明了德拉蒙與奎特家族的領土邊界。",
+            "rannvaig": "十五年前，一名蘭維格的漁夫撈到了一條巨大的比目魚，自此至今其他村民都在努力嘗試打破他的記錄。",
+            "redgill": "神秘的魔法災變在附近發生時，這座村子的村民匆忙逃離了這裡。",
+            "rogne": "這座山區的聚落住了許多性格堅強的居民，個性不屈不撓。",
+            "ruinedInn": "廢棄又燒毀的旅館，以前當地人和旅人經常來這裡品嚐附近最美味的烤羊排。",
+            "sund": "這座小村莊的居民大多都是牧羊人。",
+            "svorlag": "這座村落由神話中的索佛所建立，據說他就是在此殺死了害人又弒血的客邁拉。",
+            "thePaliGapCoast": "長老說這道海岸的一座偏遠山洞裡曾經住了世界上最有名的吟遊詩人（當然這時丹德里恩還沒出生）：贊古巴的席爾德涅，他的魯特琴技巧從奈澤爾到藍山人人皆知。",
+            "torGvalchca": "一座古老之塔，搭建時精靈還是這片土地上的領主。",
+            "trailToYngvarsFang": "這是一條山路的起點，終點是小史凱利格人的榮耀與驕傲，英格瓦之牙。",
+            "trottheim": "這座村落以前聞名過整個史凱利傑群島，因為居民全為女性，所有男人都在出海搶劫時戰死了。",
+            "uriallaHarbor": "這個港口的船匠以熟練手法以及刁鑽細節而聞名，因此被公認為群島上的頂尖好手。",
+            "urskar": "這裡的村民以愛好醃鯡魚而聞名。他們早餐、晚餐和宵夜都吃醃鯡魚，甚至還用醃鯡魚做果醬和糖煮水果。",
+            "whaleGraveyard": "小島的居民來到這裡收集骨頭，以用來搭建小屋。",
+            "wildShore": "小島沿岸仍然原始未開發的地區&trade;，是強盜和情侶的最愛。",
+            "yngvarsFang": "這座山頂是以一頭神話中的熊而取名。根據傳說，圖爾希曲家族的英雄元老，泰爾，打敗了那頭熊。",
+            "yustiannasGrotto": "尤斯提雅那是史凱利杰奎特家族的海盜，在一次出海洗劫時被​​俘虜。當時大路上從歐飛爾到贊古巴的人都相當害怕她。她的航海技術聞名天下，還是善於使用各種武器的高手，因此她成了無盡之海上人人畏懼的角色。據說她回到史凱利傑後，用這個洞穴來藏她的贓物。"
+        },
+        "label": {
+            "abandonedSawmill": "廢棄的鋸木廠",
+            "abandonedVillage": "荒廢村莊",
+            "ancientCrypt": "古代墓穴",
+            "arinbjorn": "阿林比翁",
+            "bayOfWinds": "風之灣",
+            "blandare": "布藍岱爾",
+            "boxholm": "巴克斯霍姆",
+            "bridgeToKaerTrolde": "通往凱爾卓的橋",
+            "clanTordarrochForge": "托達洛曲家族的鑄坊",
+            "crossroads": "十字路口",
+            "distillery": "釀酒廠",
+            "dorveRuins": "朵夫遺跡",
+            "druidsCamp": "德魯伊的營地",
+            "eldbergLighthouse": "愛德堡燈塔",
+            "elverumLighthouse": "愛德堡燈塔",
+            "fayrlund": "斐隆德",
+            "fornhala": "弗爾哈拉",
+            "freyasGarden": "弗蕾雅的花園",
+            "fyresdal": "費雷思達",
+            "gedyneith": "蓋迪尼斯",
+            "giantsToes": "巨人的腳趾",
+            "grotto": "石窟",
+            "gullPoint": "海鷗點",
+            "harviken": "哈爾維肯",
+            "holmsteinsPort": "海姆斯坦港",
+            "hov": "霍佛",
+            "isolatedHut": "偏遠小屋",
+            "kaerAlmhult": "凱爾艾胡",
+            "kaerGelen": "凱爾格倫",
+            "kaerMuire": "凱爾謬雷",
+            "KaerTroldeHarbor": "凱爾卓港",
+            "larvik": "拉爾維克",
+            "lofoten": "羅伏藤",
+            "lofotenCemetery": "羅伏藤墓園",
+            "lurthen": "盧森",
+            "marlinCoast": "槍魚海岸",
+            "minersCamp": "礦工的營地",
+            "oldWatchtower": "舊瞭望塔",
+            "palisade": "柵欄",
+            "rannvaig": "蘭維格",
+            "redgill": "雷吉爾",
+            "rogne": "羅涅",
+            "ruinedInn": "廢棄旅館",
+            "sund": "桑德",
+            "svorlag": "斯瓦雷格",
+            "thePaliGapCoast": "巴利峽谷海岸",
+            "torGvalchca": "托瓦爾奇卡",
+            "trailToYngvarsFang": "通往英格瓦之牙的小徑",
+            "trottheim": "托特海姆",
+            "uriallaHarbor": "尤里埃拉港口",
+            "urskar": "烏斯卡爾",
+            "whaleGraveyard": "鯨魚墳場",
+            "wildShore": "原始海岸",
+            "yngvarsFang": "英格瓦之牙",
+            "yustiannasGrotto": "尤斯提雅那的石窟"
+        }
+    },
+    "treasure": {
+        "desc": {
+            "solution": "謎語詩記錄的寶藏。"
+        },
+        "label": {
+            "solution": ""
+        }
+    }
+}

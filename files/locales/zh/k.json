@@ -1,0 +1,53 @@
+{
+    "alchemy": {
+        "desc": {
+            "keira": "如果她之前沒有死，她就會出現。"
+        },
+        "popuptitle": {
+            "keira": "凱拉・梅茲"
+        }
+    },
+    "armourer": {
+        "desc": {
+            "zoltan": "只有在 '__quest__' 任務中與卓爾坦對話時才會出現。"
+        },
+        "popuptitle": {
+            "zoltan": "卓爾坦・齊瓦"
+        }
+    },
+    "event": {
+        "desc": {
+            "trail": ""
+        }
+    },
+    "gwentquest": {
+        "players": {
+            "lambert": "蘭伯特"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "bastion": "",
+            "berengar": "",
+            "forge": "",
+            "greenhouse": "",
+            "slayer": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "bastion": "曾經年輕的獵魔人在這裡訓練。現在堡壘是一個被遺忘的廢墟。",
+            "ironMine": "鐵礦石曾經從這個地方被提取出來用於狼學派的熔爐。",
+            "kaerMorhen": "昔日之海的要塞，狼學派獵魔人的家園。",
+            "lakesideHut": "十幾年前，一位隱士住在這裡，他釀造出優質的蜂蜜酒。獵魔人不時拜訪他，聊聊遙遠的土地。",
+            "ruinedWatchtower": "這座湖邊的瞭望塔曾經是狼學派獵魔人的驕傲，如今卻是一片廢墟，只有風在石頭上呼嘯而過的聲音。"
+        },
+        "label": {
+            "bastion": "堡壘",
+            "ironMine": "鐵礦",
+            "kaerMorhen": "凱爾莫罕",
+            "lakesideHut": "湖畔小屋",
+            "ruinedWatchtower": "被毀的瞭望塔"
+        }
+    }
+}

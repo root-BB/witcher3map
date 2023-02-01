@@ -1,0 +1,248 @@
+{
+    "armourer": {
+        "lafargue": "Lafargue"
+    },
+    "banditcamp": {
+        "desc": {
+            "hanse": "Powstanie tylko wtedy, gdy '__location__' '__hanse__' nie został wyczyszczony. ",
+            "ussar": "Powstanie tylko wtedy, gdy jajka nie zostaną zniszczone podczas misji '__quest__'. "
+        }
+    },
+    "brothel": {
+        "popup": {
+            "Belle": "Dzwony Beauclair"
+        }
+    },
+    "contracts": {
+        "desc": {
+            "biggamehunter": "",
+            "bonvineblues": "",
+            "coldasice": "",
+            "phantoms": "",
+            "tufo": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "contract": "",
+            "drunked": "",
+            "grave": "",
+            "naughty": "",
+            "ring": ""
+        }
+    },
+    "guarded": {
+        "desc": {
+            "hanse": "Powstanie tylko wtedy, gdy '__location__' '__hanse__' nie został wyczyszczony. "
+        }
+    },
+    "hansebase": {
+        "desc": "Spodziewaj się tutaj uzbrojonych po zęby bandytów. ",
+        "label": "Kryjówka Hanzy"
+    },
+    "innkeep": {
+        "desc": "Tutaj możesz kupić lub sprzedać różne produkty. ",
+        "label": {
+            "auberge": "Oberża „Ruda kita”",
+            "barrelandbung": "Karczma „Pod Beczką i Szpuntem",
+            "pheasantry": "Bażanciara",
+            "salamander": "Karczma Pod Srebrna Salamandrą",
+            "winery": "Karczma \"Żmija i Rubin\""
+        }
+    },
+    "kid": {
+        "desc": "W tym miejscu możesz pomóc błędnemu rycerzowi w walce z bandytami.",
+        "label": "Błędny rycerz w potrzebie"
+    },
+    "poi": {
+        "desc": {
+            "ducal": "",
+            "haremask": "",
+            "hengaidth": "Jest rozproszony w 4 różnych lokalizacjach w oborniku. Jeśli zdecydujesz się szukać Syanny, możesz uzyskać dostęp tylko do jednego z tych miejsc. ",
+            "photo": "Jest w tym kierunku, ale poza mapą. Szczegółowy opis: __link1__ kliknij tutaj __link2__. ",
+            "reginald": "Staje się aktywny, jeśli Manhood Sir Reginald d'Aubry'a został przywrócony w zadaniu '__quest__'. Każdy dotykający aktywuje bonus na 60 minut, zwany \"Siłą Reginald\", która daje graczowi nieograniczoną zdolność biegu podczas walki. ",
+            "tesham": "Jest rozrzucona w 3 różnych miejscach w oborniku. "
+        },
+        "label": {
+            "ducal": "Książecy Kamerarius",
+            "haremask": "Jego Maska",
+            "hengaidth": "Zestaw Gaidth",
+            "photo": "Zdjęcie CDPR",
+            "reginald": "Jaja Reginald d'Aubry",
+            "tesham": "Tesham Mutna"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "butcher": "Sprzedaje jedzenie. ",
+            "craftingSuppliesAndDrink": "Sprzedaje składniki rzemieślnicze i ryby. ",
+            "dye": "Sprzedaje zbroję i usuwanie barwników. ",
+            "paintingscraftingSupplies": "Sprzedaje ubrania i składniki rzemieślnicze. "
+        },
+        "label": {
+            "butcher": "Rzeźnik",
+            "dye": "Barwny Handlowiec",
+            "vintner": "Vintner"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "bf_1": " ",
+            "bf_2": " ",
+            "bf_3": " ",
+            "bf_4": " ",
+            "bf_5": "",
+            "cosplay": " ",
+            "facethestrage": " ",
+            "father": " ",
+            "ff_st": " ",
+            "granite": " ",
+            "grist": " ",
+            "gw_fear": " ",
+            "gw_tournment": " ",
+            "hunger": " ",
+            "jailbird": " ",
+            "kingforhire": " ",
+            "knightstale": " ",
+            "master": " ",
+            "onlyone": " ",
+            "paperchase": " ",
+            "placelikehome": " ",
+            "portait": " ",
+            "prophet": " ",
+            "raging": " ",
+            "sheers": " ",
+            "smittenkight": " ",
+            "tilldeath": " ",
+            "tr_again": " ",
+            "tr_carnarvon": " ",
+            "tr_doh": " ",
+            "tr_eightdays": " ",
+            "tr_enjoytheplay": " ",
+            "tr_escapology": " ",
+            "tr_experiment": " ",
+            "tr_filibert": " ",
+            "tr_gardener": " ",
+            "tr_selina": " ",
+            "tr_spoon": " ",
+            "tr_stink": " ",
+            "tr_stranger": " ",
+            "tr_suffering": " ",
+            "tr_widow": " ",
+            "vc_chuchote": " ",
+            "vc_cleaning": " ",
+            "vc_dun": " ",
+            "vc_griffin": " ",
+            "vc_rivecalme": " ",
+            "vintnercontract": " ",
+            "wildkingdom": " ",
+            "ww_belgaard": " ",
+            "ww_consorting": " ",
+            "ww_coronata": " ",
+            "ww_deus": " ",
+            "ww_vermentino": " "
+        }
+    },
+    "signalfire": {
+        "desc": "Jeśli ognisko sygnałowe zostanie zapalone przez biegacza z pochodnią, na pomoc walczącym bandytom przybiegną posiłki.",
+        "label": "Ognisko sygnalizacyjne"
+    },
+    "signpost": {
+        "desc": {
+            "ardaisoquarry": "Powszechnie wiadomo, że podstawą gospodarki Toussaint jest hodowla winorośli. Mało kto jednak zdaje sobie sprawę, że tutejsze ziemie pełne są łupku i innych cennych kamieni budowlanych, które były niegdyś w tych regionach na potęgę wydobywane. Dlatego, kiedy bogobojni toussaintczycy zapragnęli potężnego posągu Lebiody, nie musieli przywozić materiałów do jego budowy z zagranicy – wystarczyło uruchomić Ardaiso. ",
+            "arthachpalaceruins": "Melioracyjne eksperymenty na rzece Sansretour autorstwa księcia Adama z Nazairu, mówiąc delikatnie, nie zakończyły się sukcesem. Zalano szereg wiosek, prywatnych majątków, a także letni pałac elfi Arthach. To właśnie wtedy Rozlewisko Sansretour przybrało aktualny kształt a niemal połowa Wyspy Żurawi znalazła się pod wodą. Na północ od miasta powstały nieprzyjazne bagna, na które bezpieczniej się nie zapuszczać. ",
+            "basanefarm": "Wbrew pozorom Toussaint nie tylko winem stoi. Oprócz cennych kamieni budowlanych, eksportuje się stąd również owczą wełnę. Bogate w soczystą koniczynę stoki Mont Crane dostarczają pożywienia dla wielu gatunków owiec, w tym słynnych toussaintckich merynosów, których runo osiąga zawrotne ceny. Jednym z folwarków, który specjalizuje się właśnie w produkcji wełny jest Basane. ",
+            "beauclairport": "Najlepsze wina pochodzą z Toussaint – każdy sommelier to potwierdzi. Najsłynniejsze marki warte są krocie i trafiają nawet na królewskie stoły. Dzisiaj już chyba nikt nie może wyobrazić sobie królewskiej uczty bez Côte-de-Blessure czy Est Est. I właśnie tu, w porcie Beauclair, beczki rozpoczynają swoją podróż zarówno na południe – w głąb Cesarstwa Nilfgaardzkiego – jak i na daleką Północ. ",
+            "belgaardvineyard": "Lichwiarz, u którego zadłużył się ongiś właściciel majątku, sprzedał dług bandytom. Ci, jako że nie mogli długu odzyskać, pozabijali mieszkańców Belgaardu. Jakby tego było mało, założyli tutaj obozowisko, z którego napadali na transporty wina. Wyprawiali potem pijackie orgie, a byli tak bitni i dożarci, że nikt nie mógł ich przegonić. Pozbył się ich dopiero dzielny alchemik, który zatruł jeden z transportów wina wyciągiem z rącznika pospolitego. ",
+            "casteldacciaabandonedestate": "Maximus Makrinus był onegdaj słynnym błędnym rycerzem, który wsławił się polityką zero tolerancji dla grasantów na Manowcach. Wreszcie przeszedł na zasłużoną emeryturę i osiadł w rodzinnym majątku. Nikt nie wie, co później doprowadziło do śmierci całej jego rodziny. Jedni mówią, że to olbrzym zszedł z gór, inni, że jakaś większa hanza dopadła go i wywarła pomstę. Faktem jest, że do dziś rozsądni ludzie łukiem omijają Casteldaccia. ",
+            "castelravello": "Według koneserów, najlepsze wina z Metinny czy Alby, nie dorastają do pięt nawet pośledniejszym markom z doliny Sansretour. Wśród mnóstwa mniejszych i większych lokalnych winnic, to właśnie Castel Ravello jest najbardziej rozpoznawalne. I nie bez powodu, to tu powstają Pomino, Fiorano, Erveluce oraz Est Est – wciąż bezsprzecznie najlepsze wino świata. ",
+            "cemetry": "W winnicy Belgaard doszło onegdaj do słynnego wytrucia panoszącej się tam hanzy grasantów. Trupy planowano spalić, ale pewien bogobojny szlachcic uznał, że nie godzi się tak traktować nawet skurwysynów i ufundował niewielki cmentarz Mère-Lachaise. To właśnie tu zginął męczeńsko słynny rycerz Ramon z Gichon, próbując pozbyć się powracających stale – tym razem w postaci upiorów – bandytów. ",
+            "chuchotecave": "Starzy ludzie gadają, że mieszkała tu onegdaj Szepciucha – leśna wiedźma, która chętnie pomagała potrzebującym. Pewnego razu odwiedził ją młody rycerz, prosząc o uwarzenie eliksiru miłosnego. Kiedy Szepciucha przejrzała serce rycerza, odmówiła mu pomocy, na co ten zareagował gniewem i spalił wiedźmę razem z jej jaskinią. Krótko później zwariował i zabił się – ponoć powodem były dręczące go tajemnicze szepty, których nikt inny nie słyszał. ",
+            "cockatrice": "Były czasy, gdy właściciel Adam de Guy chętnie opowiadał gościom skąd wzięła się nazwa karczmy. W młodości był on bowiem giermkiem błędnego rycerza, z którym wespół pokonali groźnego kuroliszka. Głowa potwora przez pewien czas zdobiła wejście do zajazdu, ale pewien oxenfurcki żak odkrył, że jest to niestety dość amatorski kolaż bażanta, łasicy i wieprza. Obrażony właściciel podejrzane truchło usunął, ale nazwa pozostała. ",
+            "coopersgate": "Fachowcy uważają, że sekretem win z Toussaint są beczki z dębu beauclairskiego. Drewno to było tak popularne, że jego agresywny wyrąb stał się obiektem protestów druidów. Dopiero po długich negocjacjach ze specjalnie na tą okazję powołaną Gildią Bednarzy zdołano wypracować kompromis. Dziś wyrąb dębu jest ściśle kontrolowany, a Bednarze to najbogatszy cech w mieście – a dowodem jest ufundowana przez nich główna brama miasta. ",
+            "coronatavineyard": "Założyciel rodu, Stefan de Coronata przyszedł kiedyś do druida z prośbą, by ten pomógł mu się pozbyć gąsienic pożerających jego winorośle. Druid doradził oswojenie kun, które chętnie żywią się larwami. Stefan posłuchał druida i pozbył się plagi, nie tylko u siebie, ale i w winnicach sąsiadów. W zamian za zasługi otrzymał tytuł szlachecki. Na herb wybrał zaś niebieskiego wilka, uznając, że głupio byłoby z kuną na tarczy paradować. ",
+            "corvobianco": "Zbudowana na elfich ruinach, jedna ze starszych winnic w księstwie, zwana w Starszej Mowie Gwyn Cerbin. To stąd pochodzi niezwykle oryginalne wino, Sepremento. Niestety hulaszczy tryb życia ostatniego członka rodu barona Boliusa doprowadził majątek do ruiny. Kolejny właściciel, baron Rossell, próbował przywrócić winnicy dawny blask, ale bezskutecznie. Corvo Bianco zostało zlicytowane i włączone do skarbu księstwa. ",
+            "cottage": "Amadis de Trastamara otrzymał ów majątek w uznaniu zasług dla Toussaint, z rąk księżnej Karoberty. Władczyni niechcący wyświadczyła Wielkiemu Łowczemu niedźwiedzią przysługę, ponieważ dom okazał się nawiedzony, a podatek od nieruchomości zapłacić było trzeba. Trastamara konsultował przypadek z druidami z Caed Myrkvid, ci jednak doradzili filozoficznie, że jeśli nie może się z upiorem dogadać, to niech da mu spokój i już. ",
+            "croixmill": "Rodzina de la Croix nigdy nie miała szczęścia do interesów. Pola winorośli padły ofiarą prób regulowania biegu Sansretour przez księcia Adama z Nazairu, a uprawa drzew oliwnych plagi tarczników. Wreszcie wyremontowali stary młyn wodny, licząc, że może produkcja chleba okaże się sukcesem. I pomysł był dobry, dopóki nie okazało się, że mąka unosząca się w zamkniętej przestrzeni może łatwo stać się przyczyną wybuchu pyłowego. ",
+            "dulcineawindmill": "Lady Dulcynea była dwórką księżnej Karoberty. Według legendy, gdy tylko pojawiała się w pobliżu, rycerze pojedynkowali się o jej względy, a szlachcianki mdlały z zazdrości. Jednak Lady Dulcynea, zamiast ulec awansom jednego z pasowanych, zmęczona blichtrem książęcego dworu przyjęła oświadczyny prostego młynarczyka i zamieszkała z nim w młynie. Jak wieść niesie żyli długo i szczęśliwie. ",
+            "duntynnecastle": "Majątek związany jest z mroczną legendą o Walgeriusie Wdałym, dzielnym rycerzu, który poślubił piękną nazairską księżniczkę Helgundę. Kiedy Walgerius wrócił z rycerskiej wyprawy, odkrył, że żona puściła mu się z jego krewniakiem, co doprowadził go do furii a ich do nagłej śmierci. Dowodzi to, że nic, co dobre nie może wyjść z Nazairu, a także, że jak się ma młodą żonę, to trzeba w domu siedzieć, a nie szlajać się po rycerskich wyprawach. ",
+            "duntynnecrossroads": "Drogi wędrowcze. Znajdujesz się na ziemiach majątku Dun Tynne należących do szlachetnego Rodericka. Jeśli chcesz złożyć mu wizytę, kieruj się dalej na zachód – jego kasztelu nie sposób ominąć. Jeśli natomiast szukasz drogi do Starej Przeprawy, powinieneś kierować się na północ. ",
+            "duntynnehillside": "Krwawa legenda Walgeriusa Wdałego skutecznie odstraszała miejscowych przedsiębiorców od przejęcia Dun Tynne. Wzgórze spinające doliny Blessure i Sansretour nigdy dotąd nie rodziło wina godnego wzmianek historycznych. Wbrew temu wszystkiemu nowy właściciel – szlachetny Roderick – zdecydował się przywrócić w Dun Tynne winorośl. Ostrożność nakazała mu jednak zainwestować również w bardziej pewne drzewa oliwne. ",
+            "embassy": "Toussaint jest księstwem lennym Cesarstwa Nilfgaardu. Księżna Anna Henrietta jest prawowitym władcą regionu, ale w praktyce oddaje się pod opiekę swego kochającego kuzyna i seniora – Emhyra var Emreisa. Zapewne właśnie przez troskę o Jaśnie Oświeconą i losy jej państewka, Cesarz kilka lat temu osiedlił w ambasadzie grupę dygnitarzy, którzy używają swego doświadczenia, by wspomóc jej, skądinąd oczywiście światłe, decyzje. ",
+            "farm": "Stary Gelenser uprawiał rzodkiewkę. Tak, właśnie rzodkiewkę. Nie winorośl, nie drzewa oliwne, ani nawet nie merynosy. Jak sam mawiał: “Przeca ni mogom, psiejuchy, ino chlebem i winem się żywić”. Stary Gelenser nie założył imperium rzodkiewkowego. Historia jego rodu nie jest też zapełniona zdumiewającymi legendami. Żył, napłodził dzieciaków, sadził rzodkiewkę i umarł. Daj nam, Lebiodo, takie spokojne życie. ",
+            "flovive": "Rozlewisko Sansretour dotknęła ongiś plaga żab. Księżna Ademarta wyznaczyła nagrodę śmiałkowi, który uwolni krainę od przeklętych płazów. Ani błędni rycerze, ani druidzi, ani nikt inny nie potrafił poradzić sobie z tym zadaniem. Dopiero ubogi flisak imieniem Floviven znalazł sposób. Zagrał żabom na swych skrzypkach, a te wsłuchane w jego muzykę wyniosły się z księstwa. Na pamiątkę tego wydarzenia osada flisaków nosi właśnie jego imię. ",
+            "fort": "Władca majątku Astre uparł się onegdaj, że przejedzie bojowym rumakiem po murach wokół zamku. Niestety spadł i zabił się na miejscu. Jego piękna córka Cunégonde złożyła wówczas śluby, że wyjdzie za mąż za tego, kto dokończy dzieła ojca. Wielu śmiałków postradało życie, chcąc zdobyć uznanie okrutnej dziewicy. Wreszcie jeden dokonał niemożliwego, ale odrzucił jej rękę jako niegodną. Cunégonde w rozpaczy rzuciła się z murów. ",
+            "fortussar": "Fort Ussar Ruins jest zrujnowanym umocnieniem we wschodniej części Toussaint, wschodniej części Quarry Ardaiso. Początkowo jest zamieszkiwany przez slyzardy, w tym ich matki. Wewnątrz jaskini pod ruinami można również znaleźć miejsce siatki Igni. ",
+            "fox": "W niewielkiej kotlinie, u stóp Gorgony leży wioska Lisie Doły. Na tamtejszych polach, dziw nad dziwy, garnki rosną. Rodzą się w ziemi łonie, same z siebie, wyłącznie sztuką przyrody, bez jakiegokolwiek dopomagania ludzkiego. Wszelkiego rodzaju i różnych kształtów. Po temu nawiązują Lisie Doły partnerskie kontakty z wsią Dudno w Maecht. Tam bowiem, jak wieść niesie, ziemia rodzi pokrywki do garnków. Wszelkiego rodzaju i różnych kształtów. ",
+            "francollarts": "Lasy Karoberty nazwano imieniem babki Jaśnie Oświeconej – księżnej Karoliny Roberty – która uwielbiała organizować tu zabawy w chowanego. Znajdująca się na obrzeżach puszczy faktoria traperska, rozwinęła się w spokojną wioskę o nazwie Francollarts. To tutaj przybywają myśliwi, drwale, czy bartnicy, by sprzedać dobra lasu. Wioska ożywa raz w roku, gdy baron Trastamara organizuje tu dla dworu coroczne Święto Lasu z polowaniem. ",
+            "gate": "Wino transportuje się z Toussaint nie tylko drogą rzeczną. Zdarza się – szczególnie wiosną – że Sansretour staje się bardzo niebezpieczna, a tym samym nierentowna dla lokalnych eksporterów. Wtedy kupcy organizują się w karawany, najmują ochronę i ruszają z towarami drogą lądową. Najczęściej właśnie do Metinny w Metinnie. Złośliwi uważają, że nazwanie swojej stolicy imieniem królestwa dowodzi przysłowiowego braku wyobraźni metińczyków. ",
+            "granplace": "Wypełniony kolorowymi straganami i kupcami ze wszystkich stron świata, największy plac targowy w Toussaint. Mówi się, że jeśli nie można znaleźć danego towaru na rynku w Beauclair, to taki towar zapewne nie istnieje. Oprócz win wszelkich marek i roczników, można tu nabyć również słynny łupek z Ardaiso, runo toussaintckich merynosów z Basane oraz oliwę z oliwek z gajów Dun Tynne. ",
+            "haborgate": "Budując mury obronne wokół Górnego Miasta mieszkańcy nie przewidzieli jak bardzo Beauclair się rozrośnie. Szybki rozwój San Sebastian oraz Portu zmusił mieszczan do wybicia dodatkowego przejścia, które ułatwi komunikację pomiędzy dzielnicami stolicy Toussaint. Myślano nawet o całkowitym zburzeniu murów – czego wszak można się obawiać, gdy miasta bronią najdzielniejszych błędni rycerze na świecie?. ",
+            "hortense": "Toussaint pełne jest znanych w całym świecie winnic, takich jak Castel Ravello, Pomerol, Vermentino czy Tufo. Ich właściciele pielęgnują długowieczne tradycje i rodzinne podania, które budują markę win przez nich wytwarzanych. Ale Toussaint jest też pełne mniejszych majątków, które ani własne herbu, ani jakiegoś wyjątkowego wina do tej pory się nie dorobiły i trudno o nich coś więcej powiedzieć. Jednym z nich jest właśnie Hortense. ",
+            "lebiodasgate": "Prace nad Świątynią Lebiody w Beauclair zainicjował uczeń słynnego Proroka – Plegmund. Przekonał księżną Karobertę do przebudowy tej części miasta oraz wykopania głębokich katakumb przeznaczonych dla bogatych mieszkańców miasta. Ci mniej zamożni byli grzebani na nowym cmentarzu przed Świątynią. Dla najuboższych pozostał stary Cmentarz Za Murami, połączony z miastem Bramą Świątynną, zwaną też Bramą Lebiody. ",
+            "montcranecastle": "Książę Roger Pijus – jak przydomek wskazuje – nie był abstynentem. Historie o jego alkoholowych wyczynach zalicza się dziś do ścisłego kanonu tradycyjnych przypowieści toussaintckich. Może właśnie stan wiecznego rauszu był motorem jego poczynań, gdy postanowił otoczyć krainę siecią zamków. Miały one jakoby bronić Toussaint przed dzikimi góralami z Gorgony. Tyle tylko, że nikt nigdy o nich nie słyszał. ",
+            "mutnaruins": "Powszechnie przyjmuje się, że wampiry przeszły do naszego świata w czasie Koniunkcji Sfer. Szybko rozpierzchły się po Kontynencie, próbując zaadoptować się do nowej sytuacji. Podobno jeden z nich – Khagmar – osiedlił się w Toussaint. Krążą mroczne legendy o jego czynach, ale czy istniał naprawdę, tego nie wie nikt. Opowieści w jednym są zgodne – historia Khagmara nierozłącznie związana jest z tajemniczą twierdzą Tesham Mutna. ",
+            "palace": "Jeden z najlepiej na świecie zachowanych reliktów ery elfiej. Drobiazgowo odremontowany i częściowo przebudowany przez słynnego nilfgaardzkiego architekta – mistrza Faramonda. Faramond – badacz i znawca architektury nieludzkiej uważany jest za twórcę stylu neoelfiego, którego sztandarowym przykładem jest właśnie pałac Beauclair – siedziba prawowitych władców Toussaint. ",
+            "palacegardens": "Wspaniałe ogrody nad jeziorem Seidhe Llygad – podobnie jak pałac – uległy zniszczeniu w czasie walk z elfami. Mistrz Faramond, który kierował pracami renowacyjnymi, robił, co mógł, ale niektórych, delikatnych gatunków roślin nie udało się uratować. Dziś to popularne wśród dworzan miejsce rozrywki zapełniają głównie świerki, drzewa oliwne, dęby beauclairskie, krzewy róży, jałowce, różaneczniki oraz oczywiście winorośle. ",
+            "plegmundsbridge": "Zbudowany za czasów księżnej Karoberty most miał na celu usprawnienie komunikacji pomiędzy winnicami prawego i lewego brzegu Sansretour. Nazwano go na cześć popularnego wówczas w Toussaint pielgrzyma – ucznia samego Proroka Lebiody, który właśnie w tym miejscu dokonał jednego ze swych rozlicznych cudów – przeszedł suchą stopą po rzece na drugi brzeg. ",
+            "prison": "Trudno uwierzyć, że tętniące życiem Toussaint padło niegdyś ofiarą epidemii trądu. Żeby odizolować zarażonych, edyktem księżnej, wzniesiono dla nich leprozorium na Wyspie Żurawi. Po śmierci jego mieszkańców, kompleks stopniowo popadał w ruinę, postanowiono go jednak zaadaptować na więzienie, którym jest do dzisiaj. ",
+            "riouxcannesoutpost": "Drugą najpopularniejszą w Toussaint uprawą po winorośli jest drzewo oliwne. Głównie jako źródło oliwy z oliwek, ale też dla drewna, które cenione jest w snycerstwie. Jednak bezsprzecznie najcenniejszym drzewem w regionie jest słynny dąb beauclairski, stosowany do produkcji beczek na wino. Najważniejszym miejscem do obróbki drewna w Toussaint jest właśnie tartak Rioux-Cannes. ",
+            "ruins": "Toussaint było niegdyś krainą elfów. Pałac księżnej jest najokazalszą pozostałością tej epoki, ale nie jedyną. Aen Seidhe pozostawiły tu po sobie wiele mniejszych i większych obiektów, których funkcji można się dziś tylko domyślać. Jednym z nich są ruiny Termes, które jedni wiążą z legendami o miejscu pochówku ostatniego króla elfów, inni uważają za świątynię zapomnianego bóstwa. Jak jest naprawdę, pewnie się już nie dowiemy. ",
+            "sansebastian": "Rozwój sąsiadującego z dawnym elfim pałacem Beauclair szybko doprowadził do przekroczenia murów miejskich. Tak powstało Dolne Miasto, zwane też od nazwiska założyciela San Sebastian. Obecnie to przeważnie robotnicza dzielnica, która łączy Górne Miasto z portem – sercem handlowym Beauclair i całej krainy. ",
+            "sansretourvalley": "Dolina Sansretour to centrum światowej produkcji wina. To tutaj, nad zboczami porośniętymi winoroślą, górują Castel Ravello, Coronata czy Vermentino – siedziby słynnych winiarskich familii, które od wieków wiodą prym wśród producentów wina. ",
+            "seidhellyghadamphitheater": "Na brzegiem jeziora Seidhe Llygad, zwanym również Górskim Okiem, znajduje się kolejny relikt z czasów elfich – stary amfiteatr. W 1178 roku obiekt wyremontowano, by wystawiać tu sztuki najznakomitszych teatralnych mistrzów. Niestety premierowe przedstawienie zakończyło się tragicznie – tajemniczą śmiercią głównej aktorki. Odtąd miejsce uznawane jest za przeklęte i mało kto zapuszcza się w jego okolice. ",
+            "statue": "Za panowania księżnej Karoberty, Toussaint odwiedził jeden z uczniów proroka Lebiody o imieniu Plegmund. Jego słowa i czyny – w tym cuda – były tak przekonujące, że wkrótce niemal całe księstwo nawróciło się na nową wiarę. Wtedy właśnie zbudowano świątynię ku czci proroka, ale to Plegmundowi nie wystarczyło. Przekonał księżną do budowy posągu przedstawiającego Lebiodę – jakiego świat jeszcze nie widział. ",
+            "thesilversalamanderinn": "Kiedy ludzie zapytują nilfgaardzkiego właściciela zajazdu – imć pana Calixte Moire, skąd wzięła się nazwa jego zajazdu, ten zawsze przywołuje Drugą Bitwę pod Sodden. Jego ojciec – Antoine, wykazał się w owej bitwie wyjątkową odwagą. Pamiątką tej historii jest medal Srebrnej Salamandry, przyznawany przez samego Cesarza w nagrodę za męstwo i ofiarność na polu bitwy. ",
+            "tradingpost": "Żaden szanujący się kupiec nie robi interesów w stolicy Toussaint. Owszem, można wpaść zabawić się do słynnych Dzwonów Beauclair w San Sebastian. Można zajrzeć do Portu, sprawdzić czy aby robotnicy nie „zgubili” beczki czy dwu. Ale prawdziwe interesy robi się w niepozornym obozowisku – faktorii kupieckiej, daleko od przesyconego atmosferą wina i śpiewu, wiecznie fetującego miasta. ",
+            "tunier": "Tradycja to w Toussaint rzecz święta. Tradycji owa piękna kraina ma wiele, ale do jednej z najważniejszych należą wspaniałe turnieje rycerskie, odbywające się przy okazji właściwie wszystkich lokalnych świąt. Miejscowe rycerstwo cieszy się w całym Nilfgaardzie, ale także i na Północy, zasłużoną sławą. Toteż zjeżdżają się tu woje z całego bez mała świata, by z toussaintczykami stawać w szranki i wieczną sławę zdobyć. "
+        },
+        "label": {
+            "ardaisoquarry": "Kamieniołom Ardaiso",
+            "arthachpalaceruins": "Ruiny pałacu Arthach",
+            "basanefarm": "Folwark Basane",
+            "beauclairport": "Port",
+            "belgaardvineyard": "Winnica Belgaard",
+            "casteldacciaabandonedestate": "Opuszczona posiadłość Casteldaccia",
+            "castelravello": "Winnica Castel Ravello",
+            "cemetry": "Cmentarz Mère-Lachaise",
+            "chuchotecave": "Jaskinia Szept",
+            "cockatrice": "Karczma „Kuroliszek\"",
+            "coopersgate": "Brama Bednarzy",
+            "coronatavineyard": "Winnica Coronata",
+            "corvobianco": "Winnica Corvo Bianco",
+            "cottage": "Dom myśliwski Trastamary",
+            "croixmill": "Młyn hrabiego de la Croix",
+            "dulcineawindmill": "Wiatrak Dulcynei",
+            "duntynnecastle": "Kasztel Dun Tynne",
+            "duntynnecrossroads": "Rozdroża przy Dun Tynne",
+            "duntynnehillside": "Wzgórze Dun Tynne",
+            "embassy": "Ambasada Nilfgaardu",
+            "farm": "Farma Gelenserów",
+            "flovive": "Wioska Flovive",
+            "fort": "Ruiny warowni Astre",
+            "fortussar": "Ruiny fortu Ussar",
+            "fox": "Wioska Lisie Doły",
+            "francollarts": "Wioska Francollarts",
+            "gate": "Brama Metinnyjska",
+            "granplace": "Rynek Główny",
+            "haborgate": "Brama portowa",
+            "hortense": "Winnica Hortense",
+            "lebiodasgate": "Cmentarz Za Murami",
+            "montcranecastle": "Zamek Mont Crane",
+            "mutnaruins": "Ruiny Tesham Mutna",
+            "palace": "Pałac",
+            "palacegardens": "Ogrody pałacowe",
+            "plegmundsbridge": "Most Plegmunda",
+            "prison": "Więzienie",
+            "riouxcannesoutpost": "Tartak Rioux-Cannes",
+            "ruins": "Ruiny Termes",
+            "sansebastian": "San Sebastian",
+            "sansretourvalley": "Dolina Sansretour",
+            "seidhellyghadamphitheater": "Amfiteatr Seidhe Llygad",
+            "statue": "Posąg Proroka Lebiody",
+            "thesilversalamanderinn": "Karczma pod Srebrną Salamandrą",
+            "tradingpost": "Faktoria Kupiecka",
+            "tunier": "Pola turniejowe"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "gwent": {
+        "popup": {
+            "girl": "Dziewczynka z krzemieniami - Gracz Gwinta"
+        }
+    },
+    "poi": {
+        "desc": {
+            "balbina": "",
+            "blaviken": "",
+            "camp": "",
+            "den": "",
+            "dragon": "",
+            "emperor": "",
+            "grigg": "",
+            "hood": "",
+            "joss": "",
+            "pigs": "",
+            "start": "",
+            "thumb": "",
+            "tower": "",
+            "wisp": "",
+            "witch": ""
+        },
+        "label": {
+            "balbina": "Chatka Balbiny",
+            "blaviken": "Muzykanci z Blaviken",
+            "camp": "Obóz Rumtzaysa",
+            "den": "Legowisko Trzech Niedźwiedzi",
+            "dragon": "Martwy Smok z Vizimy",
+            "emperor": "Cesarz Nilfgaardu",
+            "grigg": "Wioska Grigg",
+            "hood": "Dom babci Czerwonego Kapturka",
+            "joss": "Jóźio",
+            "pigs": "Dom trzech małych świnek\n",
+            "start": "Punkt Startowy",
+            "thumb": "Miasto Calineczki",
+            "tower": "Wieża Długowłosej",
+            "wisp": "Błędny Ognik",
+            "witch": "Chata Wiedźmy"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "girl": "Większość tych rupieci istnieje tylko w Krainie Tysiąca Baśni, i znikną, kiedy Geralt wyjdzie z iluzji, więc najlepiej sprzedać jej dziewczynce z krzemieniami przed opuszczeniem tego obszaru. Możesz również wziąć wstążkę, która jest bardzo ważna dla głównego zadania"
+        },
+        "popup": {
+            "girl": "Mała dziewczynka z Krzemieniami"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "duck": ""
+        }
+    },
+    "treasure": {
+        "popup": {
+            "knight": "Martwy rycerz",
+            "pot": "Garnek złota"
+        }
+    }
+}

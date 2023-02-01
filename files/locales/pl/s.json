@@ -1,0 +1,271 @@
+{
+    "alchemy": {
+        "gremist": "Gremist"
+    },
+    "contracts": {
+        "desc": {
+            "beast": "",
+            "dragon": "",
+            "eldberg": "",
+            "groom": "",
+            "heart": "",
+            "miners": "",
+            "missing": "",
+            "muire": "",
+            "wanted": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "children2": "",
+            "farting": "",
+            "hemdall": "",
+            "siren": "",
+            "wild": "",
+            "woe": "",
+            "yustianna": ""
+        }
+    },
+    "gwentquest": {
+        "players": {
+            "crach": "Crach an Craite",
+            "ermion": "Myszowór",
+            "lugos": "Lugos Szalony",
+            "sjusta": "Sjusta"
+        }
+    },
+    "innkeep": {
+        "desc": {
+            "foodAndDrink": "Sprzedaje żywność i napoje. ",
+            "foodDrinkAndGwent": "Sprzedaje karty do gwinta, żywność i napoje. "
+        },
+        "inns": {
+            "arinbjornInn": "Karczma w Arinbjorn",
+            "harvikenInn": "Karczma w Harviken",
+            "houseOfWarriors": "Dom Wojowników",
+            "svorlagInn": "Karczma w Svorlag",
+            "theNewPort": "Nowy Port",
+            "uriallaHarbourInn": "Karczma w Urialli"
+        }
+    },
+    "misc": {
+        "liberated": "Ten kupiec pojawia się po wyzwolenie obszaru. "
+    },
+    "poi": {
+        "desc": {
+            "birna": "Dowiedz się, czy jesteś po stronie Cerys podczas zadania drugorzędnego '__quest__'. ",
+            "dowry": "Przedmiot zadania '__quest__'. ",
+            "gship": "Zazwyczaj pojawia się to zaraz po 1 godzinie na krótki czas. ",
+            "poem": "Zwłoki z wierszem zawierającym zagadkę. "
+        },
+        "label": {
+            "birna": "Birna Bran",
+            "dowry": "Dowryk czasowy",
+            "gship": "Statek Widmo",
+            "poem": "Wiersz Zagadka"
+        },
+        "popupTitle": {
+            "birna": "Birna Bran",
+            "dowry": "Dowryk czasowy",
+            "gship": "Statek Widmo",
+            "poem": "Wiersz Zagadka"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "barber": "Jest również balwierzem",
+            "clothesAndCraftingSupplies": "Sprzedaje ubrania i składniki rzemieślnicze. ",
+            "craftingSuppliesAndFish": "Sprzedaje składniki rzemieślnicze i ryby",
+            "mapsCraftingSupplies": "Sprzedaje mapy i składniki rzemieślnicze",
+            "mapsCraftingSuppliesFishAndSaddles": "Sprzedaje mapy, materiały do wytwarzania przedmiotów, ryby oraz \"Mistrzowskie Kawaleryjskie Siodło\" (+75)",
+            "mapsCraftingSuppliesFoodAndDrink": "Sprzedaje mapy, składniki rzemieślnicze, jedzenie i napoje"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "arena": "",
+            "assault": "",
+            "beloved": "",
+            "blade": "",
+            "brave": "",
+            "clothing": "",
+            "coronation": "",
+            "disturbed": "",
+            "dreams": "",
+            "ff_champion": "",
+            "ff_skellige": "",
+            "flesh": "",
+            "fromfar1": "",
+            "gambit": "",
+            "glory": "",
+            "grossbart": "",
+            "gw_sk": "",
+            "hardtimes": "",
+            "horn": "",
+            "keepers": "",
+            "last": "",
+            "maiden": "",
+            "nithing": "",
+            "nowheres": "",
+            "passenger": "",
+            "possession": "",
+            "practicum": "",
+            "price": "",
+            "ps_fa": "",
+            "ps_fy": "",
+            "ps_sg": "",
+            "ps_sk": "",
+            "punishment1": "",
+            "punishment2": "",
+            "sawmill": "",
+            "spirit": "",
+            "stranger": "",
+            "taken1": "",
+            "taken2": "",
+            "therapy": "",
+            "tr_dare": "",
+            "tr_depths": "",
+            "tr_fortune": "",
+            "tr_inheritance": "",
+            "tr_ironsides": "",
+            "tr_marks": "",
+            "tr_nilf": "",
+            "tr_pearls": "",
+            "tr_praised": "",
+            "tr_precious": "",
+            "tr_ruins": "",
+            "tr_shortcut": "",
+            "tr_unlucky": "",
+            "undvik": "",
+            "unpaid": "",
+            "warriors": "",
+            "worthy1": "",
+            "worthy2": "",
+            "worthy3": ""
+        }
+    },
+    "signpost": {
+        "desc": {
+            "abandonedSawmill": "Choć położony pośrodku puszczy, w idealnym miejscu do wyrębu, dziś tartak jest opuszczony. ",
+            "abandonedVillage": "Mieszkańcy zmuszeni byli opuścić wieś w popłochu, gdy lodowy gigant, który niespodziewanie się przebudził, postanowił pokazać im swoją siłę. ",
+            "ancientCrypt": "Choć Skelligijczycy słyną z odwagi, graniczącej czasem z brawurą, są takie miejsca, od których trzymają się z daleka. To jest jednym z nich. ",
+            "arinbjorn": "Spokojna wieś, w której tylko od czasu do czasu ktoś da komuś po gębie, a ktoś inny rozwali butelkę z winem na głowie kamrata. ",
+            "bayOfWinds": "Trzy pokolenia temu zatoka była popularnym miejscem spotkań okolicznej młodzieży aż do czasu, gdy pewnej nocy rozpętał się straszliwy sztorm, a morze, wdzierając się na plażę, pochłonęło kilka ludzkich istnień. ",
+            "blandare": "Ponieważ wieś Blandare jest położona dość daleko od wybrzeża, jej mieszkańcy to głównie pasterze i górnicy. ",
+            "boxholm": "Niegdyś Boxholm było tętniącą życiem wioską, jednak dziś zarówno z osady, jak i ze znajdującej się nieopodal twierdzy Kaer Nyssen, została już tylko kupa kamieni, gruzu i wspomnień. ",
+            "bridgeToKaerTrolde": "Kamienny most został według legendy wykuty własnoręcznie przez bohatera-założyciela rodu an Craite, Grymmdjarra. ",
+            "clanTordarrochForge": "Słynna kuźnia, w której wykuwano najlepsze narzędzia i broń na Skellige. Kiedy lodowy gigant opanował wyspę, zamienił ją na swoją spiżarnię. ",
+            "crossroads": "Rozstaje dróg na trakcie prowadzącym do Kaer Trolde. ",
+            "distillery": "Owiane mgiełką tajemnicy miejsce produkcji najlepszego bimbru na Skellige. ",
+            "dorveRuins": "Ruiny wsi spustoszonej przez lodowego giganta. ",
+            "druidsCamp": "Obóz założony przez druidów w celach badawczych niedługo po tym, jak pobliski las dotknął magiczny kataklizm. ",
+            "eldbergLighthouse": "Latarnia wybudowana na polecenie jarla Skjordala, by oświetlała drogę morską do Arinbjorn.",
+            "elverumLighthouse": "Mieszkający tu niegdyś latarnik był człowiekiem niezwykle ekscentrycznym. Oprócz czuwania latarnią, pisał poezję i tkał kilimy, codziennie w południe nago obiegał latarnię dookoła, wykrzykując frazę \"w zdrowym ciele, zdrowy duch\", a na śniadanie jadał wyłącznie pieczone rybie ogony. ",
+            "fayrlund": "Wioska, choć niewielka, słynie z najlepszych myśliwych na Skellige.",
+            "fornhala": "Tajemnicza, opuszczona wieś.",
+            "freyasGarden": "Ogród poświęcony bogini Freyji, dawniej piękny i kwitnący tysiącami pachnących ziół i kwiatów, dziś - opuszczony i zaniedbany.",
+            "fyresdal": "Mieszkający tu ludzie mają twardą skórę, ale miękkie serca.",
+            "gedyneith": "Święty dąb Skelligijczyków, czczony zarówno przez druidów, jak wyznawców Freyji. Odbywają się tu wszystkie najważniejsze uroczystości, w tym śluby, pogrzeby i koronacje władców. ",
+            "giantsToes": "Choć ta niezwykła formacja skalna zapewne została ukształtowana przez wodę i wiatr, miejscowi wierzą, że to zamienieni w kamień giganci, którzy sprzeciwiwszy się woli Uroborosa, zostali w ten sposób ukarani za bunt i nieposłuszeństwo.",
+            "grotto": "Odosobnione miejsce, do którego dostać się można właściwie wyłącznie za pomocą łodzi.",
+            "gullPoint": "Morskie ptactwo z okolicy zbiera się na tym skrawku nieprzyjaznej ziemi, by odbyć gody i złożyć jaja.",
+            "harviken": "Siedziba klanu Dimun, w której Holger Czarna Ręka zwykł dzielić zdobycze po każdej z łupieżczych wypraw.",
+            "holmsteinsPort": "Przystań i doki przy wiosce Holmstein, główny port klanu Drummond.",
+            "hov": "Wieś znana na całym Skellige z powodu owianej sławą areny, na której niegdyś odbywały się starcia najlepszych wojowników na Wyspach.",
+            "isolatedHut": "Jakiś czas temu mieszkała tu ponoć pewna zielarka, która przybyła tu z Kontynentu. Nie mogąc sobie znaleźć miejsca w żadnej z wiosek, zamieszkała w samotnej chacie na wybrzeżu, gdzie czasem odwiedzali ją ludzie potrzebujący magicznych maści lub opatrunków.",
+            "kaerAlmhult": "W zamyśle zbudowana przed wiekami jako twierdza dla królów Skellige. W praktyce okazało się jednak, że kolejni władcy preferowali swoje własne siedziby klanowe i Kaer Almhult stało nieużywane. Z czasem podjęto decyzję, by zrobić tu więzienie, dziś jednak twierdza stoi zrujnowana.",
+            "kaerGelen": "Ruiny starego fortu przyciągają tych, których zwykli ludzie nie chcieliby spotkać na swojej drodze.",
+            "kaerMuire": "Twierdza od wiek wieków będąca w posiadaniu klanu Drummond i stanowiąca jego rodową siedzibę, lata świetności ma już za sobą.",
+            "KaerTroldeHarbor": "Jeden z najbardziej ruchliwych portów na Skellige. Wymienia się tu towary ze wszystkich stron świata.",
+            "larvik": "Największa wioska na Hindarsfjall, siedziba głowy rodu, Donara an Hindar. Jej mieszkańcy to ludzie prawi i bogobojni, oddani Freyji tradycjonaliści.",
+            "lofoten": "Niegdyś bogata i kwitnąca życiem, dziś wieś Lofoten to tylko ruiny i zgliszcza.",
+            "lofotenCemetery": "Mieszkańcy Lofoten często przychodzą na niewielki cmentarz, by odwiedzić groby bliskich zmarłych i prosić Freyję o szczęście po śmierci.",
+            "lurthen": "Najsłynniejszym mieszkańcem Lurthen był niejaki Peter Pijus, znany z tego, że potrafił wypić na raz beczkę miodu i ciągle stać. ",
+            "marlinCoast": "Jeszcze do niedawna do tych plaż przybijali rybacy, którzy w okolicznych wodach zajmowali się połowem merlinów. ",
+            "minersCamp": "Niewielki obóz miejscowych górników, baza wypadowa na czas poszukiwań złota w północnych górach.",
+            "oldWatchtower": "Ruiny starej strażnicy, w której ponoć kiedyś zamknęła się jakaś zbzikowana kovirska księżniczka przekonana, że może wyjść tylko za tego, kto uwolni ją z wieży. Chętnych nie było, księżniczka umarła ze starości, a wieża z czasem się rozpadła. ",
+            "palisade": "Pozostałości starej palisady, wyznaczającej granicę między terytoriami klanów Drummond i an Craite. ",
+            "rannvaig": "Piętnaście lat temu jeden z rybaków z Rannvaig złowił gigantycznego halibuta i od tamtej pory wszyscy mieszkańcy okolicznych wiosek próbują pobić jego rekord. ",
+            "redgill": "Mieszkańcy porzucili wioskę w popłochu, gdy pobliski las dotknął tajemniczy, magiczny kataklizm. ",
+            "rogne": "Tę górską osadę zamieszkują twardzi ludzie o niezłomnych charakterach. ",
+            "ruinedInn": "Zrujnowana i spalona tawerna podejmowała kiedyś miejscowych i wędrowców najlepszą pieczoną jagnięciną w okolicy. ",
+            "sund": "Niewielka wioska zamieszkiwana głównie przez pasterzy. ",
+            "svorlag": "Wieś została założona przez mitycznego Sove, który w tym miejscu zabił przerażającą i krwiożerczą chimerę. ",
+            "thePaliGapCoast": "Starsi powiadają, że mieściła się tu samotnia jednego z najsłynniejszych bardów (przed Jaskrem) od Nazairu po Góry Smocze, wielkiego Xirdneha z Zangwebaru. ",
+            "torGvalchca": "Starożytna wieża, która pamięta jeszcze czasy, gdy na tych ziemiach niepodzielnie władzę sprawowały elfy. ",
+            "trailToYngvarsFang": "W tym miejscu rozpoczyna się górski szlak na Kieł Yngvara, dumę i chlubę An Skellig. ",
+            "trottheim": "Wieś słynęła niegdyś na całe Skellige, ponieważ przez długie lata mieszkały tam wyłącznie kobiety, bo wszyscy mężczyźni zginęli na jednej z łupieżczych wypraw. ",
+            "uriallaHarbor": "Tutejsi szkutnicy ze względu na swój kunszt i niezwykłą skrupulatność uważani są za najlepszych fachowców na Skellige. ",
+            "urskar": "Mieszkańcy wioski znani byli ze swego zamiłowania do marynowanych śledzi. Jedli je na śniadanie, obiad i kolację, robili z nich nawet dżemy i kompoty. ",
+            "whaleGraveyard": "Mieszkańcy wyspy często przychodzą w to miejsce, by zbierać kości, które wykorzystują do budowy chat. ",
+            "wildShore": "Dzikie i niezagospodarowane wybrzeże wyspy, ulubione miejsce bandytów i zakochanych. ",
+            "yngvarsFang": "Szczyt górski został nazwany na cześć mitycznego niedźwiedzia, którego według legend pokonał bohater-założyciel rodu Tuirseach, nieustraszony wojownik Tyr. ",
+            "yustiannasGrotto": "Yustianna była piratką, znaną od Kontynentu aż po Ofir i Zangwebar, córką Skelligijczyka z rodu an Craite i zamorskiej branki. Znana z umiejętności nawigacyjnych i wyśmienitego władania orężem, szybko stała się postrachem Wielkiego Morza, a gdy wracała na Skellige, podobno to właśnie w tej jaskini chowała zrabowane skarby. "
+        },
+        "label": {
+            "abandonedSawmill": "Opuszczony tartak",
+            "abandonedVillage": "Opuszczona wioska",
+            "ancientCrypt": "Starożytna krypta",
+            "arinbjorn": "Wieś Arinbjorn",
+            "bayOfWinds": "Zatoka wiatrów",
+            "blandare": "Wieś Blandare",
+            "boxholm": "Boxholm",
+            "bridgeToKaerTrolde": "Most do Kaer Trolde",
+            "clanTordarrochForge": "Kuźnia klanu Tordarroh",
+            "crossroads": "Rozstaje",
+            "distillery": "Gorzelnia",
+            "dorveRuins": "Ruiny Dorve",
+            "druidsCamp": "Obóz Druidów",
+            "eldbergLighthouse": "Latarnia Eldberg",
+            "elverumLighthouse": "Latarnia Elverum",
+            "fayrlund": "Fayrlund",
+            "fornhala": "Wieś Fornhala",
+            "freyasGarden": "Ogród Freyji",
+            "fyresdal": "Fyresdal",
+            "gedyneith": "Dąb Gedyneith",
+            "giantsToes": "Stopy Giganta",
+            "grotto": "Grota",
+            "gullPoint": "Mewi Cypel",
+            "harviken": "Wieś Harviken",
+            "holmsteinsPort": "Port w Holmstein",
+            "hov": "Wieś Hov",
+            "isolatedHut": "Chata na uboczu",
+            "kaerAlmhult": "Kaer Almhult",
+            "kaerGelen": "Kaer Gelen",
+            "kaerMuire": "Kaer Muire",
+            "KaerTroldeHarbor": "Port w Kaer Trolden",
+            "larvik": "Wieś Larvik",
+            "lofoten": "Lofoten",
+            "lofotenCemetery": "Cmentarz w Lofoten",
+            "lurthen": "Wieś Lurthen",
+            "marlinCoast": "Wybrzeże merlinów",
+            "minersCamp": "Obóz górników",
+            "oldWatchtower": "Stara wieża strażnicza",
+            "palisade": "Palisada",
+            "rannvaig": "Rannvaig",
+            "redgill": "Osada Redgill",
+            "rogne": "Wieś Rogne",
+            "ruinedInn": "Ruiny karczmy",
+            "sund": "Wieś Sund",
+            "svorlag": "Wieś Svorlag",
+            "thePaliGapCoast": "Wybrzeże Pali Gap",
+            "torGvalchca": "Tor Gvalch'ca",
+            "trailToYngvarsFang": "Szlak na Kieł Yngvara",
+            "trottheim": "Wieś Trottheim",
+            "uriallaHarbor": "Przystań w Urialli",
+            "urskar": "Urskar",
+            "whaleGraveyard": "Cmentarz wielorybów",
+            "wildShore": "Dziki Brzeg",
+            "yngvarsFang": "Kieł Yngvara",
+            "yustiannasGrotto": "Grota Yustianny"
+        }
+    },
+    "treasure": {
+        "desc": {
+            "solution": "Skarb odnotowany przez wiersz \"Zagadka. "
+        },
+        "label": {
+            "solution": ""
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "contracts": {
+        "desc": {
+            "devil": ""
+        }
+    },
+    "event": {
+        "desc": {
+            "dwarves": "",
+            "tomira": " "
+        }
+    },
+    "innkeep": {
+        "inns": {
+            "whiteOrchardInn": "Ak Bostan Hanı"
+        }
+    },
+    "poi": {
+        "desc": {
+            "boss": "Burada 3 kez arka arkaya 6 ineği öldürürseniz, 27 seviye Chort ortaya çıkar ve size saldırır; Dikkat! Chort'u öldürdüğünde, yenileri gelmeye devam eder. ",
+            "crystalSkull": "Yennifer ile '__quest__' görevinde yeni bir diyalog açar. ",
+			"diary": "'__quest__' görevi sırasında alınırsa görev sonrasında Tomira ile konuşularak ek kazanç elde edilebilir. "
+        },
+        "label": {
+            "boss": "Gizli Boss (Chort)",
+            "crystalSkull": "Kristal Kafatası",
+			"diary": "Sararmış Günce"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "gwentCraftingAndHorse": "Gwent kartları, işlenebilir malzemeler, ve temerya: gözlüğü, eyer, heybesi, zırhı satılmaktadır"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "death": " ",
+            "faith": " ",
+            "fry": " ",
+            "gw_collect": "",
+            "missing": " ",
+            "precious": " ",
+            "tr_deserter": " ",
+            "tr_dirty": " ",
+            "tr_temerian": "",
+            "twist": " "
+        }
+    },
+    "signpost": {
+        "desc": {
+            "abandonedVillage": "Birkaç yıl önce silahlı bir grup bu yerleşkeye saldırdı. Sakinlerini katledip evlerini yaktı. O karanlık ve kanlı günden beri tek bir ruh bile burada yaşamıyor. ",
+            "brokenBridge": "Bu köprü Nilfgaardlı saldırısı sırasında geri çekilen Temeryalı birlikler tarafından yıkıldı. Zaten sallanıyordu. İyi ki yıkıldı. ",
+            "cacklerBridge": "Köprü karşılıksız aşktan ötürü deliren bir kadının şerefine adlandırılmış. Reddedildikten sonra, ölene dek köprüde bir aşağı bir yukarı koşup histerik biçimde gülerek günlerini geçirmiş. ",
+            "crossroads": "Yol burada ikiye ayrılıyor: Biri Vizima'ya diğeri Novigrad'a gider. ",
+            "ford": "Savaştan önce tüccarlar ve yolcular nehri buradan geçerdi. Şimdi sadece Nilfgaardlı askerler kullanıyor. ",
+            "mill": "Arabalar çevredeki bütün köylerden Ak Bostan'ın değirmenine tahıl taşır. ",
+            "nilfgaardianGarrison": "Bu stratejik nokta Ak Bostan'ın nehir geçişini koruyor. Nilfgaardlı birlikler ele geçirmiş. ",
+            "ransackedVillage": "Bir grup asker sabahın erken saatlerinde bu köye saldırdı. Birçok köylüyü yataklarında katletti. Ormana zamanında kaçabilen şanslı küçük bir grup köylünün ise geri dönmek için hiçbir şeyi yoktu. ",
+            "sawmill": "White Orchard sadece yüksek kalite meyveleri için değil, aynı zamanda Vulpine Ormanı'ndan gelen birinci sınıf kereste için de ünlüdür. ",
+            "woesongBridge": "Köprüde duran ve şarkı söyleyen, sevdiği kişinin geri gelmesini bekleyen bir kız yüzünden böyle adlandırılmıştır. "
+        },
+        "label": {
+            "abandonedVillage": "Terk Edilmiş Köy",
+            "brokenBridge": "Çökmüş Köprüsü",
+            "cacklerBridge": "Kıkırdayan Köprüsü",
+            "crossroads": "Kavşak",
+            "ford": "Nehir Geçidi",
+            "mill": "Değirmen",
+            "nilfgaardianGarrison": "Nilfgaardlı Garnizonu",
+            "ransackedVillage": "Yağmalanmış Köy",
+            "sawmill": "Bıçkıhane",
+            "woesongBridge": "Kederli Şarkı Köprüsü"
+        }
+    }
+}

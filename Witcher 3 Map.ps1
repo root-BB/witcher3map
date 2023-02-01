@@ -1,1 +1,0 @@
-start-process -FilePath "$PSScriptRoot\Assets\FirefoxPortableLegacy\FirefoxPortable.exe" -ArgumentList "-file `"$PSScriptRoot`\Dist\index.html`""

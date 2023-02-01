@@ -1,0 +1,62 @@
+{
+    "gwent": {
+        "popup": {
+            "girl": "小火石女孩 - 昆特玩家"
+        }
+    },
+    "poi": {
+        "desc": {
+            "balbina": "",
+            "blaviken": "",
+            "camp": "",
+            "den": "",
+            "dragon": "",
+            "emperor": "",
+            "grigg": "",
+            "hood": "",
+            "joss": "",
+            "pigs": "",
+            "start": "",
+            "thumb": "",
+            "tower": "",
+            "wisp": "",
+            "witch": ""
+        },
+        "label": {
+            "balbina": "巴爾比娜的小屋",
+            "blaviken": "布拉維肯的音樂家",
+            "camp": "紅鬍子營地",
+            "den": "三隻熊窩",
+            "dragon": "死亡維吉瑪龍",
+            "emperor": "尼弗迦德皇帝",
+            "grigg": "格里格村",
+            "hood": "小紅帽外婆家",
+            "joss": "喬斯",
+            "pigs": "三隻小豬之家",
+            "start": "起點",
+            "thumb": "拇指姑娘鎮",
+            "tower": "長鎖塔",
+            "wisp": "鬼火",
+            "witch": "邪惡女巫的小屋"
+        }
+    },
+    "shopkeeper": {
+        "desc": {
+            "girl": "這些垃圾物品大多只存在於千言萬語之地，因此在傑洛特離開幻境時就會消失，所以最好在離開該地區之前將它們賣給小火石女孩。你也可以拿走對主線任務很重要的絲帶。"
+        },
+        "popup": {
+            "girl": "小火石女孩"
+        }
+    },
+    "sidequests": {
+        "desc": {
+            "duck": ""
+        }
+    },
+    "treasure": {
+        "popup": {
+            "knight": "死亡騎士",
+            "pot": "金罐"
+        }
+    }
+}
