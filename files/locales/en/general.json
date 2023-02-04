@@ -735,7 +735,30 @@
             "ww_consorting": "Consorting",
             "ww_coronata": "Coronata",
             "ww_deus": "Deus in Machina",
-            "ww_vermentino": "Vermentino"
+            "ww_vermentino": "Vermentino",
+			"scavenger": {
+				"quest": "Scavenger Hunt: ",
+				"name": {
+					"fel": "Cat School Gear Upgrade Diagrams ",
+					"gri": "Griffin School Gear Upgrade Diagrams ",
+					"urs": "Bear School Gear Upgrade Diagrams ",
+					"wol": "Wolf School Gear Upgrade Diagrams ",
+					"fwol": "Forgotten Wolf School Gear Diagrams "
+				},
+				"part": {
+					"I": "- Part 1",
+					"II": "- Part 2",
+					"III": "- Part 3",
+					"IV": "- Part 4"
+				},
+				"desc": {
+					"fel": "",
+					"gri": "",
+					"urs": "",
+					"wol": "",
+					"fwol": ""
+				}
+			}
         }
     },
     "signs": {

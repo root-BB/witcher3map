@@ -19,12 +19,12 @@
         "desc": {
             "boss": "Pokud zde třikrát za sebou zabiješ 6 krav, objeví se čert 27. úrovně a zaútočí na tebe, tak dávej pozor! Když ho zabiješ, budou se objevovat další. ",
             "crystalSkull": "Jejím sebráním si zpřístupníš nový dialog s Yennefer během úkolu „__quest__“. ",
-			"diary": "Pokud obdržíte během úkolu „__quest__“, další výdělky můžete získat rozhovorem s Tomiru po dokončení úkolu. "
+            "diary": "Pokud obdržíte během úkolu „__quest__“, další výdělky můžete získat rozhovorem s Tomiru po dokončení úkolu. "
         },
         "label": {
             "boss": "Tajný boss (Čert)",
             "crystalSkull": "Křišťálová lebka",
-			"diary": "Zažloutlý deník"
+            "diary": "Zažloutlý deník"
         }
     },
     "shopkeeper": {
@@ -37,7 +37,6 @@
             "death": "",
             "faith": "",
             "fry": "",
-            "gw_collect": "",
             "missing": "",
             "precious": "",
             "tr_deserter": "",

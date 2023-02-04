@@ -1714,6 +1714,34 @@ window.mapdata_skellige = {
 		coords: [[-56.206,-112.741]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("sidequests.label.tr_ruins"),
 		popup: $.t("s:sidequests.desc.tr_ruins")
+	},{
+		coords: [[2.746,-39.880]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.urs") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.urs")
+	},{
+		coords: [[2.746,-39.680]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.urs") + $.t("sidequests.label.scavenger.part.II"),
+		popup: $.t("sidequests.label.scavenger.desc.urs")
+	},{
+		coords: [[2.746,-39.480]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.urs") + $.t("sidequests.label.scavenger.part.III"),
+		popup: $.t("sidequests.label.scavenger.desc.urs")
+	},{
+		coords: [[2.746,-39.280]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.urs") + $.t("sidequests.label.scavenger.part.IV"),
+		popup: $.t("sidequests.label.scavenger.desc.urs")
+	},{
+		coords: [[2.746,-39.080]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[2.746,-38.880]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.III"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[2.746,-38.680]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.IV"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------

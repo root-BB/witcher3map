@@ -2980,6 +2980,70 @@ window.mapdata_hos_velen = {
 		coords: [[131.234,131.375]],
 		label: $.t("sidequests.label.eternal"),
 		popup: $.t("v:sidequests.desc.eternal")
+	},{
+		coords: [[107.391,55.188]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.fel") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.fel")
+	},{
+		coords: [[106.234,52.656]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.fel") + $.t("sidequests.label.scavenger.part.II"),
+		popup: $.t("sidequests.label.scavenger.desc.fel")
+	},{
+		coords: [[103.969,77.094]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.fel") + $.t("sidequests.label.scavenger.part.III"),
+		popup: $.t("sidequests.label.scavenger.desc.fel")
+	},{
+		coords: [[103.156,109.125]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.fel") + $.t("sidequests.label.scavenger.part.IV"),
+		popup: $.t("sidequests.label.scavenger.desc.fel")
+	},{
+		coords: [[82.156,40.625]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.gri") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.gri")
+	},{
+		coords: [[82.156,40.825]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.gri") + $.t("sidequests.label.scavenger.part.II"),
+		popup: $.t("sidequests.label.scavenger.desc.gri")
+	},{
+		coords: [[208.547,101.063]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.gri") + $.t("sidequests.label.scavenger.part.III"),
+		popup: $.t("sidequests.label.scavenger.desc.gri")
+	},{
+		coords: [[208.547,101.063]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.gri") + $.t("sidequests.label.scavenger.part.III"),
+		popup: $.t("sidequests.label.scavenger.desc.gri")
+	},{
+		coords: [[197.062,99.231]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.gri") + $.t("sidequests.label.scavenger.part.IV"),
+		popup: $.t("sidequests.label.scavenger.desc.gri")
+	},{
+		coords: [[197.062,99.431]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[103.156,109.325]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[208.547,101.263]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.I"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[197.062,99.631]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.II"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[103.156,109.525]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.II"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[208.547,101.463]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.III"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
+	},{
+		coords: [[197.062,99.831]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.IV"),
+		popup: $.t("sidequests.label.scavenger.desc.wol")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------

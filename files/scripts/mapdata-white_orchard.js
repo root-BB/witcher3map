@@ -268,6 +268,10 @@ window.mapdata_white_orchard = {
 		coords: [[-79.155,-94.922]],
 		label: $.t("sidebar.hollow"),
 		popup: $.t("hollow.desc")
+	},{
+		coords: [[-51.234,20.347]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("hollow.desc")
 	}],
 	
 	//------------------------------------------------Honeycomb------------------------------------------------
@@ -814,6 +818,22 @@ window.mapdata_white_orchard = {
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-51.591,-128.145]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[-54.214,-5.449]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[-70.259,0.615]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[-80.043,-87.056]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[-35.782,-159.917]],
 		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},

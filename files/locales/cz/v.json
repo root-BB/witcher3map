@@ -158,17 +158,17 @@
             "acorn": "Lze jej získat z Imlerithova těla. Může být spotřebován pro získání 2 dovednostních bodů nebo rozdán vesničanům na konci mise.",
             "brush": "",
             "doll": "",
-			"latern": "Nový zdroj světla. ",
+            "lantern": "Nový zdroj světla. ",
             "portrait": "",
             "sketchbook": "",
-            "spirits": "Duchové z úkol „__quest__“. ",
-            "qobject": "kolový předmět „__quest__“. "
+            "spirits": "Duchové z úkolu „__quest__“. ",
+            "qobject": "Úkolový předmět „__quest__“. "
         },
         "label": {
             "acorn": "Kouzelný žalud",
             "brush": "Ozdobený štětec",
             "doll": "Panenka",
-			"latern": "Lucerna",
+            "lantern": "Lucerna",
             "portrait": "Portrét Iris a Olgierda",
             "sketchbook": "Irisin skicář",
             "spirits": "Duchové"
@@ -235,7 +235,7 @@
             "en_q": "",
             "en_s": "",
             "entombed": "",
-			"eternal": "Nový vedlejší úkol přidán s aktualizací New-Gen (4.0).",
+            "eternal": "Nový vedlejší úkol který byl přidán v aktualizaci New-Gen (4.0).",
             "eyeforeye": "",
             "fake": "",
             "favor": "",

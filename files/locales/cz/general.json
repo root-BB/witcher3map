@@ -81,7 +81,7 @@
         "cancelNoteButton": "Neukládat",
         "centerMarkerButton": "Přesuň značku doprostřed",
         "credits": "Autoři",
-		"donation": "Darujte kávu...",
+        "donation": "Darujte kávu...",
         "exitFullscreenButton": "Ukončit režim celé obrazovky",
         "helpFeatures": "Vlastnosti a nápověda",
         "hide": "Skrýt vše",
@@ -126,7 +126,7 @@
         "popuptranslations3": "Čeština - __MikeCZ__ a __Lord Mazour__",
         "popuptranslations4": "Tradiční čínská - __YheonYeung__",
         "popuptranslations5": "Polština - __toffi3__, __Umber91310486__ a __Mochal__",
-		"version": "Verze: "
+        "version": "Verze: "
     },
     "entrance": {
         "desc": {
@@ -170,7 +170,7 @@
             "looters3": "Kořistníci III - Zbojníci z Toderasu",
             "mercy1": "Na milost cizinců (1. část)",
             "mercy2": "Na milost cizinců (2. část)",
-			"millie": "Millie's Gift pro Geralta",
+            "millie": "Millie's Gift pro Geralta",
             "naughty": "Zlobivé peří",
             "passage1": "Cena průchodu (1. část)",
             "passage2": "Cena průchodu (2. část)",
@@ -224,11 +224,11 @@
         "desc": "Tajná skrýš plná cenného zboží. ",
         "guarded": "Tajná skrýš plná cenného zboží. "
     },
-	"hollow": {
-        "desc": "Uvnitř prohlubně lze nalézt nějaké zlato. "
+    "hollow": {
+        "desc": "Uvnitř dutiny lze nalézt trochu zlata. "
     },
-	"honeycomb": {
-        "desc": "Plásty se zde dají sbírat pálením a poté za peníze prodat Tomiru. "
+    "honeycomb": {
+        "desc": "Medové plástve zde můžete sbírat pomocí Igni a poté je prodat Tomiře. "
     },
     "home": {
         "resultsFound": "výsledků nalezeno. ",
@@ -282,7 +282,7 @@
         "king": "Král je mrtvý - Ať žije král",
         "ladies": "Dámy ze dřeva",
         "lilac": "Šeřík a angrešt",
-        "marriage": "Scény z manželství",
+        "marriage": "Výjevy ze života manželského",
         "missing": "Pohřešované osoby",
         "mists": "Isle of Mists",
         "morhen": "Kaer Morhen",
@@ -347,14 +347,14 @@
         "portraitWarn": "Pozn.: mapu je lepší prohlížet na šířku",
         "treasure": "Honba za pokladem",
         "underground": "podzemí",
-		"logo": "<img src='files/images/logo/logo_cz.png' class='center'>",
-		"logo_min": "<img src='../files/images/logo/logo_cz_min.png' class='center'>"
+        "logo": "<img src='files/images/logo/logo_cz.png' class='center'>",
+        "logo_min": "<img src='../files/images/logo/logo_cz_min.png' class='center'>"
     },
     "monsterden": {
         "desc": "Místo zamořené příšerami. Neustálá starost pro ty, kteří žijí poblíž.. "
     },
     "monsternest": {
-        "desc": "Zničte hnízda monster pomocí bomb Grapeshot nebo Dancing Star. "
+        "desc": "Zničte hnízda monster pomocí bomb Úl nebo Tančící hvězda."
     },
     "notes": {
         "deleteNote": "Smazat poznámku",
@@ -412,7 +412,7 @@
             "ser": "Zmijí ",
             "urs": "Medvědí ",
             "wol": "Vlka ",
-			"fwol": "Zapomenuté Vlka "
+            "fwol": "Zapomenuté Vlčí "
         }
     },
     "shopkeeper": {
@@ -453,8 +453,8 @@
         "harbor": "Přístav",
         "herbalist": "Bylinkář",
         "hidden": "Ukrytý poklad",
-        "hollow": "Dutý poklad",
-        "honeycomb": "Voštinový",
+        "hollow": "Poklad v dutině",
+        "honeycomb": "Medová plástev",
         "innkeep": "Hospodský",
         "kid": "Bludný rytíř v nesnázích",
         "monsterden": "Doupě příšer",
@@ -507,7 +507,7 @@
             "brnovigrad": "Bratři ve zbrani: Novigrad",
             "brvelen": "Bratři ve zbrani: Velen",
             "cabaret": "Kabaret",
-            "cat": "Kde si hrají kočka a vlk...",
+            "cat": "Kde si hraje kočka s vlkem...",
             "ciri": "Ciriin pokoj",
             "city1": "Nesvobodné město novigradské (zbojníci)",
             "city2": "Nesvobodné město novigradské (Lussi, Fritz, Wallter)",
@@ -532,7 +532,7 @@
             "en_q": "Za kvalitu se platí",
             "en_s": "Počáteční náklady",
             "entombed": "Svitek v hrobce",
-			"eternal": "Ve stínu věčného ohně",
+            "eternal": "Ve stínu věčného ohně",
             "eyeforeye": "Oko za oko",
             "facethestrage": "Proměna",
             "faith": "Věrný přítel",
@@ -735,7 +735,30 @@
             "ww_consorting": "Usmíření",
             "ww_coronata": "Coronata",
             "ww_deus": "Bůh ve stroji",
-            "ww_vermentino": "Vermentino"
+            "ww_vermentino": "Vermentino",
+			"scavenger": {
+				"quest": "Sběračská výzva: ",
+				"name": {
+					"fel": "Vlyepšení školy Kočky ",
+					"gri": "Vlyepšení školy Gryfa ",
+					"urs": "Vlyepšení školy Medvěda ",
+					"wol": "Vlyepšení školy Vlka ",
+					"fwol": "Zapomenutě nákresy ze školy Vlka "
+				},
+				"part": {
+					"I": "- 1. část",
+					"II": "- 2. část",
+					"III": "- 3. část",
+					"IV": "- 4. část"
+				},
+				"desc": {
+					"fel": "",
+					"gri": "",
+					"urs": "",
+					"wol": "",
+					"fwol": ""
+				}
+			}
         }
     },
     "signs": {

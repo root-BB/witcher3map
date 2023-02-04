@@ -735,7 +735,30 @@
             "ww_consorting": "Birleşme",
             "ww_coronata": "Coronata",
             "ww_deus": "Deus in Machina",
-            "ww_vermentino": "Vermentino"
+            "ww_vermentino": "Vermentino",
+			"scavenger": {
+				"quest": "Ekipman Avı: ",
+				"name": {
+					"fel": "Kedi Okulu Teçhizatı Terfi Şemaları ",
+					"gri": "Grifin Okulu Teçhizatı Terfi Şemaları ",
+					"urs": "Ayı Okulu Teçhizatı Terfi Şemaları ",
+					"wol": "Kurt Okulu Teçhizatı Terfi Şemaları ",
+					"fwol": "Unutulmuş Kurt Okulu Teçhizatı Şemaları "
+				},
+				"part": {
+					"I": "- 1. Kısım",
+					"II": "- 2. Kısım",
+					"III": "- 3. Kısım",
+					"IV": "- 4. Kısım"
+				},
+				"desc": {
+					"fel": "",
+					"gri": "",
+					"urs": "",
+					"wol": "",
+					"fwol": ""
+				}
+			}
         }
     },
     "signs": {

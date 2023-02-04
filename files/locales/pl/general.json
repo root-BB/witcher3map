@@ -170,7 +170,7 @@
             "looters3": "Szabrownicy III - Bandyci z Toderas",
             "mercy1": "Na Łasce Obcych (Część 1)",
             "mercy2": "Na Łasce Obcych (Część 2)",
-			"millie": "Prezent Millie dla Geralta",
+            "millie": "Prezent Millie dla Geralta",
             "naughty": "Świąteczne Pióra",
             "passage1": "Cena Przejścia (Część 1)",
             "passage2": "Cena Przejścia (Część 2)",
@@ -224,10 +224,10 @@
         "desc": "Ukryty skarb z wartościowymi przedmiotami. ",
         "guarded": "Ukryty skarb z wartościowymi przedmiotami. "
     },
-	"hollow": {
+    "hollow": {
         "desc": "W zagłębieniu można znaleźć trochę złota. "
     },
-	"honeycomb": {
+    "honeycomb": {
         "desc": "Tutejsze plastry miodu można zebrać przez spalenie, a następnie sprzedać Tomirę za pieniądze. "
     },
     "home": {
@@ -347,8 +347,8 @@
         "portraitWarn": "Uwaga: mapę najlepiej jest oglądać w trybie poziomym, stuknij, aby zamknąć",
         "treasure": "Poszukiwanie skarbu",
         "underground": "Podziemie",
-		"logo": "<img src='files/images/logo/logo_pl.png' class='center'>",
-		"logo_min": "<img src='../files/images/logo/logo_pl_min.png' class='center'>"
+        "logo": "<img src='files/images/logo/logo_pl.png' class='center'>",
+        "logo_min": "<img src='../files/images/logo/logo_pl_min.png' class='center'>"
     },
     "monsterden": {
         "desc": "Miejsce, w którym zalęgły się potwory. Okoliczni mieszkańcy omijają je z daleka. "
@@ -412,7 +412,7 @@
             "ser": "Wężowa Dama ",
             "urs": "niedźwiedzia:",
             "wol": "Wilk ",
-			"fwol": "Zapomniany Wilk "
+            "fwol": "Zapomniany Wilk "
         }
     },
     "shopkeeper": {
@@ -532,7 +532,7 @@
             "en_q": "Zaklinanie: Jakość kosztuje",
             "en_s": "Zaklinanie: Na dobry początek",
             "entombed": "Poszukiwacz zaginionej krypty",
-			"eternal": "W cieniu Wiecznego Ognia",
+            "eternal": "W cieniu Wiecznego Ognia",
             "eyeforeye": "Oko za oko",
             "facethestrage": "Przemiana",
             "faith": "Wierny przyjaciel",
@@ -735,7 +735,30 @@
             "ww_consorting": "Awantura o wino: Konsorcjum",
             "ww_coronata": "Coronata",
             "ww_deus": "Deus Ex Machina",
-            "ww_vermentino": "Vermentino"
+            "ww_vermentino": "Vermentino",
+			"scavenger": {
+				"quest": "Poszukiwania: ",
+				"name": {
+					"fel": "schematy ulepszeń rynsztunku szkoły Kota",
+					"gri": "schematy ulepszeń rynsztunku szkoły Gryfa",
+					"urs": "schematy ulepszeń rynsztunku szkoły Niedźwiedzia",
+					"wol": "schematy ulepszeń rynsztunku szkoły Wilka",
+					"fwol": "schematy ulepszeń zapomniageo rynsztunku szkoły Wilka"
+				},
+				"part": {
+					"I": "- część I",
+					"II": "- część II",
+					"III": "- część III",
+					"IV": "- część IV"
+				},
+				"desc": {
+					"fel": "",
+					"gri": "",
+					"urs": "",
+					"wol": "",
+					"fwol": ""
+				}
+			}
         }
     },
     "signs": {
