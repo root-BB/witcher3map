@@ -328,39 +328,39 @@ window.mapdata_skellige = {
 	contracts: [{
 		coords: [[-55.466,-14.985]],
 		label: $.t("contracts.label.dragon"),
-		popup: $.t("s:contracts.desc.dragon")
+		popup: $.t("contracts.desc.dragon")
 	},{
 		coords: [[32.008,-110.961]],
 		label: $.t("contracts.label.groom"),
-		popup: $.t("s:contracts.desc.groom")
+		popup: $.t("contracts.desc.groom")
 	},{
 		coords: [[-30.467,-1.582]],
 		label: $.t("contracts.label.miners"),
-		popup: $.t("s:contracts.desc.miners")
+		popup: $.t("contracts.desc.miners")
 	},{
 		coords: [[-29.036,-26.433]],
 		label: $.t("contracts.label.missing"),
-		popup: $.t("s:contracts.desc.missing")
+		popup: $.t("contracts.desc.missing")
 	},{
 		coords: [[-6.511,-37.045]],
 		label: $.t("contracts.label.muire"),
-		popup: $.t("s:contracts.desc.muire")
+		popup: $.t("contracts.desc.muire")
 	},{
 		coords: [[-55.912,-14.743]],
 		label: $.t("contracts.label.wanted"),
-		popup: $.t("s:contracts.desc.wanted")
+		popup: $.t("contracts.desc.wanted")
 	},{
 		coords: [[-29.439,98.195]],
 		label: $.t("contracts.label.beast"),
-		popup: $.t("s:contracts.desc.beast")
+		popup: $.t("contracts.desc.beast")
 	},{
 		coords: [[-42.859,-62.644]],
 		label: $.t("contracts.label.eldberg"),
-		popup: $.t("s:contracts.desc.eldberg")
+		popup: $.t("contracts.desc.eldberg")
 	},{
 		coords: [[-38.942,-31.926]],
 		label: $.t("contracts.label.heart"),
-		popup: $.t("s:contracts.desc.heart")
+		popup: $.t("contracts.desc.heart")
 	}],
 
 	//------------------------------------------------Entrance------------------------------------------------
@@ -443,7 +443,7 @@ window.mapdata_skellige = {
 	},{
 		coords: [[-52.389,-42.473]],
 		label: $.t("sidebar.entrance") + '*',
-		popup: $.t("misc.active",{quest: $.t("sidequests.label.gambit")}) + $.t("entrance.desc.entry")
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.gambit")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.mists")}) + $.t("entrance.desc.entry")
 	},{
 		coords: [[-45.722,-30.256]],
 		label: $.t("sidebar.entrance"),
@@ -574,31 +574,31 @@ window.mapdata_skellige = {
 	event: [{
 		coords: [[-43.834,-59.677]],
 		label: $.t("event.label.wild"),
-		popup: $.t("s:event.desc.wild")
+		popup: $.t("event.desc.wild")
 	},{
 		coords: [[-57.064,-49.416]],
 		label: $.t("event.label.farting") + ' (' + $.t("misc.underground") + ')',
-		popup: $.t("s:event.desc.farting") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/-57.017/-49.812\'>"), end: $.t("</a>")})
+		popup: $.t("event.desc.farting") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/-57.017/-49.812\'>"), end: $.t("</a>")})
 	},{
 		coords: [[-43.373,-54.602]],
 		label: $.t("event.label.children2"),
-		popup: $.t("s:event.desc.children2")
+		popup: $.t("event.desc.children2")
 	},{
 		coords: [[-39.554,-53.020]],
 		label: $.t("event.label.siren"),
-		popup: $.t("s:event.desc.siren")
+		popup: $.t("event.desc.siren")
 	},{
 		coords: [[-76.491,63.786]],
 		label: $.t("event.label.hemdall"),
-		popup: $.t("s:event.desc.hemdall")
+		popup: $.t("event.desc.hemdall")
 	},{
 		coords: [[-46.679,-6.899]],
 		label: $.t("event.label.woe"),
-		popup: $.t("s:event.desc.woe")
+		popup: $.t("event.desc.woe")
 	},{
 		coords: [[-2.262,-0.461]],
 		label: $.t("event.label.yustianna") + ' (' + $.t("misc.underground") + ')',
-		popup: $.t("s:event.desc.yustianna") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/-1.801/-1.099\'>"), end: $.t("</a>")})
+		popup: $.t("event.desc.yustianna") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/-1.801/-1.099\'>"), end: $.t("</a>")})
 	}],
 
 	//------------------------------------------------Grindstone------------------------------------------------
@@ -1525,195 +1525,195 @@ window.mapdata_skellige = {
 	sidequests: [{
 		coords: [[-43.548,8.459]],
 		label: $.t("sidequests.label.beloved"),
-		popup: $.t("s:sidequests.desc.beloved")
+		popup: $.t("sidequests.desc.beloved")
 	},{
 		coords: [[-25.621,-67.060]],
 		label: $.t("sidequests.label.horn"),
-		popup: $.t("s:sidequests.desc.horn")
+		popup: $.t("sidequests.desc.horn")
 	},{
 		coords: [[-28.439,101.557]],
-		label: $.t("sidequests.label.passenger"),
-		popup: $.t("s:sidequests.desc.passenger")
+		label: $.t("sidequests.label.passenger") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.storm")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.family")}) + $.t("sidequests.desc.passenger")
 	},{
 		coords: [[-24.507,8.393]],
 		label: $.t("sidequests.label.sawmill"),
-		popup: $.t("s:sidequests.desc.sawmill")
+		popup: $.t("sidequests.desc.sawmill")
 	},{
 		coords: [[-3.272,-35.573]],
-		label: $.t("sidequests.label.unpaid"),
-		popup: $.t("s:sidequests.desc.unpaid")
+		label: $.t("sidequests.label.unpaid") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.stranger") + "', '" + $.t("sidequests.label.dreams")}) + $.t("misc.disappears",{quest: $.t("sidequests.label.gambit")}) + $.t("sidequests.desc.unpaid")
 	},{
 		coords: [[-32.934,-19.907]],
 		label: $.t("sidequests.label.assault"),
-		popup: $.t("s:sidequests.desc.assault")
+		popup: $.t("sidequests.desc.assault")
 	},{
 		coords: [[-46.225,-24.016]],
 		label: $.t("sidequests.label.brave"),
-		popup: $.t("s:sidequests.desc.brave")
+		popup: $.t("sidequests.desc.brave")
 	},{
 		coords: [[1.406,-40.979]],
-		label: $.t("sidequests.label.coronation"),
-		popup: $.t("s:sidequests.desc.coronation")
+		label: $.t("sidequests.label.coronation") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.gambit")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.mists")}) + $.t("sidequests.desc.coronation")
 	},{
 		coords: [[12.854,-15.424]],
 		label: $.t("sidequests.label.punishment1"),
-		popup: $.t("s:sidequests.desc.punishment1")
+		popup: $.t("sidequests.desc.punishment1")
 	},{
 		coords: [[-5.681,-19.423]],
 		label: $.t("sidequests.label.punishment2"),
-		popup: $.t("s:sidequests.desc.punishment2")
+		popup: $.t("sidequests.desc.punishment2")
 	},{
 		coords: [[12.490,12.656]],
 		label: $.t("sidequests.label.keepers"),
-		popup: $.t("s:sidequests.desc.keepers")
+		popup: $.t("sidequests.desc.keepers")
 	},{
 		coords: [[-77.244,71.477]],
 		label: $.t("sidequests.label.flesh"),
-		popup: $.t("s:sidequests.desc.flesh")
+		popup: $.t("misc.disappears",{quest: $.t("sidequests.label.thread")}) + $.t("sidequests.desc.flesh")
 	},{
 		coords: [[-29.401,94.174]],
 		label: $.t("sidequests.label.glory"),
-		popup: $.t("s:sidequests.desc.glory")
+		popup: $.t("sidequests.desc.glory")
 	},{
 		coords: [[34.939,-20.522]],
 		label: $.t("sidequests.label.spirit"),
-		popup: $.t("s:sidequests.desc.spirit")
+		popup: $.t("sidequests.desc.spirit")
 	},{
 		coords: [[-33.229,43.198]],
 		label: $.t("sidequests.label.fromfar1"),
-		popup: $.t("s:sidequests.desc.fromfar1")
+		popup: $.t("sidequests.desc.fromfar1")
 	},{
 		coords: [[-22.187,-8.525]],
 		label: $.t("sidequests.label.hardtimes"),
-		popup: $.t("s:sidequests.desc.hardtimes")
+		popup: $.t("sidequests.desc.hardtimes")
 	},{
 		coords: [[-28.343,100.524]],
 		label: $.t("sidequests.label.clothing"),
-		popup: $.t("s:sidequests.desc.clothing")
+		popup: $.t("sidequests.desc.clothing")
 	},{
 		coords: [[-77.073,57.480]],
 		label: $.t("sidequests.label.maiden"),
-		popup: $.t("s:sidequests.desc.maiden")
+		popup: $.t("sidequests.desc.maiden")
 	},{
 		coords: [[2.174,-41.528]],
-		label: $.t("sidequests.label.gambit"),
-		popup: $.t("s:sidequests.desc.gambit")
+		label: $.t("sidequests.label.gambit") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.possession") + "', '" + $.t("sidequests.label.undvik")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.mists")}) + $.t("sidequests.desc.gambit")
 	},{
 		coords: [[31.015,-100.063]],
 		label: $.t("sidequests.label.arena"),
-		popup: $.t("s:sidequests.desc.arena")
+		popup: $.t("sidequests.desc.arena")
 	},{
 		coords: [[-13.752,-27.509]],
 		label: $.t("sidequests.label.disturbed"),
-		popup: $.t("s:sidequests.desc.disturbed")
+		popup: $.t("sidequests.desc.disturbed")
 	},{
 		coords: [[28.940,-112.565]],
-		label: $.t("sidequests.label.possession"),
-		popup: $.t("s:sidequests.desc.possession")
+		label: $.t("sidequests.label.possession") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.king")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.bpreparations")}) + $.t("sidequests.desc.possession")
 	},{
 		coords: [[-19.787,16.940]],
 		label: $.t("sidequests.label.practicum"),
-		popup: $.t("s:sidequests.desc.practicum")
+		popup: $.t("sidequests.desc.practicum")
 	},{
 		coords: [[-21.759,15.424]],
 		label: $.t("sidequests.label.therapy"),
-		popup: $.t("s:sidequests.desc.therapy")
+		popup: $.t("sidequests.desc.therapy")
 	},{
 		coords: [[-61.100,-37.770]],
-		label: $.t("sidequests.label.stranger"),
-		popup: $.t("s:sidequests.desc.stranger")
+		label: $.t("sidequests.label.stranger") + '*',
+		popup: $.t("misc.active",{quest: $.t("contracts.label.eldberg")}) + $.t("sidequests.desc.stranger")
 	},{
 		coords: [[-45.321,24.916]],
 		label: $.t("sidequests.label.taken1"),
-		popup: $.t("s:sidequests.desc.taken1")
+		popup: $.t("sidequests.desc.taken1")
 	},{
 		coords: [[-20.200,92.834]],
 		label: $.t("sidequests.label.taken2"),
-		popup: $.t("s:sidequests.desc.taken2")
+		popup: $.t("sidequests.desc.taken2")
 	},{
 		coords: [[-69.824,-22.675]],
-		label: $.t("sidequests.label.dreams"),
-		popup: $.t("s:sidequests.desc.dreams")
+		label: $.t("sidequests.label.dreams") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.king")}) + $.t("misc.disappears",{quest: $.t("sidequests.label.gambit")}) + $.t("sidequests.desc.dreams")
 	},{
 		coords: [[-19.373,-12.216]],
 		label: $.t("sidequests.label.blade"),
-		popup: $.t("s:sidequests.desc.blade")
+		popup: $.t("sidequests.desc.blade")
 	},{
 		coords: [[-29.017,100.195]],
-		label: $.t("sidequests.label.last"),
-		popup: $.t("s:sidequests.desc.last")
+		label: $.t("sidequests.label.last") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.storm")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.baby")}) + $.t("sidequests.desc.last")
 	},{
 		coords: [[-56.365,-111.972]],
-		label: $.t("sidequests.label.undvik"),
-		popup: $.t("s:sidequests.desc.undvik")
+		label: $.t("sidequests.label.undvik") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.king")}) + $.t("sidequests.desc.undvik")
 	},{
 		coords: [[-32.249,-22.500]],
 		label: $.t("sidequests.label.nithing"),
-		popup: $.t("s:sidequests.desc.nithing")
+		popup: $.t("sidequests.desc.nithing")
 	},{
 		coords: [[50.485,38.913]],
-		label: $.t("sidequests.label.warriors"),
-		popup: $.t("s:sidequests.desc.warriors")
+		label: $.t("sidequests.label.warriors") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.nowheres")}) + $.t("sidequests.desc.warriors")
 	},{
 		coords: [[52.909,46.736]],
 		label: $.t("sidequests.label.warriors"),
-		popup: $.t("s:sidequests.desc.warriors")
+		popup: $.t("sidequests.desc.warriors")
 	},{
 		coords: [[-76.930,50.185]],
 		label: $.t("sidequests.label.price"),
-		popup: $.t("s:sidequests.desc.price")
+		popup: $.t("sidequests.desc.price")
 	},{
 		coords: [[-30.675,-4.636]],
 		label: $.t("sidequests.label.grossbart"),
-		popup: $.t("s:sidequests.desc.grossbart")
+		popup: $.t("sidequests.desc.grossbart")
 	},{
 		coords: [[50.401,38.430]],
 		label: $.t("sidequests.label.nowheres"),
-		popup: $.t("s:sidequests.desc.nowheres")
+		popup: $.t("sidequests.desc.nowheres")
 	},{
 		coords: [[-7.318,-39.243]],
 		label: $.t("sidequests.label.worthy1"),
-		popup: $.t("s:sidequests.desc.worthy1")
+		popup: $.t("sidequests.desc.worthy1")
 	},{
 		coords: [[-14.859,-32.629]],
 		label: $.t("sidequests.label.worthy2"),
-		popup: $.t("s:sidequests.desc.worthy2")
+		popup: $.t("sidequests.desc.worthy2")
 	},{
 		coords: [[-55.764,-15.535]],
 		label: $.t("sidequests.label.worthy3"),
-		popup: $.t("s:sidequests.desc.worthy3")
+		popup: $.t("sidequests.desc.worthy3")
 	},{
 		coords: [[-32.583,-27.443]],
 		label: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_fa"),
-		popup: $.t("s:sidequests.desc.ps_fa")
+		popup: $.t("sidequests.desc.ps_fa")
 	},{
 		coords: [[-28.767,96.811]],
-		label: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_sg"),
-		popup: $.t("s:sidequests.desc.ps_sg")
+		label: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_sg") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_fy") + "', '" + $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_sk") + "', '" + $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_fa")}) + $.t("sidequests.desc.ps_sg")
 	},{
 		coords: [[-40.946,-4.130]],
 		label: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_fy"),
-		popup: $.t("s:sidequests.desc.ps_fy")
+		popup: $.t("sidequests.desc.ps_fy")
 	},{
 		coords: [[-27.683,-25.751]],
 		label: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_sk"),
-		popup: $.t("s:sidequests.desc.ps_sk")
+		popup: $.t("sidequests.desc.ps_sk")
 	},{
 		coords: [[-6.882,-34.409]],
 		label: $.t("sidequest.gwent") +$.t(": ") +$.t("sidequests.label.gw_sk"),
-		popup: $.t("s:sidequests.desc.gw_sk")
+		popup: $.t("sidequests.desc.gw_sk")
 	},{
 		coords: [[30.996,-99.755]],
-		label: $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_champion"),
-		popup: $.t("s:sidequests.desc.ff_champion")
+		label: $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_champion") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_n") + "', '" + $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_v") + "', '" + $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_skellige")}) + $.t("sidequests.desc.ff_champion")
 	},{
 		coords: [[-6.882,-34.782]],
 		label: $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_skellige"),
-		popup: $.t("s:sidequests.desc.ff_skellige")
+		popup: $.t("sidequests.desc.ff_skellige")
 	},{
 		coords: [[-56.206,-112.741]],
 		label: $.t("treasure.label") +$.t(": ") +$.t("sidequests.label.tr_ruins"),
-		popup: $.t("s:sidequests.desc.tr_ruins")
+		popup: $.t("sidequests.desc.tr_ruins")
 	},{
 		coords: [[2.746,-39.880]],
 		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.urs") + $.t("sidequests.label.scavenger.part.I"),
@@ -1732,15 +1732,11 @@ window.mapdata_skellige = {
 		popup: $.t("sidequests.label.scavenger.desc.urs")
 	},{
 		coords: [[2.746,-39.080]],
-		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.I"),
-		popup: $.t("sidequests.label.scavenger.desc.wol")
-	},{
-		coords: [[2.746,-38.880]],
 		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.III"),
 		popup: $.t("sidequests.label.scavenger.desc.wol")
 	},{
-		coords: [[2.746,-38.680]],
-		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.IV"),
+		coords: [[2.746,-38.880]],
+		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.wol") + $.t("sidequests.label.scavenger.part.VI"),
 		popup: $.t("sidequests.label.scavenger.desc.wol")
 	}],
 

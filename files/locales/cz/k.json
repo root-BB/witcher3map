@@ -15,23 +15,9 @@
             "zoltan": "Zoltan Chivay"
         }
     },
-    "event": {
-        "desc": {
-            "trail": ""
-        }
-    },
     "gwentquest": {
         "players": {
             "lambert": "Lambert"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "bastion": "",
-            "berengar": "",
-            "forge": "",
-            "greenhouse": "",
-            "slayer": ""
         }
     },
     "signpost": {

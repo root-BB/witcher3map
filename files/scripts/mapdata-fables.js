@@ -54,7 +54,7 @@ window.mapdata_fables = {
 		coords: [[2.284,-50.361]],
 		label: $.t("sidebar.gwent"),
 		popupTitle: $.t("f:gwent.popup.girl"),
-		popup: $.t("gwent.desc.player")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("gwent.desc.player")
 	}],
 	
 	//------------------------------------------------Gwent Quest------------------------------------------------
@@ -107,63 +107,63 @@ window.mapdata_fables = {
 	poi: [{
 		coords: [[-2.811,-91.230]],
 		label: $.t("f:poi.label.thumb"),
-		popup: $.t("f:poi.desc.thumb")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.thumb")
 	},{
 		coords: [[-8.928,-106.875]],
 		label: $.t("f:poi.label.pigs"),
-		popup: $.t("f:poi.desc.pigs")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.pigs")
 	},{
 		coords: [[-29.535,-78.574]],
 		label: $.t("f:poi.label.tower"),
-		popup: $.t("f:poi.desc.tower")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.tower")
 	},{
 		coords: [[-45.089,-99.492]],
 		label: $.t("f:poi.label.dragon"),
-		popup: $.t("f:poi.desc.dragon")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.dragon")
 	},{
 		coords: [[-47.989,-114.960]],
 		label: $.t("f:poi.label.balbina"),
-		popup: $.t("f:poi.desc.balbina")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.balbina")
 	},{
 		coords: [[-65.219,-105.292]],
 		label: $.t("f:poi.label.camp"),
-		popup: $.t("f:poi.desc.camp")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.camp")
 	},{
 		coords: [[-63.312,-82.968]],
 		label: $.t("f:poi.label.hood"),
-		popup: $.t("f:poi.desc.hood")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.hood")
 	},{
 		coords: [[-53.540,-79.980]],
 		label: $.t("f:poi.label.blaviken"),
-		popup: $.t("f:poi.desc.blaviken")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.blaviken")
 	},{
 		coords: [[-58.904,-58.710]],
 		label: $.t("f:poi.label.den"),
-		popup: $.t("f:poi.desc.den")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.den")
 	},{
 		coords: [[-45.089,-30.234]],
 		label: $.t("f:poi.label.joss"),
-		popup: $.t("f:poi.desc.joss")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.joss")
 	},{
 		coords: [[-37.439,-55.371]],
 		label: $.t("f:poi.label.wisp"),
-		popup: $.t("f:poi.desc.wisp")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.wisp")
 	},{
 		coords: [[-60.326,-9.667]],
 		label: $.t("f:poi.label.witch"),
-		popup: $.t("f:poi.desc.witch")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.witch")
 	},{
 		coords: [[-61.938,35.156]],
 		label: $.t("f:poi.label.grigg"),
-		popup: $.t("f:poi.desc.grigg")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.grigg")
 	},{
 		coords: [[-69.534,36.562]],
 		label: $.t("f:poi.label.start"),
-		popup: $.t("f:poi.desc.start")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.start")
 	},{
 		coords: [[-31.203,-32.871]],
 		label: $.t("f:poi.label.emperor"),
-		popup: $.t("f:poi.desc.emperor")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.emperor")
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
@@ -174,14 +174,14 @@ window.mapdata_fables = {
 		coords: [[1.581,-52.119]],
 		label: $.t("sidebar.shopkeeper"),
 		popupTitle: $.t("f:shopkeeper.popup.girl"),
-		popup: $.t("f:shopkeeper.desc.girl")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:shopkeeper.desc.girl")
 	}],
 
 	//------------------------------------------------Sidequests------------------------------------------------
 	sidequests: [{
 		coords: [[-1.142,-48.251]],
 		label: $.t("sidequests.label.duck"),
-		popup: $.t("f:sidequests.desc.duck")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("sidequests.desc.duck")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------
@@ -200,11 +200,11 @@ window.mapdata_fables = {
 	treasure: [{
 		coords: [[26.902,-79.101]],
 		label: $.t("treasure.label"),
-		popup: $.t("f:treasure.popup.pot")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:treasure.popup.pot")
 	},{
 		coords: [[-46.558,-70.312]],
 		label: $.t("treasure.label"),
-		popup: $.t("f:treasure.popup.knight")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:treasure.popup.knight")
 	}],
 	
 	//------------------------------------------------Vineyard Infestation------------------------------------------------

@@ -1,15 +1,4 @@
 {
-    "contracts": {
-        "desc": {
-            "devil": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "dwarves": "",
-            "tomira": " "
-        }
-    },
     "innkeep": {
         "inns": {
             "whiteOrchardInn": "Ak Bostan Hanı"
@@ -30,20 +19,6 @@
     "shopkeeper": {
         "desc": {
             "gwentCraftingAndHorse": "Gwent kartları, işlenebilir malzemeler, ve temerya: gözlüğü, eyer, heybesi, zırhı satılmaktadır"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "death": " ",
-            "faith": " ",
-            "fry": " ",
-            "gw_collect": "",
-            "missing": " ",
-            "precious": " ",
-            "tr_deserter": " ",
-            "tr_dirty": " ",
-            "tr_temerian": "",
-            "twist": " "
         }
     },
     "signpost": {

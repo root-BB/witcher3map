@@ -6,21 +6,21 @@
     },
     "poi": {
         "desc": {
-            "balbina": "",
-            "blaviken": "",
-            "camp": "",
-            "den": "",
-            "dragon": "",
-            "emperor": "",
-            "grigg": "",
-            "hood": "",
-            "joss": "",
-            "pigs": "",
-            "start": "",
-            "thumb": "",
-            "tower": "",
-            "wisp": "",
-            "witch": ""
+            "balbina": " ",
+            "blaviken": " ",
+            "camp": " ",
+            "den": " ",
+            "dragon": " ",
+            "emperor": " ",
+            "grigg": " ",
+            "hood": " ",
+            "joss": " ",
+            "pigs": " ",
+            "start": " ",
+            "thumb": " ",
+            "tower": " ",
+            "wisp": " ",
+            "witch": " "
         },
         "label": {
             "balbina": "Гусыня Бальбина",
@@ -50,7 +50,7 @@
     },
     "sidequests": {
         "desc": {
-            "duck": ""
+            "duck": " "
         }
     },
     "treasure": {

@@ -13,24 +13,6 @@
             "Belle": "Dzwony Beauclair"
         }
     },
-    "contracts": {
-        "desc": {
-            "biggamehunter": "",
-            "bonvineblues": "",
-            "coldasice": "",
-            "phantoms": "",
-            "tufo": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "contract": "",
-            "drunked": "",
-            "grave": "",
-            "naughty": "",
-            "ring": ""
-        }
-    },
     "guarded": {
         "desc": {
             "hanse": "Powstanie tylko wtedy, gdy '__location__' '__hanse__' nie został wyczyszczony. "
@@ -47,7 +29,7 @@
             "barrelandbung": "Karczma „Pod Beczką i Szpuntem",
             "pheasantry": "Bażanciara",
             "salamander": "Karczma Pod Srebrna Salamandrą",
-            "winery": "Karczma \"Żmija i Rubin\""
+            "winery": "Karczma \"Żmija i Rubin\" "
         }
     },
     "kid": {
@@ -56,8 +38,8 @@
     },
     "poi": {
         "desc": {
-            "ducal": "",
-            "haremask": "",
+            "ducal": " ",
+            "haremask": " ",
             "hengaidth": "Jest rozproszony w 4 różnych lokalizacjach w oborniku. Jeśli zdecydujesz się szukać Syanny, możesz uzyskać dostęp tylko do jednego z tych miejsc. ",
             "photo": "Jest w tym kierunku, ale poza mapą. Szczegółowy opis: __link1__ kliknij tutaj __link2__. ",
             "reginald": "Staje się aktywny, jeśli Manhood Sir Reginald d'Aubry'a został przywrócony w zadaniu '__quest__'. Każdy dotykający aktywuje bonus na 60 minut, zwany \"Siłą Reginald\", która daje graczowi nieograniczoną zdolność biegu podczas walki. ",
@@ -83,64 +65,6 @@
             "butcher": "Rzeźnik",
             "dye": "Barwny Handlowiec",
             "vintner": "Vintner"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "bf_1": " ",
-            "bf_2": " ",
-            "bf_3": " ",
-            "bf_4": " ",
-            "bf_5": "",
-            "cosplay": " ",
-            "facethestrage": " ",
-            "father": " ",
-            "ff_st": " ",
-            "granite": " ",
-            "grist": " ",
-            "gw_fear": " ",
-            "gw_tournment": " ",
-            "hunger": " ",
-            "jailbird": " ",
-            "kingforhire": " ",
-            "knightstale": " ",
-            "master": " ",
-            "onlyone": " ",
-            "paperchase": " ",
-            "placelikehome": " ",
-            "portait": " ",
-            "prophet": " ",
-            "raging": " ",
-            "sheers": " ",
-            "smittenkight": " ",
-            "tilldeath": " ",
-            "tr_again": " ",
-            "tr_carnarvon": " ",
-            "tr_doh": " ",
-            "tr_eightdays": " ",
-            "tr_enjoytheplay": " ",
-            "tr_escapology": " ",
-            "tr_experiment": " ",
-            "tr_filibert": " ",
-            "tr_gardener": " ",
-            "tr_selina": " ",
-            "tr_spoon": " ",
-            "tr_stink": " ",
-            "tr_stranger": " ",
-            "tr_suffering": " ",
-            "tr_widow": " ",
-            "vc_chuchote": " ",
-            "vc_cleaning": " ",
-            "vc_dun": " ",
-            "vc_griffin": " ",
-            "vc_rivecalme": " ",
-            "vintnercontract": " ",
-            "wildkingdom": " ",
-            "ww_belgaard": " ",
-            "ww_consorting": " ",
-            "ww_coronata": " ",
-            "ww_deus": " ",
-            "ww_vermentino": " "
         }
     },
     "signalfire": {
@@ -206,7 +130,7 @@
             "castelravello": "Winnica Castel Ravello",
             "cemetry": "Cmentarz Mère-Lachaise",
             "chuchotecave": "Jaskinia Szept",
-            "cockatrice": "Karczma „Kuroliszek\"",
+            "cockatrice": "Karczma „Kuroliszek\" ",
             "coopersgate": "Brama Bednarzy",
             "coronatavineyard": "Winnica Coronata",
             "corvobianco": "Winnica Corvo Bianco",

@@ -1,15 +1,4 @@
 {
-    "contracts": {
-        "desc": {
-            "devil": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "dwarves": "",
-            "tomira": ""
-        }
-    },
     "innkeep": {
         "inns": {
             "whiteOrchardInn": "White Orchard Inn"
@@ -30,19 +19,6 @@
     "shopkeeper": {
         "desc": {
             "gwentCraftingAndHorse": "Sells Gwent cards, crafting supplies, and Temerian: blinders, saddle, saddlebags, armour"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "death": "",
-            "faith": "",
-            "fry": "",
-            "missing": "",
-            "precious": "",
-            "tr_deserter": "",
-            "tr_dirty": "",
-            "tr_temerian": "",
-            "twist": ""
         }
     },
     "signpost": {

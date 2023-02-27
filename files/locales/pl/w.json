@@ -1,15 +1,4 @@
 {
-    "contracts": {
-        "desc": {
-            "devil": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "dwarves": "",
-            "tomira": ""
-        }
-    },
     "innkeep": {
         "inns": {
             "whiteOrchardInn": "Karczma w Białym Sadzie"
@@ -30,19 +19,6 @@
     "shopkeeper": {
         "desc": {
             "gwentCraftingAndHorse": "Sprzedaje karty do Gwinta, składniki rzemieślnicze oraz Temerskie: juki, siodło, klapy dla konia oraz pancerz"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "death": "",
-            "faith": "",
-            "fry": "",
-            "missing": "",
-            "precious": "",
-            "tr_deserter": "",
-            "tr_dirty": "",
-            "tr_temerian": "",
-            "twist": ""
         }
     },
     "signpost": {

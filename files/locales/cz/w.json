@@ -1,15 +1,4 @@
 {
-    "contracts": {
-        "desc": {
-            "devil": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "dwarves": "",
-            "tomira": ""
-        }
-    },
     "innkeep": {
         "inns": {
             "whiteOrchardInn": "Bělosadská hospoda"
@@ -30,19 +19,6 @@
     "shopkeeper": {
         "desc": {
             "gwentCraftingAndHorse": "Prodává gwintové karty, řemeslnické zásoby, temerské klapky na oči, sedla, sedlové brašny a zbroj."
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "death": "",
-            "faith": "",
-            "fry": "",
-            "missing": "",
-            "precious": "",
-            "tr_deserter": "",
-            "tr_dirty": "",
-            "tr_temerian": "",
-            "twist": ""
         }
     },
     "signpost": {

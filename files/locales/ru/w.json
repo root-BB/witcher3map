@@ -1,15 +1,4 @@
 {
-    "contracts": {
-        "desc": {
-            "devil": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "dwarves": "",
-            "tomira": ""
-        }
-    },
     "innkeep": {
         "inns": {
             "whiteOrchardInn": "Корчма «Белый Сад»"
@@ -30,20 +19,6 @@
     "shopkeeper": {
         "desc": {
             "gwentCraftingAndHorse": "Продает карты для гвинт, ингредиенты для крафта и Тимерийские: шпоры, седло, седельные сумки, броню"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "death": "",
-            "faith": "",
-            "fry": "",
-            "gw_collect": "",
-            "missing": "",
-            "precious": "",
-            "tr_deserter": "",
-            "tr_dirty": "",
-            "tr_temerian": "",
-            "twist": ""
         }
     },
     "signpost": {

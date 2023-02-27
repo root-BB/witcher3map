@@ -15,23 +15,9 @@
             "zoltan": "Золтан Хивай"
         }
     },
-    "event": {
-        "desc": {
-            "trail": ""
-        }
-    },
     "gwentquest": {
         "players": {
             "lambert": "Ламберт"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "bastion": "",
-            "berengar": "",
-            "forge": "",
-            "greenhouse": "",
-            "slayer": ""
         }
     },
     "signpost": {

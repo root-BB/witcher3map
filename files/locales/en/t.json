@@ -13,24 +13,6 @@
             "Belle": "The Belles of Beauclair"
         }
     },
-    "contracts": {
-        "desc": {
-            "biggamehunter": "",
-            "bonvineblues": "",
-            "coldasice": "",
-            "phantoms": "",
-            "tufo": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "contract": "",
-            "drunked": "",
-            "grave": "",
-            "naughty": "",
-            "ring": ""
-        }
-    },
     "guarded": {
         "desc": {
             "hanse": "It will only spawn if '__location__' '__hanse__' has been cleared. "
@@ -56,8 +38,8 @@
     },
     "poi": {
         "desc": {
-            "ducal": "",
-            "haremask": "",
+            "ducal": " ",
+            "haremask": " ",
 			"hengaidth": "It is scattered in 4 different locations in the dungeon. If you choose to search for Syanna, you can only access one of these locations. ",
             "photo": "It is in this direction but off the map. For detailed description: __link1__ click here __link2__. ",
             "reginald": "It's become active if Sir Reginald d'Aubry's Manhood has been restored in the '__quest__' quest. Each touching activates a buff for 60 minutes, called 'Reginald's Power', that giving the player unlimited run ability while out of combat. ",
@@ -83,64 +65,6 @@
             "butcher": "Butcher",
             "dye": "Dye Merchant",
             "vintner": "Vintner"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "bf_1": " ",
-            "bf_2": " ",
-            "bf_3": " ",
-            "bf_4": " ",
-            "bf_5": "",
-            "cosplay": " ",
-            "facethestrage": " ",
-            "father": " ",
-            "ff_st": " ",
-            "granite": " ",
-            "grist": " ",
-            "gw_fear": " ",
-            "gw_tournment": " ",
-            "hunger": " ",
-            "jailbird": " ",
-            "kingforhire": " ",
-            "knightstale": " ",
-            "master": " ",
-            "onlyone": " ",
-            "paperchase": " ",
-            "placelikehome": " ",
-            "portait": " ",
-            "prophet": " ",
-            "raging": " ",
-            "sheers": " ",
-            "smittenkight": " ",
-            "tilldeath": " ",
-            "tr_again": " ",
-            "tr_carnarvon": " ",
-            "tr_doh": " ",
-            "tr_eightdays": " ",
-            "tr_enjoytheplay": " ",
-            "tr_escapology": " ",
-            "tr_experiment": " ",
-            "tr_filibert": " ",
-            "tr_gardener": " ",
-            "tr_selina": " ",
-            "tr_spoon": " ",
-            "tr_stink": " ",
-            "tr_stranger": " ",
-            "tr_suffering": " ",
-            "tr_widow": " ",
-            "vc_chuchote": " ",
-            "vc_cleaning": " ",
-            "vc_dun": " ",
-            "vc_griffin": " ",
-            "vc_rivecalme": " ",
-            "vintnercontract": " ",
-            "wildkingdom": " ",
-            "ww_belgaard": " ",
-            "ww_consorting": " ",
-            "ww_coronata": " ",
-            "ww_deus": " ",
-            "ww_vermentino": " "
         }
     },
     "signalfire": {

@@ -2,30 +2,6 @@
     "alchemy": {
         "gremist": "Gremist"
     },
-    "contracts": {
-        "desc": {
-            "beast": "",
-            "dragon": "",
-            "eldberg": "",
-            "groom": "",
-            "heart": "",
-            "miners": "",
-            "missing": "",
-            "muire": "",
-            "wanted": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "children2": "",
-            "farting": "",
-            "hemdall": "",
-            "siren": "",
-            "wild": "",
-            "woe": "",
-            "yustianna": ""
-        }
-    },
     "gwentquest": {
         "players": {
             "crach": "Crach an Craite",
@@ -79,69 +55,6 @@
             "mapsCraftingSupplies": "Harita ve el işçiliği malzemeleri satar",
             "mapsCraftingSuppliesFishAndSaddles": "Harita, el işçiliği malzemeleri, balık ve 'Usta İşi Süvari Eğeri'(+75) satar",
             "mapsCraftingSuppliesFoodAndDrink": "Harita, el işçiliği malzemeleri, yiyecek ve içecek satar"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "arena": "",
-            "assault": "",
-            "beloved": "",
-            "blade": "",
-            "brave": "",
-            "clothing": "",
-            "coronation": "",
-            "disturbed": "",
-            "dreams": "",
-            "ff_champion": "",
-            "ff_skellige": "",
-            "flesh": "",
-            "fromfar1": "",
-            "gambit": "",
-            "glory": "",
-            "grossbart": "",
-            "gw_sk": "",
-            "hardtimes": "",
-            "horn": "",
-            "keepers": "",
-            "last": "",
-            "maiden": "",
-            "nithing": "",
-            "nowheres": "",
-            "passenger": "",
-            "possession": "",
-            "practicum": "",
-            "price": "",
-            "ps_fa": "",
-            "ps_fy": "",
-            "ps_sg": "",
-            "ps_sk": "",
-            "punishment1": "",
-            "punishment2": "",
-            "sawmill": "",
-            "spirit": "",
-            "stranger": "",
-            "taken1": "",
-            "taken2": "",
-            "therapy": "",
-            "tr_dare": "",
-            "tr_depths": "",
-            "tr_fortune": "",
-            "tr_inheritance": "",
-            "tr_ironsides": "",
-            "tr_marks": "",
-            "tr_nilf": "",
-            "tr_pearls": "",
-            "tr_praised": "",
-            "tr_precious": "",
-            "tr_ruins": "",
-            "tr_shortcut": "",
-            "tr_unlucky": "",
-            "undvik": "",
-            "unpaid": "",
-            "warriors": "",
-            "worthy1": "",
-            "worthy2": "",
-            "worthy3": ""
         }
     },
     "signpost": {
@@ -266,7 +179,7 @@
             "solution": "Bilmeceli Şiirin belirttiği hazine. "
         },
         "label": {
-            "solution": ""
+            "solution": " "
         }
     }
 }

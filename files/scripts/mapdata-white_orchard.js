@@ -83,7 +83,7 @@ window.mapdata_white_orchard = {
 	contracts: [{
 		coords: [[-67.391,-89.385]],
 		label: $.t("contracts.label.devil"),
-		popup: $.t("w:contracts.desc.devil")
+		popup: $.t("misc.disappears",{quest: $.t("mainquests.label.ice")}) + $.t("contracts.desc.devil")
 	}],
 	
 	//------------------------------------------------Entrance------------------------------------------------
@@ -104,12 +104,12 @@ window.mapdata_white_orchard = {
 	//------------------------------------------------Events------------------------------------------------
 	event: [{
 		coords: [[-65.982,-131.748]],
-		label: $.t("event.label.tomira"),
-		popup: $.t("w:event.desc.tomira")
+		label: $.t("event.label.tomira") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.something")}) + $.t("event.desc.tomira")
 	},{
 		coords: [[-48.283,-126.387]],
-		label: $.t("event.label.dwarves"),
-		popup: $.t("w:event.desc.dwarves")
+		label: $.t("event.label.dwarves") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.something")}) + $.t("event.desc.dwarves")
 	}],
 
 	//------------------------------------------------Grindstone------------------------------------------------
@@ -577,28 +577,28 @@ window.mapdata_white_orchard = {
 	//------------------------------------------------Sidequests------------------------------------------------
 	sidequests: [{
 		coords: [[-60.370,-109.248]],
-		label: $.t("sidequests.label.fry"),
-		popup: $.t("w:sidequests.desc.fry")
+		label: $.t("sidequests.label.fry") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.fry")
 	},{
 		coords: [[-68.768,-88.989]],
-		label: $.t("sidequests.label.twist"),
-		popup: $.t("w:sidequests.desc.twist")
+		label: $.t("sidequests.label.twist") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.twist")
 	},{
 		coords: [[-67.575,-85.034]],
-		label: $.t("sidequests.label.faith"),
-		popup: $.t("w:sidequests.desc.faith")
+		label: $.t("sidequests.label.faith") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.something")}) + $.t("sidequests.desc.faith")
 	},{
 		coords: [[-73.837,-5.053]],
-		label: $.t("sidequests.label.missing"),
-		popup: $.t("w:sidequests.desc.missing")
+		label: $.t("sidequests.label.missing") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.missing")
 	},{
 		coords: [[-66.053,-133.374]],
-		label: $.t("sidequests.label.death"),
-		popup: $.t("w:sidequests.desc.death")
+		label: $.t("sidequests.label.death1") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.death1")
 	},{
 		coords: [[-47.219,-143.261]],
-		label: $.t("sidequests.label.precious"),
-		popup: $.t("w:sidequests.desc.precious")
+		label: $.t("sidequests.label.precious") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.precious")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------

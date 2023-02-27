@@ -296,23 +296,23 @@ window.mapdata_toussaint = {
 	contracts: [{
 		coords: [[74.600,75.000]],
 		label: $.t("contracts.label.biggamehunter"),
-		popup: $.t("t:contracts.desc.biggamehunter")
+		popup: $.t("contracts.desc.biggamehunter")
 	},{
 		coords: [[48.109,62.750]],
-		label: $.t("contracts.label.coldasice"),
-		popup: $.t("t:contracts.desc.coldasice")
+		label: $.t("contracts.label.coldasice") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.smittenkight")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.capture")}) + $.t("contracts.desc.coldasice")
 	},{
 		coords: [[71.719,102.719]],
 		label: $.t("contracts.label.bonvineblues"),
-		popup: $.t("t:contracts.desc.bonvineblues")
+		popup: $.t("contracts.desc.bonvineblues")
 	},{
 		coords: [[64.328,89.797]],
 		label: $.t("contracts.label.tufo"),
-		popup: $.t("t:contracts.desc.tufo")
+		popup: $.t("contracts.desc.tufo")
 	},{
 		coords: [[94.437,93.546]],
 		label: $.t("contracts.label.phantoms"),
-		popup: $.t("t:contracts.desc.phantoms")
+		popup: $.t("contracts.desc.phantoms")
 	}],
 
 	//------------------------------------------------Entrance------------------------------------------------
@@ -497,24 +497,24 @@ window.mapdata_toussaint = {
 	//------------------------------------------------Events------------------------------------------------
 	event: [{
 		coords: [[55.156,68.468]],
-		label: $.t("event.label.contract"),
-		popup: $.t("t:event.desc.contract")
+		label: $.t("event.label.contract") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.cintra")}) + $.t("event.desc.contract")
 	},{
 		coords: [[48.671,65.921]],
-		label: $.t("event.label.grave"),
-		popup: $.t("t:event.desc.grave")
+		label: $.t("event.label.grave") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("sidequests.label.tilldeath")}) + $.t("event.desc.grave")
 	},{
 		coords: [[60.406,56.906]],
-		label: $.t("event.label.naughty"),
-		popup: $.t("t:event.desc.naughty")
+		label: $.t("event.label.naughty") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.humble")}) + $.t("event.desc.naughty",{quest: $.t("sidequests.label.smittenkight")})
 	},{
 		coords: [[54.078,56.969]],
-		label: $.t("event.label.ring"),
-		popup: $.t("t:event.desc.ring")
+		label: $.t("event.label.ring") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.toussaint")}) + $.t("event.desc.ring")
 	},{
 		coords: [[50.750,61.063]],
-		label: $.t("event.label.drunked"),
-		popup: $.t("t:event.desc.drunked")
+		label: $.t("event.label.drunked") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.humble")}) + $.t("event.desc.drunked")
 	}],
 
 	//------------------------------------------------Grindstone------------------------------------------------
@@ -732,12 +732,12 @@ window.mapdata_toussaint = {
 	//------------------------------------------------Gwent Quest------------------------------------------------
 	gwentquest: [{
 		coords: [[74.600,75.500]],
-		label: $.t("sidequest.gwent") + $.t(": ") + $.t("sidequests.label.gw_tournment"),
-		popup: $.t("t:sidequests.desc.gw_tournment")
+		label: $.t("sidequest.gwent") + $.t(": ") + $.t("sidequests.label.gw_tournment") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequest.gwent") + $.t(": ") + $.t("sidequests.label.gw_fear")}) + $.t("sidequests.desc.gw_tournment")
 	},{
 		coords: [[51.359,60.890]],
 		label: $.t("sidequest.gwent") + $.t(": ") + $.t("sidequests.label.gw_fear"),
-		popup: $.t("t:sidequests.desc.gw_fear")
+		popup: $.t("sidequests.desc.gw_fear")
 	},],
 	
 	//------------------------------------------------Hanse Base------------------------------------------------
@@ -1086,7 +1086,7 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[51.906,2.859]],
 		label: $.t("t:poi.label.photo"),
-		popup: $.t("t:poi.desc.photo",{link1: $.t("<a href='https://www.youtube.com/watch?v=YDPY5H7spSU' target='_blank'>"),link2: $.t("</a>")})
+		popup: $.t("poi.desc.easter") + $.t("t:poi.desc.photo",{link1: $.t("<a href='https://www.youtube.com/watch?v=YDPY5H7spSU' target='_blank'>"),link2: $.t("</a>")})
 	},{
 		coords: [[52.063,64.781]],
 		label: $.t("t:poi.label.reginald") + '*',
@@ -1240,155 +1240,159 @@ window.mapdata_toussaint = {
 	sidequests: [{
 		coords: [[52.844,65.000]],
 		label: $.t("sidequests.label.onlyone"),
-		popup: $.t("t:sidequests.desc.onlyone") + $.t(' <a href="https://wiiare.in/witcher3/embodiment-of-the-five-virtues/" target="_blank">[Questhelp]</a>')
+		popup: $.t("sidequests.desc.onlyone") + $.t(' <a href="https://wiiare.in/witcher3/embodiment-of-the-five-virtues/" target="_blank">[Questhelp]</a>')
 	},{
 		coords: [[74.600,77.000]],
 		label: $.t("sidequests.label.wildkingdom"),
-		popup: $.t("t:sidequests.desc.wildkingdom")
+		popup: $.t("sidequests.desc.wildkingdom")
 	},{
 		coords: [[74.600,76.500]],
 		label: $.t("sidequests.label.kingforhire"),
-		popup: $.t("t:sidequests.desc.kingforhire")
+		popup: $.t("sidequests.desc.kingforhire")
 	},{
 		coords: [[52.063,60.797]],
 		label: $.t("sidequests.label.facethestrage"),
-		popup: $.t("t:sidequests.desc.facethestrage")
+		popup: $.t("sidequests.desc.facethestrage")
 	},{
 		coords: [[83.891,55.156]],
 		label: $.t("sidequests.label.knightstale"),
-		popup: $.t("t:sidequests.desc.knightstale")
+		popup: $.t("sidequests.desc.knightstale")
 	},{
 		coords: [[48.094,64.375]],
 		label: $.t("sidequests.label.tilldeath"),
-		popup: $.t("t:sidequests.desc.tilldeath")
+		popup: $.t("sidequests.desc.tilldeath")
 	},{
 		coords: [[50.719,65.875]],
 		label: $.t("sidequests.label.master"),
-		popup: $.t("t:sidequests.desc.master")
+		popup: $.t("sidequests.desc.master")
 	},{
 		coords: [[52.281,65.234]],
 		label: $.t("sidequests.label.granite"),
-		popup: $.t("t:sidequests.desc.granite")
+		popup: $.t("sidequests.desc.granite")
 	},{
 		coords: [[52.844,64.000]],
-		label: $.t("sidequests.label.smittenkight"),
-		popup: $.t("t:sidequests.desc.smittenkight")
+		label: $.t("sidequests.label.smittenkight") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.toussaint")}) + $.t("sidequests.desc.smittenkight")
 	},{
 		coords: [[52.844,64.500]],
 		label: $.t("sidequests.label.placelikehome"),
-		popup: $.t("t:sidequests.desc.placelikehome")
+		popup: $.t("sidequests.desc.placelikehome")
 	},{
 		coords: [[50.453,63.734]],
 		label: $.t("sidequests.label.paperchase"),
-		popup: $.t("t:sidequests.desc.paperchase")
+		popup: $.t("sidequests.desc.paperchase")
 	},{
 		coords: [[51.438,63.797]],
-		label: $.t("sidequests.label.portait"),
-		popup: $.t("t:sidequests.desc.portait")
+		label: $.t("sidequests.label.portait") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.smittenkight")}) + $.t("sidequests.desc.portait")
 	},{
 		coords: [[42.625,89.625]],
 		label: $.t("sidequests.label.cosplay"),
-		popup: $.t("t:sidequests.desc.cosplay")
+		popup: $.t("sidequests.desc.cosplay")
 	},{
 		coords: [[66.500,75.203]],
-		label: $.t("sidequests.label.grist"),
-		popup: $.t("t:sidequests.desc.grist")
+		label: $.t("sidequests.label.grist") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.cage")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.toys")}) + $.t("sidequests.desc.grist")
 	},{
 		coords: [[64.703,43.500]],
 		label: $.t("sidequests.label.father"),
-		popup: $.t("t:sidequests.desc.father")
+		popup: $.t("sidequests.desc.father")
 	},{
 		coords: [[47.156,63.750]],
-		label: $.t("sidequests.label.sheers"),
-		popup: $.t("t:sidequests.desc.sheers")
+		label: $.t("sidequests.label.sheers") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.smittenkight")}) + $.t("sidequests.desc.sheers")
+	},{
+		coords: [[70.468,67.253]],
+		label: $.t("sidequests.label.placelikehome") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.toussaint")}) + $.t("sidequests.desc.placelikehome")
 	},{
 		coords: [[70.468,67.453]],
-		label: $.t("sidequests.label.hunger"),
-		popup: $.t("t:sidequests.desc.hunger")
+		label: $.t("sidequests.label.hunger") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.cage")}) + $.t("sidequests.desc.hunger")
 	},{
 		coords: [[57.796,87.000]],
-		label: $.t("sidequests.label.jailbird"),
-		popup: $.t("t:sidequests.desc.jailbird")
+		label: $.t("sidequests.label.jailbird") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.burlap")}) + $.t("sidequests.desc.jailbird")
 	},{
 		coords: [[98.359,58.593]],
 		label: $.t("sidequests.label.prophet"),
-		popup: $.t("t:sidequests.desc.prophet")
+		popup: $.t("sidequests.desc.prophet")
 	},{
 		coords: [[47.312,63.203]],
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
-		popup: $.t("t:sidequests.desc.ff_st")
+		popup: $.t("sidequests.desc.ff_st")
 	},{
 		coords: [[58.875,65.500]],
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
-		popup: $.t("t:sidequests.desc.ff_st")
+		popup: $.t("sidequests.desc.ff_st")
 	},{
 		coords: [[51.922,67.813]],
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
-		popup: $.t("t:sidequests.desc.ff_st")
+		popup: $.t("sidequests.desc.ff_st")
 	},{
 		coords: [[37.594,97.641]],
-		label: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_spoon"),
-		popup: $.t("t:sidequests.desc.tr_spoon")
+		label: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_spoon") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.cage")}) + $.t("sidequests.desc.tr_spoon")
+	},{
+		coords: [[93.750,65.906]],
+		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_belgaard")}) + $.t("sidequests.desc.ww_coronata")
 	},{
 		coords: [[74.600,76.000]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_belgaard"),
-		popup: $.t("t:sidequests.desc.ww_belgaard")
-	},{
-		coords: [[99.328,79.219]],
-		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_deus"),
-		popup: $.t("t:sidequests.desc.ww_deus")
+		popup: $.t("sidequests.desc.ww_belgaard")
 	},{
 		coords: [[93.734,65.562]],
-		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_consorting"),
-		popup: $.t("t:sidequests.desc.ww_consorting")
+		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_consorting") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_deus")}) + $.t("misc.disappears",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + "', '" + $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino")}) + $.t("sidequests.desc.ww_consorting")
 	},{
-		coords: [[93.750,65.906]],
-		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata"),
-		popup: $.t("t:sidequests.desc.ww_coronata")
+		coords: [[99.328,79.219]],
+		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_deus") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + "', '" + $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino")}) + $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino")}) + $.t("sidequests.desc.ww_deus")
 	},{
 		coords: [[93.750,66.234]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino"),
-		popup: $.t("t:sidequests.desc.ww_vermentino")
+		popup: $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_belgaard")}) + $.t("sidequests.desc.ww_vermentino")
 	},{
 		coords: [[91.094,86.703]],
 		label: $.t("sidequest.vintnercontract") + $.t(": ") + $.t("sidequests.label.vc_dun"),
-		popup: $.t("t:sidequests.desc.vc_dun")
+		popup: $.t("sidequests.desc.vc_dun")
 	},{
 		coords: [[49.047,92.781]],
 		label: $.t("sidequest.vintnercontract") + $.t(": ") + $.t("sidequests.label.vc_cleaning"),
-		popup: $.t("t:sidequests.desc.vc_cleaning")
+		popup: $.t("sidequests.desc.vc_cleaning")
 	},{
 		coords: [[85.563,72.172]],
 		label: $.t("sidequest.vintnercontract") + $.t(": ") + $.t("sidequests.label.vc_rivecalme"),
-		popup: $.t("t:sidequests.desc.vc_rivecalme")
+		popup: $.t("sidequests.desc.vc_rivecalme")
 	},{
 		coords: [[79.640,53.656]],
 		label: $.t("sidequest.vintnercontract") + $.t(": ") + $.t("sidequests.label.vc_chuchote"),
-		popup: $.t("t:sidequests.desc.vc_chuchote")
+		popup: $.t("sidequests.desc.vc_chuchote")
 	},{
 		coords: [[56.265,44.343]],
 		label: $.t("sidequest.vintnercontract") + $.t(": ") + $.t("sidequests.label.vc_griffin"),
-		popup: $.t("t:sidequests.desc.vc_griffin")
+		popup: $.t("sidequests.desc.vc_griffin")
 	},{
 		coords: [[94.609,50.297]],
 		label: $.t("sidequest.bigfeet") + $.t(": ") + $.t("sidequests.label.bf_1"),
-		popup: $.t("t:sidequests.desc.bf_1")
+		popup: $.t("sidequests.desc.bf_1")
 	},{
 		coords: [[92.063,63.344]],
 		label: $.t("sidequest.bigfeet") + $.t(": ") + $.t("sidequests.label.bf_2"),
-		popup: $.t("t:sidequests.desc.bf_2")
+		popup: $.t("sidequests.desc.bf_2")
 	},{
 		coords: [[89.781,56.984]],
 		label: $.t("sidequest.bigfeet") + $.t(": ") + $.t("sidequests.label.bf_3"),
-		popup: $.t("t:sidequests.desc.bf_3")
+		popup: $.t("sidequests.desc.bf_3")
 	},{
 		coords: [[107.750,72.266]],
 		label: $.t("sidequest.bigfeet") + $.t(": ") + $.t("sidequests.label.bf_4"),
-		popup: $.t("t:sidequests.desc.bf_4")
+		popup: $.t("sidequests.desc.bf_4")
 	},{
 		coords: [[101.484,61.531]],
 		label: $.t("sidequest.bigfeet") + $.t(": ") + $.t("sidequests.label.bf_5"),
-		popup: $.t("t:sidequests.desc.bf_5")
+		popup: $.t("sidequests.desc.bf_5")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------

@@ -110,7 +110,7 @@ window.mapdata_kaer_morhen = {
 	event: [{
 		coords: [[75.062,41.312]],
 		label: $.t("event.label.trail"),
-		popup: $.t("k:event.desc.trail")
+		popup: $.t("event.desc.trail")
 	}],
 
 	//------------------------------------------------Grindstone------------------------------------------------
@@ -242,24 +242,24 @@ window.mapdata_kaer_morhen = {
 	//------------------------------------------------Sidequests------------------------------------------------
 	sidequests: [{
 		coords: [[64.156,59.828]],
-		label: $.t("sidequests.label.berengar"),
-		popup: $.t("k:sidequests.desc.berengar")
+		label: $.t("sidequests.label.berengar") + '*',
+		popup: $.t("misc.disappears",{quest: $.t("mainquests.label.mists")}) + $.t("sidequests.desc.berengar")
 	},{
 		coords: [[39.703,77.000]],
 		label: $.t("sidequests.label.greenhouse"),
-		popup: $.t("k:sidequests.desc.greenhouse")
+		popup: $.t("sidequests.desc.greenhouse")
 	},{
 		coords: [[81.375,64.781]],
 		label: $.t("sidequests.label.slayer"),
-		popup: $.t("k:sidequests.desc.slayer")
+		popup: $.t("sidequests.desc.slayer")
 	},{
 		coords: [[62.750,42.531]],
 		label: $.t("sidequests.label.bastion"),
-		popup: $.t("k:sidequests.desc.bastion")
+		popup: $.t("sidequests.desc.bastion")
 	},{
 		coords: [[65.031,67.750]],
-		label: $.t("sidequests.label.forge"),
-		popup: $.t("k:sidequests.desc.forge")
+		label: $.t("sidequests.label.forge") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.wandering")}) + $.t("sidequests.desc.forge")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------
@@ -277,8 +277,8 @@ window.mapdata_kaer_morhen = {
 		popup: $.t("k:signpost.desc.kaerMorhen")
 	},{
 		coords: [[62.531,43.719]],
-		label: $.t("k:signpost.label.bastion"),
-		popup: $.t("k:signpost.desc.bastion")
+		label: $.t("k:signpost.label.bastion") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.magiclamp")}) + $.t("k:signpost.desc.bastion")
 	},{
 		coords: [[116.625,58.813]],
 		label: $.t("k:signpost.label.ruinedWatchtower"),

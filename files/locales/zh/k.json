@@ -15,23 +15,9 @@
             "zoltan": "卓爾坦・齊瓦"
         }
     },
-    "event": {
-        "desc": {
-            "trail": ""
-        }
-    },
     "gwentquest": {
         "players": {
             "lambert": "蘭伯特"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "bastion": "",
-            "berengar": "",
-            "forge": "",
-            "greenhouse": "",
-            "slayer": ""
         }
     },
     "signpost": {

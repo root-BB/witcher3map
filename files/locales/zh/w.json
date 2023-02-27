@@ -1,15 +1,4 @@
 {
-    "contracts": {
-        "desc": {
-            "devil": ""
-        }
-    },
-    "event": {
-        "desc": {
-            "dwarves": "",
-            "tomira": ""
-        }
-    },
     "innkeep": {
         "inns": {
             "whiteOrchardInn": "白果園旅館"
@@ -30,19 +19,6 @@
     "shopkeeper": {
         "desc": {
             "gwentCraftingAndHorse": "販賣昆特牌、工藝耗材及泰莫利亞套裝；眼罩、馬鞍、容量袋、護甲"
-        }
-    },
-    "sidequests": {
-        "desc": {
-            "death": "",
-            "faith": "",
-            "fry": "",
-            "missing": "",
-            "precious": "",
-            "tr_deserter": "",
-            "tr_dirty": "",
-            "tr_temerian": "",
-            "twist": ""
         }
     },
     "signpost": {
