@@ -1,7 +1,11 @@
 Desctiption
 --------------------------------------
 It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).
-I have released version 3.5 as an intermediate version upon popular demand. I'll post updates as development progresses.
+Root-BB had released version 3.5 as an intermediate version upon popular demand. I'll post updates as development progresses.
+
+#### Fixes by TiVa:
+* New signpost in crow's perch "Castle Village" has been added to mapdata and en/v.json.
+* home.js is edited for online deployment on TiVa's map.
 
 #### Additional Features (Added by [BaHTsIzBEdEvi](https://github.com/root-BB)):
 * Updated Velen&Novigrad map, which was expanded with the Hearts of Stone Expansion Pack.
