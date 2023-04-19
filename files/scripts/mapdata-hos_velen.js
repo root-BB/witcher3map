@@ -1525,7 +1525,7 @@ window.mapdata_hos_velen = {
 		popupTitle: $.t("v:gwentquest.players.dijkstra") + ' - ' +  $.t("sidebar.gwentquest") + '*' + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("misc.active",{quest: $.t("mainquests.label.flowers")}) + $.t("misc.mdisappears",{quest: $.t("sidequests.label.reason")}) + $.t("<br />") + $.t("gwentquest.desc.quest",{quest: $.t("gwentquest.label") + $.t(": ") + $.t("sidequests.label.gw_city")}) + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/213.422/102.359\'>"), end: $.t("</a>")})
 	},{
-		coords: [[218.797,106.438]],
+		coords: [[220.750,103.922]],
 		label: $.t("sidebar.gwentquest"),
 		popupTitle: $.t("v:gwentquest.players.serenity") + ' - ' +  $.t("sidebar.gwentquest"),
 		popup: $.t("misc.active",{quest: $.t("gwentquest.label") + $.t(": ") + $.t("sidequests.label.gw_collect")}) + $.t("gwentquest.desc.quest",{quest: $.t("gwentquest.label") + $.t(": ") + $.t("sidequests.label.gw_city")})
