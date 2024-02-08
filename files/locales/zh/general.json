@@ -179,6 +179,7 @@
 		"desc": {
 			"basilisk": " ",
             "caravan": " ",
+			"child": "可以保護大篷車下面的孩子免受卡塔坎的傷害。",
             "children1": " ",
             "children2": " ",
             "contract": " ",
@@ -193,6 +194,7 @@
             "daughter1": " ",
             "daughter2": " ",
             "death2": " ",
+			"Delwyn": "如果克雷吉奧的德爾文受到保護，免受卡塔坎的侵害，任務「__quest__」中的一項美德就會被授予。",
             "drunked": " ",
             "drunken": " ",
             "dwarves": " ",
@@ -200,7 +202,10 @@
             "flame1": " ",
             "flame2": " ",
             "friend": " ",
+			"gift": " ",
+            "grain": " ",
             "grave": " ",
+			"hammond": "如果你在找到哈蒙德之前與克拉奇交談，她會給你獎勵哈蒙德。",
             "hazardous2": " ",
             "hemdall": " ",
             "karmic": " ",
@@ -222,6 +227,7 @@
             "ring": " ",
             "robbery": " ",
             "siren": " ",
+			"stable": " ",
             "strangers": " ",
             "strumpet": " ",
             "suspicious": " ",
@@ -238,6 +244,7 @@
         "label": {
             "basilisk": "最真實的蛇怪",
             "caravan": "商隊攻擊",
+			"child": "拯救兒童",
             "children1": "永遠不要相信孩子Ⅰ - 諾維伽德",
             "children2": "永遠不要相信孩子Ⅱ - 史凱利格",
             "contract": "巫師契約",
@@ -252,6 +259,7 @@
             "daughter1": "從士兵手中拯救農夫的女兒（第一部分）",
             "daughter2": "從士兵手中拯救農夫的女兒（第二部分）",
             "death2": "臨終之前（第二部分）",
+			"Delwyn": "拯救克雷吉奧的德爾文",
             "drunked": "醉酒的紀堯姆",
             "drunken": "醉醺醺的暴徒",
             "dwarves": "遇見迷霧矮人島",
@@ -259,7 +267,10 @@
             "flame1": "仇恨的火焰（第一部分）",
             "flame2": "仇恨的火焰（第二部分）",
             "friend": "男人最好的朋友",
+			"gift": "來自半身人的禮物 ",
+            "grain": "穀物杯",
             "grave": "盜墓者",
+			"hammond": "克拉奇的賞金",
             "hazardous2": "危險物品（第二部分）",
             "hemdall": "海姆達爾的四張臉",
             "karmic": "業力正義",
@@ -280,6 +291,7 @@
             "ring": "丟失的訂婚戒指",
             "robbery": "公路搶劫",
             "siren": "警笛聲",
+			"stable": "馬夫的感謝",
             "strangers": "在夜晚的陌生人",
             "strumpet": "危難中的小號",
             "suspicious": "可疑的調整",
@@ -310,7 +322,27 @@
             "quest": "要完成“__quest__”任務，您必須在昆特遊戲中擊敗此人。",
             "quest2": "要完成“__quest2__”任務的“__quest__”，您必須在昆特遊戲中擊敗此人。"
         },
-        "label": "昆特牌"
+        "label": "昆特牌",
+        "players": {
+            "baron": "血腥男爵",
+            "boatwright": "博特賴特",
+            "crach": "克拉奇・奎特",
+            "dijkstra": "斯蒙德・迪克斯徹",
+            "ermion": "爾米亞",
+            "haddy": "哈迪",
+            "lambert": "蘭伯特",
+            "lugos": "瘋子盧戈",
+            "merchant": "松鼠黨商人",
+            "olivier": "奧利維爾",
+            "roche": "弗農羅氏",
+            "sage": "老賢者",
+            "serenity": "尊寧夫人",
+            "sjusta": "斯胡斯塔",
+            "stjepan": "斯捷潘",
+            "thaler": "泰勒",
+            "vivaldi": "維姆維瓦爾第",
+            "zoltan": "卓爾坦"
+        }
     },
     "harbor": {
         "desc": "一個可以找到船的地方，船會在這裡重生。"
@@ -329,6 +361,8 @@
         "desc": "這裡的蜂窩可以通過燃燒收集，然後賣給富米拉來賺錢。 "
     },
     "home": {
+		"offline": "離線地圖",
+		"online" : "線上地圖",
         "resultsFound": "找到的結果。",
         "searchPlaceholder": "輸入搜索詞…",
         "tagline": "非官方的巫師3互動地圖"

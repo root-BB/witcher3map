@@ -15,7 +15,7 @@ window.mapdata_kaer_morhen = {
 		coords: [[64.563,67.000]],
 		label: $.t("alchemy.label") + '*',
 		popupTitle: $.t("alchemy.label") + ' - ' + $.t("k:alchemy.popuptitle.keira") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.battle")}) + $.t("k:alchemy.desc.keira")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.battle")}) + $.t("k:alchemy.desc.keira")
 	}],
 
 	//------------------------------------------------Armourer------------------------------------------------
@@ -23,7 +23,7 @@ window.mapdata_kaer_morhen = {
 		coords: [[62.781,61.203]],
 		label: $.t("sidebar.armourer") + '*',
 		popupTitle: $.t("sidebar.armourer") + ' - ' + $.t("craftlevels.Amateur") + ' - ' + $.t("k:armourer.popuptitle.zoltan") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.battle")}) + $.t("k:armourer.desc.zoltan",{quest: $.t("sidequests.label.brvelen")})
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.battle")}) + $.t("k:armourer.desc.zoltan",{quest: $.t("sidequests.label.brvelen")})
 	}],
 
 	//------------------------------------------------Armourer's Table------------------------------------------------
@@ -45,8 +45,8 @@ window.mapdata_kaer_morhen = {
 	//------------------------------------------------Boat------------------------------------------------
 	boat: [{
 		coords: [[117.000,66.797]],
-		label: $.t("sidebar.boat"),
-		popup: $.t("boat.desc")
+		label: $.t("sidebar.boat") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.trial")}) + $.t("boat.desc")
 	},{
 		coords: [[83.671,64.687]],
 		label: $.t("sidebar.boat"),
@@ -101,6 +101,14 @@ window.mapdata_kaer_morhen = {
 		label: $.t("sidebar.entrance"),
 		popup: $.t("entrance.desc.entry")
 	},{
+		coords: [[48.688,59.719]],
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.entry")
+	},{
+		coords: [[56.813,60.000]],
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.entry")
+	},{
 		coords: [[117.734,67.469]],
 		label: $.t("sidebar.entrance"),
 		popup: $.t("entrance.desc.exit")
@@ -146,8 +154,8 @@ window.mapdata_kaer_morhen = {
 	gwentquest: [{
 		coords: [[64.219,69.281]],
 		label: $.t("sidebar.gwentquest") + '*',
-		popupTitle: $.t("k:gwentquest.players.lambert") + ' - ' +  $.t("sidebar.gwentquest") + '*',
-		popup: $.t("misc.disappears",{quest: $.t("mainquests.baby")}) + $.t("gwentquest.desc.quest",{quest: $.t("gwentquest.label") + $.t(": ") + $.t("sidequests.label.gw_pals")})
+		popupTitle: $.t("gwentquest.players.lambert") + ' - ' +  $.t("sidebar.gwentquest") + '*',
+		popup: $.t("misc.active",{quest: $.t("gwentquest.label") + $.t(": ") + $.t("sidequests.label.gw_pals") + ' - ' + $.t("gwentquest.players.thaler")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.baby")}) + $.t("gwentquest.desc.quest",{quest: $.t("gwentquest.label") + $.t(": ") + $.t("sidequests.label.gw_pals")})
 	}],
 	
 	//------------------------------------------------Hanse Base------------------------------------------------
@@ -249,7 +257,7 @@ window.mapdata_kaer_morhen = {
 		label: $.t("sidequests.label.greenhouse"),
 		popup: $.t("sidequests.desc.greenhouse")
 	},{
-		coords: [[81.375,64.781]],
+		coords: [[82.500,66.156]],
 		label: $.t("sidequests.label.slayer"),
 		popup: $.t("sidequests.desc.slayer")
 	},{
@@ -306,7 +314,39 @@ window.mapdata_kaer_morhen = {
 		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
+		coords: [[67.250,67.500]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[61.063,42.875]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[72.688,56.000]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[47.313,64.406]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[135.063,74.031]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[136.469,74.750]],	
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/135.875/73.875\'>"), end: $.t("</a>")})
+	},{
 		coords: [[122.578,68.563]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/117.734/67.469\'>"), x2: $.t("<a href='#6/127.781/66.672\'>"), end: $.t("</a>")})
+	},{
+		coords: [[121.203,66.109]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/117.734/67.469\'>"), x2: $.t("<a href='#6/127.781/66.672\'>"), end: $.t("</a>")})
+	},{
+		coords: [[123.469,68.031]],
 		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/117.734/67.469\'>"), x2: $.t("<a href='#6/127.781/66.672\'>"), end: $.t("</a>")})
 	},{
@@ -325,8 +365,8 @@ window.mapdata_kaer_morhen = {
 	//Underwater Treause
 	{
 		coords: [[47.188,57.000]],
-		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
-		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/117.734/67.469\'>"), x2: $.t("<a href='#6/127.781/66.672\'>"), end: $.t("</a>")})
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("treasure.desc")
 	}],
 	
 	//------------------------------------------------Vineyard Infestation------------------------------------------------

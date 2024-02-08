@@ -2,14 +2,6 @@
     "alchemy": {
         "gremist": "Gremist"
     },
-    "gwentquest": {
-        "players": {
-            "crach": "Crach an Craite",
-            "ermion": "Ermion",
-            "lugos": "Madman Lugos",
-            "sjusta": "Sjusta"
-        }
-    },
     "innkeep": {
         "desc": {
             "foodAndDrink": "Sells Food and drink. ",
@@ -32,19 +24,31 @@
             "birna": "It find out if you sided with Cerys an Craite during the secondary quest '__quest__'. ",
             "dowry": "'__quest__' quest item. ",
             "gship": "It usually appears just after 1 AM game time for a brief moment. ",
-            "poem": "A corpse with a poem containing a riddle. "
+			"horn": "A horn used to make sirens fall from the sky. ",
+			"nail": "Extra experience points can be gained if delivered to person '__octo__' during the '__quest__' mission. ",
+			"octo": "Can be spoken to during the '__quest__' quest for extra experience points and information. He can also be spoken to again after the '__quest__' quest.",
+            "poem": "A corpse with a poem containing a riddle. ",
+			"twine": "Extra experience points can be gained if delivered to person '__octo__' during the '__quest__' mission. "
         },
         "label": {
             "birna": "Birna Bran",
             "dowry": "Timon's Dowry",
             "gship": "Ghost Ship",
-            "poem": "Riddle Poem"
+			"horn": "Hornwall Horn",
+			"nail": "Nail",
+			"octo": "Octo",
+            "poem": "Riddle Poem",
+			"twine": "Twine"
         },
         "popupTitle": {
             "birna": "Birna Bran",
             "dowry": "Timon's Dowry",
             "gship": "Ghost Ship",
-            "poem": "Riddle Poem"
+			"horn": "Hornwall Horn",
+			"nail": "Nail",
+			"octo": "Octo",
+            "poem": "Riddle Poem",
+			"twine": "Twine"
         }
     },
     "shopkeeper": {
@@ -175,10 +179,12 @@
     },
     "treasure": {
         "desc": {
-            "solution": "Treasure noted by Riddle Poem. "
+            "solution": "Treasure noted by Riddle Poem. ",
+			"toodeep": "Since it is very deep, it can only be reached with the help of mods. "
         },
         "label": {
-            "solution": " "
+            "solution": " ",
+			"toodeep": ""
         }
     }
 }

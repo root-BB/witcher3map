@@ -7,8 +7,8 @@
     "poi": {
         "desc": {
             "boss": "Jeśli zabijesz 6 krów 3 razy pod rząd, pojawi się Czart (27 poziom) i cię zaatakuje; Uwaga! Jeśli zabijesz Czarta, nowe będą się ciągle pojawiać",
-            "crystalSkull": "Odblokowuje dialog z Yennefer podczas jej '__quest__' misji",
-            "diary": "Jeśli otrzymane podczas zadania '__quest__', dodatkowe zarobki można uzyskać, rozmawiając z Tomirą po zadaniu."
+            "crystalSkull": "Odblokowuje dialog z Yennefer podczas jej „__quest__” misji",
+            "diary": "Jeśli otrzymane podczas zadania „__quest__”, dodatkowe zarobki można uzyskać, rozmawiając z Tomirą po zadaniu."
         },
         "label": {
             "boss": "Sekretny Boss (Czart)",

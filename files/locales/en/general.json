@@ -179,6 +179,7 @@
 		"desc": {
 			"basilisk": " ",
             "caravan": " ",
+			"child": "The child under the caravan can be protected from katakan. ",
             "children1": " ",
             "children2": " ",
             "contract": " ",
@@ -193,6 +194,7 @@
             "daughter1": " ",
             "daughter2": " ",
             "death2": " ",
+			"Delwyn": "If Delwyn of Creigiau is protected from the Katakan, one of the virtues in the quest '__quest__' is granted. ",
             "drunked": " ",
             "drunken": " ",
             "dwarves": " ",
@@ -200,7 +202,10 @@
             "flame1": " ",
             "flame2": " ",
             "friend": " ",
+			"gift": " ",
+            "grain": " ",
             "grave": " ",
+			"hammond": "If you talk to Crach before finding Hammond, she will offer you a reward for Hammond. ",
             "hazardous2": " ",
             "hemdall": " ",
             "karmic": " ",
@@ -222,6 +227,7 @@
             "ring": " ",
             "robbery": " ",
             "siren": " ",
+			"stable": " ",
             "strangers": " ",
             "strumpet": " ",
             "suspicious": " ",
@@ -238,6 +244,7 @@
         "label": {
             "basilisk": "The Most Truest of Basilisks",
             "caravan": "Caravan Attack",
+			"child": "Saving Child",
             "children1": "Never Trust Children I - Novigrad",
             "children2": "Never Trust Children II - Skellige",
             "contract": "Contract on a Witcher",
@@ -252,6 +259,7 @@
             "daughter1": "Saving Farmer's Daughter From Soldiers (Part 1)",
             "daughter2": "Saving Farmer's Daughter From Soldiers (Part 2)",
             "death2": "On Death´s Bed (Part 2)",
+			"Delwyn": "Saving Delwyn of Creigiau",
             "drunked": "Drunked Guillaume",
             "drunken": "Drunken Rabble",
             "dwarves": "Meet the Isle of Mist Dwarves",
@@ -259,7 +267,10 @@
             "flame1": "The Flame Of Hatred (Part 1)",
             "flame2": "The Flame Of Hatred (Part 2)",
             "friend": "A Man's Best Friend",
+			"gift": "Gift from the Halflings ",
+            "grain": "Grain Cup",
             "grave": "Grave Robbers",
+			"hammond": "Bounty from Crach",
             "hazardous2": "Hazardous Goods (Part 2)",
             "hemdall": "The Four Faces of Hemdall",
             "karmic": "Karmic Justice",
@@ -280,6 +291,7 @@
             "ring": "Lost Engagement Ring",
             "robbery": "Highway Robbery",
             "siren": "Siren’s Call",
+			"stable": "Stable Hand's Thanks",
             "strangers": "Strangers in the Night",
             "strumpet": "Strumpet in Distress",
             "suspicious": "Suspicious Shakedown",
@@ -310,7 +322,27 @@
             "quest": "To complete the '__quest__' mission, you must defeat this person in the gwent game. ",
             "quest2": "To complete the '__quest__' or '__quest2__' mission, you must defeat this person in the gwent game. "
         },
-        "label": "Gwent"
+        "label": "Gwent",
+        "players": {
+            "baron": "Bloody Baron",
+            "boatwright": "Boatwright",
+            "crach": "Crach an Craite",
+            "dijkstra": "Sigismund Dijkstra",
+            "ermion": "Ermion",
+            "haddy": "Haddy",
+            "lambert": "Lambert",
+            "lugos": "Madman Lugos",
+            "merchant": "Scoia'tael Merchant",
+            "olivier": "Olivier",
+            "roche": "Vernon Roche",
+            "sage": "The Old Sage",
+            "serenity": "Marquise Serenity",
+            "sjusta": "Sjusta",
+            "stjepan": "Stjepan",
+            "thaler": "Thaler",
+            "vivaldi": "Vimme Vivaldi",
+            "zoltan": "Zoltan"
+        }
     },
     "harbor": {
         "desc": "A place where you can find a boat, boats will respawn here. "
@@ -329,6 +361,8 @@
         "desc": "Honeycombs here can be collected by burning and then sold to Tomira for money. "
     },
     "home": {
+		"offline": "Offline Map",
+		"online" : "Online Map",
         "resultsFound": "result(s) found. ",
         "searchPlaceholder": "Enter search terms... ",
         "tagline": "Unofficial The Witcher 3 Interactive Maps"

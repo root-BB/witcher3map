@@ -4,8 +4,8 @@
     },
     "banditcamp": {
         "desc": {
-            "hanse": "Powstanie tylko wtedy, gdy '__location__' '__hanse__' nie został wyczyszczony. ",
-            "ussar": "Powstanie tylko wtedy, gdy jajka nie zostaną zniszczone podczas misji '__quest__'. "
+            "hanse": "Powstanie tylko wtedy, gdy „__location__” „__hanse__” nie został wyczyszczony. ",
+            "ussar": "Powstanie tylko wtedy, gdy jajka nie zostaną zniszczone podczas misji „__quest__”. "
         }
     },
     "brothel": {
@@ -15,7 +15,7 @@
     },
     "guarded": {
         "desc": {
-            "hanse": "Powstanie tylko wtedy, gdy '__location__' '__hanse__' nie został wyczyszczony. "
+            "hanse": "Powstanie tylko wtedy, gdy „__location__” „__hanse__” nie został wyczyszczony. "
         }
     },
     "hansebase": {
@@ -26,7 +26,8 @@
         "desc": "Tutaj możesz kupić lub sprzedać różne produkty. ",
         "label": {
             "auberge": "Oberża „Ruda kita”",
-            "barrelandbung": "Karczma „Pod Beczką i Szpuntem",
+            "barrelandbung": "Karczma „Pod Beczką i Szpuntem”",
+            "clever": "Tawerna „Mądre Chodaki”",
             "pheasantry": "Bażanciara",
             "salamander": "Karczma Pod Srebrna Salamandrą",
             "winery": "Karczma \"Żmija i Rubin\" "
@@ -38,14 +39,16 @@
     },
     "poi": {
         "desc": {
+			"cake": "Można go znaleźć, wchodząc do innego kolorowego portalu w trzecim pomieszczeniu z portalem podczas zadania „__quest__”. ",
             "ducal": " ",
             "haremask": " ",
-            "hengaidth": "Jest rozproszony w 4 różnych lokalizacjach w oborniku. Jeśli zdecydujesz się szukać Syanny, możesz uzyskać dostęp tylko do jednego z tych miejsc. ",
+            "hengaidth": "Jest rozproszony w 3 różnych lokalizacjach w oborniku. Jeśli zdecydujesz się szukać Syanny, możesz uzyskać dostęp tylko do jednego z tych miejsc. ",
             "photo": "Jest w tym kierunku, ale poza mapą. Szczegółowy opis: __link1__ kliknij tutaj __link2__. ",
-            "reginald": "Staje się aktywny, jeśli Manhood Sir Reginald d'Aubry'a został przywrócony w zadaniu '__quest__'. Każdy dotykający aktywuje bonus na 60 minut, zwany \"Siłą Reginald\", która daje graczowi nieograniczoną zdolność biegu podczas walki. ",
+            "reginald": "Staje się aktywny, jeśli Manhood Sir Reginald d'Aubry'a został przywrócony w zadaniu „__quest__”. Każdy dotykający aktywuje bonus na 60 minut, zwany \"Siłą Reginald\", która daje graczowi nieograniczoną zdolność biegu podczas walki. ",
             "tesham": "Jest rozrzucona w 3 różnych miejscach w oborniku. "
         },
         "label": {
+			"cake": "Ciasto",
             "ducal": "Książecy Kamerarius",
             "haremask": "Jego Maska",
             "hengaidth": "Zestaw Gaidth",

@@ -164,6 +164,14 @@ window.mapdata_fables = {
 		coords: [[-31.203,-32.871]],
 		label: $.t("f:poi.label.emperor"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.emperor")
+	},{
+		coords: [[-44.528,-111.885]],
+		label: $.t("f:poi.label.pepper"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.pepper")
+	},{
+		coords: [[-59.801,-78.662]],
+		label: $.t("f:poi.label.slippers"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:poi.desc.slippers")
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
@@ -199,12 +207,30 @@ window.mapdata_fables = {
 	//------------------------------------------------Treasure------------------------------------------------
 	treasure: [{
 		coords: [[26.902,-79.101]],
-		label: $.t("treasure.label"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:treasure.popup.pot")
 	},{
 		coords: [[-46.558,-70.312]],
-		label: $.t("treasure.label"),
+		label: $.t("sidebar.treasure"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("f:treasure.popup.knight")
+	},{
+		coords: [[-59.623,-75.938]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("treasure.desc")
+	},{
+		coords: [[-28.459,-75.498]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("treasure.desc")
+	},
+	//Underwater Treause
+	{
+		coords: [[-50.736,-79.453]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("treasure.desc")
+	},{
+		coords: [[-37.160,-79.805]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.beyond")}) + $.t("treasure.desc")
 	}],
 	
 	//------------------------------------------------Vineyard Infestation------------------------------------------------

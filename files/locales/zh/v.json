@@ -29,33 +29,18 @@
             "sewers1": "進入一號下水道。",
             "sewers2": "進入二號下水道。",
             "sewers3": "進入三號下水道。",
-            "sewers4": "進入四號下水道。"
+            "sewers4": "進入四號下水道。",
+			"pass": "秘密通道"
         },
         "label": {
-            "sewers": "下水道入口"
+            "sewers": "下水道入口",
+			"pass": "用於進入腐爛樹林的秘密通道。隧道內門的鑰匙只能在「__quest__」任務期間使用。"
         }
     },
     "gwent": {
         "popup": {
             "olgierd": "歐吉爾德．伊佛瑞克",
             "shani": "夏妮"
-        }
-    },
-    "gwentquest": {
-        "players": {
-            "baron": "血腥男爵",
-            "boatwright": "博特賴特",
-            "dijkstra": "斯蒙德・迪克斯徹",
-            "haddy": "哈迪",
-            "merchant": "松鼠黨商人",
-            "olivier": "奧利維爾",
-            "roche": "弗農羅氏",
-            "sage": "老賢者",
-            "serenity": "尊寧夫人",
-            "stjepan": "斯捷潘",
-            "thaler": "泰勒",
-            "vivaldi": "維姆維瓦爾第",
-            "zoltan": "卓爾坦"
         }
     },
     "innkeep": {
@@ -100,12 +85,13 @@
 			"dlever": "它是遊戲的複活節彩蛋之一。",
 			"elever": "必須拉動 3 個槓桿才能執行複活節彩蛋的第一階段。",
 			"nilfgaardian": " ",
+			"notes": "如果在「__quest__」任務期間收集，它將在任務結束時產生額外的對話框選項。它還可以在任務結束時的戰鬥中提供支持。",
 			"paper": " ",
 			"portal": "穿過傳送門後，會遇到殺不死的幻象。牆上的文字是複活節彩蛋的最後階段。用aard加載能量可以返回兩個晶體。",
             "portrait": " ",
             "sketchbook": " ",
-            "spirits": "來自：'__quest__' 的靈魂。",
-            "qobject": "'__quest__' 任務物品。"
+            "spirits": "來自：「__quest__」 的靈魂。",
+            "qobject": "「__quest__」 任務物品。"
         },
         "label": {
             "acorn": "魔法橡子",
@@ -114,20 +100,28 @@
 			"diary": "多洛雷斯·里尔登的日记",
             "doll": "玩具娃娃",
 			"elementa": "土元素",
+			"edgar": "埃德加神父的筆記",
 			"hat": "吞火者的帽子",
 			"lantern": "灯笼",
 			"lever": "槓桿",
 			"nilfgaardian": "Nilfgaardian 頭盔和盔甲套裝",
 			"paper": "松散的纸屑",
+			"priest": "被遺忘的牧師的誓言",
 			"portal": "門戶網站",
             "portrait": "艾蕊絲和奧爾吉爾的肖像",
+			"reinald0": "雷納德的筆記",
+			"reinald1": "雷納德的第一封信",
+			"reinald2": "雷納德的第二封信",
+			"reinald3": "雷納德的第三封信",
+			"reinald4": "雷納德的第四封信",
+			"reinald5": "雷納德的第五封信",
             "sketchbook": "艾蕊絲的速寫本",
             "spirits": "靈魂"
         }
     },
     "shopkeeper": {
         "desc": {
-            "aeramasTrinketMerchant": "販賣煉金術用品、任務物品（'__quest1__'、'__quest2__' 和 '__quest3__'），以及'清除藥水'（一千金幣）。",
+            "aeramasTrinketMerchant": "販賣煉金術用品、任務物品（「__quest1__」、「__quest2__」 和 「__quest3__」），以及'清除藥水'（一千金幣）。",
             "alchemyAndFood": "販賣煉金耗材和食物。",
             "alchemyFoodAndDrink": "販賣煉金用品、食物和飲料。",
             "alchemyRecipesAndClearance": "販售煉金材料、配方及「還原魔藥」（一千克朗）。",
@@ -144,17 +138,19 @@
             "gwentAndJewellery": "販售昆特牌及珠寶（工藝耗材）。",
             "gwentFoodAndDrink": "販賣昆特牌、食物和飲料。",
             "kingfOfBeggarsMerchant": "販賣工藝材料、武器及「瑟瑞卡尼亞馬鞍袋」（+一百）。",
-            "paintMerchant": "任務物品（'__quest__'）、皮革和飲料。",
+            "paintMerchant": "任務物品（「__quest__」）、皮革和飲料。",
             "uselessMerchant": "販賣不值錢物品。",
             "weaponsAndCraftingSupplies": "販賣武器及工藝材料。"
         },
         "label": {
             "anselm": "安瑟倫",
+			"elihal": "以利哈尔",
             "fishmonger": "魚販",
             "gildorf": "吉爾多夫",
             "keira": "凱拉・梅茲",
             "loanShark": "高利貸商人",
-            "quartermaster": "軍需官"
+            "quartermaster": "軍需官",
+			"vivaldi": "维姆·维瓦尔第"
         }
     },
     "signpost": {
@@ -175,6 +171,7 @@
             "burnedRuins": "這只是該區受到戰火波及而沒能保存下來的眾多建築之一。",
             "byways": "這一區的居民大多都往北方逃或是死於瘟疫了，以前他們以製造品質良好、得獎認證的磚頭而聞名。",
             "carsten": "這座村莊以一名烘焙師命名，他的精緻糕點使他聲名大噪，還讓他獲得向諾維格瑞永恆之火教主供應麵包的榮耀。他過世之後，沒人能研究出他的食譜，重現他美味又香噴噴的麵包，所以現在卡司敦以穀物與麵粉的買賣而聞名。",
+			"castle": " ",
             "cavern": "聰明人都知道最好避開這種地方，以免遭遇不測。",
             "claywich": "每年貝月廷節時，克萊威奇都會舉辦一場大型盛宴，還會有遊戲、歌曲與舞蹈。那天晚上遠方的村民都會前來慶祝，路過的旅人也會受邀。午夜之前，參與的年輕人會比賽誰能先衝進森林深處找到一朵蕨花。雖然現在還沒人成功找到花，但許多人在這活動上找到他們的另一半，或者至少度過了一夜激情。",
             "coastOfWrecks": "以前當地的年輕人會來這裡，在船骸之間狂歡。現在附近村莊的居民開始沒日沒夜的在這裡尋找值錢的東西，以求拿來交換食物。",
@@ -288,6 +285,7 @@
             "burnedRuins": "燒毀遺跡",
             "byways": "拜維斯",
             "carsten": "卡斯敦",
+			"castle": "城堡村",
             "cavern": "洞穴",
             "claywich": "克萊威奇",
             "coastOfWrecks": "船骸海岸",

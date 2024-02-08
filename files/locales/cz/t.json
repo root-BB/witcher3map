@@ -27,6 +27,7 @@
         "label": {
             "auberge": "Hospůdka rytíře Liškutína z Kuroslep",
             "barrelandbung": "Krčma U Sudu a zátky",
+            "clever": "Hospoda Clever Clogs",
             "pheasantry": "Bažantnice",
             "salamander": "Krčma U Stříbrného salamandra",
             "winery": "Vinařstvi Zmije a klenoty"
@@ -38,14 +39,16 @@
     },
     "poi": {
         "desc": {
+			"cake": "Lze ji najít, když vstoupíte do různobarevného portálu ve třetí portálové místnosti během úkolu „__quest__“. ",
             "ducal": " ",
             "haremask": " ",
-            "hengaidth": "Je roztroušena na 4 různých místech v podzemí. Pokud se rozhodnete hledat Syannu, máte přístup pouze k jednomu z těchto míst. ",
+            "hengaidth": "Je roztroušena na 3 různých místech v podzemí. Pokud se rozhodnete hledat Syannu, máte přístup pouze k jednomu z těchto míst. ",
             "photo": "Je to tímto směrem, ale mimo mapu. Podrobný popis: __link1__ klikněte zde __link2__. ",
             "reginald": "Aktivuje se, pokud bylo mužství sira Reginalda d'Aubryho obnoveno v úkolu „__quest__“. Každým dotykem se na 60 minut aktivuje buff zvaný „Reginald's Power“, který dává hráči neomezenou schopnost běhu, když je mimo boj. ",
             "tesham": "Je roztroušena na 3 různých místech v podzemí. "
         },
         "label": {
+			"cake": "Dort",
             "ducal": "Knížecí šambelán",
             "haremask": "Zaječí maska",
             "hengaidth": "Sada Hen Gaidth",

@@ -88,6 +88,30 @@ window.mapdata_isle_mists = {
 		coords: [[37.579,75.058]],
 		label: $.t("sidebar.hollow"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
+	},{
+		coords: [[32.547,36.563]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
+	},{
+		coords: [[31.504,32.695]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
+	},{
+		coords: [[31.952,21.973]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
+	},{
+		coords: [[-6.839,14.941]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
+	},{
+		coords: [[-23.725,-4.219]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
+	},{
+		coords: [[-2.504,29.399]],
+		label: $.t("sidebar.hollow"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("hollow.desc")
 	}],
 	
 	//------------------------------------------------Honeycomb------------------------------------------------
@@ -178,10 +202,6 @@ window.mapdata_isle_mists = {
 		label: $.t("sidebar.treasure"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
 	},{
-		coords: [[-30.751,12.128]],
-		label: $.t("sidebar.treasure"),
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
-	},{
 		coords: [[-8.754,36.738]],
 		label: $.t("sidebar.treasure"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
@@ -211,8 +231,8 @@ window.mapdata_isle_mists = {
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
 	},{
 		coords: [[29.993,65.566]],
-		label: $.t("sidebar.treasure"),
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/32.842/60.292\'>"), x2: $.t("<a href='#6/26.588/68.203\'>"), end: $.t("</a>")})
 	},{
 		coords: [[35.317,59.062]],
 		label: $.t("sidebar.treasure"),
@@ -273,6 +293,10 @@ window.mapdata_isle_mists = {
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
 	},{
 		coords: [[-31.353,-0.351]],
+		label: $.t("treasure.watertreasure"),
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
+	},{
+		coords: [[-30.751,12.128]],
 		label: $.t("treasure.watertreasure"),
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.mists")}) + $.t("treasure.desc")
 	}],

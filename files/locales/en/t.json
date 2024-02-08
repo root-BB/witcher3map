@@ -27,6 +27,7 @@
         "label": {
             "auberge": "The Ruddy Brush Auberge",
             "barrelandbung": "The Barrel and Bung Inn",
+            "clever": "The Clever Clogs Tavern",
             "pheasantry": "The Pheasantry",
             "salamander": "The Silver Salamander Inn",
             "winery": "The Adder And Jewels Winery"
@@ -38,14 +39,16 @@
     },
     "poi": {
         "desc": {
+			"cake": "It can be found by entering the different colored portal in the third portal room during the '__quest__' quest. ",
             "ducal": " ",
             "haremask": " ",
-			"hengaidth": "It is scattered in 4 different locations in the dungeon. If you choose to search for Syanna, you can only access one of these locations. ",
+			"hengaidth": "It is scattered in 3 different locations in the dungeon. If you choose to search for Syanna, you can only access one of these locations. ",
             "photo": "It is in this direction but off the map. For detailed description: __link1__ click here __link2__. ",
             "reginald": "It's become active if Sir Reginald d'Aubry's Manhood has been restored in the '__quest__' quest. Each touching activates a buff for 60 minutes, called 'Reginald's Power', that giving the player unlimited run ability while out of combat. ",
             "tesham": "It is scattered in 3 different locations in the dungeon. "
         },
         "label": {
+			"cake": "Cake",
             "ducal": "The Ducal Camerlengo",
             "haremask": "Hare Mask",
 			"hengaidth": "Hen Gaidth Set",

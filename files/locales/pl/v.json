@@ -29,33 +29,18 @@
             "sewers1": "Dostęp do kanału nr 1. ",
             "sewers2": "Dostęp do kanału nr 2. ",
             "sewers3": "Dostęp do kanału nr 3. ",
-            "sewers4": "Dostęp do kanału nr 4. "
+            "sewers4": "Dostęp do kanału nr 4. ",
+			"pass": "Tajemne przejście"
         },
         "label": {
-            "sewers": "Wejście do Kanałów"
+            "sewers": "Wejście do Kanałów",
+			"pass": "Tajne przejście prowadzące do Putrid Grove. Dostęp do klucza do drzwi w tunelu można uzyskać wyłącznie podczas misji „__quest__”."
         }
     },
     "gwent": {
         "popup": {
             "olgierd": "Olgierd von Everec",
             "shani": "Shani"
-        }
-    },
-    "gwentquest": {
-        "players": {
-            "baron": "Krwawy Baron",
-            "boatwright": "Szkutnik",
-            "dijkstra": "Sigismund Dijkstra",
-            "haddy": "Hadko",
-            "merchant": "Kupiec Scoia'tael",
-            "olivier": "Oliwier",
-            "roche": "Vernon Roche",
-            "sage": "Stary Mędrzec",
-            "serenity": "Markiza Serenity",
-            "stjepan": "Stjepan",
-            "thaler": "Talar",
-            "vivaldi": "Vimme Vivaldi",
-            "zoltan": "Zoltan"
         }
     },
     "innkeep": {
@@ -98,14 +83,15 @@
 			"hat": " ",
             "lantern": "Nowe źródło światła. ",
 			"dlever": "Jest to jeden z Easter Eggów w grze. ",
-			"elever": "Konieczne jest pociągnięcie 3 dźwigni, aby wykonać pierwszy etap Easter Egg. ",
+			"elever": "Jeśli zostaną zebrane podczas zadania „__quest__”, na koniec zadania pojawią się dodatkowe opcje dialogowe. Może także zapewnić wsparcie w walce na koniec misji. ",
 			"nilfgaardian": " ",
+			"notes": "Jeśli zostaną zebrane podczas zadania „__quest__”, na koniec zadania pojawią się dodatkowe opcje dialogowe. Może także zapewnić wsparcie w walce na koniec misji.",
 			"paper": " ",
 			"portal": "Po przejściu przez portal napotkasz iluzje, których nie można zabić. Napis na ścianie to ostatni etap pisanki. Dwa kryształy można odzyskać, ładując energię za pomocą aarda. ",
             "portrait": " ",
             "sketchbook": " ",
-            "spirits": "Duchy z : '__quest__' . ",
-            "qobject": "Przedmiot zadania '__quest__'. "
+            "spirits": "Duchy z : „__quest__” . ",
+            "qobject": "Przedmiot zadania „__quest__”. "
         },
         "label": {
             "acorn": "Magiczna Acorn",
@@ -114,20 +100,28 @@
 			"diary": "Dziennik Dolores Reardon",
             "doll": "Lalka",
 			"elementa": "Żywiołak ziemi",
+			"edgar": "Notatka od ojca Edgara",
 			"hat": "Kapelusz Połykacza Ognia",
             "lantern": "Latarnia",
 			"lever": "Dźwignia",
 			"nilfgaardian": "Hełm i zbroja Nilfgaardu",
 			"paper": "Luźne skrawki papieru",
+			"priest": "Przysięga Zapomnianego Kapłana",
 			"portal": "Portal",
             "portrait": "Portret Iris i Olgierda",
+			"reinald0": "Notatka Reinalda",
+			"reinald1": "Pierwszy list Reinalda",
+			"reinald2": "Drugi list Reinalda",
+			"reinald3": "Trzeci list Reinalda",
+			"reinald4": "Czwarty list Reinalda",
+			"reinald5": "Piąty list Reinalda",
             "sketchbook": "Sketchbook Irlandii",
             "spirits": "Wódka"
         }
     },
     "shopkeeper": {
         "desc": {
-            "aeramasTrinketMerchant": "Sprzedaje zaopatrzenie alchemiczne, przedmioty zadania ('__quest1__', '__quest2__' i '__quest3__') oraz 'Mikstura Oczyszczenia' (1000 złota). ",
+            "aeramasTrinketMerchant": "Sprzedaje zaopatrzenie alchemiczne, przedmioty zadania („__quest1__”, „__quest2__” i „__quest3__”) oraz „Mikstura Oczyszczenia” (1000 złota). ",
             "alchemyAndFood": "Sprzedaje receptury alchemiczne i jedzenie. ",
             "alchemyFoodAndDrink": "Sprzedaje receptury alchemiczne, jedzenie i napoje. ",
             "alchemyRecipesAndClearance": "Sprzedaje receptury alchemiczne, przepisy oraz \"Eliksir Oczyszczenia\" (1000 Koron). ",
@@ -144,17 +138,19 @@
             "gwentAndJewellery": "Sprzedaje kart do Gwinta i klejnoty (składniki rzemieślnicze). ",
             "gwentFoodAndDrink": "Sprzedaje karty do gwinta, żywność i napoje. ",
             "kingfOfBeggarsMerchant": "Sprzedaje składniki rzemieślnicze, broń oraz \"Zerrikańskie Juki\" (+100). ",
-            "paintMerchant": "Przedmiot misji ('__quest__'), skórki i napoje. ",
+            "paintMerchant": "Przedmiot misji („__quest__”), skórki i napoje. ",
             "uselessMerchant": "Sprzedaje produkty nie warte odnotowania. ",
             "weaponsAndCraftingSupplies": "Sprzedaje bronie i składniki rzemieślnicze. "
         },
         "label": {
             "anselm": "Anselm",
+			"elihal": "Elihala",
             "fishmonger": "Sprzedawca ryb",
             "gildorf": "Gildorf",
             "keira": "Keira Metz",
             "loanShark": "Lichwiarz",
-            "quartermaster": "Kwatermistrz"
+            "quartermaster": "Kwatermistrz",
+			"vivaldi": "Vimmego Vivaldiego"
         }
     },
     "signpost": {
@@ -175,6 +171,7 @@
             "burnedRuins": "Jedno z wielu miejsc w okolicy, które nie przetrwało wojennej zawieruchy. ",
             "byways": "Większość mieszkańców uciekła na północ lub zmarła z powodu zarazy. Wcześniej miejscowi parali się głównie produkcją cegieł, znanych z dobrej jakości. ",
             "carsten": "Nazwa wsi pochodzi od imienia piekarza, który zasłynął ze znakomitych wypieków i zyskał przywilej dostarczania chleba na stół Hierarchy Novigradu. Po jego śmierci nikt nie potrafił odtworzyć przepisu na wyśmienite pieczywo, więc dzisiaj wieś Carsten znana jest głównie z handlu ziarnem i mąką. ",
+			"castle": " ",
             "cavern": "Jedno z tych miejsc, które rozsądni wędrowcy omijają szerokim łukiem, by nie kusić losu. ",
             "claywich": "Co roku w Belleteyn w Glińsku urządzana jest wielka uczta, której towarzyszą liczne zabawy, śpiewy i tańce. Tego wieczoru do osady ściągają mieszkańcy okolicznych wiosek, przypadkowi podróżni też są mile widziani. Niedługo przed północą młodzi ruszają w głąb puszczy w poszukiwaniu kwiatu paproci i choć jak dotąd nikt jeszcze na niego nie trafił, to wiele osób odnalazło podczas tej nocy swoją drugą połowę. ",
             "coastOfWrecks": "Dawniej przychodziła tu głównie okoliczna młodzież, by urządzać zabawy wśród wraków, teraz jednak coraz częściej mieszkańcy okolicznych wiosek przeczesują rozbite statki w poszukiwaniu czegokolwiek, co da się wymienić na jedzenie. ",
@@ -288,6 +285,7 @@
             "burnedRuins": "Pogorzelisko",
             "byways": "Wieś Stegny",
             "carsten": "Wieś Carsten",
+			"castle": "Wioska Zamkowa",
             "cavern": "Jasknia",
             "claywich": "Wieś Glińsk",
             "coastOfWrecks": "Wybrzeże wraków",

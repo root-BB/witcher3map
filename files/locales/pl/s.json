@@ -2,14 +2,6 @@
     "alchemy": {
         "gremist": "Gremist"
     },
-    "gwentquest": {
-        "players": {
-            "crach": "Crach an Craite",
-            "ermion": "Myszowór",
-            "lugos": "Lugos Szalony",
-            "sjusta": "Sjusta"
-        }
-    },
     "innkeep": {
         "desc": {
             "foodAndDrink": "Sprzedaje żywność i napoje. ",
@@ -29,22 +21,34 @@
     },
     "poi": {
         "desc": {
-            "birna": "Dowiedz się, czy jesteś po stronie Cerys podczas zadania drugorzędnego '__quest__'. ",
-            "dowry": "Przedmiot zadania '__quest__'. ",
+            "birna": "Dowiedz się, czy jesteś po stronie Cerys podczas zadania drugorzędnego „__quest__”. ",
+            "dowry": "Przedmiot zadania „__quest__”. ",
             "gship": "Zazwyczaj pojawia się to zaraz po 1 godzinie na krótki czas. ",
-            "poem": "Zwłoki z wierszem zawierającym zagadkę. "
+			"horn": "Róg używany do wywoływania syren spadających z nieba. ",
+			"nail": "Dodatkowe punkty doświadczenia można zdobyć, jeśli zostaną dostarczone osobie „__octo__” podczas misji „__quest__”. ",
+			"octo": "Można z nim porozmawiać podczas zadania „__quest__”, aby uzyskać dodatkowe punkty doświadczenia i informacje. Można z nim także porozmawiać ponownie po wykonaniu zadania „__quest__”. ",
+            "poem": "Zwłoki z wierszem zawierającym zagadkę. ",
+			"twine": "Dodatkowe punkty doświadczenia można zdobyć, jeśli zostaną dostarczone osobie „__octo__” podczas misji „__quest__”. "
         },
         "label": {
             "birna": "Birna Bran",
             "dowry": "Dowryk czasowy",
             "gship": "Statek Widmo",
-            "poem": "Wiersz Zagadka"
+			"horn": "Róg Hornwallu",
+			"nail": "Gwóźdź",
+			"octo": "Październik",
+            "poem": "Wiersz Zagadka",
+			"twine": "Szpagat"
         },
         "popupTitle": {
             "birna": "Birna Bran",
             "dowry": "Dowryk czasowy",
             "gship": "Statek Widmo",
-            "poem": "Wiersz Zagadka"
+			"horn": "Róg Hornwallu",
+			"nail": "Gwóźdź",
+			"octo": "Październik",
+            "poem": "Wiersz Zagadka",
+			"twine": "Szpagat"
         }
     },
     "shopkeeper": {
@@ -175,10 +179,12 @@
     },
     "treasure": {
         "desc": {
-            "solution": "Skarb odnotowany przez wiersz \"Zagadka. "
+            "solution": "Skarb odnotowany przez wiersz \"Zagadka. ",
+			"toodeep": "Ponieważ jest bardzo głęboka, można do niej dotrzeć tylko za pomocą modów. "
         },
         "label": {
-            "solution": " "
+            "solution": " ",
+			"toodeep": ""
         }
     }
 }

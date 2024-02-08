@@ -29,33 +29,18 @@
             "sewers1": "1 Numaralı Kanalizasyon Girişi. ",
             "sewers2": "2 Numaralı Kanalizasyon Girişi. ",
             "sewers3": "3 Numaralı Kanalizasyon Girişi. ",
-            "sewers4": "4 Numaralı Kanalizasyon Girişi. "
+            "sewers4": "4 Numaralı Kanalizasyon Girişi. ",
+			"pass": "Gizli Geçit"
         },
         "label": {
-            "sewers": "Kanalizasyon Girişi"
+            "sewers": "Kanalizasyon Girişi",
+			"pass": "Kokuşmuş Koru'ya giriş için kullanılan gizli geçit. Tünelin içerisindeki kapının anahtarı sadece '__quest__' görevi sırasında erişilebilir."
         }
     },
     "gwent": {
         "popup": {
             "olgierd": "Olgierd von Everec",
             "shani": "Shani"
-        }
-    },
-    "gwentquest": {
-        "players": {
-            "baron": "Bloody Baron",
-            "boatwright": "Kayıkçı",
-            "dijkstra": "Sigismund Dijkstra",
-            "haddy": "Haddy",
-            "merchant": "Scoia'tael Merchant",
-            "olivier": "Olivier",
-            "roche": "Vernon Roche",
-            "sage": "Yaşlı Bilge",
-            "serenity": "Marquise Serenity",
-            "stjepan": "Stjepan",
-            "thaler": "Thaler",
-            "vivaldi": "Vimme Vivaldi",
-            "zoltan": "Zoltan"
         }
     },
     "innkeep": {
@@ -100,6 +85,7 @@
 			"dlever": "Kol çekildiğinde etraf kısa süreliğine kararır. ",
 			"elever": "Easter Egg'in ilk aşamasını gerçekleştirmek için 3 adet kolu çekmek gereklidir. ",
 			"nilfgaardian": " ",
+			"notes": "'__quest__' görevi sırasında toplanırsa görev sonunda ek diyalog seçenekleri çıkartır. Ayrıca görev sonu savaşında destek sağlayabilir.",
 			"paper": " ",
 			"portal": "Portaldan geçtikten sonra öldürülemeyen heyulalar ile karşılaşılacaktır. Duvardaki yazı Easter Egg'in son aşamasıdır. İki adet kristale aard ile enerji yüklenilerek geri dönülebilir. ",
             "portrait": " ",
@@ -114,13 +100,21 @@
 			"diary": "Dolores Reardon'un Günlüğü",
             "doll": "Oyuncak Bebek",
 			"elementa": "Toprak Elemantası",
+			"edgar": "Peder Edgar'dan Not",
 			"hat": "Ateş Yutucunun Şapkası",
 			"lantern": "Mum Feneri",
 			"lever": "Kol",
 			"nilfgaardian": "Nilfgaardian Kaskı ve Zırh Seti",
 			"paper": "Kağıt Parçası",
+			"priest": "Unutulmuş Rahibin Ahdı",
 			"portal": "Portal",
             "portrait": "Iris ve Olgierd'in Portresi",
+			"reinald0": "Reinald'ın Notu",
+			"reinald1": "Reinald'ın 1. Mektubu",
+			"reinald2": "Reinald'ın 2. Mektubu",
+			"reinald3": "Reinald'ın 3. Mektubu",
+			"reinald4": "Reinald'ın 4. Mektubu",
+			"reinald5": "Reinald'ın 5. Mektubu",
             "sketchbook": "Iris'in Karalama Defteri",
             "spirits": "Hayaletler"
         }
@@ -150,11 +144,13 @@
         },
         "label": {
             "anselm": "Anselm",
+			"elihal": "Elihal",
             "fishmonger": "Balıkçı",
             "gildorf": "Gildorf",
             "keira": "Keira Metz",
             "loanShark": "Tefeci",
-            "quartermaster": "Vardiya Çavuşu"
+            "quartermaster": "Vardiya Çavuşu",
+			"vivaldi": "Vimme Vivaldi"
         }
     },
     "signpost": {
@@ -175,6 +171,7 @@
             "burnedRuins": "Bu gölgedeki savaşın hışmından kurtulamayan birçok yapıdan bir tanesi. ",
             "byways": "Bu bölgenin sakinleri çoğunlukla kuzeye kaçtı veya vebadan öldü, iyi zamanlarında ise kendilerini ödül kazanmış tuğlalar yapmaya adamışlardı. ",
             "carsten": "Adını nefis ürünleriyle ün kazanmış, bunun yanı sıra Novigrad'daki Sonsuz Ateşin Klisesinin başpiskoposunun masasına ekmek sağlama ayrıcalığına sahip olmuş bir fırıncıdan alan bir köy. Ölümünden sonra, kimse onun nefis ve derin aromalı ekmeklerinin tariflerini yeniden oluşturabilecek kabiliyete sahip olduğunu kanıtlayamamıştır, bu yüzden bu günlerde Carsten en çok tahil ve un ticaretiyle bilinir. ",
+			"castle": " ",
             "cavern": "Kaderi dürtmemek için akıllı adamların hepsinin uzak durduğu yerlerden. ",
             "claywich": "Her yıl Belleteyn'de Claywich'de şarkılar, oyunlar ve dansların eşlik ettiği bir ziyafet düzenlenir. O gece uzaklardan köylüler kutlamaya gelir. Aynı zamanda yoldan geçen gezginler de davetlidir. Gece yarısından kısa bir süre önce genç topluluk ormanın derinliklerine doğru yarışarak eğreltiotu bulmaya çalışır. Hala kimse bulamamış olsa, bazıları ruh ikizlerini, bazıları ise bir gecelik ayışığı altında tutkusunu yaşadı. ",
             "coastOfWrecks": "Zamanında yerel gençler eğlenmek için yıkıntıların arasına gelirlerdi. Bugünlerde çevre köylerde oturanlar yiyecekle takaslayacak bir şey bulmak için gece gündüz buraya gelmeye başladılar. ",
@@ -288,6 +285,7 @@
             "burnedRuins": "Yanmış Harabeler",
             "byways": "Sapanyol",
             "carsten": "Carsten",
+			"castle": "Kale Köyü",
             "cavern": "Büyük Mağara",
             "claywich": "Claywich",
             "coastOfWrecks": "Enkaz Sahili",

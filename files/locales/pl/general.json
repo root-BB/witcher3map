@@ -179,6 +179,7 @@
 		"desc": {
 			"basilisk": " ",
             "caravan": " ",
+			"child": "Dziecko pod przyczepą można zabezpieczyć przed katakanem. ",
             "children1": " ",
             "children2": " ",
             "contract": " ",
@@ -191,6 +192,7 @@
             "dare2": " ",
             "dare3": " ",
             "death2": " ",
+			"Delwyn": "Jeśli Delwyn z Creigiau będzie chroniony przed Katakanami, jedna z cnót z zadania „__quest__” zostanie przyznana. ",
             "daughter1": " ",
             "daughter2": " ",
             "drunked": " ",
@@ -200,7 +202,10 @@
             "flame1": " ",
             "flame2": " ",
             "friend": " ",
+			"gift": " ",
+            "grain": " ",
             "grave": " ",
+			"hammond": "Jeśli porozmawiasz z Crachem przed odnalezieniem Hammonda, zaoferuje ci nagrodę za Hammonda.",
             "hazardous2": " ",
             "hemdall": " ",
             "karmic": " ",
@@ -210,7 +215,7 @@
             "mercy1": " ",
             "mercy2": " ",
 			"millie": " ",
-            "naughty": "Jeśli Guillaume otrzyma pomoc w zadaniu '__quest__', Vivienne i Guillaume pojawią się w tej pozycji. ",
+            "naughty": "Jeśli Guillaume otrzyma pomoc w zadaniu „__quest__”, Vivienne i Guillaume pojawią się w tej pozycji. ",
             "passage1": " ",
             "passage2_1": "Żołnierze pojawią się w tym miejscu, jeśli w pierwszej części misji zostanie zapłacony hołd żołnierzom.",
             "passage2_2": "Żołnierze pojawią się w tym miejscu, jeśli w pierwszej części misji żołnierzom nie zostanie zapłacona danina.",
@@ -222,6 +227,7 @@
             "ring": " ",
             "robbery": " ",
             "siren": " ",
+			"stable": " ",
             "strangers": " ",
             "strumpet": " ",
             "suspicious": " ",
@@ -229,7 +235,7 @@
             "trace2": " ",
             "trail": " ",
             "troll": " ",
-            "vivienne": "Jeśli Guillaume nie otrzyma pomocy w zadaniu '__quest__', w tej pozycji pojawi się Vivienne. ",
+            "vivienne": "Jeśli Guillaume nie otrzyma pomocy w zadaniu „__quest__”, w tej pozycji pojawi się Vivienne. ",
             "welcome": " ",
             "wild": " ",
             "woe": " ",
@@ -238,6 +244,7 @@
         "label": {
             "basilisk": "Najprawdziwszy z Bazyliszków",
             "caravan": "Atak na Karawanę",
+			"child": "Ratowanie Dziecka",
             "children1": "Nigdy nie ufaj dzieciom I - Novigrad",
             "children2": "Nigdy nie ufaj dzieciom II - Skellige",
             "contract": "Kontrakt na Wiedźmina",
@@ -252,6 +259,7 @@
             "daughter1": "Ocalenie Córki Farmera przed Żołnierzami (Część 1)",
             "daughter2": "Ocalenie Córki Farmera przed Żołnierzami (Część 2)",
             "death2": "Na łożu śmierci (część 2)",
+			"Delwyn": "Ratując Delwyna z Creigiau",
             "drunked": "Pijany Guillaume",
             "drunken": "Pijany motłoch ",
             "dwarves": "Spotkaj Krasnoludów z Wyspy Mgieł",
@@ -259,7 +267,10 @@
             "flame1": "Kaznodzieja (Część 1)",
             "flame2": "Kaznodzieja (Część 2)",
             "friend": "Najlepszy przyjaciel człowieka",
+			"gift": "Prezent od Niziołków ",
+            "grain": "Kubek zbożowy",
             "grave": "Hieny Cmentarne",
+			"hammond": "Nagroda od Cracha",
             "hazardous2": "Niebezpieczny ładunek (część 2)",
             "hemdall": "Cztery twarze Hemdalla",
             "karmic": "Karmiczna sprawiedliwość",
@@ -278,8 +289,9 @@
             "raids": "Najazd Łowców Czarownic I",
             "raids2": "Najazd Łowców Czarownic II",
             "ring": "Zagubiony Pierścionek Zaręczynowy",
-            "robbery": "Napad na Trakcie",
+            "robbery": "Dzięki Stajennemu",
             "siren": "Wrzask Syreny",
+			"stable": "Seyis'in Teşekkürü",
             "strangers": "Obcy w Nocy",
             "strumpet": "Kurtyzana w opałach",
             "suspicious": "Podejrzany Szantaż",
@@ -307,10 +319,30 @@
     },
     "gwentquest": {
         "desc": {
-            "quest": "Aby ukończyć misję '__quest__', musisz pokonać tę osobę w grze gwint. ",
-            "quest2": "Aby ukończyć misję '__quest__' z '__quest2__'  musisz pokonać tę osobę w gwinta. "
+            "quest": "Aby ukończyć misję „__quest__”, musisz pokonać tę osobę w grze gwint. ",
+            "quest2": "Aby ukończyć misję „__quest__” z „__quest2__”  musisz pokonać tę osobę w gwinta. "
         },
-        "label": "Gwint"
+        "label": "Gwint",
+        "players": {
+            "baron": "Krwawy Baron",
+            "boatwright": "Szkutnik",
+            "crach": "Crach an Craite",
+            "dijkstra": "Sigismund Dijkstra",
+            "ermion": "Myszowór",
+            "haddy": "Hadko",
+            "lambert": "Lambert",
+            "lugos": "Lugos Szalony",
+            "merchant": "Kupiec Scoia'tael",
+            "olivier": "Oliwier",
+            "roche": "Vernon Roche",
+            "sage": "Stary Mędrzec",
+            "serenity": "Markiza Serenity",
+            "sjusta": "Sjusta",
+            "stjepan": "Stjepan",
+            "thaler": "Talar",
+            "vivaldi": "Vimme Vivaldi",
+            "zoltan": "Zoltan"
+        }
     },
     "harbor": {
         "desc": "Miejsce gdzie można znaleźć łódź, łodzie będą się tu pojawiać. "
@@ -329,6 +361,8 @@
         "desc": "Tutejsze plastry miodu można zebrać przez spalenie, a następnie sprzedać Tomirę za pieniądze. "
     },
     "home": {
+		"offline": "Mapa offline",
+		"online" : "Mapa internetowa",
         "resultsFound": "znaleziono wyniki. ",
         "searchPlaceholder": "Wpisz szukaną frazę...",
         "tagline": "Nieoficjalne interaktywne mapy Wiedźca 3"
@@ -514,10 +548,10 @@
         "white_orchard": "Biały Sad"
     },
     "misc": {
-        "active": "Stanie się aktywna po misji '__quest__'. ",
+        "active": "Stanie się aktywna po misji „__quest__”. ",
         "contribute": "Dla Twoich sugestii lub skarg __link1__ lub __link2__. ",
-        "dactive": "Stanie się aktywna tylko podczas misji '__quest__'. ",
-        "disappears": "Niedostępne po misji '__quest__'. ",
+        "dactive": "Stanie się aktywna tylko podczas misji „__quest__”. ",
+        "disappears": "Niedostępne po misji „__quest__”. ",
         "discuss": "Masz jakieś opinie lub sugestie? Możesz się nimi podzielić pod __link__",
         "entrance1": "Możesz wprowadzić tutaj __x1__ pod ziemią __end__. ",
         "entrance2": "Możesz wprowadzić tutaj __x1__ pod ziemią __end__ lub __x2__ tutaj __end__. ",
@@ -525,7 +559,7 @@
         "entrance4": "Możesz wprowadzić tutaj __x1__ pod ziemią __end__ lub __x2__ tutaj __end__ lub __x3__ tutaj __end__ lub __x4__ tutaj __end__. ",
         "helpTranslate": "Chcesz pomóc, lub poprawić tłumaczenie?",
         "liberated": "Pojawia się po wyzwoleniu obszaru. ",
-        "mdisappears": "Niedostępne po misji '__quest__'. ",
+        "mdisappears": "Niedostępne po misji „__quest__”. ",
         "portraitWarn": "Uwaga: mapę najlepiej jest oglądać w trybie poziomym, stuknij, aby zamknąć",
         "treasure": "Poszukiwanie skarbu",
         "underground": "Podziemie",

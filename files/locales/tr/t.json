@@ -27,6 +27,7 @@
         "label": {
             "auberge": "Kızıl Fırça Patlıcan",
             "barrelandbung": "Varil ve Tıkaç Han'ı",
+            "clever": "Çok Bilmiş Tavernası",
             "pheasantry": "Sülün Yetiştirme Yeri",
             "salamander": "Gümüş Salamander Han'ı",
             "winery": "Engerek ve Elmas Şaraphanesi"
@@ -38,14 +39,16 @@
     },
     "poi": {
         "desc": {
+			"cake": "'__quest__' görevi sırasında üçüncü portal odasındaki farklı renkteki portala girerek bulunabilir. ",
             "ducal": " ",
             "haremask": " ",
-			"hengaidth": "Zindan içerisinde 4 ayrı lokasyona dağılmış durumdadır. Eğer Syanna'yı arama yolunu seçecekseniz bu lokasyonlardan yalnızca birine erişebilirsiniz. ",
+			"hengaidth": "Zindan içerisinde 3 ayrı lokasyona dağılmış durumdadır. Eğer Syanna'yı arama yolunu seçecekseniz bu lokasyonlardan yalnızca birine erişebilirsiniz. ",
             "photo": "Bu doğrultuda fakat haritanın dışındadır. Detaylı tarif için: __link1__ tıklayınız __link2__ .",
             "reginald": "Eğer '__quest__' görevinde Sir Reginald d'Aubry'ın Erkekliği onarıldıysa aktif hale gelir. Her dokunulduğunda 60 dakika boyunca 'Reginald'ın Gücü' adı verilen oyuncuya çatışma dışında sınırsız koşma yeteneği veren takviye etkinleştirilir. ",
             "tesham": "Zindan içerisinde 3 ayrı lokasyona dağılmış durumdadır. "
         },
         "label": {
+			"cake": "Pasta",
             "ducal": "Dükalık Hazinedarı",
             "haremask": "Yabani Tavşan Maskesi",
 			"hengaidth": "Hen Gaidth Seti",

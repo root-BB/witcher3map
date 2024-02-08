@@ -2,14 +2,6 @@
     "alchemy": {
         "gremist": "Gremist"
     },
-    "gwentquest": {
-        "players": {
-            "crach": "Crach an Craite",
-            "ermion": "Ermion",
-            "lugos": "Madman Lugos",
-            "sjusta": "Sjusta"
-        }
-    },
     "innkeep": {
         "desc": {
             "foodAndDrink": "Prodává jídlo a pití. ",
@@ -32,19 +24,31 @@
             "birna": "Zjistí, zda jste stáli na straně Cerys an Craite během sekundárního úkolu „__quest__“. ",
             "dowry": "Úkolový předmět „__quest__“. ",
             "gship": "Obvykle se na krátký okamžik objeví těsně po 1 hodině dopoledne. ",
-            "poem": "Mrtvola s básní obsahující hádanku. "
+			"horn": "Klakson, kterým z nebe padaly sirény. ",
+			"nail": "Extra zkušenostní body lze získat, pokud budou doručeny osobě „__octo__“ během mise „__quest__“. ",
+			"octo": "Lze s ním mluvit během „__quest__“ pátrání po extra zkušenostních bodech a informacích. Po úkolu „__quest__“ s ním lze také znovu mluvit. ",
+            "poem": "Mrtvola s básní obsahující hádanku. ",
+			"twine": "Extra zkušenostní body lze získat, pokud budou doručeny osobě „__octo__“ během mise „__quest__“. "
         },
         "label": {
             "birna": "Birna Bran",
             "dowry": "Timonovo věno",
             "gship": "Loď duchů",
-            "poem": "Hádanka Báseň"
+			"horn": "Hradba Roh",
+			"nail": "Nehet",
+			"octo": "Octo",
+            "poem": "Hádanka Báseň",
+			"twine": "Motouz"
         },
         "popupTitle": {
             "birna": "Birna Bran",
             "dowry": "Timonovo věno",
             "gship": "Loď duchů",
-            "poem": "Hádanka Báseň"
+			"horn": "Hradba Roh",
+			"nail": "Nehet",
+			"octo": "Octo",
+            "poem": "Hádanka Báseň",
+			"twine": "Motouz"
         }
     },
     "shopkeeper": {
@@ -175,10 +179,12 @@
     },
     "treasure": {
         "desc": {
-            "solution": "Poklad naznačený Hádanka Báseň. "
+            "solution": "Poklad naznačený Hádanka Báseň. ",
+			"toodeep": "Vzhledem k tomu, že je velmi hluboký, lze se k němu dostat pouze pomocí modů. "
         },
         "label": {
-            "solution": " "
+            "solution": " ",
+			"toodeep": ""
         }
     }
 }

@@ -29,33 +29,18 @@
             "sewers1": "Access to Sewer No. 1. ",
             "sewers2": "Access to Sewer No. 2. ",
             "sewers3": "Access to Sewer No. 3. ",
-            "sewers4": "Access to Sewer No. 4. "
+            "sewers4": "Access to Sewer No. 4. ",
+			"pass": "Secret Passage"
         },
         "label": {
-            "sewers": "Sewers Entrance"
+            "sewers": "Sewers Entrance",
+			"pass": "Secret passage used to enter Putrid Grove. The key to the door inside the tunnel can only be accessed during '__quest__' mission."
         }
     },
     "gwent": {
         "popup": {
             "olgierd": "Olgierd von Everec",
             "shani": "Shani"
-        }
-    },
-    "gwentquest": {
-        "players": {
-            "baron": "Bloody Baron",
-            "boatwright": "Boatwright",
-            "dijkstra": "Sigismund Dijkstra",
-            "haddy": "Haddy",
-            "merchant": "Scoia'tael Merchant",
-            "olivier": "Olivier",
-            "roche": "Vernon Roche",
-            "sage": "The Old Sage",
-            "serenity": "Marquise Serenity",
-            "stjepan": "Stjepan",
-            "thaler": "Thaler",
-            "vivaldi": "Vimme Vivaldi",
-            "zoltan": "Zoltan"
         }
     },
     "innkeep": {
@@ -100,6 +85,7 @@
 			"dlever": "When the lever is pulled, the surroundings darken for a short time. ",
 			"elever": "It is necessary to pull 3 levers to perform the first stage of Easter Egg. ",
 			"nilfgaardian": " ",
+			"notes": "If collected during the '__quest__' quest, it will spawn additional dialog options at the end of the quest. It can also provide support in end-of-mission combat. ",
 			"paper": " ",
 			"portal": "After passing through the portal, illusions that cannot be killed will be encountered. The writing on the wall is the final stage of the Easter Egg. Two crystals can be returned by loading energy with aard. ",
             "portrait": " ",
@@ -114,13 +100,21 @@
 			"diary": "Dolores Reardon's Diary",
             "doll": "Doll",
 			"elementa": "Earth Elemental",
+			"edgar": "Note from Father Edgar",
 			"hat": "Fire Swallower's Hat",
 			"lantern": "Lantern",
 			"lever": "Lever",
 			"nilfgaardian": "Nilfgaardian Helmet and Armor Set",
 			"paper": "Loose Scraps of Paper",
+			"priest": "Oath of the Forgotten Priest",
 			"portal": "Portal",
             "portrait": "Portrait of Iris and Olgierd",
+			"reinald0": "Reinald's Note",
+			"reinald1": "Reinald's 1st Letter",
+			"reinald2": "Reinald's 2nd Letter",
+			"reinald3": "Reinald's 3rd Letter",
+			"reinald4": "Reinald's 4th Letter",
+			"reinald5": "Reinald's 5th Letter",
             "sketchbook": "Iris' Sketchbook",
             "spirits": "Spirits"
         }
@@ -150,11 +144,13 @@
         },
         "label": {
             "anselm": "Anselm",
+			"elihal": "Elihal",
             "fishmonger": "Fishmonger",
             "gildorf": "Gildorf",
             "keira": "Keira Metz",
             "loanShark": "Loan Shark",
-            "quartermaster": "Quartermaster"
+            "quartermaster": "Quartermaster",
+			"vivaldi": "Vimme Vivaldi"
         }
     },
     "signpost": {
@@ -175,6 +171,7 @@
             "burnedRuins": "One of the many structures in the area which did not survive the onslaught of war. ",
             "byways": "Most of this area's residents have fled north or died of plague. In better times they busied themselves making prize-winning bricks. ",
             "carsten": "A village named after a baker whose exquisite goods gained him fame, as well as the privilege of supplying bread to the table of the hierarch of the Church of the Eternal Fire in Novigrad. Following his death, none proved capable of recreating his recipes for his delicious and depply aromatic breads, so these days Carsten is known chiefly for its trade in grain and flour. ",
+			"castle": " ",
             "cavern": "One of those places wise men avoid at all costs, so as not to tempt fate. ",
             "claywich": "Every year at Belleteyn, a great feast is held in Claywich accompanied by games, song and dance. On that night villagers from far and wide come to celebrate, with passing travelers welcome as well. Shortly before midnight the youth in attendance race deep into the forest in search of a fern flower, and though no one has as yet found one, many have found their other halves, or at least a night of moonlight passion. ",
             "coastOfWrecks": "Once the local youth would come here to revel amidst the wrecks. Now inhabitants of nearby villages have started combing the place day and night in search of anything that can be exchanged for food. ",
@@ -288,6 +285,7 @@
             "burnedRuins": "Burned Ruins",
             "byways": "Byways",
             "carsten": "Carsten",
+			"castle": "Castle Village",
             "cavern": "Cavern",
             "claywich": "Claywich",
             "coastOfWrecks": "Coast of Wrecks",

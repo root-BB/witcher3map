@@ -2,14 +2,6 @@
     "alchemy": {
         "gremist": "Gremist"
     },
-    "gwentquest": {
-        "players": {
-            "crach": "Crach an Craite",
-            "ermion": "Ermion",
-            "lugos": "Madman Lugos",
-            "sjusta": "Sjusta"
-        }
-    },
     "innkeep": {
         "desc": {
             "foodAndDrink": "Yiyecek ve içecek satar. ",
@@ -32,19 +24,31 @@
             "birna": "İkincil görev olan '__quest__' sırasında Cerys an Craite'in tarafında durursanız gözükür. ",
             "dowry": "'__quest__' görev eşyası. ",
             "gship": "Genellikle 01.00 oyun saatinden hemen sonra kısa bir an için görünür. ",
-            "poem": "Bir bilmece içeren şiire sahip bir ceset. "
+			"horn": "Sirenleri gökten düşürmeye yarayan bir boynuz borusu.",
+			"nail": "'__quest__' görevi sırasında '__octo__' kişisine teslim edilirse fazladan tecrübe puanı kazanılabilir. ",
+			"octo": "Fazladan tecrübe puanı ve bilgi için '__quest__' görevi sırasında konuşulabilir. Ayrıca '__quest__' görevinden sonra tekrar konuşulabilir. ",
+            "poem": "Bir bilmece içeren şiire sahip bir ceset. ",
+			"twine": "'__quest__' görevi sırasında '__octo__' kişisine teslim edilirse fazladan tecrübe puanı kazanılabilir. "
         },
         "label": {
             "birna": "Birna Bran",
             "dowry": "Timon'un Çeyizi",
             "gship": "Hayalet Gemi",
-            "poem": "Bilmeceli Şiir"
+			"horn": "Surboynuz Borusu",
+			"nail": "Çivi",
+			"octo": "Octo",
+            "poem": "Bilmeceli Şiir",
+			"twine": "Sicim"
         },
         "popupTitle": {
             "birna": "Birna Bran",
             "dowry": "Timon'un Çeyizi",
             "gship": "Hayalet Gemi",
-            "poem": "Bilmeceli Şiir"
+			"horn": "Surboynuz Borusu",
+			"nail": "Çivi",
+			"octo": "Octo",
+            "poem": "Bilmeceli Şiir",
+			"twine": "Sicim"
         }
     },
     "shopkeeper": {
@@ -176,10 +180,12 @@
     },
     "treasure": {
         "desc": {
-            "solution": "Bilmeceli Şiirin belirttiği hazine. "
+            "solution": "Bilmeceli Şiirin belirttiği hazine. ",
+            "toodeep": "Çok derinde olması sebebiyle yalnızca modlar yardımı ile ulaşılabilir. "
         },
         "label": {
-            "solution": " "
+            "solution": " ",
+			"toodeep": ""
         }
     }
 }

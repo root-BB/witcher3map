@@ -300,7 +300,7 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[48.109,62.750]],
 		label: $.t("contracts.label.coldasice") + '*',
-		popup: $.t("misc.active",{quest: $.t("sidequests.label.smittenkight")}) + $.t("misc.disappears",{quest: $.t("mainquests.label.capture")}) + $.t("contracts.desc.coldasice")
+		popup: $.t("misc.disappears",{quest: $.t("mainquests.label.capture")}) + $.t("contracts.desc.coldasice")
 	},{
 		coords: [[71.719,102.719]],
 		label: $.t("contracts.label.bonvineblues"),
@@ -355,7 +355,7 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[28.047,81.891]],
 		label: $.t("sidebar.entrance") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.cage")}) + $.t("entrance.desc.entry")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.cage")}) + $.t("entrance.desc.entry")
 	},{
 		coords: [[65.156,43.703]],
 		label: $.t("sidebar.entrance"),
@@ -405,14 +405,6 @@ window.mapdata_toussaint = {
 		label: $.t("sidebar.entrance"),
 		popup: $.t("entrance.desc.entry")
 	},{
-		coords: [[95.922,100.891]],
-		label: $.t("sidebar.entrance"),
-		popup: $.t("entrance.desc.entry")
-	},{
-		coords: [[96.688,106.219]],
-		label: $.t("sidebar.entrance"),
-		popup: $.t("misc.active",{quest: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_spoon")}) + $.t("entrance.desc.entry")
-	},{
 		coords: [[90.969,86.672]],
 		label: $.t("sidebar.entrance"),
 		popup: $.t("entrance.desc.entry")
@@ -439,7 +431,7 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[35.469,59.328]],
 		label: $.t("sidebar.entrance") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.bloodsimple")}) + $.t("entrance.desc.entry")
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.bloodsimple")}) + $.t("entrance.desc.entry")
 	},{
 		coords: [[56.484,44.031]],
 		label: $.t("sidebar.entrance"),
@@ -482,7 +474,7 @@ window.mapdata_toussaint = {
 		popup: $.t("entrance.desc.exit")
 	},{
 		coords: [[68.141,93.250]],
-		label: $.t("sidebar.entrance"),
+		label: $.t("sidebar.entrance") + '*',
 		popup: $.t("misc.active",{quest: $.t("contracts.label.tufo")}) + $.t("entrance.desc.exit")
 	},{
 		coords: [[98.422,58.438]],
@@ -492,6 +484,34 @@ window.mapdata_toussaint = {
 		coords: [[60.375,114.453]],
 		label: $.t("sidebar.entrance"),
 		popup: $.t("entrance.desc.exit")
+	},{
+		coords: [[51.641,84.734]],
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
+	},{
+		coords: [[46.734,100.469]],
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
+	},{
+		coords: [[65.813,91.672]],
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
+	},{
+		coords: [[80.328,107.766]],
+		label: $.t("sidebar.entrance"),
+		popup: $.t("entrance.desc.exit")
+	},{
+		coords: [[96.703,106.250]],
+		label: $.t("sidebar.entrance") + '*',
+		popup: $.t("misc.active",{quest: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_spoon")}) + $.t("entrance.desc.entry")
+	},{
+		coords: [[38.797,96.844]],
+		label: $.t("sidebar.entrance") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.cage")}) + $.t("entrance.desc.entry")
+	},{
+		coords: [[84.922,53.875]],
+		label: $.t("sidebar.entrance") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.wine")}) + $.t("entrance.desc.entry")
 	}],
 
 	//------------------------------------------------Events------------------------------------------------
@@ -500,9 +520,9 @@ window.mapdata_toussaint = {
 		label: $.t("event.label.contract") + '*',
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.cintra")}) + $.t("event.desc.contract")
 	},{
-		coords: [[48.671,65.921]],
-		label: $.t("event.label.grave") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("sidequests.label.tilldeath")}) + $.t("event.desc.grave")
+		coords: [[46.766,65.375]],
+		label: $.t("event.label.grave") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("sidequests.label.tilldeath")}) + $.t("misc.entrance3",{x1: $.t("<a href='#6/48.906/65.000\'>"), x2: $.t("<a href='#6/48.328/66.734\'>"), x3: $.t("<a href='#6/45.859/66.531'>"), end: $.t("</a>")}) + $.t("event.desc.grave")
 	},{
 		coords: [[60.406,56.906]],
 		label: $.t("event.label.naughty") + '*',
@@ -512,9 +532,21 @@ window.mapdata_toussaint = {
 		label: $.t("event.label.ring") + '*',
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.toussaint")}) + $.t("event.desc.ring")
 	},{
+		coords: [[55.234,53.484]],
+		label: $.t("event.label.grain") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.toussaint")}) + $.t("event.desc.grain")
+	},{
 		coords: [[50.750,61.063]],
 		label: $.t("event.label.drunked") + '*',
 		popup: $.t("misc.active",{quest: $.t("mainquests.label.humble")}) + $.t("event.desc.drunked")
+	},{
+		coords: [[58.016,59.422]],
+		label: $.t("event.label.Delwyn") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.fangs")}) + $.t("event.desc.Delwyn",{quest: $.t("sidequests.label.onlyone")})
+	},{
+		coords: [[50.344,64.797]],
+		label: $.t("event.label.child") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.fangs")}) + $.t("event.desc.child")
 	}],
 
 	//------------------------------------------------Grindstone------------------------------------------------
@@ -523,7 +555,7 @@ window.mapdata_toussaint = {
 		label: $.t("sidebar.grindstone"),
 		popup: $.t("grindstone.desc")
 	},{
-		coords: [[50.219,64.422]],
+		coords: [[49.816,64.453]],
 		label: $.t("sidebar.grindstone"),
 		popup: $.t("grindstone.desc")
 	},{
@@ -571,8 +603,8 @@ window.mapdata_toussaint = {
 		popup: $.t("guarded.desc")
 	},{
 		coords: [[66.922,91.969]],
-		label: $.t("sidebar.guarded"),
-		popup: $.t("guarded.desc")
+		label: $.t("sidebar.guarded") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("guarded.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/65.813/91.672\'>"), end: $.t("</a>")})
 	},{
 		coords: [[111.828,72.859]],
 		label: $.t("sidebar.guarded"),
@@ -627,8 +659,8 @@ window.mapdata_toussaint = {
 		popup: $.t("guarded.desc")
 	},{
 		coords: [[94.906,41.859]],
-		label: $.t("banditcamp.label"),
-		popup: $.t("t:guarded.desc.hanse",{location: $.t("t:signpost.label.fox"), hanse: $.t("sidebar.hansebase")}) + $.t("banditcamp.desc")
+		label: $.t("sidebar.guarded"),
+		popup: $.t("t:guarded.desc.hanse",{location: $.t("t:signpost.label.fox"), hanse: $.t("sidebar.hansebase")}) + $.t("guarded.desc")
 	}],
 
 	//------------------------------------------------Gwent Player------------------------------------------------
@@ -798,79 +830,104 @@ window.mapdata_toussaint = {
 		coords: [[69.203,42.016]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_experiment"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_experiment")
 	},{
 		coords: [[92.125,54.938]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_stranger"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_stranger")
 	},{
 		coords: [[89.141,53.375]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_carnarvon"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_carnarvon")
 	},{
 		coords: [[57.859,85.031]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_escapology"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_escapology")
 	},{
 		coords: [[77.141,42.047]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_suffering"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_suffering")
 	},{
 		coords: [[102.297,64.109]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_again"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_again")
 	},{
 		coords: [[42.547,54.688]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_enjoytheplay"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_enjoytheplay")
 	},{
 		coords: [[24.234,72.422]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_gardener"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_gardener")
 	},{
 		coords: [[96.047,80.453]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_eightdays"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_eightdays")
 	},{
 		coords: [[44.219,64.484]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_selina"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_selina")
 	},{
 		coords: [[63.653,81.234]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_widow"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_widow")
 	},{
 		coords: [[61.188,102.641]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_filibert"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_filibert")
 	},{
 		coords: [[54.250,106.828]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_doh"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_doh")
 	},{
 		coords: [[95.984,88.625]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_stink"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_stink")
+	},{
+		coords: [[37.594,97.641]],
+		label: $.t("sidebar.hidden"),
+		popupTitle: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_spoon") + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.cage")}) + $.t("sidequests.desc.tr_spoon")
 	}],
 
 	//------------------------------------------------Hollow Treasure------------------------------------------------
 	hollow: [],
 	
 	//------------------------------------------------Honeycomb------------------------------------------------
-	honeycomb: [],
+	honeycomb: [{
+		coords: [[88.625,74.891]],
+		label: $.t("sidebar.honeycomb"),
+		popup: $.t("honeycomb.desc")
+	},{
+		coords: [[88.719,74.547]],
+		label: $.t("sidebar.honeycomb"),
+		popup: $.t("honeycomb.desc")
+	},{
+		coords: [[86.531,43.813]],
+		label: $.t("sidebar.honeycomb"),
+		popup: $.t("honeycomb.desc")
+	},{
+		coords: [[88.156,46.266]],
+		label: $.t("sidebar.honeycomb"),
+		popup: $.t("honeycomb.desc")
+	},{
+		coords: [[51.938,100.344]],
+		label: $.t("sidebar.honeycomb"),
+		popup: $.t("honeycomb.desc")
+	}],
 
 	//------------------------------------------------Innkeep------------------------------------------------
 	innkeep: [{
@@ -895,8 +952,8 @@ window.mapdata_toussaint = {
 		popup: $.t("t:innkeep.desc")
 	},{
 		coords: [[90.703,47.578]],
-		label: $.t("sidebar.innkeep"),
-		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("t:innkeep.label.auberge"),
+		label: $.t("sidebar.innkeep") + '*',
+		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("t:innkeep.label.auberge") + '*',
 		popup: $.t("misc.liberated") + $.t("t:innkeep.desc")
 	},{
 		coords: [[63.453,90.625]],
@@ -905,14 +962,19 @@ window.mapdata_toussaint = {
 		popup: $.t("t:innkeep.desc")
 	},{
 		coords: [[113.891,66.391]],
-		label: $.t("sidebar.innkeep"),
-		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("t:innkeep.label.salamander"),
+		label: $.t("sidebar.innkeep") + '*',
+		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("t:innkeep.label.salamander") + '*',
 		popup: $.t("misc.liberated") + $.t("t:innkeep.desc")
 	},{
 		coords: [[52.128,65.000]],
 		label: $.t("sidebar.innkeep"),
 		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("t:innkeep.label.winery"),
 		popup: $.t("t:innkeep.desc")
+	},{
+		coords: [[47.625,64.625]],
+		label: $.t("sidebar.innkeep") + '*',
+		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("t:innkeep.label.clever") + '*',
+		popup: $.t("misc.active",{quest: $.t("sidequests.label.father")}) + $.t("t:innkeep.desc")
 	}],
 
 	//------------------------------------------------Knight in Distress------------------------------------------------
@@ -1042,8 +1104,8 @@ window.mapdata_toussaint = {
 		popup: $.t("pid.desc") + $.t("pid.afterrescue",{x1: $.t("<a href='#6/75.656/75.750\'>"), end: $.t("</a>")})
 	},{
 		coords: [[108.438,82.219]],
-		label: $.t("sidebar.pid"),
-		popup: $.t("pid.desc") + $.t("pid.afterrescue",{x1: $.t("<a href='#6/94.469/70.844\'>"), end: $.t("</a>")})
+		label: $.t("sidebar.pid") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("pid.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/107.656/80.844\'>"), x2: $.t("<a href='#6/108.891/82.438\'>"), end: $.t("</a>")}) + $.t("pid.afterrescue",{x1: $.t("<a href='#6/94.469/70.844\'>"), end: $.t("</a>")})
 	},{
 		coords: [[50.953,102.719]],
 		label: $.t("sidebar.pid"),
@@ -1053,12 +1115,12 @@ window.mapdata_toussaint = {
 	//------------------------------------------------Place of Power------------------------------------------------
 	pop: [{
 		coords: [[48.422,100.266]],
-		label: $.t("sidebar.pop"),
-		popupTitle: $.t("pop.popup",{sign: $.t("signs.quen")}),
-		popup: $.t("pop.desc")
+		label: $.t("sidebar.pop") + ' (' + $.t("misc.underground") + ')',
+		popupTitle: $.t("pop.popup",{sign: $.t("signs.quen")}) + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("pop.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/48.188/100.484\'>"), end: $.t("</a>")})
 	},{
 		coords: [[61.531,44.969]],
-		label: $.t("sidebar.pop") + '*' + ' (' + $.t("misc.underground") + ')',
+		label: $.t("sidebar.pop") + ' (' + $.t("misc.underground") + ')',
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.axii")}) + '*' + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("pop.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/65.156/43.703\'>"), end: $.t("</a>")})
 	},{
@@ -1068,7 +1130,7 @@ window.mapdata_toussaint = {
 		popup: $.t("pop.desc")
 	},{
 		coords: [[68.625,114.844]],
-		label: $.t("sidebar.pop") + '*' + ' (' + $.t("misc.underground") + ')',
+		label: $.t("sidebar.pop") + ' (' + $.t("misc.underground") + ')',
 		popupTitle: $.t("pop.popup",{sign: $.t("signs.igni")}) + '*' + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("pop.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/68.516/114.156\'>"), end: $.t("</a>")})
 	},{
@@ -1084,7 +1146,7 @@ window.mapdata_toussaint = {
 		label: $.t("t:poi.label.ducal"),
 		popup: $.t("t:poi.desc.ducal")
 	},{
-		coords: [[51.906,2.859]],
+		coords: [[5.500,4.000]],
 		label: $.t("t:poi.label.photo"),
 		popup: $.t("poi.desc.easter") + $.t("t:poi.desc.photo",{link1: $.t("<a href='https://www.youtube.com/watch?v=YDPY5H7spSU' target='_blank'>"),link2: $.t("</a>")})
 	},{
@@ -1094,70 +1156,94 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[52.281,56.406]],
 		label: $.t("t:poi.label.haremask") + '*',
-		popup: $.t("misc.active",{quest: $.t("mainquests.toussaint")}) + $.t("t:poi.desc.haremask")
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.toussaint")}) + $.t("t:poi.desc.haremask")
 	},{
 		coords: [[27.781,82.109]],
-		label: $.t("t:poi.label.tesham") + '*' + ' (' + $.t("misc.underground") + ')',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.cage")}) + $.t("t:poi.desc.tesham") + $.t("misc.entrance1",{x1: $.t("<a href='#6/28.047/81.891\'>"), end: $.t("</a>")})
+		label: $.t("t:poi.label.tesham") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.cage")}) + $.t("t:poi.desc.tesham") + $.t("misc.entrance1",{x1: $.t("<a href='#6/28.047/81.891\'>"), end: $.t("</a>")})
 	},{
-		coords: [[35.469,58.594]],
-		label: $.t("t:poi.label.hengaidth") + '*' + ' (' + $.t("misc.underground") + ')',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.bloodsimple")}) + $.t("t:poi.desc.hengaidth") + $.t("misc.entrance1",{x1: $.t("<a href='#6/35.469/59.328\'>"), end: $.t("</a>")})
+		coords: [[27.547,81.125]],
+		label: $.t("t:poi.label.tesham") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.cage")}) + $.t("t:poi.desc.tesham") + $.t("misc.entrance1",{x1: $.t("<a href='#6/28.047/81.891\'>"), end: $.t("</a>")})
+	},{
+		coords: [[27.547,81.656]],
+		label: $.t("t:poi.label.tesham") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.cage")}) + $.t("t:poi.desc.tesham") + $.t("misc.entrance1",{x1: $.t("<a href='#6/28.047/81.891\'>"), end: $.t("</a>")})
+	},{
+		coords: [[33.828,59.094]],
+		label: $.t("t:poi.label.hengaidth") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.bloodsimple")}) + $.t("t:poi.desc.hengaidth") + $.t("misc.entrance1",{x1: $.t("<a href='#6/35.469/59.328\'>"), end: $.t("</a>")})
+	},{
+		coords: [[31.516,56.219]],
+		label: $.t("t:poi.label.hengaidth") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.bloodsimple")}) + $.t("t:poi.desc.hengaidth") + $.t("misc.entrance1",{x1: $.t("<a href='#6/35.469/59.328\'>"), end: $.t("</a>")})
+	},{
+		coords: [[22.344,60.375]],
+		label: $.t("t:poi.label.hengaidth") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.bloodsimple")}) + $.t("t:poi.desc.hengaidth") + $.t("misc.entrance1",{x1: $.t("<a href='#6/35.469/59.328\'>"), end: $.t("</a>")})
+	},{
+		coords: [[45.438,80.047]],
+		label: $.t("t:poi.label.cake") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("t:poi.desc.cake",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/51.641/84.734\'>"), end: $.t("</a>")})
 	}],
 
 	//------------------------------------------------Scavengers------------------------------------------------
 	scavenger: [{
 		coords: [[113.609,81.078]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.armor") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.armor") + $.t("scavenger.level.5")
 	},{
 		coords: [[107.422,77.000]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
 	},{
 		coords: [[116.781,71.500]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.boot") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.fel") + $.t("scavenger.item.boot") + $.t("scavenger.level.5")
 	},{
-		coords: [[80.469,107.956]],
-		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+		coords: [[80.250,108.641]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.silver") + $.t("scavenger.level.5") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/80.328/107.766\'>"), end: $.t("</a>")})
 	},{
 		coords: [[69.078,116.578]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.gri") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
 	},{
 		coords: [[43.656,96.250]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.armor") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.armor") + $.t("scavenger.level.5")
 	},{
 		coords: [[91.547,106.172]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5")
 	},{
-		coords: [[46.984,51.500]],
-		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+		coords: [[50.703,50.938]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.silver") + $.t("scavenger.level.5") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/46.203/51.609\'>"), end: $.t("</a>")})
 	},{
 		coords: [[69.984,42.813]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
 	},{
 		coords: [[98.859,57.922]],
 		label: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/98.422/58.438\'>"), end: $.t("</a>")})
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.man") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/98.422/58.438\'>"), end: $.t("</a>")})
 	},{
-		coords: [[65.641,91.719]],
-		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+		coords: [[65.953,91.953]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.silver") + $.t("scavenger.level.5") + $.t("<br />") + $.t("misc.entrance1",{x1: $.t("<a href='#6/65.813/91.672\'>"), end: $.t("</a>")})
 	},{
-		coords: [[73.156,86.656]],
-		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.steel") + $.t("scavenger.level.5")
+		coords: [[71.453,88.109]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.urs") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("misc.entrance2",{x1: $.t("<a href='#6/73.063/86.375\'>"), x2: $.t("<a href='#6/72.172/87.641\'>"), end: $.t("</a>")})
 	},{
-		coords: [[49.781,101.000]],
-		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.5"),
-		popup:$.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.boot") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+		coords: [[48.891,101.328]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("misc.entrance1",{x1: $.t("<a href='#6/49.781/100.625\'>"), end: $.t("</a>")}) + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.gaunt") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.steel") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.silver") + $.t("scavenger.level.5")
+	},{
+		coords: [[48.797,100.172]],
+		label: $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.level.5") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("misc.entrance1",{x1: $.t("<a href='#6/49.781/100.625\'>"), end: $.t("</a>")}) + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.armor") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.trous") + $.t("scavenger.level.5") + $.t("<br />") + $.t("scavenger.dia") + $.t("scavenger.name.wol") + $.t("scavenger.item.boot") + $.t("scavenger.level.5")
 	}],
 
 	//------------------------------------------------Shopkeeper------------------------------------------------
@@ -1250,11 +1336,15 @@ window.mapdata_toussaint = {
 		label: $.t("sidequests.label.kingforhire"),
 		popup: $.t("sidequests.desc.kingforhire")
 	},{
-		coords: [[52.063,60.797]],
+		coords: [[54.234,63.688]],
 		label: $.t("sidequests.label.facethestrage"),
 		popup: $.t("sidequests.desc.facethestrage")
 	},{
 		coords: [[83.891,55.156]],
+		label: $.t("sidequests.label.knightstale"),
+		popup: $.t("sidequests.desc.knightstale")
+	},{
+		coords: [[84.281,49.844]],
 		label: $.t("sidequests.label.knightstale"),
 		popup: $.t("sidequests.desc.knightstale")
 	},{
@@ -1314,9 +1404,9 @@ window.mapdata_toussaint = {
 		label: $.t("sidequests.label.jailbird") + '*',
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.burlap")}) + $.t("sidequests.desc.jailbird")
 	},{
-		coords: [[98.359,58.593]],
-		label: $.t("sidequests.label.prophet"),
-		popup: $.t("sidequests.desc.prophet")
+		coords: [[98.656,58.188]],
+		label: $.t("sidequests.label.prophet") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("misc.entrance1",{x1: $.t("<a href='#6/98.422/58.438\'>"), end: $.t("</a>")}) + $.t("sidequests.desc.prophet")
 	},{
 		coords: [[47.312,63.203]],
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
@@ -1330,10 +1420,6 @@ window.mapdata_toussaint = {
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
 		popup: $.t("sidequests.desc.ff_st")
 	},{
-		coords: [[37.594,97.641]],
-		label: $.t("treasure.label") + $.t(": ") + $.t("sidequests.label.tr_spoon") + '*',
-		popup: $.t("misc.active",{quest: $.t("mainquests.label.cage")}) + $.t("sidequests.desc.tr_spoon")
-	},{
 		coords: [[93.750,65.906]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + '*',
 		popup: $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_belgaard")}) + $.t("sidequests.desc.ww_coronata")
@@ -1345,10 +1431,6 @@ window.mapdata_toussaint = {
 		coords: [[93.734,65.562]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_consorting") + '*',
 		popup: $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_deus")}) + $.t("misc.disappears",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + "', '" + $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino")}) + $.t("sidequests.desc.ww_consorting")
-	},{
-		coords: [[99.328,79.219]],
-		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_deus") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + "', '" + $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino")}) + $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino")}) + $.t("sidequests.desc.ww_deus")
 	},{
 		coords: [[93.750,66.234]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_vermentino"),
@@ -1623,6 +1705,10 @@ window.mapdata_toussaint = {
 		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/95.313/41.875\'>"), x2: $.t("<a href='#6/95.172/45.188\'>"), end: $.t("</a>")})
 	},{
+		coords: [[96.281,44.500]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/95.313/41.875\'>"), x2: $.t("<a href='#6/95.172/45.188\'>"), end: $.t("</a>")})
+	},{
 		coords: [[81.250,107.906]],
 		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
@@ -1631,9 +1717,169 @@ window.mapdata_toussaint = {
 		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},{
-		coords: [[45.391,78.078]],
+		coords: [[74.922,74.969]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[83.328,75.484]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[92.063,78.313]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[75.969,64.844]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[76.000,63.906]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[47.156,79.797]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[48.109,100.172]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[49.266,100.203]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[28.672,82.281]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[28.547,81.328]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[28.375,81.766]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[57.734,84.828]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[68.391,45.000]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[102.266,64.813]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[79.453,101.906]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[79.922,101.688]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[80.219,102.047]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[94.453,94.625]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[90.75,105.547]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[77.703,103.750]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[80.266,107.391]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[47.734,79.797]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[101.859,61.484]],
+		label: $.t("sidebar.treasure") + '*',
+		popup: $.t("misc.dactive",{quest: $.t("sidequest.bigfeet") + $.t(": ") + $.t("sidequests.label.bf_5")}) + $.t("treasure.desc")
+	},{
+		coords: [[93.156,52.438]],
 		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
-		popup: $.t("misc.active",{quest: $.t("mainquests.wandering")}) + $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/47.000/79.578\'>"), x2: $.t("<a href='#6/47.234/78.734\'>"), end: $.t("</a>")})
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/93.125/53.063\'>"), end: $.t("</a>")})
+	},{
+		coords: [[42.641,55.703]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/43.078/56.094\'>"), end: $.t("</a>")})
+	},{
+		coords: [[104.438,66.391]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/102.203/64.344\'>"), end: $.t("</a>")})
+	},{
+		coords: [[39.188,67.297]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/39.047/67.703\'>"), end: $.t("</a>")})
+	},{
+		coords: [[61.594,45.203]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/65.156/43.703\'>"), end: $.t("</a>")})
+	},{
+		coords: [[40.219,67.969]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/39.047/67.703\'>"), end: $.t("</a>")})
+	},{
+		coords: [[63.406,49.813]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/64.109/51.500\'>"), end: $.t("</a>")})
+	},{
+		coords: [[76.641,88.047]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/77.375/87.125\'>"), x2: $.t("<a href='#6/75.656/89.453\'>"), end: $.t("</a>")})
+	},{
+		coords: [[69.516,88.094]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/73.063/86.375\'>"), x2: $.t("<a href='#6/72.172/87.641\'>"), end: $.t("</a>")})
+	},{
+		coords: [[58.266,49.563]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance2",{x1: $.t("<a href='#6/59.344/51.313\'>"), x2: $.t("<a href='#6/57.844/50.828\'>"), end: $.t("</a>")})
+	},{
+		coords: [[45.391,78.078]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("misc.active",{quest: $.t("mainquests.label.wandering")}) + $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/47.000/79.578\'>"), x2: $.t("<a href='#6/47.234/78.734\'>"), end: $.t("</a>")})
+	},{
+		coords: [[48.313,82.469]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/51.641/84.734\'>"), end: $.t("</a>")})
+	},{
+		coords: [[47.172,83.125]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/51.641/84.734\'>"), end: $.t("</a>")})
+	},{
+		coords: [[47.234,83.953]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/51.641/84.734\'>"), end: $.t("</a>")})
+	},{
+		coords: [[47.625,85.172]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/51.641/84.734\'>"), end: $.t("</a>")})
+	},{
+		coords: [[46.688,100.109]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/46.734/100.469\'>"), end: $.t("</a>")})
+	},{
+		coords: [[48.375,101.406]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/49.781/100.625\'>"), end: $.t("</a>")})
+	},{
+		coords: [[48.531,100.500]],
+		label: $.t("sidebar.treasure") + ' (' + $.t("misc.underground") + ')' + '*',
+		popup: $.t("treasure.desc") + $.t("misc.dactive",{quest: $.t("sidequests.label.facethestrage")}) + $.t("misc.entrance1",{x1: $.t("<a href='#6/49.781/100.625\'>"), end: $.t("</a>")})
 	},
 	//Underwater Treause
 	{
@@ -1693,7 +1939,15 @@ window.mapdata_toussaint = {
 		label: $.t("treasure.watertreasure") + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/86.047/72.938\'>"), end: $.t("</a>")})
 	},{
+		coords: [[84.984,73.547]],
+		label: $.t("treasure.watertreasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/86.047/72.938\'>"), end: $.t("</a>")})
+	},{
 		coords: [[47.656,93.813]],
+		label: $.t("treasure.watertreasure") + ' (' + $.t("misc.underground") + ')',
+		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/48.594/92.766\'>"), end: $.t("</a>")})
+	},{
+		coords: [[47.156,93.188]],
 		label: $.t("treasure.watertreasure") + ' (' + $.t("misc.underground") + ')',
 		popup: $.t("treasure.desc") + $.t("misc.entrance1",{x1: $.t("<a href='#6/48.594/92.766\'>"), end: $.t("</a>")})
 	},{

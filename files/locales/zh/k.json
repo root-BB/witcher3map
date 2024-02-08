@@ -9,15 +9,10 @@
     },
     "armourer": {
         "desc": {
-            "zoltan": "只有在 '__quest__' 任務中與卓爾坦對話時才會出現。"
+            "zoltan": "只有在 「__quest__」 任務中與卓爾坦對話時才會出現。"
         },
         "popuptitle": {
             "zoltan": "卓爾坦・齊瓦"
-        }
-    },
-    "gwentquest": {
-        "players": {
-            "lambert": "蘭伯特"
         }
     },
     "signpost": {

@@ -154,7 +154,7 @@ window.mapdata_white_orchard = {
 	gwent: [{
 		coords: [[-65.946,-81.387]],
 		label: $.t("sidebar.gwent"),
-		popup: $.t("misc.disappears",{quest: $.t("mainquests.incident")})
+		popup: $.t("misc.disappears",{quest: $.t("mainquests.label.incident")})
 	}],
 	
 	//------------------------------------------------Gwent Quest------------------------------------------------
@@ -182,17 +182,17 @@ window.mapdata_white_orchard = {
 		coords: [[-47.220,-111.006]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") +$.t(": ") +$.t("sidequests.label.tr_temerian"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_temerian")
 	},{
 		coords: [[-39.028,-56.865]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") +$.t(": ") +$.t("sidequests.label.tr_dirty"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_dirty")
 	},{
 		coords: [[-28.613,-42.188]],
 		label: $.t("sidebar.hidden"),
 		popupTitle: $.t("treasure.label") +$.t(": ") +$.t("sidequests.label.tr_deserter"),
-		popup: $.t("hidden.desc")
+		popup: $.t("sidequests.desc.tr_deserter")
 	}],
 
 	//------------------------------------------------Hollow Treasure------------------------------------------------
@@ -466,7 +466,7 @@ window.mapdata_white_orchard = {
 		coords: [[-65.731,-80.068]],
 		label: $.t("sidebar.innkeep"),
 		popupTitle: $.t("sidebar.innkeep") + ' - ' + $.t("w:innkeep.inns.whiteOrchardInn") + '*',
-		popup: $.t("misc.disappears",{quest: $.t("mainquests.incident")}) + $.t("innkeep.foodDrinkAndGwent")
+		popup: $.t("misc.disappears",{quest: $.t("mainquests.label.incident")}) + $.t("innkeep.foodDrinkAndGwent")
 	}],
 
 	//------------------------------------------------Knight in Distress------------------------------------------------
@@ -541,7 +541,7 @@ window.mapdata_white_orchard = {
 	},{
 		coords: [[-60.000,2.000]],
 		label: $.t("w:poi.label.crystalSkull") + '*',
-		popup: $.t("misc.disappears",{quest: $.t("mainquests.incident")}) + $.t("w:poi.desc.crystalSkull",{quest: $.t("sidequests.label.last")})
+		popup: $.t("misc.disappears",{quest: $.t("mainquests.label.incident")}) + $.t("w:poi.desc.crystalSkull",{quest: $.t("sidequests.label.last")})
 	},{
 		coords: [[-67.407,-76.729]],
 		label: $.t("w:poi.label.boss"),
@@ -577,28 +577,28 @@ window.mapdata_white_orchard = {
 	//------------------------------------------------Sidequests------------------------------------------------
 	sidequests: [{
 		coords: [[-60.370,-109.248]],
-		label: $.t("sidequests.label.fry") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.fry")
+		label: $.t("sidequests.label.fry"),
+		popup: $.t("sidequests.desc.fry")
 	},{
 		coords: [[-68.768,-88.989]],
-		label: $.t("sidequests.label.twist") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.twist")
+		label: $.t("sidequests.label.twist"),
+		popup: $.t("sidequests.desc.twist")
 	},{
 		coords: [[-67.575,-85.034]],
 		label: $.t("sidequests.label.faith") + '*',
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.something")}) + $.t("sidequests.desc.faith")
 	},{
 		coords: [[-73.837,-5.053]],
-		label: $.t("sidequests.label.missing") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.missing")
+		label: $.t("sidequests.label.missing"),
+		popup: $.t("sidequests.desc.missing")
 	},{
 		coords: [[-66.053,-133.374]],
 		label: $.t("sidequests.label.death1") + '*',
 		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.death1")
 	},{
 		coords: [[-47.219,-143.261]],
-		label: $.t("sidequests.label.precious") + '*',
-		popup: $.t("misc.dactive",{quest: $.t("mainquests.label.orchard")}) + $.t("sidequests.desc.precious")
+		label: $.t("sidequests.label.precious"),
+		popup: $.t("sidequests.desc.precious")
 	}],
 
 	//------------------------------------------------Sign Post------------------------------------------------
@@ -834,6 +834,10 @@ window.mapdata_white_orchard = {
 		popup: $.t("treasure.desc")
 	},{
 		coords: [[-35.782,-159.917]],
+		label: $.t("sidebar.treasure"),
+		popup: $.t("treasure.desc")
+	},{
+		coords: [[-57.398,-136.582]],
 		label: $.t("sidebar.treasure"),
 		popup: $.t("treasure.desc")
 	},

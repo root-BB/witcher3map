@@ -29,33 +29,18 @@
             "sewers1": "Přístup ke kanalizaci č. 1",
             "sewers2": "Přístup ke kanalizaci č. 2",
             "sewers3": "Přístup ke kanalizaci č. 3",
-            "sewers4": "Přístup ke kanalizaci č. 4"
+            "sewers4": "Přístup ke kanalizaci č. 4",
+			"pass": "Tajný průchod"
         },
         "label": {
-            "sewers": "Vstup do kanalizace"
+            "sewers": "Vstup do kanalizace",
+			"pass": "Tajná chodba používaná ke vstupu do Putrid Grove. Klíč ke dveřím uvnitř tunelu je přístupný pouze během mise „__quest__”."
         }
     },
     "gwent": {
         "popup": {
             "olgierd": "Olgierd von Everec",
             "shani": "Shani"
-        }
-    },
-    "gwentquest": {
-        "players": {
-            "baron": "Krvavý baron",
-            "boatwright": "Boatwright",
-            "dijkstra": "Sigismund Dijkstra",
-            "haddy": "Haddy",
-            "merchant": "Obchodník Scoia'tael",
-            "olivier": "Olivier",
-            "roche": "Vernon Roche",
-            "sage": "Starý mudrc",
-            "serenity": "Markýza Serenity",
-            "stjepan": "Stjepan",
-            "thaler": "Thaler",
-            "vivaldi": "Vimme Vivaldi",
-            "zoltan": "Zoltan"
         }
     },
     "innkeep": {
@@ -91,7 +76,7 @@
         "desc": {
             "acorn": "Lze jej získat z Imlerithova těla. Může být spotřebován pro získání 2 dovednostních bodů nebo rozdán vesničanům na konci mise. ",
             "brush": " ",
-			"contract": "Pokud se shromáždí během mise, lze na konci mise získat více odměn. ",
+			"contract": "Pokud je nasbíráte během mise, můžete na jejím konci získat další odměny. ",
 			"diary": " ",
             "doll": " ",
 			"elementa": "K dokončení druhé fáze Easter Egg musí být zabit elementál Země na vysoké úrovni. ",
@@ -100,6 +85,7 @@
 			"dlever": "Je to jedno z velikonočních vajíček ve hře. ",
 			"elever": "K provedení první fáze Easter Egg je nutné zatáhnout za 3 páky. ",
 			"nilfgaardian": " ",
+			"notes": "Pokud je shromážděn během úkolu „__quest__“, zobrazí se na konci úkolu další dialogové možnosti. Může také poskytnout podporu v boji na konci mise.",
 			"paper": " ",
 			"portal": "Po průchodu portálem se setkáte s iluzemi, které nelze zabít. Nápis na zeď je poslední fází velikonočního vajíčka. Dva krystaly lze vrátit nabitím energie aardem. ",
             "portrait": " ",
@@ -114,13 +100,21 @@
 			"diary": "Deník Dolores Reardonové",
             "doll": "Panenka",
 			"elementa": "Elementál Země",
+			"edgar": "Poznámka od otce Edgara",
 			"hat": "Klobouk polykače ohně",
             "lantern": "Lucerna",
 			"lever": "Páka",
 			"nilfgaardian": "Sada nilfgaardské přilby a brnění",
 			"paper": "Volné útržky papíru",
+			"priest": "Přísaha zapomenutého kněze",
 			"portal": "Portál",
             "portrait": "Portrét Iris a Olgierda",
+			"reinald0": "Reinaldova poznámka",
+			"reinald1": "Reinaldův 1. dopis",
+			"reinald2": "Reinaldův 2. dopis",
+			"reinald3": "Reinaldův 3. dopis",
+			"reinald4": "Reinaldův 4. dopis",
+			"reinald5": "Reinaldův 5. dopis",
             "sketchbook": "Irisin skicář",
             "spirits": "Duchové"
         }
@@ -144,17 +138,19 @@
             "gwentAndJewellery": "Prodává gwintové karty a bižuterie (výrobní zásoby). ",
             "gwentFoodAndDrink": "Prodává gwintové karty, jídlo a pití. ",
             "kingfOfBeggarsMerchant": "Prodává výrobní zásoby, zbraně a „Zerrikánské sedlové brašny“ (+100). ",
-            "paintMerchant": "Úkolový předmět ('__quest__'), usně a pití. ",
+            "paintMerchant": "Úkolový předmět („__quest__”), usně a pití. ",
             "uselessMerchant": "Neprodává nic, co by stálo za zmínku. ",
             "weaponsAndCraftingSupplies": "Prodává zbraně a výrobní zásoby. "
         },
         "label": {
             "anselm": "Anselm",
+			"elihal": "Elihal",
             "fishmonger": "Obchodník s rybami",
             "gildorf": "Gildorf",
             "keira": "Keira Metz",
             "loanShark": "Lichvář",
-            "quartermaster": "Provianťák"
+            "quartermaster": "Provianťák",
+			"vivaldi": "Vimme Vivaldi"
         }
     },
     "signpost": {
@@ -175,6 +171,7 @@
             "burnedRuins": "Jedna z mnoha budov v této oblasti, která nepřežila nápor války. ",
             "byways": "Většina obyvatel této oblasti uprchla na sever nebo zemřela na mor. V lepších časech se zaměstnávali pálením vysoce jakostních cihel. ",
             "carsten": "Vesnice pojmenovaná po pekaři, kterého proslavilo jeho vynikající zboží a také právo dodávat chléb na stůl hierarchy církve Věčného ohně. Po jeho smrti nedokázal jeho recept na lahodné pečivo s podmanivou vůní nikdo zopakovat, a tak je dnes Karsten známý hlavně díky obchodování s obilím a moukou. ",
+			"castle": " ",
             "cavern": "Jedno z těch míst, kterým se moudří vyhýbají za každou cenu, aby nepokoušeli osud. ",
             "claywich": "Každý rok v době Belleteynu se ve Hliněné Lhotě koná velká oslava doprovázená hrami, písněmi a tancem. Během této noci se sem scházejí vesničané z dalekého okolí a vítáni jsou i náhodní kolemjdoucí. Krátce před půlnocí soutěží přítomná mládež hluboko v lese o to, kdo najde rozkvetlé kapradí, a přestože se to ještě nikomu nepodařilo, mnozí při této příležitosti nalezli své milované či alespoň noc plnou vášně. ",
             "coastOfWrecks": "Kdysi sem chodila místní mládež, aby se poflakovala mezi vraky. Nyní toto místo dnem i nocí pročesávají obyvatelé okolních vesnic a hledají cokoliv, co by šlo vyměnit za jídlo. ",
@@ -288,6 +285,7 @@
             "burnedRuins": "Spáleniště",
             "byways": "Újezdec",
             "carsten": "Karsten",
+			"castle": "Zámecká vesnice",
             "cavern": "Jeskyně",
             "claywich": "Hliněná Lhota",
             "coastOfWrecks": "Pobřeží vraků",

@@ -2,14 +2,6 @@
     "alchemy": {
         "gremist": "格瑞米斯特"
     },
-    "gwentquest": {
-        "players": {
-            "crach": "克拉奇・奎特",
-            "ermion": "爾米亞",
-            "lugos": "瘋子盧戈",
-            "sjusta": "斯胡斯塔"
-        }
-    },
     "innkeep": {
         "desc": {
             "foodAndDrink": "販賣食物和飲料。",
@@ -29,22 +21,34 @@
     },
     "poi": {
         "desc": {
-            "birna": "它會在支線任務“__quest__”中確定您是否支持賽瑞絲・奎特。",
-            "dowry": "'__quest__' 任務物品。",
+            "birna": "它會在支線任務「__quest__」中確定您是否支持賽瑞絲・奎特。",
+            "dowry": "「__quest__」 任務物品。",
             "gship": "它通常在凌晨1點遊戲時間之後出現一小段時間。",
-            "poem": "一具帶有一首包含謎語的詩的屍體。"
+			"horn": "用來讓警報器從天而降的號角。",
+			"nail": "如果在「__quest__」任務期間交付給「__octo__」人員，可以獲得額外的經驗值。",
+			"octo": "可以在「__quest__」任務中與其交談以獲得額外的經驗值和資訊。在「__quest__」任務之後也可以再與他交談。",
+            "poem": "一具帶有一首包含謎語的詩的屍體。",
+			"twine": "如果在「__quest__」任務期間交付給「__octo__」人員，可以獲得額外的經驗值。"
         },
         "label": {
             "birna": "碧爾娜・布蘭",
             "dowry": "丁滿的嫁妝",
             "gship": "幽靈船",
-            "poem": "謎語詩"
+			"horn": "霍恩沃爾號角",
+			"nail": "指甲",
+			"octo": "奧克托",
+            "poem": "謎語詩",
+			"twine": "纏繞"
         },
         "popupTitle": {
             "birna": "碧爾娜・布蘭",
             "dowry": "丁滿的嫁妝",
             "gship": "幽靈船",
-            "poem": "謎語詩"
+			"horn": "霍恩沃爾號角",
+			"nail": "指甲",
+			"octo": "奧克托",
+            "poem": "謎語詩",
+			"twine": "纏繞"
         }
     },
     "shopkeeper": {
@@ -175,10 +179,12 @@
     },
     "treasure": {
         "desc": {
-            "solution": "謎語詩記錄的寶藏。"
+            "solution": "謎語詩記錄的寶藏。",
+			"toodeep": "由於它很深，所以只能藉助模組才能到達。"
         },
         "label": {
-            "solution": " "
+            "solution": " ",
+			"toodeep": ""
         }
     }
 }
