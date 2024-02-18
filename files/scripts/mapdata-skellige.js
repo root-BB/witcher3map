@@ -1966,7 +1966,7 @@ window.mapdata_skellige = {
 		label: $.t("sidequests.label.therapy"),
 		popup: $.t("sidequests.desc.therapy")
 	},{
-		coords: [[-61.100,-37.770]],
+		coords: [[-62.278,-36.321]],
 		label: $.t("sidequests.label.stranger") + '*',
 		popup: $.t("misc.active",{quest: $.t("contracts.label.eldberg")}) + $.t("sidequests.desc.stranger")
 	},{
