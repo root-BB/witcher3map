@@ -1051,11 +1051,11 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[75.484,40.313]],
 		label: $.t("sidebar.monsternest"),
-		popup: $.t("monsternest.desc")
+		popup: $.t("monsternest.desc") + $.t("misc.dactive",{quest: $.t("contracts.label.biggamehunter")})
 	},{
 		coords: [[75.328,40.578]],
 		label: $.t("sidebar.monsternest"),
-		popup: $.t("monsternest.desc")
+		popup: $.t("monsternest.desc") + $.t("misc.dactive",{quest: $.t("contracts.label.biggamehunter")})
 	}],
 
 	//------------------------------------------------Notice Board------------------------------------------------
@@ -1419,6 +1419,10 @@ window.mapdata_toussaint = {
 		coords: [[51.922,67.813]],
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
 		popup: $.t("sidequests.desc.ff_st")
+	},{
+		coords: [[59.063,75.141]],
+		label: $.t("sidequests.label.ff_rw") + '*',
+		popup:  $.t("misc.active",{quest: $.t("sidequest.fist") + " - " + $.t("sidequests.label.ff_st")})
 	},{
 		coords: [[93.750,65.906]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + '*',

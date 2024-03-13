@@ -2026,7 +2026,7 @@ window.mapdata_skellige = {
 		label: $.t("sidequests.label.worthy3"),
 		popup: $.t("sidequests.desc.worthy3")
 	},{
-		coords: [[-32.583,-27.443]],
+		coords: [[-34.687,-26.917]],
 		label: $.t("sidequest.pursuit") +$.t(": ") +$.t("sidequests.label.ps_fa"),
 		popup: $.t("sidequests.desc.ps_fa")
 	},{

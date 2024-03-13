@@ -1108,6 +1108,10 @@ window.mapdata_hos_velen = {
 		coords: [[104.719,76.563]],
 		label: $.t("event.label.stable") + '*',
 		popup: $.t("misc.active",{quest: $.t("mainquests.label.family")}) + $.t("event.desc.stable")
+	},{
+		coords: [[225.425,151.080]],
+			label: $.t("event.label.doors2") + '*',
+			popup: $.t("misc.active",{quest: $.t("contracts.label.doors")}) + $.t("event.desc.doors2")
 	}],
 
 	//------------------------------------------------Grindstone------------------------------------------------
