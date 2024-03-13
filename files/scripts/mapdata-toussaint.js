@@ -1051,11 +1051,11 @@ window.mapdata_toussaint = {
 	},{
 		coords: [[75.484,40.313]],
 		label: $.t("sidebar.monsternest"),
-		popup: $.t("monsternest.desc")
+		popup: $.t("monsternest.desc") + $.t("misc.dactive",{quest: $.t("contracts.label.biggamehunter")})
 	},{
 		coords: [[75.328,40.578]],
 		label: $.t("sidebar.monsternest"),
-		popup: $.t("monsternest.desc")
+		popup: $.t("monsternest.desc") + $.t("misc.dactive",{quest: $.t("contracts.label.biggamehunter")})
 	}],
 
 	//------------------------------------------------Notice Board------------------------------------------------
