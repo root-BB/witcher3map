@@ -1420,6 +1420,10 @@ window.mapdata_toussaint = {
 		label: $.t("sidequest.fist") + $.t(": ") + $.t("sidequests.label.ff_st"),
 		popup: $.t("sidequests.desc.ff_st")
 	},{
+		coords: [[59.063,75.141]],
+		label: $.t("sidequests.label.ff_rw") + '*',
+		popup:  $.t("misc.active",{quest: $.t("sidequest.fist") + " - " + $.t("sidequests.label.ff_st")})
+	},{
 		coords: [[93.750,65.906]],
 		label: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_coronata") + '*',
 		popup: $.t("misc.active",{quest: $.t("sidequest.winewars") + $.t(": ") + $.t("sidequests.label.ww_belgaard")}) + $.t("sidequests.desc.ww_coronata")
