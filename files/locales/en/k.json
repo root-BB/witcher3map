@@ -15,6 +15,14 @@
             "zoltan": "Zoltan Chivay"
         }
     },
+    "poi": {
+		"desc": {
+			"earring": " "
+		},
+			"label": {
+				"earring": "Triss Earring"
+		}
+	},
     "signpost": {
         "desc": {
             "bastion": "Once young witchers trained here. Now the bastion is a forgotten ruin. ",
