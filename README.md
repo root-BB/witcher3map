@@ -1,4 +1,4 @@
-Desctiption
+Description
 --------------------------------------
 It is an enhanced version of the work published by [untamed0](https://github.com/untamed0).
 I have released version 3.5 as an intermediate version upon popular demand. I'll post updates as development progresses.
