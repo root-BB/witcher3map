@@ -2058,6 +2058,10 @@ window.mapdata_skellige = {
 		label: $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_skellige"),
 		popup: $.t("sidequests.desc.ff_skellige")
 	},{
+		coords: [[-42.505,-64.951]],
+		label: $.t("sidequest.fist") +$.t(": ") +$.t("sidequests.label.ff_skellige"),
+		popup: $.t("sidequests.desc.ff_skellige")
+	},{
 		coords: [[2.746,-39.880]],
 		label: $.t("sidequests.label.scavenger.quest") + $.t("sidequests.label.scavenger.name.urs") + $.t("sidequests.label.scavenger.part.I"),
 		popup: $.t("sidequests.label.scavenger.desc.urs")
