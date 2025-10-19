@@ -306,6 +306,160 @@
             "yustianna": "Yustianna Rahatsız"
         }
     },
+    "flower": {
+		"allspice" : {
+			"label": "Allspice root",
+			"desc": "Found: Various"
+		},
+		"arenaria" : {
+			"label": "Arenaria",
+			"desc": "Found: Various"
+		},
+		"balisse" : {
+			"label": "Balisse Fruit",
+			"desc": "Found: Field"
+		},
+		"berbercane" : {
+			"label": "Berbercane Fruit",
+			"desc": "Found: Swamps and mountains"
+		},
+		"beggartick" : {
+			"label": "Beggartick Blossoms",
+			"desc": "Found: Swamps and fields"
+		},
+		"bison" : {
+			"label": "Bison grass",
+			"desc": "Found: Field"
+		},
+		"bloodmoss" : {
+			"label": "Bloodmoss",
+			"desc": "Found: Swamps, caves and mountains"
+		},
+		"blowbill" : {
+			"label": "Blowbill",
+			"desc": "Found: Fields"
+		},
+		"lotus" : {
+			"label": "Blue lotus flower",
+			"desc": "Found: Field"
+		},
+		"bryonia" : {
+			"label": "Bryonia",
+			"desc": "Found: Rocky areas"
+		},
+		"buckthorn" : {
+			"label": "Buckthorn",
+			"desc": "Found: Underwater"
+		},
+		"celandine" : {
+			"label": "Celandine",
+			"desc": "Found: Forests and fields"
+		},
+		"cortinarius" : {
+			"label": "Cortinarius",
+			"desc": "Found: "
+		},		
+		"crowseye" : {
+			"label": "Crow's Eye",
+			"desc": "Found: Fields"
+		},
+		"ergot" : {
+			"label": "Ergot seeds",
+			"desc": "Found: "
+		},		
+		"parsley" : {
+			"label": "Fools Parsley Leaves",
+			"desc": "Found: Fields"
+		},		
+		"ginatia" : {
+			"label": "Ginatia Petals",
+			"desc": "Found: Fields"
+		},	
+		"greenmold" : {
+			"label": "Green mold",
+			"desc": "Found: "
+		},	
+		"han" : {
+			"label": "Han fiber",
+			"desc": "Found: Fields"
+		},		
+		"hellebore" : {
+			"label": "Hellebore Petals",
+			"desc": "Found: "
+		},		
+		"honeysuckle" : {
+			"label": "Honeysuckle",
+			"desc": "Found: Fields"
+		},
+		"hop": {	
+			"label": "Hop Umbels",
+			"desc": "Found: Fields"
+		},
+		"hornwort" : {
+			"label": "Hornwort",
+			"desc": "Found: Rocky areas"
+		},
+		"longrube" : {
+			"label": "Longrube",
+			"desc": "Found: Fields and caves"
+		},
+		"mandrake": {	
+			"label": "Mandrake Root",
+			"desc": "Found: Forests and fields"
+		},
+		"mistletoe" : {
+			"label": "Mistletoe",
+			"desc": "Found: "
+		},
+		"moleyarrow" : {
+			"label": "Moleyarrow",
+			"desc": "Found: Swamps and fields"
+		},
+		"basil" : {
+			"label": "Nazairi basil",
+			"desc": "Found: "
+		},
+		"nostrix": {	
+			"label": "Nostrix",
+			"desc": "Found: Rocky areas"
+		},		
+		"puffball" : {
+			"label": "Pigskin Puffball",
+			"desc": "Found: Forests and caves"
+		},
+		"pringrape" : {
+			"label": "Pringrape",
+			"desc": "Found: Forests and caves"
+		},
+		"ranogrin" : {
+			"label": "Ranogrin",
+			"desc": "Found: Forests and caves"
+		},
+		"ribleaf" : {
+			"label": "Ribleaf",
+			"desc": "Found: Various"
+		},
+		"sewant" : {
+			"label": "Sewant Mushrooms",
+			"desc": "Found: Caves"
+		},
+		"verbena" : {
+			"label": "Verbena",
+			"desc": "Found: Fields"
+		},
+		"myrtle" : {
+			"label": "White Myrtle",
+			"desc": "Found: Fields"
+		},
+		"cherry" : {
+			"label": "Winter cherry",
+			"desc": "Found: "
+		},
+		"volfsbane" : {
+			"label": "Wolfsbane",
+			"desc": "Found: Fields, forests and mountains"
+		}
+	},	
     "grindstone": {
         "desc": "Burada bilenmiş bir kılıç daha fazla hasar verir. "
     },

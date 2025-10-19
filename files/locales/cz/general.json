@@ -308,6 +308,160 @@
             "yustianna": "Znepokojená Justiána"
         }
     },
+    "flower": {
+		"allspice" : {
+			"label": "Pimentovník",
+			"desc": "Found: Různě"
+		},
+		"arenaria" : {
+			"label": "Písečnice",
+			"desc": "Najdeš: Různě"
+		},
+		"balisse" : {
+			"label": "Plod Balissy",
+			"desc": "Najdeš: Pole"
+		},
+		"berbercane" : {
+			"label": "Plody bebeřice",
+			"desc": "Najdeš: Bažiny a hory"
+		},
+		"beggartick" : {
+			"label": "Květ dvouzubce",
+			"desc": "Najdeš: Bažiny a pole"
+		},
+		"bison" : {
+			"label": "Bizoní tráva",
+			"desc": "Found: Pole"
+		},
+		"bloodmoss" : {
+			"label": "Krvomech",
+			"desc": "Najdeš: Bažiny, jeskyně a hory"
+		},
+		"blowbill" : {
+			"label": "Duják",
+			"desc": "Najdeš: Pole"
+		},
+		"lotus" : {
+			"label": "Lístky modrého lotosu",
+			"desc": "Found: Pole"
+		},
+		"bryonia" : {
+			"label": "Posed bílý",
+			"desc": "Najdeš: Skaliny"
+		},
+		"buckthorn" : {
+			"label": "Řešetlák",
+			"desc": "Najdeš: Pod vodou"
+		},
+		"celandine" : {
+			"label": "Vlaštovičník",
+			"desc": "Najdeš: Lesy a pole"
+		},
+		"cortinarius" : {
+			"label": "Pavučinec",
+			"desc": "Najdeš: Lesy"
+		},		
+		"crowseye" : {
+			"label": "Vraní oko",
+			"desc": "Najdeš: Pole"
+		},
+		"ergot" : {
+			"label": "Výtrusy námelu",
+			"desc": "Found: "
+		},		
+		"parsley" : {
+			"label": "Listy kozího pysku",
+			"desc": "Najdeš: Pole"
+		},		
+		"ginatia" : {
+			"label": "Okvětní lístky gitanie",
+			"desc": "Najdeš: Pole"
+		},	
+		"greenmold" : {
+			"label": "Zelená plíseň",
+			"desc": "Found: "
+		},		
+		"han" : {
+			"label": "Hanské vlákno",
+			"desc": "Najdeš: Pole"
+		},		
+		"hellebore" : {
+			"label": "Okvétní lístky čemeřice",
+			"desc": "Najdeš: Pole"
+		},		
+		"honeysuckle" : {
+			"label": "Zimoloez",
+			"desc": "Najdeš: Pole"
+		},
+		"hop": {	
+			"label": "Chmelové šištice",
+			"desc": "Najdeš: Pole"
+		},
+		"hornwart" : {
+			"label": "Hlevíky",
+			"desc": "Najdeš: Pod vodou, na vlhkých místech"
+		},
+		"longrube" : {
+			"label": "Dlouholez",
+			"desc": "Najdeš: Lesy a jeskyně"
+		},
+		"mandrake": {	
+			"label": "Kořen mandragory",
+			"desc": "Najdeš: V lesích a okolí hřbitovú."
+		},
+		"mistletoe" : {
+			"label": "Jmelí",
+			"desc": "Najdeš: Kolem hřitovú a polí"
+		},
+		"moleyarrow" : {
+			"label": "Černošípek",
+			"desc": "Najdeš: Bažiny a pole"
+		},
+		"basil" : {
+			"label": "Nazairi basil",
+			"desc": "Found: "
+		},
+		"nostrix": {	
+			"label": "Nostrix",
+			"desc": "Najdeš: Rocky areas"
+		},		
+		"puffball" : {
+			"label": "Pýchavka",
+			"desc": "Najdeš: Lesy a jeskyně"
+		},
+		"pringrape" : {
+			"label": "Primavéra",
+			"desc": "Najdeš: FLesy a jeskyně"
+		},
+		"ranogrin" : {
+			"label": "Ranořín",
+			"desc": "Najdeš: Lesy a jeskyně"
+		},
+		"ribleaf" : {
+			"label": "Jitrocel",
+			"desc": "Najdeš: Různě"
+		},
+		"sewant" : {
+			"label": "Pochmurka",
+			"desc": "Najdeš: Jeskyně"
+		},
+		"verbena" : {
+			"label": "Verbena",
+			"desc": "Najdeš: Pole"
+		},
+		"myrtle" : {
+			"label": "Bíla myrta",
+			"desc": "Najdeš: Pole"
+		},
+		"cherry" : {
+			"label": "Winter cherry",
+			"desc": "Found: "
+		},
+		"volfsbane" : {
+			"label": "Vlčí mor",
+			"desc": "Najdeš: Pole, lesy a hory"
+		}
+	},
     "grindstone": {
         "desc": "Zde naostřená čepel bude působit větší poškození. "
     },
